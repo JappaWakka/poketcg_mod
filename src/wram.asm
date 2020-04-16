@@ -972,8 +972,6 @@ wccc8:: ; ccc8
 wGotHeadsFromConfusionCheck:: ; ccc9
 	ds $1
 
-; used to store card indices of all stages, in order, of a Play Area Pokémon
-wAllStagesIndices:: ; ccca
 	ds $3
 
 wEffectFunctionsFeedbackIndex:: ; cccd
@@ -1227,9 +1225,7 @@ wTempCardType:: ; cdba
 wAIScore:: ; cdbe
 	ds $1
 
-; used for AI decisions that involve
-; each card in the Play Area.
-wPlayAreaAIScore:: ; cdbf
+wBenchAIScore:: ; cdbf
 	ds MAX_PLAY_AREA_POKEMON
 
 	ds $0a
@@ -1284,9 +1280,7 @@ wcddb:: ; cddb
 wcddc:: ; cddc
 	ds $1
 
-; used to compliment wPlayAreaAIScore,
-; to temporarily do calculations and store results.
-wTempPlayAreaAIScore:: ; cddd
+wcddd:: ; cddd
 	ds MAX_PLAY_AREA_POKEMON
 
 wcde3:: ; cde3
@@ -1298,15 +1292,11 @@ wcde4:: ; cde4
 wcdea:: ; cdea
 	ds MAX_PLAY_AREA_POKEMON
 
-; whether AI cannot inflict damage on player's active Pokémon
-; (due to No Damage or Effect substatus).
-;	$00 = can damage
-;	$01 = can't damage
-wAICannotDamage:: ; cdf0
 	ds $1
 	
-; used by AI to store variable information
-wTempAI:: ; cdf1
+; a PLAY_AREA_* constant (0: arena card, 1-5: bench card)
+; used by the AI to temporarily store card location
+wCurCardPlayAreaLocation:: ; cdf1
 	ds $1
 
 ; used for AI to store whether this card can use any attack
@@ -1340,22 +1330,12 @@ wce00:: ; ce00
 wce01:: ; ce01
 	ds $1
 
-; whether AI's move is a damaging move or not
-; (move that only damages bench is treated as non-damaging)
-; $00 = is a damaging move
-; $01 = is a non damaging move
-wAIMoveIsNonDamaging:: ; ce02
 	ds $1
 
 wce03:: ; ce03
 	ds $1
 
-	ds $2
-
-wce06:: ; ce06
-	ds $1
-
-	ds $0f
+	ds $12
 
 wce16:: ; ce16
 	ds $1
@@ -1697,8 +1677,9 @@ wcfda:: ; cfda
 
 	ds $7
 
-; a flag indicating whether sfx should be played.
-wPlaysSfx:: ; cfe3
+; it's a flag variable being used in play-area view.
+; need analysis.
+wcfe3:: ; cfe3
 	ds $1
 
 wcfe4:: ; cfe4
@@ -2180,8 +2161,7 @@ wd420:: ; d420
 wd421:: ; d421
 	ds $1
 
-; holds an animation to play
-wTempAnimation:: ; d422
+wd422:: ; d422
 	ds $1
 
 ; holds a list of animations to play
@@ -2193,10 +2173,7 @@ wAnimationQueue:: ; d423
 wd42a:: ; d42a
 	ds $1
 
-wd42b:: ; d42b
-	ds $1
-
-	ds $80
+	ds $81
 
 wd4ac:: ; d4ac
 	ds $1
@@ -2218,7 +2195,6 @@ wd4b0:: ; d4b0
 wd4be:: ; d4be
 	ds $1
 
-wd4bf:: ; d4bf
 	ds $1
 
 wd4c0:: ; d4c0
