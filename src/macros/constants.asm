@@ -10,8 +10,3 @@ const: MACRO
 \1 EQU const_value
 const_value = const_value + 1
 ENDM
-
-flag_def: MACRO
-	db \1
-	db \2
-ENDM

@@ -972,6 +972,8 @@ wccc8:: ; ccc8
 wGotHeadsFromConfusionCheck:: ; ccc9
 	ds $1
 
+; used to store card indices of all stages, in order, of a Play Area Pokémon
+wAllStagesIndices:: ; ccca
 	ds $3
 
 wEffectFunctionsFeedbackIndex:: ; cccd
@@ -1225,7 +1227,9 @@ wTempCardType:: ; cdba
 wAIScore:: ; cdbe
 	ds $1
 
-wBenchAIScore:: ; cdbf
+; used for AI decisions that involve
+; each card in the Play Area.
+wPlayAreaAIScore:: ; cdbf
 	ds MAX_PLAY_AREA_POKEMON
 
 	ds $0a
@@ -1280,7 +1284,9 @@ wcddb:: ; cddb
 wcddc:: ; cddc
 	ds $1
 
-wcddd:: ; cddd
+; used to compliment wPlayAreaAIScore,
+; to temporarily do calculations and store results.
+wTempPlayAreaAIScore:: ; cddd
 	ds MAX_PLAY_AREA_POKEMON
 
 wcde3:: ; cde3
@@ -1292,11 +1298,15 @@ wcde4:: ; cde4
 wcdea:: ; cdea
 	ds MAX_PLAY_AREA_POKEMON
 
+; whether AI cannot inflict damage on player's active Pokémon
+; (due to No Damage or Effect substatus).
+;	$00 = can damage
+;	$01 = can't damage
+wAICannotDamage:: ; cdf0
 	ds $1
 	
-; a PLAY_AREA_* constant (0: arena card, 1-5: bench card)
-; used by the AI to temporarily store card location
-wCurCardPlayAreaLocation:: ; cdf1
+; used by AI to store variable information
+wTempAI:: ; cdf1
 	ds $1
 
 ; used for AI to store whether this card can use any attack
@@ -1330,12 +1340,22 @@ wce00:: ; ce00
 wce01:: ; ce01
 	ds $1
 
+; whether AI's move is a damaging move or not
+; (move that only damages bench is treated as non-damaging)
+; $00 = is a damaging move
+; $01 = is a non damaging move
+wAIMoveIsNonDamaging:: ; ce02
 	ds $1
 
 wce03:: ; ce03
 	ds $1
 
-	ds $12
+	ds $2
+
+wce06:: ; ce06
+	ds $1
+
+	ds $0f
 
 wce16:: ; ce16
 	ds $1
@@ -1677,9 +1697,8 @@ wcfda:: ; cfda
 
 	ds $7
 
-; it's a flag variable being used in play-area view.
-; need analysis.
-wcfe3:: ; cfe3
+; a flag indicating whether sfx should be played.
+wPlaysSfx:: ; cfe3
 	ds $1
 
 wcfe4:: ; cfe4
@@ -1784,20 +1803,19 @@ wd0b9:: ; d0b9
 wd0ba:: ; d0ba
 	ds $1
 
-wTempMap:: ; d0bb
+wd0bb:: ; d0bb
 	ds $1
 
-wTempPlayerXCoord:: ; d0bc
+wd0bc:: ; d0bc
 	ds $1
 
-wTempPlayerYCoord:: ; d0bd
+wd0bd:: ; d0bd
 	ds $1
 
-wTempPlayerDirection:: ; d0be
+wd0be:: ; d0be
 	ds $1
 
-; See constants/misc_constants.asm for OWMODE's
-wOverworldMode:: ; d0bf
+wd0bf:: ; d0bf
 	ds $1
 
 wd0c0:: ; d0c0
@@ -1820,15 +1838,23 @@ wd0c4:: ; d0c4
 wd0c5:: ; d0c5
 	ds $1
 
-; used to store the location of an overworld sequence, which is jumped to later
-wNextOWSequence:: ; d0c6
-	ds $2
+wd0c6:: ; d0c6
+	ds $1
 
-wCurrentNPCNameTx:: ; d0c8
-	ds $2
+wd0c7:: ; d0c7
+	ds $1
 
-wDefaultObjectText:: ; d0ca
-	ds $2
+wd0c8:: ; d0c8
+	ds $1
+
+wd0c9:: ; d0c9
+	ds $1
+
+wd0ca:: ; d0ca
+	ds $1
+
+wd0cb:: ; d0cb
+	ds $1
 
 wd0cc:: ; d0cc
 	ds 8 palettes
@@ -1881,7 +1907,9 @@ wPCPackSelection:: ; d11d
 
 ; 7th bit of each pack corresponds to whether or not it's been read
 wPCPacks:: ; d11e
-	ds $f
+	ds $c
+
+	ds $3
 
 wPCLastDirectionPressed:: ; d12d
 	ds $1
@@ -1994,14 +2022,13 @@ wd332:: ; d332
 wd333:: ; d333
 	ds $1
 
-wPlayerDirection:: ; d334
+wd334:: ; d334
 	ds $1
 
-; seems to be 1 if moving 0 otherwise
-wPlayerCurrentlyMoving:: ; d335
+wd335:: ; d335
 	ds $1
 
-wPlayerSpriteIndex:: ; d336
+wd336:: ; d336
 	ds $1
 
 wd337:: ; d337
@@ -2060,33 +2087,29 @@ wd348:: ; d348
 wd349:: ; d349
 	ds $1
 
-wLoadedNPCs:: ; d34a
-	loaded_npc_struct wLoadedNPC1
-	loaded_npc_struct wLoadedNPC2
-	loaded_npc_struct wLoadedNPC3
-	loaded_npc_struct wLoadedNPC4
-	loaded_npc_struct wLoadedNPC5
-	loaded_npc_struct wLoadedNPC6
-	loaded_npc_struct wLoadedNPC7
-	loaded_npc_struct wLoadedNPC8
+wd34a:: ; d34a
+	ds $60
 
-wLoadedNPCTempIndex:: ; d3aa
+wd3aa:: ; d3aa
 	ds $1
 
-wTempNPC:: ; d3ab
+wd3ab:: ; d3ab
 	ds $1
 
-wLoadNPCXPos:: ; d3ac
+wd3ac:: ; d3ac
 	ds $1
 
-wLoadNPCYPos:: ; d3ad
+wd3ad:: ; d3ad
 	ds $1
 
-wLoadNPCDirection:: ; d3ae
+wd3ae:: ; d3ae
 	ds $1
 
-wLoadNPCFunction:: ; d3af
-	ds $2
+wd3af:: ; d3af
+	ds $1
+
+wd3b0:: ; d3b0
+	ds $1
 
 wd3b1:: ; d3b1
 	ds $1
@@ -2099,8 +2122,7 @@ wd3b3:: ; d3b3
 
 	ds $2
 
-; ID of the NPC being interacted with in OWScript
-wScriptNPC:: ; d3b6
+wd3b6:: ; d3b6
 	ds $1
 
 wc3b7:: ; d3b7
@@ -2120,12 +2142,14 @@ wd3bb:: ; d3bb
 wd3d0:: ; d3d0
 	ds $1
 
-; the bits relevant to the currently worked on flag, obtained from EventFlagMods
-wLoadedFlagBits:: ; d3d1
+wd3d1:: ; d3d1
 	ds $1
 
 wEventFlags::
-	ds $40
+	ds $3f
+
+wd411:: ; d411
+	ds $1
 
 ; 0 keeps looping, other values break the loop in RST20
 wBreakOWScriptLoop:: ; d412
@@ -2134,8 +2158,7 @@ wBreakOWScriptLoop:: ; d412
 wOWScriptPointer:: ; d413
 	ds $2
 
-; generally set to ff when a flag check passes, 0 otherwise
-wScriptControlByte:: ; d415
+wd415:: ; d415
 	ds $1
 
 wd416:: ; d416
@@ -2161,7 +2184,8 @@ wd420:: ; d420
 wd421:: ; d421
 	ds $1
 
-wd422:: ; d422
+; holds an animation to play
+wTempAnimation:: ; d422
 	ds $1
 
 ; holds a list of animations to play
@@ -2173,7 +2197,10 @@ wAnimationQueue:: ; d423
 wd42a:: ; d42a
 	ds $1
 
-	ds $81
+wd42b:: ; d42b
+	ds $1
+
+	ds $80
 
 wd4ac:: ; d4ac
 	ds $1
@@ -2195,6 +2222,7 @@ wd4b0:: ; d4b0
 wd4be:: ; d4be
 	ds $1
 
+wd4bf:: ; d4bf
 	ds $1
 
 wd4c0:: ; d4c0
@@ -2208,11 +2236,13 @@ wd4c2:: ; d4c2
 wd4c3:: ; d4c3
 	ds $1
 
-; these next 3 seem to be an address (bank @ end) for copying bg data
-wTempPointer:: ; d4c4
-	ds $2
+wd4c4:: ; d4c4
+	ds $1
 
-wTempPointerBank:: ; d4c6
+wd4c5:: ; d4c5
+	ds $1
+
+wd4c6:: ; d4c6
 	ds $1
 
 wd4c7:: ; d4c7
@@ -2281,7 +2311,6 @@ wd5d7:: ; d5d7
 wd5d8:: ; d5d8
 	ds $40
 
-; seems to be the amount of entries in wd5d8
 wd618:: ; d618
 	ds $1
 

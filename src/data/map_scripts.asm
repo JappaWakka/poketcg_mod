@@ -2,10 +2,10 @@
 ; scripts are referenced with ids [0,2,4,6,8,a,c,e]
 ; each script id is used for a specific event
 ; if a script pointer is $0000, that map has no script for that event
-; 0: NPC data
-; 2: Called after every NPC is loaded (unused)
-; 4: Interactable Objects
-; 6: pressed A button (if nothing interactable is found)
+; 0: load texts
+; 2: unused
+; 4: pressed A button
+; 6: pressed A button
 ; 8: load map
 ; a: after duel
 ; c: moved player
@@ -17,25 +17,25 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 	dw $0000
 	dw $0000
-	dw LoadOverworld
+	dw $54ec
 	dw $0000
 	dw $0000
 	dw $0000
 
 ; MASON_LABORATORY
-	dw MasonLabNPCS
+	dw $772f
 	dw $0000
-	dw MasonLabObjects
-	dw MasonLabPressedA
-	dw MasonLabLoadMap
-	dw MasonLaboratoryAfterDuel
+	dw $7b04
+	dw $5565
+	dw $5549
+	dw $553b
 	dw $0000
-	dw MasonLabCloseTextBox
+	dw $555e
 
 ; DECK_MACHINE_ROOM
-	dw DeckMachineRoomNPCS
+	dw $775a
 	dw $0000
-	dw DeckMachineRoomObjects
+	dw $7b4d
 	dw $0000
 	dw $0000
 	dw $589f
@@ -43,9 +43,9 @@ MapScripts: ; 1162a (4:562a)
 	dw $58ad
 
 ; ISHIHARAS_HOUSE
-	dw IshiharasHouseNPCS
+	dw $7773
 	dw $0000
-	dw IshiharasHouseObjects
+	dw $7c02
 	dw $0000
 	dw $0000
 	dw $0000
@@ -53,27 +53,27 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; FIGHTING_CLUB_ENTRANCE
-	dw FightingClubEntranceNPCS
+	dw $7786
 	dw $0000
 	dw $0000
 	dw $0000
-	dw LoadClubEntrance
-	dw ClubEntranceAfterDuel
+	dw $6809
+	dw $67f6
 	dw $0000
 	dw $0000
 
 ; FIGHTING_CLUB_LOBBY
-	dw FightingClubLobbyNPCS
+	dw $779f
 	dw $0000
-	dw FightingClubLobbyObjects
+	dw $7c6f
 	dw $0000
 	dw $0000
-	dw FightingClubLobbyAfterDuel
+	dw $5c68
 	dw $0000
 	dw $0000
 
 ; FIGHTING_CLUB
-	dw FightingClubNPCS
+	dw $77ca
 	dw $0000
 	dw $0000
 	dw $0000
@@ -83,19 +83,19 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; ROCK_CLUB_ENTRANCE
-	dw RockClubEntranceNPCS
+	dw $77e3
 	dw $0000
 	dw $0000
 	dw $0000
-	dw LoadClubEntrance
-	dw ClubEntranceAfterDuel
+	dw $6809
+	dw $67f6
 	dw $0000
 	dw $0000
 
 ; ROCK_CLUB_LOBBY
-	dw RockClubLobbyNPCS
+	dw $77fc
 	dw $0000
-	dw RockClubLobbyObjects
+	dw $7ca6
 	dw $0000
 	dw $0000
 	dw $5ed5
@@ -103,7 +103,7 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; ROCK_CLUB
-	dw RockClubNPCS
+	dw $7827
 	dw $0000
 	dw $0000
 	dw $0000
@@ -113,19 +113,19 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; WATER_CLUB_ENTRANCE
-	dw WaterClubEntranceNPCS
+	dw $783a
 	dw $0000
 	dw $0000
 	dw $0000
-	dw LoadClubEntrance
-	dw ClubEntranceAfterDuel
+	dw $6809
+	dw $67f6
 	dw $0000
 	dw $0000
 
 ; WATER_CLUB_LOBBY
-	dw WaterClubLobbyNPCS
+	dw $7853
 	dw $0000
-	dw WaterClubLobbyObjects
+	dw $7cdd
 	dw $0000
 	dw $0000
 	dw $60a2
@@ -133,7 +133,7 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; WATER_CLUB
-	dw WaterClubNPCS
+	dw $787e
 	dw $0000
 	dw $0000
 	dw $0000
@@ -143,19 +143,19 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; LIGHTNING_CLUB_ENTRANCE
-	dw LightningClubEntranceNPCS
+	dw $7897
 	dw $0000
 	dw $0000
 	dw $0000
-	dw LoadClubEntrance
-	dw ClubEntranceAfterDuel
+	dw $6809
+	dw $67f6
 	dw $0000
 	dw $0000
 
 ; LIGHTNING_CLUB_LOBBY
-	dw LightningClubLobbyNPCS
+	dw $78b0
 	dw $0000
-	dw LightningClubLobbyObjects
+	dw $7d14
 	dw $0000
 	dw $0000
 	dw $636d
@@ -163,7 +163,7 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; LIGHTNING_CLUB
-	dw LightningClubNPCS
+	dw $78d5
 	dw $0000
 	dw $0000
 	dw $0000
@@ -173,27 +173,27 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; GRASS_CLUB_ENTRANCE
-	dw GrassClubEntranceNPCS
+	dw $78ee
 	dw $0000
 	dw $0000
 	dw $0000
-	dw LoadClubEntrance
-	dw GrassClubEntranceAfterDuel
+	dw $6809
+	dw $6525
 	dw $0000
 	dw $0000
 
 ; GRASS_CLUB_LOBBY
-	dw GrassClubLobbyNPCS
+	dw $790d
 	dw $0000
-	dw GrassClubLobbyObjects
+	dw $7d4b
 	dw $0000
 	dw $0000
-	dw GrassClubLobbyAfterDuel
+	dw $65c4
 	dw $0000
 	dw $0000
 
 ; GRASS_CLUB
-	dw GrassClubNPCS
+	dw $7932
 	dw $0000
 	dw $0000
 	dw $0000
@@ -203,19 +203,19 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; PSYCHIC_CLUB_ENTRANCE
-	dw PsychicClubEntranceNPCS
+	dw $7945
 	dw $0000
 	dw $0000
 	dw $0000
-	dw LoadClubEntrance
-	dw ClubEntranceAfterDuel
+	dw $6809
+	dw $67f6
 	dw $0000
 	dw $0000
 
 ; PSYCHIC_CLUB_LOBBY
-	dw PsychicClubLobbyNPCS
+	dw $7964
 	dw $0000
-	dw PsychicClubLobbyObjects
+	dw $7d82
 	dw $0000
 	dw $6971
 	dw $6963
@@ -223,7 +223,7 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; PSYCHIC_CLUB
-	dw PsychicClubNPCS
+	dw $798f
 	dw $0000
 	dw $0000
 	dw $0000
@@ -233,19 +233,19 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; SCIENCE_CLUB_ENTRANCE
-	dw ScienceClubEntranceNPCS
+	dw $79a8
 	dw $0000
 	dw $0000
 	dw $0000
-	dw LoadClubEntrance
-	dw ClubEntranceAfterDuel
+	dw $6809
+	dw $67f6
 	dw $0000
 	dw $0000
 
 ; SCIENCE_CLUB_LOBBY
-	dw ScienceClubLobbyNPCS
+	dw $79c1
 	dw $0000
-	dw ScienceClubLobbyObjects
+	dw $7db9
 	dw $0000
 	dw $0000
 	dw $6b57
@@ -253,7 +253,7 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; SCIENCE_CLUB
-	dw ScienceClubNPCS
+	dw $79ec
 	dw $0000
 	dw $0000
 	dw $0000
@@ -263,27 +263,27 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; FIRE_CLUB_ENTRANCE
-	dw FireClubEntranceNPCS
+	dw $7a05
 	dw $0000
 	dw $0000
 	dw $0000
-	dw LoadClubEntrance
-	dw ClubEntranceAfterDuel
+	dw $6809
+	dw $67f6
 	dw $0000
 	dw $0000
 
 ; FIRE_CLUB_LOBBY
-	dw FireClubLobbyNPCS
+	dw $7a1e
 	dw $0000
-	dw FireClubLobbyObjects
-	dw FireClubPressedA
+	dw $7df0
+	dw $6d57
 	dw $0000
 	dw $6d49
 	dw $0000
 	dw $0000
 
 ; FIRE_CLUB
-	dw FireClubNPCS
+	dw $7a43
 	dw $0000
 	dw $0000
 	dw $0000
@@ -293,7 +293,7 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; CHALLENGE_HALL_ENTRANCE
-	dw ChallengeHallEntranceNPCS
+	dw $7a5c
 	dw $0000
 	dw $0000
 	dw $0000
@@ -303,29 +303,29 @@ MapScripts: ; 1162a (4:562a)
 	dw $0000
 
 ; CHALLENGE_HALL_LOBBY
-	dw ChallengeHallLobbyNPCS
+	dw $7a63
 	dw $0000
-	dw ChallengeHallLobbyObjects
+	dw $7e27
 	dw $0000
-	dw ChallengeHallLobbyLoadMap
+	dw $7088
 	dw $0000
 	dw $0000
 	dw $0000
 
 ; CHALLENGE_HALL
-	dw ChallengeHallNPCS
+	dw $7a9a
 	dw $0000
 	dw $0000
 	dw $0000
-	dw ChallengeHallLoadMap
-	dw ChallengeHallAfterDuel
+	dw $7258
+	dw $7239
 	dw $0000
 	dw $0000
 
 ; POKEMON_DOME_ENTRANCE
-	dw PokemonDomeEntranceNPCS
+	dw $7ab9
 	dw $0000
-	dw PokemonDomeEntranceObjects
+	dw $7e5e
 	dw $0000
 	dw $7607
 	dw $0000
@@ -333,7 +333,7 @@ MapScripts: ; 1162a (4:562a)
 	dw $762a
 
 ; POKEMON_DOME
-	dw PokemonDomeNPCS
+	dw $7ac0
 	dw $0000
 	dw $0000
 	dw $0000
@@ -343,11 +343,11 @@ MapScripts: ; 1162a (4:562a)
 	dw $7718
 
 ; HALL_OF_HONOR
-	dw HallOfHonorNPCS
+	dw $7adf
 	dw $0000
-	dw HallOfHonorObjects
+	dw $7ec2
 	dw $0000
-	dw HallOfHonorLoadMap
+	dw $7bdb
 	dw $0000
 	dw $0000
 	dw $0000

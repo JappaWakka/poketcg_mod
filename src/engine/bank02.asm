@@ -1215,7 +1215,7 @@ DrawPlayArea_HandText: ; 8676 (2:4676)
 ; returns a = $ff if B pressed
 HandleCheckMenuInput_YourOrOppPlayArea: ; 86ac (2:46ac)
 	xor a
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 	ld a, [wCheckMenuCursorXPosition]
 	ld d, a
 	ld a, [wCheckMenuCursorYPosition]
@@ -1283,7 +1283,7 @@ HandleCheckMenuInput_YourOrOppPlayArea: ; 86ac (2:46ac)
 
 .erase
 	ld a, $01
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 	push de
 	call EraseCheckMenuCursor_YourOrOppPlayArea
 	pop de
@@ -1319,7 +1319,7 @@ HandleCheckMenuInput_YourOrOppPlayArea: ; 86ac (2:46ac)
 	ret
 
 .sfx
-	ld a, [wcfe3]
+	ld a, [wPlaysSfx]
 	or a
 	jr z, .draw_cursor
 	call PlaySFX
@@ -1638,7 +1638,7 @@ LoadCursorTile: ; 8992 (2:4992)
 ; similar to OpenInPlayAreaScreen_HandleInput
 Func_89ae: ; 89ae (2:49ae)
 	xor a
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 
 	ld hl, wce53
 	ld e, [hl]
@@ -1757,7 +1757,7 @@ Func_89ae: ; 89ae (2:49ae)
 
 .next
 	ld a, $01
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 
 ; reset cursor blink
 	xor a
@@ -1784,7 +1784,7 @@ Func_89ae: ; 89ae (2:49ae)
 	ret
 
 .return
-	ld a, [wcfe3]
+	ld a, [wPlaysSfx]
 	or a
 	jr z, .skip_sfx
 	call PlaySFX
@@ -2171,7 +2171,7 @@ Func_8f8a: ; 8f8a (2:4f8a)
 
 Func_8f9d: ; 8f9d (2:4f9d)
 	call EnableSRAM
-	ld a, [sCurrentlySelectedDeck]
+	ld a, [s0b700]
 	call DisableSRAM
 	ld h, $3
 	ld l, a
@@ -2185,7 +2185,7 @@ Func_8f9d: ; 8f9d (2:4f9d)
 	call FillRectangle
 	ld a, [wceb1]
 	call EnableSRAM
-	ld [sCurrentlySelectedDeck], a
+	ld [s0b700], a
 	call DisableSRAM
 	call Func_9326
 	call GetPointerToDeckName
@@ -2267,7 +2267,7 @@ ResetCheckMenuCursorPositionAndBlink: ; 905a (2:505a)
 ; returns a = $ff if B pressed
 HandleCheckMenuInput: ; 9065 (2:5065)
 	xor a
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 	ld a, [wCheckMenuCursorXPosition]
 	ld d, a
 	ld a, [wCheckMenuCursorYPosition]
@@ -2304,7 +2304,7 @@ HandleCheckMenuInput: ; 9065 (2:5065)
 
 .okay
 	ld a, $01
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 	push de
 	call EraseCheckMenuCursor
 	pop de
@@ -2337,7 +2337,7 @@ HandleCheckMenuInput: ; 9065 (2:5065)
 	ret
 
 .no_input
-	ld a, [wcfe3]
+	ld a, [wPlaysSfx]
 	or a
 	jr z, .check_blink
 	call PlaySFX
@@ -2519,7 +2519,7 @@ Func_9168: ; 9168 (2:5168)
 	ld [wceb5], a
 .asm_9214
 	call EnableSRAM
-	ld a, [sCurrentlySelectedDeck]
+	ld a, [s0b700]
 	ld c, a
 	ld b, $0
 	ld d, $2
@@ -2539,7 +2539,7 @@ Func_9168: ; 9168 (2:5168)
 	jr .asm_921f
 .asm_9234
 	ld a, c
-	ld [sCurrentlySelectedDeck], a
+	ld [s0b700], a
 	call DisableSRAM
 	call Func_9326
 	call EnableLCD
@@ -2628,7 +2628,7 @@ Func_9314: ; 9314 (2:5314)
 
 Func_9326: ; 9326 (2:5326)
 	call EnableSRAM
-	ld a, [sCurrentlySelectedDeck]
+	ld a, [s0b700]
 	call DisableSRAM
 	ld h, 3
 	ld l, a
@@ -2643,32 +2643,7 @@ Func_9326: ; 9326 (2:5326)
 	ret
 
 Func_9345: ; 9345 (2:5345)
-	INCROM $9345, $9649
-
-; checks if selected deck has any basics
-Func_9649: ; 9649 (2:5649)
-	ld hl, wcf17
-.asm_964c
-	ld a, [hli]
-	ld e, a
-	or a
-	jr z, .asm_9665
-	call LoadCardDataToBuffer1_FromCardID
-	jr c, .asm_9665
-	ld a, [wLoadedCard1Type]
-	and $08
-	jr nz, .asm_964c
-	ld a, [wLoadedCard1Stage]
-	or a
-	jr nz, .asm_964c
-	scf
-	ret
-.asm_9665
-	or a
-	ret
-; 0x9667
-
-	INCROM $9667, $9843
+	INCROM $9345, $9843
 
 Func_9843: ; 9843 (2:5843)
 	INCROM $9843, $98a6

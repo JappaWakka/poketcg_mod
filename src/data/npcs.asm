@@ -1,111 +1,110 @@
 ; When you press the A button in front of something it will find a data entry somewhere on this list
 ; it will then jump to the pointer in the data item. All jumps lead to an RST20 operation.
-; The Deck IDs are used for the challenge hall
-NPCDataTable:
-	dw DrMasonData
-	dw DrMasonData
-	dw Ronald1Data
-	dw IshiharaData
-	dw ImakuniData
-	dw DrMasonData
-	dw DrMasonData
-	dw SamData
-	dw Tech1Data
-	dw Tech2Data
-	dw Tech3Data
-	dw Tech4Data
-	dw Tech5Data
-	dw Tech6Data
-	dw Clerk1Data
-	dw Clerk2Data
-	dw Clerk3Data
-	dw Clerk4Data
-	dw Clerk5Data
-	dw Clerk6Data
-	dw Clerk7Data
-	dw Clerk8Data
-	dw Clerk9Data
-	dw ChrisData
-	dw MichaelData
-	dw JessicaData
-	dw MitchData
-	dw MatthewData
-	dw RyanData
-	dw AndrewData
-	dw GeneData
+PointerTable_118f5:
+	dw Data_119dd
+	dw Data_119dd
+	dw Data_119ea
+	dw Data_11a11
+	dw Data_11a1e
+	dw Data_119dd
+	dw Data_119dd
+	dw Data_11a2b
+	dw Data_11a38
+	dw Data_11a45
+	dw Data_11a52
+	dw Data_11a5f
+	dw Data_11a6c
+	dw Data_11a79
+	dw Data_11a86
+	dw Data_11a93
+	dw Data_11aa0
+	dw Data_11aad
+	dw Data_11aba
+	dw Data_11ac7
+	dw Data_11ad4
+	dw Data_11ae1
+	dw Data_11aee
+	dw Data_11afb
+	dw Data_11b08
+	dw Data_11b15
+	dw Data_11b22
+	dw Data_11b2f
+	dw Data_11b3c
+	dw Data_11b49
+	dw Data_11b56
 	dw SaraData
 	dw AmandaData
-	dw JoshuaData
-	dw AmyData
-	dw JenniferData
-	dw NicholasData
-	dw BrandonData
-	dw IsaacData
-	dw BrittanyData
-	dw KristinData
-	dw HeatherData
-	dw NikkiData
-	dw RobertData
-	dw DanielData
-	dw StephanieData
-	dw Murray1Data
-	dw JosephData
-	dw DavidData
-	dw ErikData
-	dw RickData
-	dw JohnData
-	dw AdamData
-	dw JonathanData
-	dw KenData
-	dw CourtneyData
-	dw SteveData
-	dw JackData
-	dw RodData
-	dw Clerk10Data
-	dw GiftCenterClerkData
-	dw Man1Data
-	dw Woman1Data
-	dw Chap1Data
-	dw Gal1Data
-	dw Lass1Data
-	dw Chap2Data
-	dw Lass2Data
-	dw Pappy1Data
-	dw Lad1Data
-	dw Lad2Data
-	dw Chap3Data
-	dw Clerk12Data
-	dw Clerk13Data
-	dw HostData
-	dw Specs1Data
-	dw ButchData
-	dw Granny1Data
-	dw Lass3Data
-	dw Man2Data
-	dw Pappy2Data
-	dw Lass4Data
-	dw Hood1Data
-	dw Granny2Data
-	dw Gal2Data
-	dw Lad3Data
-	dw Gal3Data
-	dw Chap4Data
-	dw Man3Data
-	dw Specs2Data
-	dw Specs3Data
-	dw Woman2Data
-	dw ManiaData
-	dw Pappy3Data
-	dw Gal4Data
-	dw ChampData
-	dw Hood2Data
-	dw Lass5Data
-	dw Chap5Data
-	dw AaronData
-	dw GuideData
-	dw Tech7Data
-	dw Tech8Data
-	dw Data_11f18 ; these actually are used for the effects around the legendary cards
+	dw Data_11b7d
+	dw Data_11b8a
+	dw Data_11b97
+	dw Data_11ba4
+	dw Data_11bb1
+	dw Data_11bbe
+	dw Data_11bcb
+	dw Data_11bd8
+	dw Data_11be5
+	dw Data_11bf2
+	dw Data_11bff
+	dw Data_11c0c
+	dw Data_11c19
+	dw Data_11c26
+	dw Data_11c40
+	dw Data_11c4d
+	dw Data_11c5a
+	dw Data_11c67
+	dw Data_11c74
+	dw Data_11c81
+	dw Data_11c8e
+	dw Data_11c9b
+	dw Data_11ca8
+	dw Data_11cb5
+	dw Data_11cc2
+	dw Data_11ccf
+	dw Data_11cdc
+	dw Data_11ce9
+	dw Data_11cf6
+	dw Data_11d03
+	dw Data_11d10
+	dw Data_11d1d
+	dw Data_11d2a
+	dw Data_11d37
+	dw Data_11d44
+	dw Data_11d51
+	dw Data_11d5e
+	dw Data_11d6b
+	dw Data_11d78
+	dw Data_11d85
+	dw Data_11d92
+	dw Data_11d9f
+	dw Data_11dac
+	dw Data_11db9
+	dw Data_11dc6
+	dw Data_11dd3
+	dw Data_11de0
+	dw Data_11ded
+	dw Data_11dfa
+	dw Data_11e07
+	dw Data_11e14
+	dw Data_11e21
+	dw Data_11e2e
+	dw Data_11e3b
+	dw Data_11e48
+	dw Data_11e55
+	dw Data_11e62
+	dw Data_11e6f
+	dw Data_11e7c
+	dw Data_11e89
+	dw Data_11e96
+	dw Data_11ea3
+	dw Data_11eb0
+	dw Data_11ebd
+	dw Data_11eca
+	dw Data_11ed7
+	dw Data_11ee4
+	dw Data_11ef1
+	dw Data_11efe
+	dw Data_11f0b
+	dw Data_11f18
 	dw Data_11f1f
 	dw Data_11f26
 	dw Data_11f2d
@@ -114,380 +113,411 @@ NPCDataTable:
 	dw Data_11f42
 	dw Data_11f49
 	dw Data_11f49
-	dw Murray2Data
-	dw Ronald2Data
-	dw Ronald3Data
+	dw Data_11c33
+	dw Data_119f7
+	dw Data_11a04
 	dw Data_11f49
-DrMasonData:
-	db DRMASON
+Data_119dd:
+	db $01
 	db $02
 	db $00
 	db $26
 	db $00
-	dw $5727 ; Pointer to OWScript
-	tx Text03ac
+	dw $5727 ; Pointer to NPC Data
+	db $ac
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Ronald1Data:
-	db RONALD1
+Data_119ea:
+	db $02
 	db $01
 	db $04
 	db $0e
 	db $00
-	dw OWSequence_Ronald ; Pointer to OWScript
-	tx Text03ad
-	db RONALD_PIC
-	db INVINCIBLE_RONALD_DECK_ID
+	dw $5c4b ; Pointer to NPC Data
+	db $ad
+	db $03
+	db $02
+	db $1a
 	db $0f
 	db $16
-Ronald2Data:
-	db RONALD2
+Data_119f7:
+	db $71
 	db $01
 	db $04
 	db $0e
 	db $00
-	dw OWSequence_Ronald ; Pointer to OWScript
-	tx Text03ad
-	db RONALD_PIC
-	db INVINCIBLE_RONALD_DECK_ID
+	dw $5c4b ; Pointer to NPC Data
+	db $ad
+	db $03
+	db $02
+	db $1a
 	db $0f
 	db $16
-Ronald3Data:
-	db RONALD3
+Data_11a04:
+	db $72
 	db $01
 	db $04
 	db $0e
 	db $00
-	dw OWSequence_Ronald ; Pointer to OWScript
-	tx Text03ad
-	db RONALD_PIC
-	db INVINCIBLE_RONALD_DECK_ID
+	dw $5c4b ; Pointer to NPC Data
+	db $ad
+	db $03
+	db $02
+	db $1a
 	db $0f
 	db $16
-IshiharaData:
-	db ISHIHARA
+Data_11a11:
+	db $03
 	db $03
 	db $04
 	db $22
 	db $00
-	dw OWSequence_Ishihara ; Pointer to OWScript
-	tx Text03ae
+	dw $5b4a ; Pointer to NPC Data
+	db $ae
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-ImakuniData:
-	db IMAKUNI
+Data_11a1e:
+	db $04
 	db $04
 	db $00
 	db $0e
 	db $00
-	dw OWSequence_Imakuni ; Pointer to OWScript
-	tx Text03af
-	db IMAKUNI_PIC
-	db IMAKUNI_DECK_ID
+	dw $5d0d ; Pointer to NPC Data
+	db $af
+	db $03
+	db $04
+	db $34
 	db $10
 	db $15
-SamData:
-	db SAM
+Data_11a2b:
+	db $07
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $561d ; Pointer to OWScript
-	tx Text03b1
-	db SAM_PIC
-	db SAMS_NORMAL_DECK_ID
+	dw $561d ; Pointer to NPC Data
+	db $b1
+	db $03
+	db $03
+	db $02
 	db $02
 	db $15
-Tech1Data:
-	db TECH1
+Data_11a38:
+	db $08
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $5583 ; Pointer to OWScript
-	tx Text03b2
+	dw $5583 ; Pointer to NPC Data
+	db $b2
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Tech2Data:
-	db TECH2
+Data_11a45:
+	db $09
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $55ca ; Pointer to OWScript
-	tx Text03b2
+	dw $55ca ; Pointer to NPC Data
+	db $b2
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Tech3Data:
-	db TECH3
+Data_11a52:
+	db $0a
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $55d5 ; Pointer to OWScript
-	tx Text03b2
+	dw $55d5 ; Pointer to NPC Data
+	db $b2
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Tech4Data:
-	db TECH4
+Data_11a5f:
+	db $0b
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $55e0 ; Pointer to OWScript
-	tx Text03b2
+	dw $55e0 ; Pointer to NPC Data
+	db $b2
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Tech5Data:
-	db TECH5
+Data_11a6c:
+	db $0c
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $55f9 ; Pointer to OWScript
-	tx Text03b2
+	dw $55f9 ; Pointer to NPC Data
+	db $b2
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Tech6Data:
-	db TECH6
+Data_11a79:
+	db $0d
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $58bb ; Pointer to OWScript
-	tx Text03b2
+	dw $58bb ; Pointer to NPC Data
+	db $b2
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk1Data:
-	db CLERK1
+Data_11a86:
+	db $0e
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw OWSequence_Clerk1 ; Pointer to OWScript
-	tx Text03b3
+	dw $5c64 ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk2Data:
-	db CLERK2
+Data_11a93:
+	db $0f
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw $5ed1 ; Pointer to OWScript
-	tx Text03b3
+	dw $5ed1 ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk3Data:
-	db CLERK3
+Data_11aa0:
+	db $10
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw $609e ; Pointer to OWScript
-	tx Text03b3
+	dw $609e ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk4Data:
-	db CLERK4
+Data_11aad:
+	db $11
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw $6369 ; Pointer to OWScript
-	tx Text03b3
+	dw $6369 ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk5Data:
-	db CLERK5
+Data_11aba:
+	db $12
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw $6566 ; Pointer to OWScript
-	tx Text03b3
+	dw $6566 ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk6Data:
-	db CLERK6
+Data_11ac7:
+	db $13
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw $684c ; Pointer to OWScript
-	tx Text03b3
+	dw $684c ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk7Data:
-	db CLERK7
+Data_11ad4:
+	db $14
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw $6b53 ; Pointer to OWScript
-	tx Text03b3
+	dw $6b53 ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk8Data:
-	db CLERK8
+Data_11ae1:
+	db $15
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw $6d45 ; Pointer to OWScript
-	tx Text03b3
+	dw $6d45 ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk9Data:
-	db CLERK9
+Data_11aee:
+	db $16
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw OWSequence_Clerk9 ; Pointer to OWScript
-	tx Text03b3
+	dw $7025 ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-ChrisData:
-	db CHRIS
+Data_11afb:
+	db $17
 	db $15
 	db $00
 	db $26
 	db $00
-	dw $5ef2 ; Pointer to OWScript
-	tx Text03b4
-	db CHRIS_PIC
-	db MUSCLES_FOR_BRAINS_DECK_ID
+	dw $5ef2 ; Pointer to NPC Data
+	db $b4
+	db $03
+	db $1d
+	db $1c
 	db $03
 	db $15
-MichaelData:
-	db MICHAEL
+Data_11b08:
+	db $18
 	db $15
 	db $00
 	db $26
 	db $00
-	dw $6573 ; Pointer to OWScript
-	tx Text03b5
-	db MICHAEL_PIC
-	db HEATED_BATTLE_DECK_ID
+	dw $6573 ; Pointer to NPC Data
+	db $b5
+	db $03
+	db $1e
+	db $1d
 	db $03
 	db $15
-JessicaData:
-	db JESSICA
+Data_11b15:
+	db $19
 	db $1f
 	db $04
 	db $1a
 	db $00
-	dw $6d96 ; Pointer to OWScript
-	tx Text03b6
-	db JESSICA_PIC
-	db LOVE_TO_BATTLE_DECK_ID
+	dw $6d96 ; Pointer to NPC Data
+	db $b6
+	db $03
+	db $27
+	db $1e
 	db $03
 	db $15
-MitchData:
-	db MITCH
+Data_11b22:
+	db $1a
 	db $0a
 	db $00
 	db $0e
 	db $00
-	dw $5dc3 ; Pointer to OWScript
-	tx Text03b7
-	db MITCH_PIC
-	db FIRST_STRIKE_DECK_ID
+	dw $5dc3 ; Pointer to NPC Data
+	db $b7
+	db $03
+	db $0a
+	db $10
 	db $03
 	db $16
-MatthewData:
-	db MATTHEW
+Data_11b2f:
+	db $1b
 	db $15
 	db $00
 	db $16
 	db $00
-	dw $5f39 ; Pointer to OWScript
-	tx Text03b8
-	db MATTHEW_PIC
-	db HARD_POKEMON_DECK_ID
+	dw $5f39 ; Pointer to NPC Data
+	db $b8
+	db $03
+	db $1a
+	db $21
 	db $03
 	db $15
-RyanData:
-	db RYAN
+Data_11b3c:
+	db $1c
 	db $11
 	db $00
 	db $26
 	db $00
-	dw $5ff0 ; Pointer to OWScript
-	tx Text03b9
-	db RYAN_PIC
-	db EXCAVATION_DECK_ID
+	dw $5ff0 ; Pointer to NPC Data
+	db $b9
+	db $03
+	db $1b
+	db $1f
 	db $03
 	db $15
-AndrewData:
-	db ANDREW
+Data_11b49:
+	db $1d
 	db $1a
 	db $00
 	db $16
 	db $00
-	dw $6017 ; Pointer to OWScript
-	tx Text03ba
-	db ANDREW_PIC
-	db BLISTERING_POKEMON_DECK_ID
+	dw $6017 ; Pointer to NPC Data
+	db $ba
+	db $03
+	db $1c
+	db $20
 	db $03
 	db $15
-GeneData:
-	db GENE
+Data_11b56:
+	db $1e
 	db $0b
 	db $04
 	db $1e
 	db $00
-	dw $603e ; Pointer to OWScript
-	tx Text03bb
-	db GENE_PIC
-	db ROCK_CRUSHER_DECK_ID
+	dw $603e ; Pointer to NPC Data
+	db $bb
+	db $03
+	db $0b
+	db $11
 	db $03
 	db $16
 SaraData:
-	db SARA
+	db SARA ; trainer id
 	db $20
 	db $00
 	db $0e
 	db $00
-	dw OWSequence_Sara ; Pointer to OWScript
-	tx Text03bc
-	db SARA_PIC
-	db WATERFRONT_POKEMON_DECK_ID
+	dw OWSequence_Sara ; Pointer to NPC Data
+	db $bc
+	db $03
+	db SARA_PIC ; battle profile picture
+	db $22
 	db $03
 	db $15
 AmandaData:
@@ -496,860 +526,932 @@ AmandaData:
 	db $00
 	db $16
 	db $00
-	dw OWSequence_Amanda ; Pointer to OWScript
-	tx Text03bd
+	dw OWSequence_Amanda ; Pointer to NPC Data
+	db $bd
+	db $03
 	db AMANDA_PIC ; battle profile picture
-	db LONELY_FRIENDS_DECK_ID
+	db $23
 	db $03
 	db $15
-JoshuaData:
-	db JOSHUA
+Data_11b7d:
+	db $21
 	db $16
 	db $00
 	db $26
 	db $00
-	dw OWSequence_Joshua ; Pointer to OWScript
-	tx Text03be
-	db JOSHUA_PIC
-	db SOUND_OF_THE_WAVES_DECK_ID
+	dw OWSequence_Joshua ; Pointer to NPC Data
+	db $be
+	db $03
+	db $17
+	db $24
 	db $03
 	db $15
-AmyData:
-	db AMY
+Data_11b8a:
+	db $22
 	db $08
 	db $08
 	db $2e
 	db $10
-	dw OWSequence_Amy ; Pointer to OWScript
-	tx Text03bf
-	db AMY_PIC
-	db GO_GO_RAIN_DANCE_DECK_ID
+	dw $6304 ; Pointer to NPC Data
+	db $bf
+	db $03
+	db $08
+	db $12
 	db $03
 	db $16
-JenniferData:
-	db JENNIFER
+Data_11b97:
+	db $23
 	db $1c
 	db $04
 	db $0e
 	db $00
-	dw $6408 ; Pointer to OWScript
-	tx Text03c0
-	db JENNIFER_PIC
-	db PIKACHU_DECK_ID
+	dw $6408 ; Pointer to NPC Data
+	db $c0
+	db $03
+	db $26
+	db $25
 	db $03
 	db $15
-NicholasData:
-	db NICHOLAS
+Data_11ba4:
+	db $24
 	db $17
 	db $04
 	db $1e
 	db $00
-	dw $642f ; Pointer to OWScript
-	tx Text03c1
-	db NICHOLAS_PIC
-	db BOOM_BOOM_SELFDESTRUCT_DECK_ID
+	dw $642f ; Pointer to NPC Data
+	db $c1
+	db $03
+	db $18
+	db $26
 	db $03
 	db $15
-BrandonData:
-	db BRANDON
+Data_11bb1:
+	db $25
 	db $17
 	db $04
 	db $1e
 	db $00
-	dw $6456 ; Pointer to OWScript
-	tx Text03c2
-	db BRANDON_PIC
-	db POWER_GENERATOR_DECK_ID
+	dw $6456 ; Pointer to NPC Data
+	db $c2
+	db $03
+	db $19
+	db $27
 	db $03
 	db $15
-IsaacData:
-	db ISAAC
+Data_11bbe:
+	db $26
 	db $09
 	db $00
 	db $16
 	db $00
-	dw $64ad ; Pointer to OWScript
-	tx Text03c3
-	db ISAAC_PIC
-	db ZAPPING_SELFDESTRUCT_DECK_ID
+	dw $64ad ; Pointer to NPC Data
+	db $c3
+	db $03
+	db $09
+	db $13
 	db $03
 	db $16
-BrittanyData:
-	db BRITTANY
+Data_11bcb:
+	db $27
 	db $1c
 	db $04
 	db $0e
 	db $00
-	dw OWSequence_Brittany ; Pointer to OWScript
-	tx Text03c4
-	db BRITTANY_PIC
-	db ETCETERA_DECK_ID
+	dw $65d2 ; Pointer to NPC Data
+	db $c4
+	db $03
+	db $21
+	db $28
 	db $03
 	db $15
-KristinData:
-	db KRISTIN
+Data_11bd8:
+	db $28
 	db $1e
 	db $00
 	db $1e
 	db $00
-	dw $6701 ; Pointer to OWScript
-	tx Text03c5
-	db KRISTIN_PIC
-	db FLOWER_GARDEN_DECK_ID
+	dw $6701 ; Pointer to NPC Data
+	db $c5
+	db $03
+	db $22
+	db $29
 	db $03
 	db $15
-HeatherData:
-	db HEATHER
+Data_11be5:
+	db $29
 	db $1d
 	db $04
 	db $22
 	db $00
-	dw $6745 ; Pointer to OWScript
-	tx Text03c6
-	db HEATHER_PIC
-	db KALEIDOSCOPE_DECK_ID
+	dw $6745 ; Pointer to NPC Data
+	db $c6
+	db $03
+	db $23
+	db $2a
 	db $03
 	db $15
-NikkiData:
-	db NIKKI
+Data_11bf2:
+	db $2a
 	db $05
 	db $00
 	db $1a
 	db $00
-	dw $679e ; Pointer to OWScript
-	tx Text03c7
-	db NIKKI_PIC
-	db FLOWER_POWER_DECK_ID
+	dw $679e ; Pointer to NPC Data
+	db $c7
+	db $03
+	db $05
+	db $14
 	db $03
 	db $16
-RobertData:
-	db ROBERT
+Data_11bff:
+	db $2b
 	db $11
 	db $04
 	db $16
 	db $00
-	dw $6980 ; Pointer to OWScript
-	tx Text03c8
-	db ROBERT_PIC
-	db GHOST_DECK_ID
+	dw $6980 ; Pointer to NPC Data
+	db $c8
+	db $03
+	db $20
+	db $2b
 	db $03
 	db $15
-DanielData:
-	db DANIEL
+Data_11c0c:
+	db $2c
 	db $12
 	db $04
 	db $1a
 	db $00
-	dw $6a60 ; Pointer to OWScript
-	tx Text03c9
-	db DANIEL_PIC
-	db NAP_TIME_DECK_ID
+	dw $6a60 ; Pointer to NPC Data
+	db $c9
+	db $03
+	db $1f
+	db $2c
 	db $03
 	db $15
-StephanieData:
-	db STEPHANIE
+Data_11c19:
+	db $2d
 	db $1c
 	db $04
 	db $0e
 	db $00
-	dw $6aa2 ; Pointer to OWScript
-	tx Text03ca
-	db STEPHANIE_PIC
-	db STRANGE_POWER_DECK_ID
+	dw $6aa2 ; Pointer to NPC Data
+	db $ca
+	db $03
+	db $28
+	db $2d
 	db $03
 	db $15
-Murray1Data:
-	db MURRAY1
+Data_11c26:
+	db $2e
 	db $0c
 	db $00
 	db $12
 	db $00
-	dw $6adf ; Pointer to OWScript
-	tx Text03cb
-	db MURRAY_PIC
-	db STRANGE_PSYSHOCK_DECK_ID
+	dw $6adf ; Pointer to NPC Data
+	db $cb
+	db $03
+	db $0c
+	db $15
 	db $03
 	db $16
-Murray2Data:
-	db MURRAY2
+Data_11c33:
+	db $70
 	db $0c
 	db $03
 	db $15
 	db $10
-	dw $6adf ; Pointer to OWScript
-	tx Text03cb
-	db MURRAY_PIC
-	db STRANGE_PSYSHOCK_DECK_ID
+	dw $6adf ; Pointer to NPC Data
+	db $cb
+	db $03
+	db $0c
+	db $15
 	db $03
 	db $16
-JosephData:
-	db JOSEPH
+Data_11c40:
+	db $2f
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $6cdb ; Pointer to OWScript
-	tx Text03cc
-	db JOSEPH_PIC
-	db FLYIN_POKEMON_DECK_ID
+	dw $6cdb ; Pointer to NPC Data
+	db $cc
+	db $03
+	db $11
+	db $2e
 	db $03
 	db $15
-DavidData:
-	db DAVID
+Data_11c4d:
+	db $30
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $6c11 ; Pointer to OWScript
-	tx Text03cd
-	db DAVID_PIC
-	db LOVELY_NIDORAN_DECK_ID
+	dw $6c11 ; Pointer to NPC Data
+	db $cd
+	db $03
+	db $12
+	db $2f
 	db $03
 	db $15
-ErikData:
-	db ERIK
+Data_11c5a:
+	db $31
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $6c42 ; Pointer to OWScript
-	tx Text03ce
-	db ERIK_PIC
-	db POISON_DECK_ID
+	dw $6c42 ; Pointer to NPC Data
+	db $ce
+	db $03
+	db $13
+	db $30
 	db $03
 	db $15
-RickData:
-	db RICK
+Data_11c67:
+	db $32
 	db $06
 	db $00
 	db $0e
 	db $00
-	dw $6c67 ; Pointer to OWScript
-	tx Text03cf
-	db RICK_PIC
-	db WONDERS_OF_SCIENCE_DECK_ID
+	dw $6c67 ; Pointer to NPC Data
+	db $cf
+	db $03
+	db $06
+	db $16
 	db $03
 	db $16
-JohnData:
-	db JOHN
+Data_11c74:
+	db $33
 	db $12
 	db $04
 	db $1a
 	db $00
-	dw $6eb3 ; Pointer to OWScript
-	tx Text03d0
-	db JOHN_PIC
-	db ANGER_DECK_ID
+	dw $6eb3 ; Pointer to NPC Data
+	db $d0
+	db $03
+	db $14
+	db $31
 	db $03
 	db $15
-AdamData:
-	db ADAM
+Data_11c81:
+	db $34
 	db $13
 	db $00
 	db $22
 	db $00
-	dw $6ed8 ; Pointer to OWScript
-	tx Text03d1
-	db ADAM_PIC
-	db FLAMETHROWER_DECK_ID
+	dw $6ed8 ; Pointer to NPC Data
+	db $d1
 	db $03
 	db $15
-JonathanData:
-	db JONATHAN
+	db $32
+	db $03
+	db $15
+Data_11c8e:
+	db $35
 	db $11
 	db $04
 	db $16
 	db $00
-	dw $6efd ; Pointer to OWScript
-	tx Text03d2
-	db JONATHAN_PIC
-	db RESHUFFLE_DECK_ID
+	dw $6efd ; Pointer to NPC Data
+	db $d2
+	db $03
+	db $16
+	db $33
 	db $03
 	db $15
-KenData:
-	db KEN
+Data_11c9b:
+	db $36
 	db $07
 	db $04
 	db $1e
 	db $00
-	dw $6f22 ; Pointer to OWScript
-	tx Text03d3
-	db KEN_PIC
-	db FIRE_CHARGE_DECK_ID
+	dw $6f22 ; Pointer to NPC Data
+	db $d3
+	db $03
+	db $07
+	db $17
 	db $03
 	db $16
-CourtneyData:
-	db COURTNEY
+Data_11ca8:
+	db $37
 	db $0d
 	db $00
 	db $12
 	db $00
-	dw $771f ; Pointer to OWScript
-	tx Text03d4
-	db COURTNEY_PIC
-	db LEGENDARY_MOLTRES_DECK_ID
+	dw $771f ; Pointer to NPC Data
+	db $d4
+	db $03
+	db $0d
+	db $0c
 	db $04
 	db $17
-SteveData:
-	db STEVE
+Data_11cb5:
+	db $38
 	db $0e
 	db $00
 	db $2a
 	db $00
-	dw $772a ; Pointer to OWScript
-	tx Text03d5
-	db STEVE_PIC
-	db LEGENDARY_ZAPDOS_DECK_ID
+	dw $772a ; Pointer to NPC Data
+	db $d5
+	db $03
+	db $0e
+	db $0d
 	db $04
 	db $17
-JackData:
-	db JACK
+Data_11cc2:
+	db $39
 	db $0f
 	db $00
 	db $26
 	db $00
-	dw $7735 ; Pointer to OWScript
-	tx Text03d6
-	db JACK_PIC
-	db LEGENDARY_ARTICUNO_DECK_ID
+	dw $7735 ; Pointer to NPC Data
+	db $d6
+	db $03
+	db $0f
+	db $0e
 	db $04
 	db $17
-RodData:
-	db ROD
+Data_11ccf:
+	db $3a
 	db $10
 	db $00
 	db $0e
 	db $00
-	dw $7740 ; Pointer to OWScript
-	tx Text03d7
-	db ROD_PIC
-	db LEGENDARY_DRAGONITE_DECK_ID
+	dw $7740 ; Pointer to NPC Data
+	db $d7
+	db $03
+	db $10
+	db $0f
 	db $04
 	db $17
-Clerk10Data:
-	db CLERK10
+Data_11cdc:
+	db $3b
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw NoOverworldSequence ; Pointer to OWScript
-	tx Text03b0
+	dw $4c3e ; Pointer to NPC Data
+	db $b0
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-GiftCenterClerkData:
-	db GIFT_CENTER_CLERK
+Data_11ce9:
+	db $3c
 	db $21
 	db $0a
 	db $30
 	db $00
-	dw NoOverworldSequence ; Pointer to OWScript
-	tx Text03b0
+	dw $4c3e ; Pointer to NPC Data
+	db $b0
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Man1Data:
-	db MAN1
+Data_11cf6:
+	db $3d
 	db $1a
 	db $00
 	db $16
 	db $00
-	dw $5c76 ; Pointer to OWScript
-	tx Text03d8
+	dw $5c76 ; Pointer to NPC Data
+	db $d8
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Woman1Data:
-	db WOMAN1
+Data_11d03:
+	db $3e
 	db $23
 	db $04
 	db $1e
 	db $00
-	dw $5f83 ; Pointer to OWScript
-	tx Text03d9
+	dw $5f83 ; Pointer to NPC Data
+	db $d9
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Chap1Data:
-	db CHAP1
+Data_11d10:
+	db $3f
 	db $19
 	db $00
 	db $1a
 	db $00
-	dw $5fc0 ; Pointer to OWScript
-	tx Text03da
+	dw $5fc0 ; Pointer to NPC Data
+	db $da
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Gal1Data:
-	db GAL1
+Data_11d1d:
+	db $40
 	db $22
 	db $00
 	db $16
 	db $00
-	dw OWSequence_Gal1 ; Pointer to OWScript
-	tx Text03db
+	dw $60cf ; Pointer to NPC Data
+	db $db
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Lass1Data:
-	db LASS1
+Data_11d2a:
+	db $41
 	db $1e
 	db $00
 	db $1e
 	db $00
-	dw OWSequence_Lass1 ; Pointer to OWScript
-	tx Text03dc
+	dw $6111 ; Pointer to NPC Data
+	db $dc
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Chap2Data:
-	db CHAP2
+Data_11d37:
+	db $42
 	db $19
 	db $00
 	db $1a
 	db $00
-	dw $639a ; Pointer to OWScript
-	tx Text03da
+	dw $639a ; Pointer to NPC Data
+	db $da
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Lass2Data:
-	db LASS2
+Data_11d44:
+	db $43
 	db $1e
 	db $00
 	db $1e
 	db $00
-	dw OWSequence_e61f ; Pointer to OWScript
-	tx Text03dc
+	dw $661f ; Pointer to NPC Data
+	db $dc
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Pappy1Data:
-	db PAPPY1
+Data_11d51:
+	db $44
 	db $1b
 	db $00
 	db $22
 	db $00
-	dw $69a5 ; Pointer to OWScript
-	tx Text03dd
+	dw $69a5 ; Pointer to NPC Data
+	db $dd
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Lad1Data:
-	db LAD1
+Data_11d5e:
+	db $45
 	db $12
 	db $04
 	db $1a
 	db $00
-	dw $6b84 ; Pointer to OWScript
-	tx Text03de
+	dw $6b84 ; Pointer to NPC Data
+	db $de
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Lad2Data:
-	db LAD2
+Data_11d6b:
+	db $46
 	db $11
 	db $04
 	db $16
 	db $00
-	dw $6e2c ; Pointer to OWScript
-	tx Text03de
+	dw $6e2c ; Pointer to NPC Data
+	db $de
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Chap3Data:
-	db CHAP3
+Data_11d78:
+	db $47
 	db $19
 	db $00
 	db $1a
 	db $00
-	dw $6de8 ; Pointer to OWScript
-	tx Text03da
+	dw $6de8 ; Pointer to NPC Data
+	db $da
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk12Data:
-	db CLERK12
+Data_11d85:
+	db $48
 	db $22
 	db $00
 	db $16
 	db $00
-	dw OWSequence_Clerk12 ; Pointer to OWScript
-	tx Text03b3
+	dw $7295 ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Clerk13Data:
-	db CLERK13
+Data_11d92:
+	db $49
 	db $22
 	db $00
 	db $16
 	db $00
-	dw OWSequence_Clerk13 ; Pointer to OWScript
-	tx Text03b3
+	dw $726c ; Pointer to NPC Data
+	db $b3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-HostData:
-	db HOST
+Data_11d9f:
+	db $4a
 	db $22
 	db $00
 	db $16
 	db $00
-	dw OWSequence_HostStubbed ; Pointer to OWScript
-	tx Text03df
+	dw $7352 ; Pointer to NPC Data
+	db $df
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Specs1Data:
-	db SPECS1
+Data_11dac:
+	db $4b
 	db $13
 	db $00
 	db $22
 	db $00
-	dw $5d82 ; Pointer to OWScript
-	tx Text03e0
+	dw $5d82 ; Pointer to NPC Data
+	db $e0
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-ButchData:
-	db BUTCH
+Data_11db9:
+	db $4c
 	db $14
 	db $00
 	db $16
 	db $00
-	dw $5d8d ; Pointer to OWScript
-	tx Text03e1
+	dw $5d8d ; Pointer to NPC Data
+	db $e1
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Granny1Data:
-	db GRANNY1
+Data_11dc6:
+	db $4d
 	db $24
 	db $00
 	db $16
 	db $00
-	dw $5d9f ; Pointer to OWScript
-	tx Text03e5
+	dw $5d9f ; Pointer to NPC Data
+	db $e5
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Lass3Data:
-	db LASS3
+Data_11dd3:
+	db $4e
 	db $1d
 	db $04
 	db $22
 	db $00
-	dw $5fd2 ; Pointer to OWScript
-	tx Text03dc
+	dw $5fd2 ; Pointer to NPC Data
+	db $dc
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Man2Data:
-	db MAN2
+Data_11de0:
+	db $4f
 	db $1a
 	db $00
 	db $16
 	db $00
-	dw OWSequence_Man2 ; Pointer to OWScript
-	tx Text03d8
+	dw $6137 ; Pointer to NPC Data
+	db $d8
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Pappy2Data:
-	db PAPPY2
+Data_11ded:
+	db $50
 	db $1b
 	db $00
 	db $22
 	db $00
-	dw OWSequence_Pappy2 ; Pointer to OWScript
-	tx Text03dd
+	dw $613b ; Pointer to NPC Data
+	db $dd
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Lass4Data:
-	db LASS4
+Data_11dfa:
+	db $51
 	db $1d
 	db $04
 	db $22
 	db $00
-	dw $63d9 ; Pointer to OWScript
-	tx Text03dc
+	dw $63d9 ; Pointer to NPC Data
+	db $dc
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Hood1Data:
-	db HOOD1
+Data_11e07:
+	db $52
 	db $17
 	db $04
 	db $1e
 	db $00
-	dw $63dd ; Pointer to OWScript
-	tx Text03e2
+	dw $63dd ; Pointer to NPC Data
+	db $e2
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Granny2Data:
-	db GRANNY2
+Data_11e14:
+	db $53
 	db $24
 	db $00
 	db $16
 	db $00
-	dw $66d8 ; Pointer to OWScript
-	tx Text03e5
+	dw $66d8 ; Pointer to NPC Data
+	db $e5
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Gal2Data:
-	db GAL2
+Data_11e21:
+	db $54
 	db $22
 	db $00
 	db $16
 	db $00
-	dw $66e3 ; Pointer to OWScript
-	tx Text03db
+	dw $66e3 ; Pointer to NPC Data
+	db $db
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Lad3Data:
-	db LAD3
+Data_11e2e:
+	db $55
 	db $12
 	db $04
 	db $1a
 	db $00
-	dw $6850 ; Pointer to OWScript
-	tx Text03de
+	dw $6850 ; Pointer to NPC Data
+	db $de
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Gal3Data:
-	db GAL3
+Data_11e3b:
+	db $56
 	db $22
 	db $00
 	db $16
 	db $00
-	dw $6a30 ; Pointer to OWScript
-	tx Text03db
+	dw $6a30 ; Pointer to NPC Data
+	db $db
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Chap4Data:
-	db CHAP4
+Data_11e48:
+	db $57
 	db $19
 	db $00
 	db $1a
 	db $00
-	dw $6a3b ; Pointer to OWScript
-	tx Text03da
+	dw $6a3b ; Pointer to NPC Data
+	db $da
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Man3Data:
-	db MAN3
+Data_11e55:
+	db $58
 	db $1a
 	db $00
 	db $16
 	db $00
-	dw $6bc1 ; Pointer to OWScript
-	tx Text03d8
+	dw $6bc1 ; Pointer to NPC Data
+	db $d8
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Specs2Data:
-	db SPECS2
+Data_11e62:
+	db $59
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $6bc5 ; Pointer to OWScript
-	tx Text03e0
+	dw $6bc5 ; Pointer to NPC Data
+	db $e0
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Specs3Data:
-	db SPECS3
+Data_11e6f:
+	db $5a
 	db $13
 	db $00
 	db $22
 	db $00
-	dw $6bed ; Pointer to OWScript
-	tx Text03e0
+	dw $6bed ; Pointer to NPC Data
+	db $e0
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Woman2Data:
-	db WOMAN2
+Data_11e7c:
+	db $5b
 	db $23
 	db $04
 	db $1e
 	db $00
-	dw NoOverworldSequence ; Pointer to OWScript
-	tx Text03d9
+	dw $4c3e ; Pointer to NPC Data
+	db $d9
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-ManiaData:
-	db MANIA
+Data_11e89:
+	db $5c
 	db $15
 	db $00
 	db $26
 	db $00
-	dw $6e88 ; Pointer to OWScript
-	tx Text03e4
+	dw $6e88 ; Pointer to NPC Data
+	db $e4
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Pappy3Data:
-	db PAPPY3
+Data_11e96:
+	db $5d
 	db $1b
 	db $00
 	db $22
 	db $00
-	dw OWSequence_Pappy3 ; Pointer to OWScript
-	tx Text03dd
+	dw $709c ; Pointer to NPC Data
+	db $dd
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Gal4Data:
-	db GAL4
+Data_11ea3:
+	db $5e
 	db $22
 	db $00
 	db $16
 	db $00
-	dw OWSequence_Gal4 ; Pointer to OWScript
-	tx Text03db
+	dw $70a0 ; Pointer to NPC Data
+	db $db
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-ChampData:
-	db CHAMP
+Data_11eb0:
+	db $5f
 	db $15
 	db $00
 	db $26
 	db $00
-	dw OWSequence_Champ ; Pointer to OWScript
-	tx Text03e3
+	dw $70a4 ; Pointer to NPC Data
+	db $e3
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Hood2Data:
-	db HOOD2
+Data_11ebd:
+	db $60
 	db $17
 	db $04
 	db $1e
 	db $00
-	dw OWSequence_Hood2 ; Pointer to OWScript
-	tx Text03e2
+	dw $70a8 ; Pointer to NPC Data
+	db $e2
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Lass5Data:
-	db LASS5
+Data_11eca:
+	db $61
 	db $1f
 	db $04
 	db $1a
 	db $00
-	dw OWSequence_Lass5 ; Pointer to OWScript
-	tx Text03dc
+	dw $70ac ; Pointer to NPC Data
+	db $dc
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Chap5Data:
-	db CHAP5
+Data_11ed7:
+	db $62
 	db $19
 	db $00
 	db $1a
 	db $00
-	dw OWSequence_Chap5 ; Pointer to OWScript
-	tx Text03da
+	dw $70b0 ; Pointer to NPC Data
+	db $da
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-AaronData:
-	db AARON
+Data_11ee4:
+	db $63
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $58dd ; Pointer to OWScript
-	tx Text03e7
-	db AARON_PIC
-	db LIGHTNING_AND_FIRE_DECK_ID
+	dw $58dd ; Pointer to NPC Data
+	db $e7
+	db $03
+	db $29
+	db $09
 	db $02
 	db $15
-GuideData:
-	db GUIDE
+Data_11ef1:
+	db $64
 	db $1a
 	db $00
 	db $16
 	db $00
-	dw OWSequence_Guide ; Pointer to OWScript
-	tx Text03e6
+	dw $7283 ; Pointer to NPC Data
+	db $e6
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Tech7Data:
-	db TECH7
+Data_11efe:
+	db $65
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $58c6 ; Pointer to OWScript
-	tx Text03b2
+	dw $58c6 ; Pointer to NPC Data
+	db $b2
+	db $03
 	db $00
 	db $00
 	db $00
 	db $00
-Tech8Data:
-	db TECH8
+Data_11f0b:
+	db $66
 	db $18
 	db $00
 	db $0e
 	db $00
-	dw $58d1 ; Pointer to OWScript
-	tx Text03b2
+	dw $58d1 ; Pointer to NPC Data
+	db $b2
+	db $03
 	db $00
 	db $00
 	db $00
@@ -1360,49 +1462,49 @@ Data_11f18:
 	db $3a
 	db $3a
 	db $10
-	dw NoOverworldSequence ; Pointer to OWScript
+	dw $4c3e ; Pointer to NPC Data
 Data_11f1f:
 	db $68
 	db $27
 	db $3b
 	db $41
 	db $50
-	dw NoOverworldSequence ; Pointer to OWScript
+	dw $4c3e ; Pointer to NPC Data
 Data_11f26:
 	db $69
 	db $27
 	db $3c
 	db $42
 	db $50
-	dw NoOverworldSequence ; Pointer to OWScript
+	dw $4c3e ; Pointer to NPC Data
 Data_11f2d:
 	db $6a
 	db $27
 	db $3d
 	db $43
 	db $50
-	dw NoOverworldSequence ; Pointer to OWScript
+	dw $4c3e ; Pointer to NPC Data
 Data_11f34:
 	db $6b
 	db $27
 	db $3e
 	db $44
 	db $50
-	dw NoOverworldSequence ; Pointer to OWScript
+	dw $4c3e ; Pointer to NPC Data
 Data_11f3b:
 	db $6c
 	db $27
 	db $3f
 	db $45
 	db $50
-	dw NoOverworldSequence ; Pointer to OWScript
+	dw $4c3e ; Pointer to NPC Data
 Data_11f42:
 	db $6d
 	db $27
 	db $40
 	db $46
 	db $50
-	dw NoOverworldSequence ; Pointer to OWScript
+	dw $4c3e ; Pointer to NPC Data
 Data_11f49:
 	db $00
 	db $00
