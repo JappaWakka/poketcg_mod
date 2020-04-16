@@ -1480,7 +1480,7 @@ GrassAndPsychicDeckName: ; 3b75d (e:775d)
 	done
 
 RetreatCostText: ; 3b76e (e:776e)
-	text "Retreat Cost"
+	text "Terugtrekkingskosten"
 	done
 
 Text0213: ; 3b77c (e:777c)
@@ -1500,11 +1500,11 @@ InchesText: ; 3b7b9 (e:77b9)
 	done
 
 YourDiscardPileText: ; 3b7bc (e:77bc)
-	text "Your Discard Pile"
+	text "Jouw Weggooistapel"
 	done
 
 OpponentsDiscardPileText: ; 3b7cf (e:77cf)
-	text "Opponent's Discard Pile"
+	text "Tegenstander's Weggooistapel"
 	done
 
 Text0219: ; 3b7e8 (e:77e8)
@@ -1524,11 +1524,11 @@ Text021c: ; 3b7f9 (e:77f9)
 	done
 
 EndText: ; 3b800 (e:7800)
-	text "End"
+	text "Klaar"
 	done
 
 WhatIsYourNameText: ; 3b805 (e:7805)
-	text "What is your name?"
+	text "Wat is je naam?"
 	done
 
 Text021f: ; 3b819 (e:7819)

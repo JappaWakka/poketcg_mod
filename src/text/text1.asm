@@ -3,19 +3,19 @@ HandText: ; 3630a (d:630a)
 	done
 
 CheckText: ; 36310 (d:6310)
-	text "Check"
+	text "Bekijken"
 	done
 
 AttackText: ; 36317 (d:6317)
-	text "Attack"
+	text "Aanvallen"
 	done
 
 PKMNPowerText: ; 3631f (d:631f)
-	text "PKMN Power"
+	text "PKMN-Kracht"
 	done
 
 DoneText: ; 3632b (d:632b)
-	text "Done"
+	text "Klaar"
 	done
 
 TypeText: ; 36331 (d:6331)
@@ -23,19 +23,19 @@ TypeText: ; 36331 (d:6331)
 	done
 
 RetreatText: ; 36337 (d:6337)
-	text "Retreat"
+	text "Terugtr."
 	done
 
 WeaknessText: ; 36340 (d:6340)
-	text "Weakness"
+	text "Zwakte"
 	done
 
 ResistanceText: ; 3634a (d:634a)
-	text "Resistance"
+	text "Weerstand"
 	done
 
 PKMNPWRText: ; 36356 (d:6356)
-	text "PKMN PWR"
+	text "PKMN-KR."
 	done
 
 Text000b: ; 36360 (d:6360)
@@ -43,11 +43,11 @@ Text000b: ; 36360 (d:6360)
 	done
 
 LengthText: ; 36368 (d:6368)
-	text "Length"
+	text "Lengte"
 	done
 
 WeightText: ; 36370 (d:6370)
-	text "Weight"
+	text "Gewicht"
 	done
 
 PokemonText: ; 36378 (d:6378)
@@ -59,7 +59,7 @@ Text000f: ; 36382 (d:6382)
 	done
 
 LbsText: ; 36385 (d:6385)
-	text "lbs."
+	text "kg."
 	done
 
 PromostarRarityText: ; 3638b (d:638b)
@@ -79,51 +79,51 @@ StarRarityText: ; 36393 (d:6393)
 	done
 
 Text0015: ; 36396 (d:6396)
-	text " All cards owned:"
+	text " Kaarten in bezit:"
 	done
 
 Text0016: ; 363a9 (d:63a9)
-	text "Total number of cards"
+	text "Alle kaarten"
 	done
 
 Text0017: ; 363c0 (d:63c0)
-	text "Types of cards"
+	text "Soorten kaarten"
 	done
 
 Text0018: ; 363d0 (d:63d0)
-	text "Grass Pokémon"
+	text "Gras-Pokémon"
 	done
 
 Text0019: ; 363df (d:63df)
-	text "Fire Pokémon"
+	text "Vuur-Pokémon"
 	done
 
 Text001a: ; 363ed (d:63ed)
-	text "Water Pokémon"
+	text "Water-Pokémon"
 	done
 
 Text001b: ; 363fc (d:63fc)
-	text "Lightning Pokémon"
+	text "Bliksem-Pokémon"
 	done
 
 Text001c: ; 3640f (d:640f)
-	text "Fighting Pokémon"
+	text "Vecht-Pokémon"
 	done
 
 Text001d: ; 36421 (d:6421)
-	text "Psychic Pokémon"
+	text "Psychische Pokémon"
 	done
 
 Text001e: ; 36432 (d:6432)
-	text "Colorless Pokémon"
+	text "Kleurloze Pokémon"
 	done
 
 Text001f: ; 36445 (d:6445)
-	text "Trainer Card"
+	text "Trainerkaart"
 	done
 
 Text0020: ; 36453 (d:6453)
-	text "Energy Card"
+	text "Energiekaart"
 	done
 
 Text0021: ; 36460 (d:6460)
@@ -131,176 +131,177 @@ Text0021: ; 36460 (d:6460)
 	done
 
 Text0022: ; 36466 (d:6466)
-	text "Attack"
+	text "Aanval"
 	done
 
 NoPokemonOnTheBenchText: ; 3646e (d:646e)
-	text "No Pokémon on the Bench."
+	text "Geen Pokémon op de Bank."
 	done
 
 UnableDueToSleepText: ; 36488 (d:6488)
-	text "Unable to due to Sleep."
+	text "Kan niet. Is In Slaap."
 	done
 
 UnableDueToParalysisText: ; 364a1 (d:64a1)
-	text "Unable to due to Paralysis."
+	text "Kan niet. Is Verlamd."
 	done
 
 Received10DamageDueToPoisonText: ; 364be (d:64be)
-	text "<RAMTEXT> received"
-	line "10 damage due to Poison."
+	text "<RAMTEXT> ontving"
+	line "10 schade door Vergiftiging."
 	done
 
 Received20DamageDueToPoisonText: ; 364e3 (d:64e3)
-	text "<RAMTEXT> received"
-	line "20 damage due to Double Poison."
+	text "<RAMTEXT> ontving"
+	line "20 schade door Dubbele Vergiftiging."
 	done
 
 IsStillAsleepText: ; 3650f (d:650f)
 	text "<RAMTEXT> is"
-	line "still Asleep."
+	line "nog steeds In Slaap."
 	done
 
 IsCuredOfSleepText: ; 36523 (d:6523)
 	text "<RAMTEXT> is"
-	line "cured of Sleep."
+	line "niet meer In Slaap."
 	done
 
 IsCuredOfParalysisText: ; 36539 (d:6539)
 	text "<RAMTEXT> is"
-	line "cured of Paralysis."
+	line "niet meer Verlamd."
 	done
 
 BetweenTurnsText: ; 36553 (d:6553)
-	text "Between Turns."
+	text "Tussen beurten."
 	done
 
 Text002c: ; 36563 (d:6563)
-	text "Unable to use it."
+	text "Kan het niet gebruiken."
 	done
 
 Text002d: ; 36576 (d:6576)
-	text "No Energy cards."
+	text "Geen Energiekaarten."
 	done
 
 Text002e: ; 36588 (d:6588)
-	text "Is this OK?"
+	text "Is dit goed?"
 	done
 
 YesOrNoText: ; 36595 (d:6595)
-	text "Yes     No"
+	text "Ja     Nee"
 	done
 
 DiscardName: ; 365a1 (d:65a1)
-	text "Discard"
+	text "Weggooi"
 	done
 
 Text0031: ; 365aa (d:65aa)
-	text "Incomplete"
+	text "Incompleet"
 	done
 
 Text0032: ; 365b6 (d:65b6)
-	text "Damage"
+	text "Schade"
 	done
 
 UsedText: ; 365be (d:65be)
-	text "Used <RAMTEXT>."
+	text "<RAMTEXT> gebruikt."
 	done
 
 Text0034: ; 365c7 (d:65c7)
-	text "Received damage"
+	text "Ontving schade"
 	done
 
 PokemonsAttackText: ; 365d8 (d:65d8)
-	text "<RAMTEXT>'s"
+	text "<RAMTEXT> deed de aanval"
 	line ""
 	text "<RAMTEXT>!"
 	done
 
 Text0036: ; 365e1 (d:65e1)
-	text "<RAMTEXT> received"
-	line "<RAMNUM> damage due to Resistance!"
+	text "<RAMTEXT> ontving"
+	line "<RAMNUM> schade door Weerstand!"
 	done
 
 Text0037: ; 36609 (d:6609)
-	text "<RAMTEXT> received"
-	line "<RAMNUM> damage due to Weakness!"
+	text "<RAMTEXT> ontving"
+	line "<RAMNUM> schade door Zwakte!"
 	done
 
 Text0038: ; 3662f (d:662f)
-	text "<RAMTEXT> received"
-	line "<RAMNUM> damage due to Weakness!"
+	text "<RAMTEXT> ontving"
+	line "<RAMNUM> schade door Zwakte!"
 	done
 
 Text0039: ; 36655 (d:6655)
-	text "<RAMTEXT> did not"
-	line "receive damage due to Resistance."
+	text "<RAMTEXT> ontving geen"
+	line "schade door Weerstand."
 	done
 
 Text003a: ; 36682 (d:6682)
-	text "<RAMTEXT> took"
-	line "<RAMNUM> damage."
+	text "<RAMTEXT> ontving"
+	line "<RAMNUM> schade."
 	done
 
 Text003b: ; 36694 (d:6694)
-	text "<RAMTEXT> did not"
-	line "receive damage!"
+	text "<RAMTEXT> ontving"
+	line "geen schade!"
 	done
 
 NoSelectableAttackText: ; 366af (d:66af)
-	text "No selectable Attack"
+	text "Geen selecteerbare Aanval"
 	done
 
 UnableToRetreatText: ; 366c5 (d:66c5)
-	text "Unable to Retreat."
+	text "Kan niet terugtrekken."
 	done
 
 MayOnlyAttachOneEnergyCardText: ; 366d9 (d:66d9)
-	text "You may only attach 1 Energy card"
-	line "per turn."
+	text "Je mag maar 1 Energiekaart hechten"
+	line "per beurt."
 	done
 
 Text003f: ; 36706 (d:6706)
-	text "Use this Pokémon Power?"
+	text "Deze Pokémon-Kracht gebruiken?"
 	done
 
 Text0040: ; 3671f (d:671f)
-	text "You do not need to select the"
-	line "Pokémon Power to use it."
+	text "Je hoeft de Pokémon-Kracht niet"
+	line "te selecteren om hem te gebruiken."
 	done
 
 DiscardDescription: ; 36757 (d:6757)
-	text "You may discard this card during"
-	line "your turn."
-	line "It will be counted as a Knock Out"
-	line "(This Discard is not"
-	line "a Pokémon Power)"
+	text "Je mag deze kaart Weggooien tijdens"
+	line "je beurt."
+	line "Het zal tellen als een Uitschakeling."
+	line "(Dit Weggooien is geen"
+	line "Pokémon-Kracht.)"
 	done
 
 WillDrawNPrizesText: ; 367cc (d:67cc)
-	text "<RAMNAME> will draw <RAMNUM> Prize(s)."
+	text "<RAMNAME> mag <RAMNUM>"
+	line "Prijskaart(en) pakken."
 	done
 
 DrewNPrizesText: ; 367e5 (d:67e5)
-	text "<RAMNAME> drew <RAMNUM> Prize(s)."
+	text "<RAMNAME> pakte <RAMNUM> Prijskaart(en)."
 	done
 
 DuelistPlacedACardText: ; 367f9 (d:67f9)
-	text "<RAMNAME> placed"
-	line "a <RAMTEXT>."
+	text "<RAMNAME> plaatste"
+	line "een <RAMTEXT>."
 	done
 
 Text0045: ; 36808 (d:6808)
-	text "Unable to select."
+	text "Kan niet selecteren."
 	done
 
 Text0046: ; 3681b (d:681b)
-	text "Grass"
-	line "Fire"
+	text "Gras"
+	line "Vuur"
 	line "Water"
-	line "Lightning"
-	line "Fighting"
-	line "Psychic"
+	line "Bliksem"
+	line "Vecht"
+	line "Psychisch"
 	done
 
 Text0047: ; 36848 (d:6848)
@@ -328,242 +329,243 @@ Text004c: ; 36857 (d:6857)
 	done
 
 Text004d: ; 3685a (d:685a)
-	text "Bench"
+	text "Bank"
 	done
 
 KnockOutText: ; 36861 (d:6861)
-	text "Knock Out"
+	text "Uitgeschakeld"
 	done
 
 DamageToSelfDueToConfusionText: ; 3686c (d:686c)
-	text "20 damage to Self due to Confusion."
+	text "20 schade aan zichzelf door Verwarring."
 	done
 
 ChooseEnergyCardToDiscardText: ; 36891 (d:6891)
-	text "Choose the Energy card"
-	line "you wish to discard."
+	text "Kies de Energiekaart"
+	line "die je weg wilt gooien."
 	done
 
 Text0051: ; 368be (d:68be)
-	text "The Active Pokémon was Knocked Out."
-	line "Please choose the next Pokémon."
+	text "De Actieve Pokémon is Uitgeschakeld."
+	line "Kies de volgende Pokémon."
 	done
 
 Text0052: ; 36903 (d:6903)
-	text "Press START"
-	line "When you are ready."
+	text "Druk op START"
+	line "als je klaar bent."
 	done
 
 YouPlayFirstText: ; 36924 (d:6924)
-	text "You play first."
+	text "Jij speelt als eerste."
 	done
 
 YouPlaySecondText: ; 36935 (d:6935)
-	text "You play second."
+	text "Jij speelt als tweede."
 	done
 
 TransmissionErrorText: ; 36947 (d:6947)
-	text "Transmission Error."
-	line "Start again from the beginning."
+	text "Overdrachtsfout."
+	line "Start opnieuw vanaf het begin."
 	done
 
 ChooseTheCardYouWishToExamineText: ; 3697c (d:697c)
-	text "Choose the card"
-	line "you wish to examine."
+	text "Kies de kaart die"
+	line "je wilt bekijken."
 	done
 
 TransmitingDataText: ; 369a2 (d:69a2)
-	text "Transmitting data..."
+	text "Gegevens aan het overdragen..."
 	done
 
 WaitingHandExamineText: ; 369b8 (d:69b8)
-	text "Waiting..."
-	line "    Hand        Examine"
+	text "Aan het wachten..."
+	line "    Hand        Bekijken"
 	done
 
 SelectingBenchPokemonHandExamineBackText: ; 369dc (d:69dc)
-	text "Selecting Bench Pokémon..."
-	line "    Hand        Examine     Back"
+	text "Pokémon op de Bank selecteren..."
+	line "    Hand        Bekijken     Terug"
 	done
 
 RetreatedToTheBenchText: ; 36a19 (d:6a19)
 	text "<RAMTEXT>"
-	line "Retreated to the Bench."
+	line "is Teruggetrokken naar de Bank."
 	done
 
 RetreatWasUnsuccessfulText: ; 36a34 (d:6a34)
-	text "<RAMTEXT>'s"
-	line "Retreat was unsuccessful."
+	text "<RAMTEXT> kon"
+	line "niet Terugtrekken."
 	done
 
 WillUseThePokemonPowerText: ; 36a53 (d:6a53)
-	text "<RAMTEXT> will use the"
-	line "Pokémon Power <RAMTEXT>."
+	text "<RAMTEXT> gebruikt de"
+	line "Pokémon-Kracht <RAMTEXT>."
 	done
 
 FinishedTurnWithoutAttackingText: ; 36a74 (d:6a74)
-	text "Finished the Turn"
-	line "without Attacking."
+	text "De beurt is doorgegeven"
+	line "zonder aan te vallen."
 	done
 
 DuelistTurnText: ; 36a9a (d:6a9a)
-	text "<RAMNAME>'s Turn."
+	text "<RAMNAME>'s beurt."
 	done
 
 AttachedEnergyToPokemonText: ; 36aa5 (d:6aa5)
-	text "Attached <RAMTEXT>"
-	line "to <RAMTEXT>."
+	text "<RAMTEXT> is gehecht"
+	line "aan <RAMTEXT>."
 	done
 
 PokemonEvolvedIntoPokemonText: ; 36ab7 (d:6ab7)
-	text "<RAMTEXT> evolved"
-	line "into <RAMTEXT>."
+	text "<RAMTEXT> is geëvolueerd"
+	line "in <RAMTEXT>."
 	done
 
 PlacedOnTheBenchText: ; 36aca (d:6aca)
-	text "Placed <RAMTEXT>"
-	line "on the Bench."
+	text "<RAMTEXT> is op de"
+	line "Bank geplaatst."
 	done
 
 PlacedInTheArenaText: ; 36ae2 (d:6ae2)
-	text "<RAMTEXT>"
-	line "was placed in the Arena."
+	text "<RAMTEXT> is in"
+	line "de Arena geplaatst."
 	done
 
 ShufflesTheDeckText: ; 36afe (d:6afe)
-	text "<RAMNAME> shuffles the Deck."
+	text "<RAMNAME> schudt het Deck."
 	done
 
 ThisIsJustPracticeDoNotShuffleText: ; 36b14 (d:6b14)
-	text "Since this is just practice,"
-	line "Do not shuffle the Deck."
+	text "Omdat we alleen maar oefenen,"
+	line "hoef je niet je Deck te schudden."
 	done
 
 EachPlayerShuffleOpponentsDeckText: ; 36b4b (d:6b4b)
-	text "Each player will"
-	line "shuffle the opponent's Deck."
+	text "Elke speler schudt het Deck"
+	line "van de tegenstander."
 	done
 
 EachPlayerDraw7CardsText: ; 36b7a (d:6b7a)
-	text "Each player will draw 7 cards."
+	text "Elke speler pakt 7 kaarten."
 	done
 
 Drew7CardsText: ; 36b9a (d:6b9a)
 	text "<RAMNAME>"
-	line "drew 7 cards."
+	line "pakte 7 kaarten."
 	done
 
 DeckHasXCardsText: ; 36bab (d:6bab)
-	text "<RAMNAME>'s deck has <RAMNUM> cards."
+	text "<RAMNAME>'s Deck heeft <RAMNUM> kaarten."
 	done
 
 ChooseBasicPkmnToPlaceInArenaText: ; 36bc2 (d:6bc2)
-	text "Choose a Basic Pokémon"
-	line "to place in the Arena."
+	text "Kies een Basis-Pokémon om"
+	line "in de Arena te plaatsen."
 	done
 
 ThereAreNoBasicPokemonInHand: ; 36bf1 (d:6bf1)
-	text "There are no Basic Pokémon"
-	line "in <RAMNAME>'s hand."
+	text "Er zitten geen Basis-Pokémon"
+	line "in <RAMNAME>'s Hand."
 	done
 
 NeitherPlayerHasBasicPkmnText: ; 36c1a (d:6c1a)
-	text "Neither player has any Basic"
-	line "Pokémon in his or her hand."
+	text "Geen van beide spelers heeft Basis-"
+	line "Pokémon in zijn of haar Hand."
 	done
 
 ReturnCardsToDeckAndDrawAgainText: ; 36c54 (d:6c54)
-	text "Return the cards to the Deck"
-	line "and draw again."
+	text "Schud je kaarten door je Deck"
+	line "heen en pak opnieuw 7 kaarten."
 	done
 
 ChooseUpTo5BasicPkmnToPlaceOnBenchText: ; 36c82 (d:6c82)
-	text "You may choose up to 5 Basic Pokémon"
-	line "to place on the Bench."
+	text "Je mag ten hoogste 5 Basis-Pokémon"
+	line "kiezen om op je Bank te plaatsen."
 	done
 
 PleaseChooseAnActivePokemonText: ; 36cbf (d:6cbf)
-	text "Please choose an"
-	line "Active Pokémon."
+	text "Kies je"
+	line "Actieve Pokémon."
 	done
 
 ChooseYourBenchPokemonText: ; 36ce1 (d:6ce1)
-	text "Choose your"
-	line "Bench Pokémon."
+	text "Kies je Pokémon"
+	line "voor op de Bank."
 	done
 
 YouDrewText: ; 36cfd (d:6cfd)
-	text "You drew <RAMTEXT>."
+	text "Je pakte <RAMTEXT>."
 	done
 
 YouCannotSelectThisCardText: ; 36d0a (d:6d0a)
-	text "You cannot select this card."
+	text "Je kan deze kaart niet selecteren."
 	done
 
 PlacingThePrizesText: ; 36d28 (d:6d28)
-	text "Placing the Prizes..."
+	text "Prijskaarten aan het plaatsen..."
 	done
 
 PleasePlacePrizesText: ; 36d3f (d:6d3f)
-	text "Please place"
-	line "<RAMNUM> Prizes."
+	text "Plaats <RAMNUM>"
+	line "Prijskaarten."
 	done
 
 IfHeadsDuelistPlaysFirstText: ; 36d57 (d:6d57)
-	text "If heads,"
+	text "Als het kop is,"
 	line ""
-	text "<RAMTEXT> plays first."
+	text "speelt <RAMTEXT> als eerste."
 	done
 
 CoinTossToDecideWhoPlaysFirstText: ; 36d72 (d:6d72)
-	text "A coin will be tossed"
-	line "to decide who plays first."
+	text "Een munt zal worden opgegooid om"
+	line "te beslissen wie als eerste speelt."
 	done
 
 DecisionText: ; 36da4 (d:6da4)
-	text "Decision..."
+	text "Conclusie..."
 	done
 
 DuelWasADrawText: ; 36db1 (d:6db1)
-	text "The Duel with <RAMNAME>"
-	line "was a Draw!"
+	text "Het Duel met <RAMNAME>"
+	line "was een Gelijk Spel!"
 	done
 
 WonDuelText: ; 36dce (d:6dce)
-	text "You won the Duel with <RAMNAME>!"
+	text "Jij hebt het Duel met"
+	line "<RAMNAME> gewonnen!"
 	done
 
 LostDuelText: ; 36de8 (d:6de8)
-	text "You lost the Duel"
-	line "with <RAMNAME>..."
+	text "Jij hebt het Duel met"
+	line "<RAMNAME> verloren..."
 	done
 
 StartSuddenDeathMatchText: ; 36e05 (d:6e05)
-	text "Start a Sudden-Death"
-	line "Match for 1 Prize!"
+	text "Start een Sudden-Death"
+	line "Duel met 1 Prijskaart!"
 	done
 
 PrizesLeftActivePokemonCardsInDeckText: ; 36e2e (d:6e2e)
-	text "Prizes Left"
-	line "Active Pokémon"
-	line "Cards in Deck"
+	text "Prijskaarten over"
+	line "Actieve Pokémon"
+	line "Kaarten in het Deck"
 	done
 
 NoneText: ; 36e58 (d:6e58)
-	text "None"
+	text "Geen"
 	done
 
 YesText: ; 36e5e (d:6e5e)
-	text "Yes"
+	text "Ja"
 	done
 
 CardsText: ; 36e63 (d:6e63)
-	text "Cards"
+	text "Kaarten"
 	done
 
 TookAllThePrizesText: ; 36e6a (d:6e6a)
-	text "<RAMNAME> took"
-	line "all the Prizes!"
+	text "<RAMNAME> heeft alle"
+	line "Prijskaarten gepakt!"
 	done
 
 ThereAreNoPokemonInPlayAreaText: ; 36e82 (d:6e82)
@@ -774,7 +776,7 @@ Text00a3: ; 372bd (d:72bd)
 	done
 
 NoCardsInHandText: ; 37348 (d:7348)
-	text "No cards in hand."
+	text "No cards in Hand."
 	done
 
 TheDiscardPileHasNoCardsText: ; 3735b (d:735b)
