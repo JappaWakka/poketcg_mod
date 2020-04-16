@@ -155,10 +155,6 @@ ROMX $3e
 	"Audio 2"
 ROMX $3f
 	"Audio 3"
-ROMX $40
-	"Gfx Fonts"
-ROMX $41
-	"Text Offsets"
 WRAM0
 	"WRAM0"
 	"WRAM0 Duels 1"
