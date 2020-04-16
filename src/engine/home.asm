@@ -1552,7 +1552,7 @@ Func_08bf: ; 08bf (0:08bf)
 	ld [hli], a
 	ld [hl], b
 	inc hl
-	ld [hli], a ; 0
+	ld [hli], a
 	ld [hl], $ef
 	ld h, b
 	ld l, $0
@@ -6269,9 +6269,9 @@ LoadDuelCoinTossResultTiles: ; 210f (0:210f)
 
 ; load the tiles of the text characters used with TX_SYMBOL
 LoadSymbolsFont: ; 2119 (0:2119)
-	ld hl, SymbolsFont - $4000
+	ld hl, SymbolsDuel - $4000
 	ld de, v0Tiles2 ; destination
-	ld b, (DuelCardHeaderGraphics - SymbolsFont) / TILE_SIZE ; number of tiles
+	ld b, (DuelCardHeaderGraphics - SymbolsDuel) / TILE_SIZE ; number of tiles
 ;	fallthrough
 
 ; if hl ≤ $3fff
@@ -6279,7 +6279,7 @@ LoadSymbolsFont: ; 2119 (0:2119)
 ; if $4000 ≤ hl ≤ $7fff
 ;   copy b tiles from Gfx2:hl to de
 CopyFontsOrDuelGraphicsTiles: ; 2121 (0:2121)
-	ld a, BANK(Fonts); BANK(DuelGraphics)
+	ld a, BANK(DuelGraphics); BANK(DuelGraphics)
 	call BankpushROM
 	ld c, TILE_SIZE
 	call CopyGfxData
@@ -6289,7 +6289,7 @@ CopyFontsOrDuelGraphicsTiles: ; 2121 (0:2121)
 
 ; this function copies gfx data into sram
 Func_212f: ; 212f (0:212f)
-	ld hl, SymbolsFont - $4000
+	ld hl, SymbolsDuel - $4000
 	ld de, $a400
 	ld b, $30
 	call CopyFontsOrDuelGraphicsTiles
@@ -10800,8 +10800,8 @@ GameEvent_Credits: ; 3911 (0:3911)
 	ret
 
 Func_3917: ; 3917 (0:3917)
-	ld a, EVENT_RECEIVED_LEGEND_CARDS
-	farcall GetEventFlagValue
+	ld a, $22
+	farcall CheckIfEventFlagSet
 	call EnableSRAM
 	ld [s0a00a], a
 	call DisableSRAM
@@ -10865,7 +10865,7 @@ GetPermissionByteOfMapPosition: ; 3946 (0:3946)
 Func_395a: ; 395a (0:395a)
 	ldh a, [hBankROM]
 	push af
-	ld a, [wTempPointerBank]
+	ld a, [wd4c6]
 	call BankswitchROM
 	call CopyGfxData
 	pop af
@@ -10875,8 +10875,8 @@ Func_395a: ; 395a (0:395a)
 Unknown_396b: ; 396b (0:396b)
 	db $00, -$01, $01, $00, $00, $01, -$01, $00
 
-; Movement offsets for player movements
-PlayerMovementOffsetTable: ; 3973 (0:3973)
+; Movement offsets for scripted movements
+ScriptedMovementOffsetTable: ; 3973 (0:3973)
 	db  0, -2 ; move 2 tiles up
 	db  2,  0 ; move 2 tiles right
 	db  0,  2 ; move 2 tiles down
@@ -10908,16 +10908,15 @@ Func_3997: ; 3997 (0:3997)
 	call BankswitchROM
 	ret
 
-; returns in hl a pointer to the first element for the a'th NPC
-GetLoadedNPCID: ; 39a7 (0:39a7)
-	ld l, LOADED_NPC_ID
-	call GetItemInLoadedNPCIndex
+Func_39a7: ; 39a7 (0:39a7)
+	ld l, $0
+	call Func_39ad
 	ret
 
-; return in hl a pointer to the a'th items element l
-GetItemInLoadedNPCIndex: ; 39ad (0:39ad)
+; return hl = wd34a + a * $c + l, with a < $8
+Func_39ad: ; 39ad (0:39ad)
 	push bc
-	cp LOADED_NPC_MAX
+	cp $8
 	jr c, .asm_39b4
 	debug_ret
 	xor a
@@ -10930,39 +10929,36 @@ GetItemInLoadedNPCIndex: ; 39ad (0:39ad)
 	add l
 	ld l, a
 	ld h, $0
-	ld bc, wLoadedNPCs
+	ld bc, wd34a
 	add hl, bc
 	pop bc
 	ret
 
-; Finds the index on wLoadedNPCs table of the npc in wTempNPC
-; returns it in a and puts it into wLoadedNPCTempIndex
-; c flag set if no npc found
-FindLoadedNPC: ; 39c3 (0:39c3)
+Func_39c3: ; 39c3 (0:39c3)
 	push hl
 	push bc
 	push de
 	xor a
-	ld [wLoadedNPCTempIndex], a
+	ld [wd3aa], a
 	ld b, a
-	ld c, LOADED_NPC_MAX
-	ld de, LOADED_NPC_LENGTH
-	ld hl, wLoadedNPCs
-	ld a, [wTempNPC]
-.findNPCLoop
+	ld c, $8
+	ld de, $000c
+	ld hl, wd34a
+	ld a, [wd3ab]
+.asm_39d6
 	cp [hl]
-	jr z, .foundNPCMatch
+	jr z, .asm_39e1
 	add hl, de
 	inc b
 	dec c
-	jr nz, .findNPCLoop
+	jr nz, .asm_39d6
 	scf
-	jr z, .exit
-.foundNPCMatch
+	jr z, .asm_39e6
+.asm_39e1
 	ld a, b
-	ld [wLoadedNPCTempIndex], a
+	ld [wd3aa], a
 	or a
-.exit
+.asm_39e6
 	pop de
 	pop bc
 	pop hl
@@ -11059,68 +11055,65 @@ Func_3a4f: ; 3a4f (0:3a4f)
 	ret
 ; 0x3a5e
 
-HandleMoveModeAPress: ; 3a5e (0:3a5e)
+Func_3a5e: ; 3a5e (0:3a5e)
 	ldh a, [hBankROM]
 	push af
-	ld l, MAP_SCRIPT_OBJECTS
-	call GetMapScriptPointer
-	jr nc, .handleSecondAPressScript
-	ld a, BANK(FindPlayerMovementFromDirection)
+	ld l, $4
+	call Func_3abd
+	jr nc, .asm_3ab3
+	ld a, BANK(Func_c653)
 	call BankswitchROM
-	call FindPlayerMovementFromDirection
-	ld a, BANK(MapScripts)
+	call Func_c653
+	ld a, $4
 	call BankswitchROM
-	ld a, [wPlayerDirection]
+	ld a, [wd334]
 	ld d, a
-.findAPressMatchLoop
+.asm_3a79
 	ld a, [hli]
 	bit 7, a
-	jr nz, .handleSecondAPressScript
+	jr nz, .asm_3ab3
 	push bc
 	push hl
 	cp d
-	jr nz, .noMatch
+	jr nz, .asm_3aab
 	ld a, [hli]
 	cp b
-	jr nz, .noMatch
+	jr nz, .asm_3aab
 	ld a, [hli]
 	cp c
-	jr nz, .noMatch
+	jr nz, .asm_3aab
 	ld a, [hli]
-	ld [wNextOWSequence], a
+	ld [wd0c6], a
 	ld a, [hli]
-	ld [wNextOWSequence+1], a
+	ld [wd0c7], a
 	ld a, [hli]
-	ld [wDefaultObjectText], a
+	ld [wd0ca], a
 	ld a, [hli]
-	ld [wDefaultObjectText+1], a
+	ld [wd0cb], a
 	ld a, [hli]
-	ld [wCurrentNPCNameTx], a
+	ld [wd0c8], a
 	ld a, [hli]
-	ld [wCurrentNPCNameTx+1], a
+	ld [wd0c9], a
 	pop hl
 	pop bc
 	pop af
 	call BankswitchROM
 	scf
 	ret
-.noMatch
+.asm_3aab
 	pop hl
-	ld bc, LEVEL_OBJECT_SIZE - 1
+	ld bc, $0008
 	add hl, bc
 	pop bc
-	jr .findAPressMatchLoop
-.handleSecondAPressScript
+	jr .asm_3a79
+.asm_3ab3
 	pop af
 	call BankswitchROM
-	ld l, MAP_SCRIPT_PRESSED_A
-	call CallMapScriptPointerIfExists
+	ld l, $6
+	call $49c2
 	ret
 
-; returns a map script pointer in hl given
-; current map in wCurMap and which sub-script in l
-; sets c if pointer is found
-GetMapScriptPointer: ; 3abd (0:3abd)
+Func_3abd: ; 3abd (0:3abd)
 	push bc
 	push hl
 	ld a, [wCurMap]
@@ -11248,7 +11241,7 @@ CheckAnyAnimationPlaying: ; 3b52 (0:3b52)
 	ret
 
 Func_3b6a: ; 3b6a (0:3b6a)
-	ld [wd422], a
+	ld [wTempAnimation], a ; hold an animation temporarily
 	ldh a, [hBankROM]
 	push af
 	ld [wd4be], a
@@ -11257,7 +11250,7 @@ Func_3b6a: ; 3b6a (0:3b6a)
 	push de
 	ld a, $07
 	call BankswitchROM
-	ld a, [wd422]
+	ld a, [wTempAnimation]
 	cp $61
 	jr nc, .asm_3b90
 	ld hl, wd4ad
@@ -11328,7 +11321,7 @@ ResetDoFrameFunction: ; 3bdb (0:3bdb)
 Func_3be4: ; 3be4 (0:3be4)
 	ldh a, [hBankROM]
 	push af
-	ld a, [wTempPointerBank]
+	ld a, [wd4c6]
 	call BankswitchROM
 	call Func_08de
 	pop af
@@ -11336,16 +11329,15 @@ Func_3be4: ; 3be4 (0:3be4)
 	ret
 ; 0x3bf5
 
-; Copies bc bytes from [wTempPointer] to de
-CopyBankedDataToDE: ; 3bf5 (0:3bf5)
+Func_3bf5: ; 3bf5 (0:3bf5)
 	ldh a, [hBankROM]
 	push af
 	push hl
-	ld a, [wTempPointerBank]
+	ld a, [wd4c6]
 	call BankswitchROM
-	ld a, [wTempPointer]
+	ld a, [wd4c4]
 	ld l, a
-	ld a, [wTempPointer + 1]
+	ld a, [wd4c5]
 	ld h, a
 	call CopyDataHLtoDE_SaveRegisters
 	pop hl
@@ -11415,8 +11407,9 @@ CallHL2: ; 3c45 (0:3c45)
 	jp hl
 ; 0x3c46
 
-CallBC: ; 3c46 (0:3c46)
-	retbc
+PushBC_Ret: ; 3c46 (0:3c46)
+	push bc
+	ret
 ; 0x3c48
 
 DoFrameIfLCDEnabled: ; 3c48 (0:3c48)
@@ -11467,7 +11460,7 @@ DivideBCbyDE: ; 3c5a (0:3c5a)
 	jr nz, .asm_3c63
 	ret
 
-CallPlaySong: ; 3c83 (0:3c83)
+Func_3c83: ; 3c83 (0:3c83)
 	call PlaySong
 	ret
 ; 0x3c87
@@ -11477,19 +11470,18 @@ Func_3c87: ; 3c87 (0:3c87)
 	call PauseSong
 	pop af
 	call PlaySong
-	call WaitForSongToFinish
+	call Func_3c96
 	call ResumeSong
 	ret
 ; 0x3c96
 
-WaitForSongToFinish: ; 3c96 (0:3c96)
+Func_3c96: ; 3c96 (0:3c96)
 	call DoFrameIfLCDEnabled
 	call AssertSongFinished
 	or a
-	jr nz, WaitForSongToFinish
+	jr nz, Func_3c96
 	ret
 
-; clear [SOMETHING] - something relating to animations
 Func_3ca0: ; 3ca0 (0:3ca0)
 	xor a
 	ld [wd5d7], a
@@ -11642,11 +11634,11 @@ Func_3d72: ; 3d72 (0:3d72)
 	xor a
 	jr .asm_3da1
 .asm_3d84
-	ld a, [wTempPointer]
+	ld a, [wd4c4]
 	ld l, a
-	ld a, [wTempPointer + 1]
+	ld a, [wd4c5]
 	ld h, a
-	ld a, [wTempPointerBank]
+	ld a, [wd4c6]
 	call BankswitchROM
 	ld a, [hli]
 	push af
@@ -11677,7 +11669,7 @@ Func_3d72: ; 3d72 (0:3d72)
 	call BankswitchROM
 	ret
 
-GetFirstSpriteAnimBufferProperty: ; 3db7 (0:3db7)
+Func_3db7: ; 3db7 (0:3db7)
 	push bc
 	ld c, SPRITE_ANIM_FIELD_00
 	call GetSpriteAnimBufferProperty
