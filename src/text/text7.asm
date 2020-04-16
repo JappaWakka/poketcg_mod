@@ -94,49 +94,49 @@ Text05e2: ; 4c786 (13:4786)
 	done
 
 Text05e3: ; 4c86f (13:486f)
-	text "Oh! Waarom zo'n haast, <RAMNAME>?"
-	line "Wat?"
-	line "Je wilt leren hoe je het"
-	line "Pokémon Ruilkaartspel speelt?"
-	line "Dus, ook jij wilt beginnen"
-	line "met het kaartspel spelen!"
-	line "Nou, dueleren is veel leuker"
-	line "dan alleen kaarten verzamelen!"
-	line "Probeer eerst eens te spelen"
-	line "met een oefen-Deck."
-	line "Hier, neem dit deck van mij maar."
-	line "En nu een tegenstander..."
+	text "Oh! Why the rush, <RAMNAME>?"
+	line "What? "
+	line "You want to learn how to play"
+	line "the Pokémon Trading Card Game?"
+	line "So you, too, finally want to "
+	line "start playing the card game. "
+	line "Well, dueling is more fun than "
+	line "just collecting cards!"
+	line "First, you should try playing "
+	line "with a Practice Deck. "
+	line "Here, I'll give you this Deck. "
+	line "And now you need an opponent..."
 	line "Hey, Sam!"
-	line "Speel eens een potje met hem!"
+	line "Play with him for a while!"
 	done
 
 Text05e4: ; 4c9d7 (13:49d7)
-	text "Oké, Dr. Mason."
-	line "Hallo, <RAMNAME>."
+	text "Yes, Dr. Mason."
+	line "Hello, <RAMNAME>."
 	done
 
 Text05e5: ; 4c9f2 (13:49f2)
-	text "Oké!"
-	line "Laten we het eens proberen!"
+	text "OK!"
+	line "Let's give it a try!"
 	done
 
 Text05e6: ; 4ca0c (13:4a0c)
 	text "Hey! <RAMNAME>!"
-	line "Kom snel hier!"
+	line "Hurry and come here!"
 	done
 
 Text05e7: ; 4ca2a (13:4a2a)
-	text "Vraag Sam maar de"
-	line "Basisprincipen van het spel."
+	text "First, ask Sam the basics"
+	line "of the game."
 	done
 
 Text05e8: ; 4ca52 (13:4a52)
-	text "Oké, <RAMNAME>."
-	line "Waar wil je iets over weten?"
+	text "OK, <RAMNAME>."
+	line "What do you want to ask about?"
 	done
 
 Text05e9: ; 4ca79 (13:4a79)
-	text "Is dat alles?"
+	text "Is that all?"
 	done
 
 Text05ea: ; 4ca87 (13:4a87)

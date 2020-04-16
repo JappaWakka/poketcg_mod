@@ -6269,9 +6269,9 @@ LoadDuelCoinTossResultTiles: ; 210f (0:210f)
 
 ; load the tiles of the text characters used with TX_SYMBOL
 LoadSymbolsFont: ; 2119 (0:2119)
-	ld hl, SymbolsFont - $4000
+	ld hl, SymbolsDuel - $4000
 	ld de, v0Tiles2 ; destination
-	ld b, (DuelCardHeaderGraphics - SymbolsFont) / TILE_SIZE ; number of tiles
+	ld b, (DuelCardHeaderGraphics - SymbolsDuel) / TILE_SIZE ; number of tiles
 ;	fallthrough
 
 ; if hl ≤ $3fff
@@ -6279,7 +6279,7 @@ LoadSymbolsFont: ; 2119 (0:2119)
 ; if $4000 ≤ hl ≤ $7fff
 ;   copy b tiles from Gfx2:hl to de
 CopyFontsOrDuelGraphicsTiles: ; 2121 (0:2121)
-	ld a, BANK(Fonts); BANK(DuelGraphics)
+	ld a, BANK(DuelGraphics); BANK(DuelGraphics)
 	call BankpushROM
 	ld c, TILE_SIZE
 	call CopyGfxData
@@ -6289,7 +6289,7 @@ CopyFontsOrDuelGraphicsTiles: ; 2121 (0:2121)
 
 ; this function copies gfx data into sram
 Func_212f: ; 212f (0:212f)
-	ld hl, SymbolsFont - $4000
+	ld hl, SymbolsDuel - $4000
 	ld de, $a400
 	ld b, $30
 	call CopyFontsOrDuelGraphicsTiles
@@ -11241,7 +11241,7 @@ CheckAnyAnimationPlaying: ; 3b52 (0:3b52)
 	ret
 
 Func_3b6a: ; 3b6a (0:3b6a)
-	ld [wd422], a
+	ld [wTempAnimation], a ; hold an animation temporarily
 	ldh a, [hBankROM]
 	push af
 	ld [wd4be], a
@@ -11250,7 +11250,7 @@ Func_3b6a: ; 3b6a (0:3b6a)
 	push de
 	ld a, $07
 	call BankswitchROM
-	ld a, [wd422]
+	ld a, [wTempAnimation]
 	cp $61
 	jr nc, .asm_3b90
 	ld hl, wd4ad

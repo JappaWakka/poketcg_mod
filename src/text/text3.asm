@@ -943,71 +943,71 @@ Text0322: ; 3e64c (f:664c)
 	done
 
 Text0323: ; 3e660 (f:6660)
-	text " Mason Onderzoekslab "
+	text "  Mason Laboratory  "
 	done
 
 Text0324: ; 3e676 (f:6676)
-	text "  ISHIHARA's Huis  "
+	text "  ISHIHARA's House  "
 	done
 
 Text0325: ; 3e68c (f:668c)
-	text "   Vecht-Club    "
+	text "   Fighting Club    "
 	done
 
 Text0326: ; 3e6a2 (f:66a2)
-	text "     Steen-Club      "
+	text "     Rock Club      "
 	done
 
 Text0327: ; 3e6b8 (f:66b8)
-	text "     Water-Club     "
+	text "     Water Club     "
 	done
 
 Text0328: ; 3e6ce (f:66ce)
-	text "   Bliksem-Club   "
+	text "   Lightning Club   "
 	done
 
 Text0329: ; 3e6e4 (f:66e4)
-	text "     Gras-Club     "
+	text "     Grass Club     "
 	done
 
 Text032a: ; 3e6fa (f:66fa)
-	text "    Psychische Club    "
+	text "    Psychic Club    "
 	done
 
 Text032b: ; 3e710 (f:6710)
-	text "    Wetenschaps-Club    "
+	text "    Science Club    "
 	done
 
 Text032c: ; 3e726 (f:6726)
-	text "     Vuur-Club      "
+	text "     Fire Club      "
 	done
 
 Text032d: ; 3e73c (f:673c)
-	text "   Toernooihal   "
+	text "   Challenge Hall   "
 	done
 
 Text032e: ; 3e752 (f:6752)
-	text "   Pokémon Stadion   "
+	text "    Pokémon Dome    "
 	done
 
 Text032f: ; 3e768 (f:6768)
-	text "     ???'s Huis     "
+	text "     ??'s House     "
 	done
 
 Text0330: ; 3e77e (f:677e)
-	text "Mason Onderzoekslab"
+	text "Mason Laboratory"
 	done
 
 Text0331: ; 3e790 (f:6790)
-	text "Mr. Ishihara's Huis"
+	text "Mr Ishihara's House"
 	done
 
 Text0332: ; 3e7a5 (f:67a5)
-	text "Vecht"
+	text "Fighting"
 	done
 
 Text0333: ; 3e7af (f:67af)
-	text "Steen"
+	text "Rock"
 	done
 
 Text0334: ; 3e7b5 (f:67b5)
@@ -1015,35 +1015,35 @@ Text0334: ; 3e7b5 (f:67b5)
 	done
 
 Text0335: ; 3e7bc (f:67bc)
-	text "Bliksem"
+	text "Lightning"
 	done
 
 Text0336: ; 3e7c7 (f:67c7)
-	text "Gras"
+	text "Grass"
 	done
 
 Text0337: ; 3e7ce (f:67ce)
-	text "Psychisch"
+	text "Psychic"
 	done
 
 Text0338: ; 3e7d7 (f:67d7)
-	text "Wetenschap"
+	text "Science"
 	done
 
 Text0339: ; 3e7e0 (f:67e0)
-	text "Vuur"
+	text "Fire"
 	done
 
 Text033a: ; 3e7e6 (f:67e6)
-	text "Toernooihal"
+	text "Challenge Hall"
 	done
 
 Text033b: ; 3e7f6 (f:67f6)
-	text "Pokémon Stadion"
+	text "Pokémon Dome"
 	done
 
 Text033c: ; 3e804 (f:6804)
-	text "???'s Huis"
+	text "??'s House"
 	done
 
 Text033d: ; 3e810 (f:6810)
@@ -1270,30 +1270,30 @@ Text036b: ; 3ec03 (f:6c03)
 	done
 
 Text036c: ; 3ec0c (f:6c0c)
-	text "Nieuw Spel"
+	text "NEW GAME"
 	done
 
 Text036d: ; 3ec16 (f:6c16)
-	text "Kaart-Flits!"
-	line "Verder Spelen"
-	line "Nieuw Spel"
+	text "CARD POP!"
+	line "CONTINUE FROM DIARY"
+	line "NEW GAME"
 	done
 
 Text036e: ; 3ec3e (f:6c3e)
-	text "Kaart-Flits!"
-	line "Verder Spelen"
-	line "Nieuw Spel"
-	line "Duel Afmaken"
+	text "CARD POP!"
+	line "CONTINUE FROM DIARY"
+	line "New Game"
+	line "CONTINUE DUEL"
 	done
 
 Text036f: ; 3ec74 (f:6c74)
-	text "Als je een Kaart-Flits! doet met een vriend,"
-	line "krijgen jullie beide een nieuwe kaart!"
+	text "When you CARD POP! with a friend,"
+	line "you will each receive a new card!"
 	done
 
 Text0370: ; 3ecb9 (f:6cb9)
 	text "  <RAMNAME>  <RAMTEXT>"
-	line "      Gewonnen Medailles "
+	line "      Master Medals Won "
 	half2full
 	textfw0 "<RAMNUM>"
 	text ""
@@ -1308,7 +1308,7 @@ Text0370: ; 3ecb9 (f:6cb9)
 	done
 
 Text0371: ; 3ed14 (f:6d14)
-	text "Start een nieuw spel."
+	text "Start a New Game."
 	line ""
 	done
 
@@ -1358,21 +1358,20 @@ Text0378: ; 3ef66 (f:6f66)
 	done
 
 Text0379: ; 3efc3 (f:6fc3)
-	text "<RAMNAME> is gek op Pokémon"
-	line "en Pokémonkaarten verzamelen!"
-	line "Op een dag hoorde"
-	line "<RAMNAME> een gerucht:"
-	line " ”De Legendarische Pokémonkaarten,"
-	line "  de extreem zeldzame en krachtige"
-	line "  kaarten in het bezit van de beste"
-	line "  Pokémon Ruilkaarstspel spelers:"
-	line "  De Grootmeesters, zijn op zoek"
-	line "  naar iemand die het waard is"
-	line "  om de legende over te nemen!”"
-	line "Ervan dromend om de Legendarische"
-	line "Pokémonkaarten over te nemen,"
-	line "bezocht <RAMNAME> de Pokémonkaart-"
-	line "onderzoeker, Dr. Mason..."
+	text "<RAMNAME> is crazy about Pokémon"
+	line "and Pokémon card collecting!"
+	line "One day,"
+	line "<RAMNAME> heard a rumor:"
+	line " ”The Legendary Pokémon Cards..."
+	line "  the extremely rare and powerful "
+	line "  cards held by Pokémon Trading "
+	line "  Card Game's greatest players... "
+	line "  The Grand Masters are searching"
+	line "  for one to inherit the legend!”"
+	line "Dreaming of inheriting the"
+	line "Legendary Pokémon Cards,"
+	line "<RAMNAME> visits the Pokémon"
+	line "card researcher, Dr. Mason..."
 	done
 
 Text037a: ; 3f147 (f:7147)
@@ -1963,14 +1962,14 @@ Text03ff: ; 3fa0e (f:7a0e)
 	done
 
 Text0400: ; 3fa32 (f:7a32)
-	text "Energie"
-	line "Aanvallen"
-	line "Terug Trekken"
-	line "Pokémon Evolueren"
-	line "Pokémon-Kracht gebruiken"
-	line "Je beurt doorgeven"
-	line "Winnen en Verliezen"
-	line "Alles is duidelijk"
+	text "Energy"
+	line "Attacking"
+	line "Retreating"
+	line "Evolving Pokémon"
+	line "Using Pokémon Power"
+	line "Ending Your Turn"
+	line "Win or Loss of a Duel"
+	line "Nothing to Ask"
 	done
 
 Text0401: ; 3faaa (f:7aaa)

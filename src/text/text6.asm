@@ -1118,20 +1118,18 @@ Text05d5: ; 4b8a7 (12:78a7)
 	done
 
 Text05d6: ; 4b8c8 (12:78c8)
-	text "Om iets te kunnen doen, hebben"
-	line "Pokémon Energiekaarten nodig."
-	line "Als er geen Energiekaarten aan"
-	line "gehecht zijn, zou de Pokémon"
-	line "geen mogelijkheid kunnen hebben"
-	line "om aan te vallen of zich Terug"
-	line "te Trekken. Er zijn 7 typen"
-	line "Energiekaarten: Gras, Vuur"
-	line "Water, Bliksem, Psychisch, "
-	line "Vecht en Kleurloos."
-	line "Het benodigde type Energie"
-	line "verschilt per Pokémon."
-	line "Let goed op welke Pokémon"
-	line "welk type Energie nodig heeft!"
+	text "In order to do anything, Pokémon "
+	line "must have Energy cards. "
+	line "If no Energy cards are attached,"
+	line "the Pokémon will not be able to "
+	line "attack or retreat. There are 7 "
+	line "types of Energy cards: Grass, "
+	line "Fire, Water, Lightning, Psychic, "
+	line "Fighting and Colorless."
+	line "The type of Energy required "
+	line "depends on the Pokémon."
+	line "Be sure to learn which Pokémon "
+	line "require which type of Energy!"
 	done
 
 Text05d7: ; 4ba32 (12:7a32)
