@@ -12,7 +12,7 @@ GameLoop: ; 4000 (1:4000)
 	ld a, [s0a009]
 	ld [wSkipDelayAllowed], a
 	call DisableSRAM
-	ld a, 1
+	ld a, 0
 	ld [wUppercaseHalfWidthLetters], a
 	ei
 	farcall CommentedOut_1a6cc

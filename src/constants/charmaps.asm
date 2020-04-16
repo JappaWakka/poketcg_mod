@@ -8,6 +8,21 @@
 	charmap "♂", "$"
 	charmap "♀", "%"
 	charmap "”", "\""
+	charmap "ë", $80
+	charmap "è", $81
+	charmap "ö", $82
+	charmap "ó", $83
+	charmap "ò", $84
+	charmap "ä", $85
+	charmap "á", $86
+	charmap "à", $87
+	charmap "ü", $88
+	charmap "ú", $89
+	charmap "ù", $8a
+	charmap "ï", $8b
+	charmap "í", $8c
+	charmap "ì", $8d
+	charmap "'", $8e
 
 fwcharmap: MACRO
 	charmap STRCAT("FW\1_", \2), \3
