@@ -662,7 +662,6 @@ OpenInPlayAreaScreen_HandleInput: ; 183bb (6:43bb)
 	ldh a, [hKeysPressed]
 	and A_BUTTON | B_BUTTON
 	jr z, .return
-
 	and A_BUTTON
 	jr nz, .a_button
 
@@ -2510,66 +2509,65 @@ KeyboardData_Player: ; (6:6baf)
 	kbitem $04, $02, $11, $00, TX_FULLWIDTH3,   "A"
 	kbitem $06, $02, $12, $00, TX_FULLWIDTH3,   "J"
 	kbitem $08, $02, $13, $00, TX_FULLWIDTH3,   "S"
-	kbitem $0a, $02, $14, $00,                  "o"
-	kbitem $0c, $02, $15, $00,                  "d"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $02, $14, $00, TX_FULLWIDTH3,   "b"
+	kbitem $0c, $02, $15, $00, TX_FULLWIDTH3,   "k"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "t"
 
 	kbitem $04, $04, $16, $00, TX_FULLWIDTH3,   "B"
 	kbitem $06, $04, $17, $00, TX_FULLWIDTH3,   "K"
 	kbitem $08, $04, $18, $00, TX_FULLWIDTH3,   "T"
-	kbitem $0a, $04, $19, $00, TX_FULLWIDTH3,   "&"
-	kbitem $0c, $04, $1a, $00,                  "e"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $04, $19, $00, TX_FULLWIDTH3,   "c"
+	kbitem $0c, $04, $1a, $00, TX_FULLWIDTH3,   "l"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "u"
 
 	kbitem $04, $06, $1b, $00, TX_FULLWIDTH3,   "C"
 	kbitem $06, $06, $1c, $00, TX_FULLWIDTH3,   "L"
 	kbitem $08, $06, $1d, $00, TX_FULLWIDTH3,   "U"
-	kbitem $0a, $06, $1e, $00,                  "j"
-	kbitem $0c, $06, $1f, $00,                  "f"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $06, $1e, $00, TX_FULLWIDTH3,   "d"
+	kbitem $0c, $06, $1f, $00, TX_FULLWIDTH3,   "m"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "v"
 
 	kbitem $04, $08, $20, $00, TX_FULLWIDTH3,   "D"
 	kbitem $06, $08, $21, $00, TX_FULLWIDTH3,   "M"
 	kbitem $08, $08, $22, $00, TX_FULLWIDTH3,   "V"
-	kbitem $0a, $08, $23, $00,                  "k"
-	kbitem $0c, $08, $24, $00,                  "g"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $08, $23, $00, TX_FULLWIDTH3,   "e"
+	kbitem $0c, $08, $24, $00, TX_FULLWIDTH3,   "n"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "w"
 
 	kbitem $04, $0a, $25, $00, TX_FULLWIDTH3,   "E"
 	kbitem $06, $0a, $26, $00, TX_FULLWIDTH3,   "N"
 	kbitem $08, $0a, $27, $00, TX_FULLWIDTH3,   "W"
-	kbitem $0a, $0a, $28, $00,                  "w"
-	kbitem $0c, $0a, $29, $00,                  "h"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $0a, $28, $00, TX_FULLWIDTH3,   "f"
+	kbitem $0c, $0a, $29, $00, TX_FULLWIDTH3,   "o"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "x"
 
 	kbitem $04, $0c, $2a, $00, TX_FULLWIDTH3,   "F"
 	kbitem $06, $0c, $2b, $00, TX_FULLWIDTH3,   "O"
 	kbitem $08, $0c, $2c, $00, TX_FULLWIDTH3,   "X"
-	kbitem $0a, $0c, $2d, $00,                  "`"
-	kbitem $0c, $0c, $2e, $00,                  "i"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $0c, $2d, $00, TX_FULLWIDTH3,   "g"
+	kbitem $0c, $0c, $2e, $00, TX_FULLWIDTH3,   "p"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"y"
 
 	kbitem $04, $0e, $2f, $00, TX_FULLWIDTH3,   "G"
 	kbitem $06, $0e, $30, $00, TX_FULLWIDTH3,   "P"
 	kbitem $08, $0e, $31, $00, TX_FULLWIDTH3,   "Y"
-	kbitem $0a, $0e, $32, $00,                  "a"
-	kbitem $0c, $0e, $33, $00, TX_SYMBOL,       SYM_No
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $0e, $32, $00, TX_FULLWIDTH3,   "h"
+	kbitem $0c, $0e, $33, $00, TX_FULLWIDTH3,   "q"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"z"
 
 	kbitem $04, $10, $34, $00, TX_FULLWIDTH3,   "H"
 	kbitem $06, $10, $35, $00, TX_FULLWIDTH3,   "Q"
 	kbitem $08, $10, $36, $00, TX_FULLWIDTH3,   "Z"
-	kbitem $0a, $10, $3c, $00,                  "b"
-	kbitem $0c, $10, $3d, $00, TX_SYMBOL,       SYM_Lv
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $10, $3c, $00, TX_FULLWIDTH3,   "i"
+	kbitem $0c, $10, $3d, $00, TX_FULLWIDTH3,   "r"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"!"
 
 	kbitem $04, $12, $37, $00, TX_FULLWIDTH3,   "I"
 	kbitem $06, $12, $38, $00, TX_FULLWIDTH3,   "R"
-	kbitem $08, $12, $39, $00,                  "n"
-	kbitem $0a, $12, $3a, $00,	                "c"
-	kbitem $0c, $12, $3b, $00,	                "p"
-	kbitem $10, $0f, $01, $09, $0000
-	kbitem $00, $00, $00, $00, $0000
+	kbitem $08, $12, $39, $00, TX_FULLWIDTH3,   "a"
+	kbitem $0a, $12, $3a, $00, TX_FULLWIDTH3,   "j"
+	kbitem $0c, $12, $3b, $00, TX_FULLWIDTH3,   "s"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"-"
 
 ; a set of transition datum.
 ; unit: 4 bytes.

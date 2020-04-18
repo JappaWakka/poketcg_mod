@@ -5649,7 +5649,7 @@ HandleSpecialAIMoves: ; 16dcd (5:6dcd)
 	jp z, HandleEnergyAbsorption
 	cp MEWTWO2
 	jp z, HandleEnergyAbsorption
-	cp NINETAILS2
+	cp NINETALES2
 	jp z, HandleNinetalesMixUp
 	cp ZAPDOS3
 	jp z, HandleZapdos3BigThunder
