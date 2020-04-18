@@ -523,7 +523,7 @@ OpenInPlayAreaScreen_TransitionTable2:
 
 OpenInPlayAreaScreen_HandleInput: ; 183bb (6:43bb)
 	xor a
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 	ld hl, wInPlayAreaInputTablePointer
 	ld e, [hl]
 	inc hl
@@ -655,14 +655,13 @@ OpenInPlayAreaScreen_HandleInput: ; 183bb (6:43bb)
 	ld [wInPlayAreaCurPosition], a
 .next
 	ld a, $01
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 	xor a
 	ld [wCheckMenuCursorBlinkCounter], a
 .check_button
 	ldh a, [hKeysPressed]
 	and A_BUTTON | B_BUTTON
 	jr z, .return
-
 	and A_BUTTON
 	jr nz, .a_button
 
@@ -681,7 +680,7 @@ OpenInPlayAreaScreen_HandleInput: ; 183bb (6:43bb)
 	ret
 
 .return
-	ld a, [wcfe3]
+	ld a, [wPlaysSfx]
 	or a
 	jr z, .skip_sfx
 	call PlaySFX
@@ -947,37 +946,40 @@ GlossaryData2:
 
 Func_18661: ; 18661 (6:4661)
 	xor a
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 	ld a, [wCheckMenuCursorXPosition]
 	ld d, a
 	ld a, [wCheckMenuCursorYPosition]
 	ld e, a
 	ldh a, [hDPadHeld]
 	or a
-	jr z, .asm_46a2
+	jr z, .check_button
+; check input from dpad
 	bit D_LEFT_F, a
-	jr nz, .asm_467a
+	jr nz, .left_or_right
 	bit D_RIGHT_F, a
-	jr z, .asm_4680
-.asm_467a
+	jr z, .check_up_and_down
+.left_or_right
+; swap the lsb of x position value.
 	ld a, d
-	xor $01
+	xor $1
 	ld d, a
-	jr .asm_468c
-.asm_4680
+	jr .cursor_moved
+
+.check_up_and_down
 	bit D_UP_F, a
-	jr nz, .asm_4688
+	jr nz, .up_or_down
 	bit D_DOWN_F, a
-	jr z, .asm_46a2
-.asm_4688
+	jr z, .check_button
+.up_or_down
 	ld a, e
-	xor $01
+	xor $1
 	ld e, a
-.asm_468c
-	ld a, $01
-	ld [wcfe3], a
+.cursor_moved
+	ld a, $1
+	ld [wPlaysSfx], a
 	push de
-	call .asm_46d4
+	call .draw_blank_cursor
 	pop de
 	ld a, d
 	ld [wCheckMenuCursorXPosition], a
@@ -985,59 +987,66 @@ Func_18661: ; 18661 (6:4661)
 	ld [wCheckMenuCursorYPosition], a
 	xor a
 	ld [wCheckMenuCursorBlinkCounter], a
-.asm_46a2
+.check_button
 	ldh a, [hKeysPressed]
 	and A_BUTTON | B_BUTTON
-	jr z, .asm_46bd
+	jr z, .check_cursor_moved
 	and A_BUTTON
-	jr nz, .asm_46b3
-	ld a, $ff
+	jr nz, .a_button
+
+; b button
+	ld a, -1
 	call Func_190fb
 	scf
 	ret
-.asm_46b3
-	call .asm_46f3
-	ld a, $01
+
+; a button
+.a_button
+	call .draw_cursor
+	ld a, 1
 	call Func_190fb
 	scf
 	ret
-.asm_46bd
-	ld a, [wcfe3]
+
+.check_cursor_moved
+	ld a, [wPlaysSfx]
 	or a
-	jr z, .asm_46c6
+	jr z, .check_cursor_blink
 	call PlaySFX
-.asm_46c6
+.check_cursor_blink
 	ld hl, wCheckMenuCursorBlinkCounter
 	ld a, [hl]
 	inc [hl]
-	and $0f
+	and %00001111
 	ret nz
-	ld a, $0f
+	ld a, SYM_CURSOR_R
 	bit D_RIGHT_F, [hl]
-	jr z, .asm_46d6
-.asm_46d4 ; 186d4 (6:46d4)
-	ld a, $00
-.asm_46d6
+	jr z, .draw_tile
+.draw_blank_cursor ; 186d4 (6:46d4)
+	ld a, SYM_SPACE
+.draw_tile
 	ld e, a
-	ld a, $0a
+	ld a, 10
 	ld l, a
 	ld a, [wCheckMenuCursorXPosition]
 	ld h, a
 	call HtimesL
 	ld a, l
-	add $01
+	add 1
 	ld b, a
 	ld a, [wCheckMenuCursorYPosition]
 	sla a
-	add $0e
+	add 14
 	ld c, a
 	ld a, e
+	; b = 11, c = y_pos * 2 + 14
+	; h = x_pos * 10, l = 10
 	call WriteByteToBGMap0
 	or a
 	ret
-.asm_46f3: ; 186f3 (6:46f3)
-	ld a, $0f
-	jr .asm_46d6
+.draw_cursor ; 186f3 (6:46f3)
+	ld a, SYM_CURSOR_R
+	jr .draw_tile
 
 ; (6:46f7)
 INCLUDE "data/effect_commands.asm"
@@ -1049,7 +1058,7 @@ Func_18f9c: ; 18f9c (6:4f9c)
 	ld l, a
 	ld h, 0
 	add hl, hl
-	ld de, Data_006_51a4
+	ld de, PointerTable_MoveAnimation
 .asm_4fa8
 	add hl, de
 	ld e, [hl]
@@ -1357,154 +1366,9 @@ Func_19168: ; 19168 (6:5168)
 
 	ret
 
-Data_006_51a4:
-	dw $0000
-	dw $52c6
-	dw $52cf
-	dw $52c6
-	dw $52c6
-	dw $52c6
-	dw $52d8
-	dw $52d8
-	dw $52e3
-	dw $52d8
-	dw $52f0
-	dw $52f0
-	dw $52f0
-	dw $52f0
-	dw $52fd
-	dw $5308
-	dw $5313
-	dw $531e
-	dw $5329
-	dw $5334
-	dw $533f
-	dw $534a
-	dw $5357
-	dw $5362
-	dw $5362
-	dw $536d
-	dw $536d
-	dw $536d
-	dw $5378
-	dw $5383
-	dw $538e
-	dw $5383
-	dw $5399
-	dw $53a4
-	dw $53af
-	dw $53ba
-	dw $53c5
-	dw $53d0
-	dw $53d5
-	dw $53e0
-	dw $53eb
-	dw $53f6
-	dw $53f6
-	dw $53f6
-	dw $5401
-	dw $540c
-	dw $5417
-	dw $5422
-	dw $542d
-	dw $542d
-	dw $5438
-	dw $5438
-	dw $5438
-	dw $5438
-	dw $5438
-	dw $5443
-	dw $5443
-	dw $544e
-	dw $5443
-	dw $5443
-	dw $5443
-	dw $5453
-	dw $5453
-	dw $5460
-	dw $5453
-	dw $5467
-	dw $5467
-	dw $5472
-	dw $5472
-	dw $547d
-	dw $5488
-	dw $548f
-	dw $549c
-	dw $549c
-	dw $54a9
-	dw $54a9
-	dw $54ae
-	dw $54ae
-	dw $54b3
-	dw $54be
-	dw $54c3
-	dw $54c8
-	dw $54d3
-	dw $54e0
-	dw $54eb
-	dw $54f2
-	dw $54f9
-	dw $5504
-	dw $5513
-	dw $5516
-	dw $5521
-	dw $552e
-	dw $5533
-	dw $553a
-	dw $5543
-	dw $554a
-	dw $5555
-	dw $555e
-	dw $556d
-	dw $5574
-	dw $557b
-	dw $557e
-	dw $5583
-	dw $5583
-	dw $5583
-	dw $558c
-	dw $5597
-	dw $559c
-	dw $55a1
-	dw $55a4
-	dw $55a9
-	dw $55b4
-	dw $55b4
-	dw $55bf
-	dw $55c4
-	dw $55c9
-	dw $55ce
-	dw $55d5
-	dw $55e0
-	dw $55e5
-	dw $55e6
-	dw $55ed
-	dw $55f2
-	dw $55fb
-	dw $55fe
-	dw $5601
-	dw $5604
-	dw $5607
-	dw $560a
-	dw $560f
-	dw $5612
-	dw $561d
-	dw $5628
-	dw $562d
-	dw $5632
-	dw $5637
-	dw $5644
-	dw $564f
-	dw $5654
-	dw $5659
-	dw $565e
-	dw $5665
-	dw $5668
-	dw $5673
-	dw $5673
+INCLUDE "data/move_animations.asm"
 
-	INCROM $192c6, $1991f
+	INCROM $19674, $1991f
 
 Func_1991f: ; 1991f (6:591f)
 	add a
@@ -2116,7 +1980,7 @@ endr
 ; if pressed, set the carry bit on.
 NamingScreen_CheckButtonState:
 	xor a
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 	ldh a, [hDPadHeld]
 	or a
 	jp z, .no_press
@@ -2265,7 +2129,7 @@ NamingScreen_CheckButtonState:
 	cp d
 	jp z, NamingScreen_CheckButtonState
 	ld a, $01
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 .no_press
 	ldh a, [hKeysPressed]
 	and A_BUTTON | B_BUTTON
@@ -2281,7 +2145,7 @@ NamingScreen_CheckButtonState:
 	scf
 	ret
 .asm_69ef
-	ld a, [wcfe3]
+	ld a, [wPlaysSfx]
 	or a
 	jr z, .asm_69f8
 	call PlaySFX
@@ -2645,66 +2509,65 @@ KeyboardData_Player: ; (6:6baf)
 	kbitem $04, $02, $11, $00, TX_FULLWIDTH3,   "A"
 	kbitem $06, $02, $12, $00, TX_FULLWIDTH3,   "J"
 	kbitem $08, $02, $13, $00, TX_FULLWIDTH3,   "S"
-	kbitem $0a, $02, $14, $00,                  "o"
-	kbitem $0c, $02, $15, $00,                  "d"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $02, $14, $00, TX_FULLWIDTH3,   "b"
+	kbitem $0c, $02, $15, $00, TX_FULLWIDTH3,   "k"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "t"
 
 	kbitem $04, $04, $16, $00, TX_FULLWIDTH3,   "B"
 	kbitem $06, $04, $17, $00, TX_FULLWIDTH3,   "K"
 	kbitem $08, $04, $18, $00, TX_FULLWIDTH3,   "T"
-	kbitem $0a, $04, $19, $00, TX_FULLWIDTH3,   "&"
-	kbitem $0c, $04, $1a, $00,                  "e"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $04, $19, $00, TX_FULLWIDTH3,   "c"
+	kbitem $0c, $04, $1a, $00, TX_FULLWIDTH3,   "l"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "u"
 
 	kbitem $04, $06, $1b, $00, TX_FULLWIDTH3,   "C"
 	kbitem $06, $06, $1c, $00, TX_FULLWIDTH3,   "L"
 	kbitem $08, $06, $1d, $00, TX_FULLWIDTH3,   "U"
-	kbitem $0a, $06, $1e, $00,                  "j"
-	kbitem $0c, $06, $1f, $00,                  "f"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $06, $1e, $00, TX_FULLWIDTH3,   "d"
+	kbitem $0c, $06, $1f, $00, TX_FULLWIDTH3,   "m"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "v"
 
 	kbitem $04, $08, $20, $00, TX_FULLWIDTH3,   "D"
 	kbitem $06, $08, $21, $00, TX_FULLWIDTH3,   "M"
 	kbitem $08, $08, $22, $00, TX_FULLWIDTH3,   "V"
-	kbitem $0a, $08, $23, $00,                  "k"
-	kbitem $0c, $08, $24, $00,                  "g"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $08, $23, $00, TX_FULLWIDTH3,   "e"
+	kbitem $0c, $08, $24, $00, TX_FULLWIDTH3,   "n"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "w"
 
 	kbitem $04, $0a, $25, $00, TX_FULLWIDTH3,   "E"
 	kbitem $06, $0a, $26, $00, TX_FULLWIDTH3,   "N"
 	kbitem $08, $0a, $27, $00, TX_FULLWIDTH3,   "W"
-	kbitem $0a, $0a, $28, $00,                  "w"
-	kbitem $0c, $0a, $29, $00,                  "h"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $0a, $28, $00, TX_FULLWIDTH3,   "f"
+	kbitem $0c, $0a, $29, $00, TX_FULLWIDTH3,   "o"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "x"
 
 	kbitem $04, $0c, $2a, $00, TX_FULLWIDTH3,   "F"
 	kbitem $06, $0c, $2b, $00, TX_FULLWIDTH3,   "O"
 	kbitem $08, $0c, $2c, $00, TX_FULLWIDTH3,   "X"
-	kbitem $0a, $0c, $2d, $00,                  "`"
-	kbitem $0c, $0c, $2e, $00,                  "i"
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $0c, $2d, $00, TX_FULLWIDTH3,   "g"
+	kbitem $0c, $0c, $2e, $00, TX_FULLWIDTH3,   "p"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"y"
 
 	kbitem $04, $0e, $2f, $00, TX_FULLWIDTH3,   "G"
 	kbitem $06, $0e, $30, $00, TX_FULLWIDTH3,   "P"
 	kbitem $08, $0e, $31, $00, TX_FULLWIDTH3,   "Y"
-	kbitem $0a, $0e, $32, $00,                  "a"
-	kbitem $0c, $0e, $33, $00, TX_SYMBOL,       SYM_No
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $0e, $32, $00, TX_FULLWIDTH3,   "h"
+	kbitem $0c, $0e, $33, $00, TX_FULLWIDTH3,   "q"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"z"
 
 	kbitem $04, $10, $34, $00, TX_FULLWIDTH3,   "H"
 	kbitem $06, $10, $35, $00, TX_FULLWIDTH3,   "Q"
 	kbitem $08, $10, $36, $00, TX_FULLWIDTH3,   "Z"
-	kbitem $0a, $10, $3c, $00,                  "b"
-	kbitem $0c, $10, $3d, $00, TX_SYMBOL,       SYM_Lv
-	kbitem $10, $0f, $01, $09, $0000
+	kbitem $0a, $10, $3c, $00, TX_FULLWIDTH3,   "i"
+	kbitem $0c, $10, $3d, $00, TX_FULLWIDTH3,   "r"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"!"
 
 	kbitem $04, $12, $37, $00, TX_FULLWIDTH3,   "I"
 	kbitem $06, $12, $38, $00, TX_FULLWIDTH3,   "R"
-	kbitem $08, $12, $39, $00,                  "n"
-	kbitem $0a, $12, $3a, $00,	                "c"
-	kbitem $0c, $12, $3b, $00,	                "p"
-	kbitem $10, $0f, $01, $09, $0000
-	kbitem $00, $00, $00, $00, $0000
+	kbitem $08, $12, $39, $00, TX_FULLWIDTH3,   "a"
+	kbitem $0a, $12, $3a, $00, TX_FULLWIDTH3,   "j"
+	kbitem $0c, $12, $3b, $00, TX_FULLWIDTH3,   "s"
+	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"-"
 
 ; a set of transition datum.
 ; unit: 4 bytes.
@@ -2989,7 +2852,7 @@ Func_1aec3: ; 1aec3 (6:6ec3)
 
 Func_1aefb: ; 1aefb (6:6efb)
 	xor a
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 	ldh a, [hDPadHeld]
 	or a
 	jp z, .asm_6f73
@@ -3063,7 +2926,7 @@ Func_1aefb: ; 1aefb (6:6efb)
 	cp d
 	jp z, Func_1aefb
 	ld a, $01
-	ld [wcfe3], a
+	ld [wPlaysSfx], a
 .asm_6f73
 	ldh a, [hKeysPressed]
 	and $03
@@ -3079,7 +2942,7 @@ Func_1aefb: ; 1aefb (6:6efb)
 	scf
 	ret
 .asm_6f89
-	ld a, [wcfe3]
+	ld a, [wPlaysSfx]
 	or a
 	jr z, .asm_6f92
 	call PlaySFX

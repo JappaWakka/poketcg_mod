@@ -1138,13 +1138,13 @@ VulpixCardGfx:: ; cd840 (33:5840)
 	INCBIN "gfx/cards/vulpix.8x6.2bpp"
 	INCBIN "gfx/cards/vulpix.pal"
 
-Ninetails1CardGfx:: ; cdb48 (33:5b48)
-	INCBIN "gfx/cards/ninetails1.8x6.2bpp"
-	INCBIN "gfx/cards/ninetails1.pal"
+Ninetales1CardGfx:: ; cdb48 (33:5b48)
+	INCBIN "gfx/cards/ninetales1.8x6.2bpp"
+	INCBIN "gfx/cards/ninetales1.pal"
 
-Ninetails2CardGfx:: ; cde50 (33:5e50)
-	INCBIN "gfx/cards/ninetails2.8x6.2bpp"
-	INCBIN "gfx/cards/ninetails2.pal"
+Ninetales2CardGfx:: ; cde50 (33:5e50)
+	INCBIN "gfx/cards/ninetales2.8x6.2bpp"
+	INCBIN "gfx/cards/ninetales2.pal"
 
 GrowlitheCardGfx:: ; ce158 (33:6158)
 	INCBIN "gfx/cards/growlithe.8x6.2bpp"

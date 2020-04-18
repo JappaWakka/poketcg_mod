@@ -583,14 +583,14 @@ RapidashAgilityEffectCommands:
 	dbw EFFECTCMDTYPE_BEFORE_DAMAGE, $5413
 	db  $00
 
-NinetailsLureEffectCommands:
+NinetalesLureEffectCommands:
 	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, $5425
 	dbw EFFECTCMDTYPE_AFTER_DAMAGE, $544f
 	dbw EFFECTCMDTYPE_REQUIRE_SELECTION, $5430
 	dbw EFFECTCMDTYPE_UNKNOWN_08, $5449
 	db  $00
 
-NinetailsFireBlastEffectCommands:
+NinetalesFireBlastEffectCommands:
 	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, $5463
 	dbw EFFECTCMDTYPE_INITIAL_EFFECT_2, $5471
 	dbw EFFECTCMDTYPE_DISCARD_ENERGY, $5479
@@ -672,11 +672,11 @@ FlareonRageEffectCommands:
 	dbw EFFECTCMDTYPE_AI, $5638
 	db  $00
 
-NinetailsMixUpEffectCommands:
+NinetalesMixUpEffectCommands:
 	dbw EFFECTCMDTYPE_AFTER_DAMAGE, $5647
 	db  $00
 
-NinetailsDancingEmbersEffectCommands:
+NinetalesDancingEmbersEffectCommands:
 	dbw EFFECTCMDTYPE_BEFORE_DAMAGE, $56ab
 	dbw EFFECTCMDTYPE_AI, $56a3
 	db  $00
