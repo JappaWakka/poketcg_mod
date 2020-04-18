@@ -159,6 +159,8 @@ ROMX $40
 	"Gfx Fonts"
 ROMX $41
 	"Text Offsets"
+ROMX $42
+	"Text 14"
 WRAM0
 	"WRAM0"
 	"WRAM0 Duels 1"

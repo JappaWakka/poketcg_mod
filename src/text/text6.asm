@@ -1,3 +1,46 @@
+Text051e: ; 47cd1 (11:7cd1)
+	text "No matter who enters the Challenge"
+	line "Cup, I'll be the winner! "
+	line ""
+	text "<Lv>8 Mew, this Cup's prize, will "
+	line "belong to me! Why don't you just"
+	line "give up and go home!"
+	line "See ya! Ha ha ha ha ha ha!"
+	done
+
+Text051f: ; 47d82 (11:7d82)
+	text "Hey, it's <RAMNAME> - the"
+	line "loser of the Challenge Cup!"
+	done
+
+Text0520: ; 47db1 (11:7db1)
+	text "That was a close one for me!"
+	line "I lost to the third opponent!"
+	line "But I'll win the next Challenge "
+	line "Cup! And of course, I'll pulverize "
+	line "you! See ya! Ha ha ha ha ha!"
+	done
+
+Text0521: ; 47e4f (11:7e4f)
+	text "Hey, isn't that <RAMNAME>?"
+	line "Late as always!"
+	done
+
+Text0522: ; 47e73 (11:7e73)
+	text "The Challenge Cup is already"
+	line "over! What? Who won?"
+	line "Who do you expect!?! Me, of "
+	line "course! The prize belongs to"
+	line "me! <Lv>8 Mew! See ya!"
+	line "Ha ha ha ha ha ha!"
+	done
+
+Text0523: ; 47f08 (11:7f08)
+	text "Hey, <RAMNAME>!"
+	line "What are you doing here?"
+	done
+
+
 Text0524: ; 48000 (12:4000)
 	text "The Challenge Cup is over already! "
 	line "Too bad you couldn't enter!"
@@ -1113,8 +1156,7 @@ Text05d4: ; 4b842 (12:7842)
 	done
 
 Text05d5: ; 4b8a7 (12:78a7)
-	text "What do you want to "
-	line "ask about?"
+	text "Waar wil je iets over vragen?"
 	done
 
 Text05d6: ; 4b8c8 (12:78c8)
@@ -1135,55 +1177,28 @@ Text05d6: ; 4b8c8 (12:78c8)
 	done
 
 Text05d7: ; 4ba32 (12:7a32)
-	text "Pokémon damage defending Pokémon "
-	line "by attacking. Pokémon need Energy "
-	line "cards in order to attack."
-	line "For example, the energy required "
-	line "for Seaking's Waterfall is <WATER><COLORLESS>."
-	line "<WATER><COLORLESS> stands for 1 Water Energy "
-	line "card and another Energy card of "
-	line "any type. The energy required "
-	line "differs according to the attack."
+	text "Pokémon doen schade aan"
+	line "Verdedigende Pokémon door aan"
+	line "te vallen. Pokémon hebben daarvoor"
+	line "Energie-kaarten nodig."
+	line "Bijvoorbeeld, de Energie die nodig"
+	line "is voor Seaking's Waterval is <WATER><COLORLESS>."
+	line "<WATER><COLORLESS> staat voor"
+	line "1 Water Energie-kaart en nog een"
+	line "andere Energiekaart van welk"
+	line "type dan ook. De benodigde Energie"
+	line "verschilt per aanval."
 	done
 
 Text05d8: ; 4bb56 (12:7b56)
-	text "To switch your Active Pokémon"
-	line "with a Bench Pokémon, choose "
-	line "the Retreat command. If the "
-	line "Active Pokémon is in danger,"
-	line "move it back to your Bench."
-	line "Energy is required in order"
-	line "to Retreat. The number of "
-	line "Energy cards required varies,"
-	line "depending on the Pokémon."
-	done
-
-Text05d9: ; 4bc58 (12:7c58)
-	text "There are 3 types of Pokémon cards:"
-	line "Basic Pokémon, Stage 1 Pokémon and "
-	line "Stage 2 Pokémon. Squirtle is a "
-	line "Basic, Wartortle a Stage 1 and "
-	line "Blastoise a Stage 2 Pokémon."
-	line "Basic Pokémon are the only cards"
-	line "that can be put directly into play."
-	line "A Basic Pokémon in play can be"
-	line "evolved to a Stage 1 Pokémon. A"
-	line "Stage 1 Pokémon in the Play Area "
-	line "can then be evolved to a Stage 2 "
-	line "Pokémon. Therefore, Squirtle is "
-	line "needed in order to play Wartortle,"
-	line "and Wartortle is needed in"
-	line "order to play Blastoise."
-	done
-
-Text05da: ; 4be3e (12:7e3e)
-	text "Some Pokémon have special"
-	line "abilities called Pokémon Powers."
-	line "Some Pokémon Powers are used as"
-	line "soon as the Pokémon is played,"
-	line "while others must be used by"
-	line "choosing the PKMN Power command."
-	line "There are many different Pokémon"
-	line "Powers, so read each card's text"
-	line "carefully."
+	text "Om je Actieve Pokémon te wisselen"
+	line "met een Pokémon op de Bank, kies"
+	line "het commando Terugtrekken."
+	line "Als de Actieve Pokémon in gevaar"
+	line "is, verplaats hem dan naar de Bank."
+	line "Er is wel Energie nodig om Terug"
+	line "te Trekken. Hoeveel Energiekaarten"
+	line "daarvoor nodig zijn verschilt,"
+	line "afhankelijk van welke Pokémon"
+	line "zich Terug wilt Trekken."
 	done

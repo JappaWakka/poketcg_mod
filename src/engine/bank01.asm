@@ -4465,7 +4465,7 @@ DisplayCardPage_PokemonOverview: ; 5b7d (1:5b7d)
 	; print the retreat cost (some amount of colorless energies) at 8,14
 	inc c
 	inc c ; 14
-	ld b, 8
+	ld b, 12
 	ld a, [wLoadedCard1RetreatCost]
 	ld e, a
 	inc e
@@ -4497,7 +4497,7 @@ DisplayCardPage_PokemonOverview: ; 5b7d (1:5b7d)
 	ld e, a
 .got_wr
 	ld a, d
-	ld b, 8
+	ld b, 12
 	call PrintCardPageWeaknessesOrResistances
 	inc c ; 16
 	ld a, e

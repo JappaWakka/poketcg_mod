@@ -1,3 +1,87 @@
+Text0675: ; 4fbc0 (13:7bc0)
+	text "Would you like to duel Stephanie?"
+	done
+
+Text0676: ; 4fbe3 (13:7be3)
+	text "Yes, I understand."
+	line "Losing is scary, isn't it?"
+	done
+
+Text0677: ; 4fc12 (13:7c12)
+	text "OK, a single Match with 4 Prizes!"
+	line "Here we go!"
+	done
+
+Text0678: ; 4fc41 (13:7c41)
+	text "I can't believe my prediction"
+	line "was wrong..."
+	done
+
+Text0679: ; 4fc6d (13:7c6d)
+	text "I see a vision..."
+	line "You're dueling me again."
+	done
+
+Text067a: ; 4fc99 (13:7c99)
+	text "I told you that you would lose..."
+	line "I have the ability to foretell"
+	line "the future! I see a vision... "
+	line "You're dueling me again!"
+	done
+
+Text067b: ; 4fd13 (13:7d13)
+	text "Let me see... if this happens..."
+	line "then that... so... ummm..."
+	done
+
+Text067c: ; 4fd50 (13:7d50)
+	text "Club Master Murray doesn't listen"
+	line "to what people are saying!"
+	done
+
+Text067d: ; 4fd8e (13:7d8e)
+	text "Hi, I'm Murray, Master of the "
+	line "Psychic Club. You're the one "
+	line "who's visiting the Clubs to win "
+	line "the Medals. How do I know this?"
+	line "Because I'm Psychic!"
+	line "OK, let me test my new card"
+	line "strategy... against your deck!"
+	line "Are you ready?"
+	done
+
+Text067e: ; 4fe6c (13:7e6c)
+	text "Hi! It's you again."
+	line "Are you ready for a duel?"
+	done
+
+Text067f: ; 4fe9b (13:7e9b)
+	text "Would you like to duel Murray?"
+	done
+
+Text0680: ; 4febb (13:7ebb)
+	text "OK. Come back when you're ready."
+	done
+
+Text0681: ; 4fedd (13:7edd)
+	text "When you duel me, it's for 6 Prizes."
+	line "Shall we start then!?!"
+	done
+
+Text0682: ; 4ff1a (13:7f1a)
+	text "Huh!?! I lost!"
+	line "Hmmmm..."
+	line "Well, you must be pretty good if"
+	line "you're trying to inherit"
+	line "the Legendary Pokémon Cards."
+	line "Here, take this Psychic Medal."
+	done
+
+Text0683: ; 4ffa9 (13:7fa9)
+	text "And here, take this"
+	line "LABORATORY Booster Pack!"
+	done
+
 Text0684: ; 50000 (14:4000)
 	text "I'll think of a new strategy,"
 	line "so come see me again!"
@@ -1181,55 +1265,4 @@ Text0738: ; 53a4a (14:7a4a)
 	line "This one has a different "
 	line "illustration than the last one."
 	line "Do you have a Chansey?"
-	done
-
-Text0739: ; 53b25 (14:7b25)
-	text "Hello, <RAMNAME>. "
-	line "Are you enjoying the"
-	line "Pokémon Trading Card Game?"
-	line "I'm looking for a Chansey"
-	line "this time! I'm thinking about "
-	line "trading my Surfing Pikachu for "
-	line "one. This one has a different "
-	line "illustration than the last one."
-	line "Do you have a Chansey to trade?"
-	done
-
-Text073a: ; 53c19 (14:7c19)
-	text "Hmmm..."
-	line "I see you don't have a Chansey."
-	line "Please trade with me"
-	line "some other time..."
-	done
-
-Text073b: ; 53c6a (14:7c6a)
-	text "Hmmm...I see all your Chansey"
-	line "are in your Deck."
-	line "I can't very well take a card"
-	line "you are using in duels."
-	line "Please trade with me"
-	line "some other time..."
-	done
-
-Text073c: ; 53cf9 (14:7cf9)
-	text "<RAMNAME> traded a Chansey"
-	line "for a Surfing Pikachu!"
-	done
-
-Text073d: ; 53d24 (14:7d24)
-	text "Thank you for this Chansey."
-	line "You've been a great help!"
-	done
-
-Text073e: ; 53d5b (14:7d5b)
-	text "Oh! Congratulations, <RAMNAME>!"
-	line "I heard the news! You've finally "
-	line "inherited the Legendary Pokémon "
-	line "Cards! Don't worry, I'm not going "
-	line "to ask you to trade them to me."
-	line "Besides, it would be a waste "
-	line "not to use the Legendary Cards "
-	line "for dueling. Make sure your "
-	line "Duels are worthy of"
-	line "the Legendary Pokémon Cards."
 	done

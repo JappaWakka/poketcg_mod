@@ -1,3 +1,60 @@
+Text0482: ; 43d0b (10:7d0b)
+	text "You may have been able to defeat"
+	line "my pupils, but you still are not"
+	line "experienced enough to defeat me!"
+	line "Come back after you've trained more!"
+	done
+
+Text0483: ; 43d94 (10:7d94)
+	text "You wish to duel the"
+	line "Fighting Club Master again?"
+	done
+
+Text0484: ; 43dc6 (10:7dc6)
+	text "Oh, OK."
+	line "I'd like to duel again, though."
+	done
+
+Text0485: ; 43def (10:7def)
+	text "As before, we'll play with 6 Prizes."
+	line "Come show me what you've got!"
+	done
+
+Text0486: ; 43e33 (10:7e33)
+	text "Another utter defeat!"
+	line "Here, take this!"
+	done
+
+Text0487: ; 43e5b (10:7e5b)
+	text "I'd like to duel someone "
+	line "like you again!"
+	done
+
+Text0488: ; 43e86 (10:7e86)
+	text "You must train harder!"
+	line "I'll be waiting!"
+	done
+
+Text0489: ; 43eaf (10:7eaf)
+	text "I lost to you before at the Rock"
+	line "Club, but not this time!"
+	line "I'm going to train to become"
+	line "an even better player!"
+	line "But before I can start my training"
+	line "again, I must defeat you first!"
+	done
+
+Text048a: ; 43f61 (10:7f61)
+	text "I'm going to train to become"
+	line "an even better player!"
+	line "But before I can start my training"
+	line "again, I must defeat you first!"
+	done
+
+Text048b: ; 43fd9 (10:7fd9)
+	text "Would you like to duel Chris?"
+	done
+
 Text048c: ; 44000 (11:4000)
 	text "You're just going to turn "
 	line "and run!?! You chicken!"
@@ -458,7 +515,7 @@ Text04d3: ; 45b94 (11:5b94)
 	done
 
 Text04d4: ; 45bab (11:5bab)
-	text "Water Gun and Hydro Pump are"
+	text "Waterpistool and Hydro Pump are"
 	line "attacks which have variable damage."
 	line "The more Water Energy you attach,"
 	line "the more powerful the attack is!"
@@ -977,46 +1034,4 @@ Text051c: ; 47bd7 (11:7bd7)
 Text051d: ; 47cb9 (11:7cb9)
 	text "Hey, <RAMNAME>."
 	line "We meet again."
-	done
-
-Text051e: ; 47cd1 (11:7cd1)
-	text "No matter who enters the Challenge"
-	line "Cup, I'll be the winner! "
-	line ""
-	text "<Lv>8 Mew, this Cup's prize, will "
-	line "belong to me! Why don't you just"
-	line "give up and go home!"
-	line "See ya! Ha ha ha ha ha ha!"
-	done
-
-Text051f: ; 47d82 (11:7d82)
-	text "Hey, it's <RAMNAME> - the"
-	line "loser of the Challenge Cup!"
-	done
-
-Text0520: ; 47db1 (11:7db1)
-	text "That was a close one for me!"
-	line "I lost to the third opponent!"
-	line "But I'll win the next Challenge "
-	line "Cup! And of course, I'll pulverize "
-	line "you! See ya! Ha ha ha ha ha!"
-	done
-
-Text0521: ; 47e4f (11:7e4f)
-	text "Hey, isn't that <RAMNAME>?"
-	line "Late as always!"
-	done
-
-Text0522: ; 47e73 (11:7e73)
-	text "The Challenge Cup is already"
-	line "over! What? Who won?"
-	line "Who do you expect!?! Me, of "
-	line "course! The prize belongs to"
-	line "me! <Lv>8 Mew! See ya!"
-	line "Ha ha ha ha ha ha!"
-	done
-
-Text0523: ; 47f08 (11:7f08)
-	text "Hey, <RAMNAME>!"
-	line "What are you doing here?"
 	done

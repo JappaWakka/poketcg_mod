@@ -1,3 +1,55 @@
+Text0739: ; 53b25 (14:7b25)
+	text "Hello, <RAMNAME>. "
+	line "Are you enjoying the"
+	line "Pokémon Trading Card Game?"
+	line "I'm looking for a Chansey"
+	line "this time! I'm thinking about "
+	line "trading my Surfing Pikachu for "
+	line "one. This one has a different "
+	line "illustration than the last one."
+	line "Do you have a Chansey to trade?"
+	done
+
+Text073a: ; 53c19 (14:7c19)
+	text "Hmmm..."
+	line "I see you don't have a Chansey."
+	line "Please trade with me"
+	line "some other time..."
+	done
+
+Text073b: ; 53c6a (14:7c6a)
+	text "Hmmm...I see all your Chansey"
+	line "are in your Deck."
+	line "I can't very well take a card"
+	line "you are using in duels."
+	line "Please trade with me"
+	line "some other time..."
+	done
+
+Text073c: ; 53cf9 (14:7cf9)
+	text "<RAMNAME> traded a Chansey"
+	line "for a Surfing Pikachu!"
+	done
+
+Text073d: ; 53d24 (14:7d24)
+	text "Thank you for this Chansey."
+	line "You've been a great help!"
+	done
+
+
+Text073e: ; 53d5b (14:7d5b)
+	text "Oh! Congratulations, <RAMNAME>!"
+	line "I heard the news! You've finally "
+	line "inherited the Legendary Pokémon "
+	line "Cards! Don't worry, I'm not going "
+	line "to ask you to trade them to me."
+	line "Besides, it would be a waste "
+	line "not to use the Legendary Cards "
+	line "for dueling. Make sure your "
+	line "Duels are worthy of"
+	line "the Legendary Pokémon Cards."
+	done
+
 Text073f: ; 54000 (15:4000)
 	text "Who?"
 	line "Oh! It's you, <RAMNAME>..."
@@ -1007,7 +1059,7 @@ Text07d3: ; 57027 (15:7027)
 	done
 
 Text07d4: ; 5705e (15:705e)
-	text "  Challenge Machine  "
+	text "  Uitdagingsmachine  "
 	done
 
 Text07d5: ; 57075 (15:7075)
@@ -1111,7 +1163,7 @@ Text07ea: ; 57327 (15:7327)
 	done
 
 Text07eb: ; 57334 (15:7334)
-	text "TECH"
+	text "Techneut"
 	done
 
 Text07ec: ; 5733a (15:733a)
@@ -1179,64 +1231,64 @@ Text07fb: ; 57390 (15:7390)
 	done
 
 GrassEnergyName: ; 57397 (15:7397)
-	text "Grass Energy"
+	text "Gras Energie"
 	done
 
 GrassEnergyDescription: ; 573a5 (15:73a5)
-	text "Provides 1 <GRASS> Energy."
+	text "Levert 1 <GRASS> Energie."
 	done
 
 FireEnergyName: ; 573bc (15:73bc)
-	text "Fire Energy"
+	text "Vuur Energie"
 	done
 
 FireEnergyDescription: ; 573c9 (15:73c9)
-	text "Provides 1 <FIRE> Energy."
+	text "Levert 1 <FIRE> Energie."
 	done
 
 WaterEnergyName: ; 573e0 (15:73e0)
-	text "Water Energy"
+	text "Water Energie"
 	done
 
 WaterEnergyDescription: ; 573ee (15:73ee)
-	text "Provides 1 <WATER> Energy."
+	text "Levert 1 <WATER> Energie."
 	done
 
 LightningEnergyName: ; 57405 (15:7405)
-	text "Lightning Energy"
+	text "Bliksem Energie"
 	done
 
 LightningEnergyDescription: ; 57417 (15:7417)
-	text "Provides 1 <LIGHTNING> Energy."
+	text "Levert 1 <LIGHTNING> Energie."
 	done
 
 FightingEnergyName: ; 5742e (15:742e)
-	text "Fighting Energy"
+	text "Vecht Energie"
 	done
 
 FightingEnergyDescription: ; 5743f (15:743f)
-	text "Provides 1 <FIGHTING> Energy."
+	text "Levert 1 <FIGHTING> Energie."
 	done
 
 PsychicEnergyName: ; 57456 (15:7456)
-	text "Psychic Energy"
+	text "Psychische Energie"
 	done
 
 PsychicEnergyDescription: ; 57466 (15:7466)
-	text "Provides 1 <PSYCHIC> Energy."
+	text "Levert 1 <PSYCHIC> Energie."
 	done
 
 DoubleColorlessEnergyName: ; 5747d (15:747d)
-	text "Double Colorless Energy"
+	text "Dubbele Kleurloze Energie"
 	done
 
 DoubleColorlessEnergyDescription: ; 57496 (15:7496)
-	text "Provides <COLORLESS><COLORLESS> Energy. (Doesn't"
-	line "count as a basic Energy card.) "
-	line "Colorless Energy can't be used to"
-	line "pay colored Energy costs. (Any type"
-	line "of Energy can be used to pay"
-	line "Colorless Energy costs.)"
+	text "Levert <COLORLESS><COLORLESS> Energie."
+	line "(Telt niet als een Basis-Energiekaart.)"
+	line "Kleurloze Energie kan niet worden gebruikt"
+	line "om gekleurde Energiekosten te betalen."
+	line "(Elk type Energie kan worden gebruikt"
+	line "om Kleurloze Energiekosten te betalen.)"
 	done
 
 BulbasaurName: ; 57552 (15:7552)
@@ -1244,24 +1296,24 @@ BulbasaurName: ; 57552 (15:7552)
 	done
 
 LeechSeedName: ; 5755d (15:755d)
-	text "Leech Seed"
+	text "Energie-onttrekkend zaadje"
 	done
 
 BulbasaursLeechSeedDescription: ; 57569 (15:7569)
-	text "Unless all damage from this attack"
-	line "is prevented, you may remove 1"
-	line "damage counter from Bulbasaur."
+	text "Tenzij alle schade van deze aanval"
+	line "wordt voorkomen, mag je 1"
+	line "schadeteller van Bulbasaur verwijderen."
 	done
 
 SeedName: ; 575cb (15:75cb)
-	text "Seed"
+	text "Zaad-"
 	done
 
 BulbasaurDescription: ; 575d1 (15:75d1)
-	text "A strange seed was planted on its"
-	line "back at birth. Thus, a plant"
-	line "sprouted and now grows with this"
-	line "Pokémon."
+	text "Bij zijn geboorte is er een vreemd"
+	line "zaadje op zijn rug gepoot. Daaruit is"
+	line "een plant ontkiemd die nu samen met"
+	line "deze Pokémon groeit."
 	done
 
 IvysaurName: ; 5763b (15:763b)
@@ -1269,22 +1321,23 @@ IvysaurName: ; 5763b (15:763b)
 	done
 
 VineWhipName: ; 57644 (15:7644)
-	text "Vine Whip"
+	text "Roedeslag"
 	done
 
 PoisonPowderName: ; 5764f (15:764f)
-	text "Poisonpowder"
+	text "Gifpoeder"
 	done
 
 InflictPoisonDescription: ; 5765d (15:765d)
-	text "The Defending Pokémon is now"
-	line "Poisoned."
+	text "De Verdedigende Pokémon is nu"
+	line "Vergiftigd."
 	done
 
 IvysaurDescription: ; 57685 (15:7685)
-	text "When the bulb on its back grows"
-	line "large, the Pokémon seems to lose the"
-	line "ability to stand on its hind legs."
+	text "Als de bloembol op zijn rug groter"
+	line "wordt, lijkt de Pokémon het vermogen"
+	line "te verliezen om op zijn achterbenen"
+	line "te staan."
 	done
 
 VenusaurName: ; 576ee (15:76ee)
@@ -1292,71 +1345,70 @@ VenusaurName: ; 576ee (15:76ee)
 	done
 
 SolarPowerName: ; 576f8 (15:76f8)
-	text "Solar Power"
+	text "Zonne-energie"
 	done
 
 SolarPowerDescription: ; 57705 (15:7705)
-	text "Once during your turn (before your"
-	line "attack), you may use this power."
-	line "Your Active Pokémon and the"
-	line "Defending Pokémon are no longer"
-	line "Asleep, Confused, Paralyzed, or"
-	line "Poisoned."
+	text "Eenmaal tijdens je beurt (vóór je"
+	line "aanval), mag je deze kracht gebruiken."
+	line "Je Actieve Pokémon en de Verdedigende"
+	line "Pokémon zijn niet langer In Slaap,"
+	line "Verward, Verlamd, of Vergiftigd."
 	done
 
 SolarPowerDescriptionCont: ; 577b0 (15:77b0)
-	text "This power can't be used if"
-	line "Venusaur is Asleep, Confused,"
-	line "or Paralyzed."
+	text "Deze kracht kan niet worden gebruikt"
+	line "als Venusaur In Slaap, Verward, of"
+	line "Verlamd is."
 	done
 
 MegaDrainName: ; 577f9 (15:77f9)
-	text "Mega Drain"
+	text "Enorme absorbering"
 	done
 
 VenusaursMegaDrainDescription: ; 57805 (15:7805)
-	text "Remove a number of damage counters"
-	line "from Venusaur equal to half the"
-	line "damage done to the Defending Pokémon"
-	line "(after applying Weakness and"
-	line "Resistance) (rounded up to the"
-	line "nearest 10)."
+	text "Verwijder een aantal schadetellers van"
+	line "Venusaur gelijk aan de helft van de"
+	line "schade die gedaan is aan de Verdedigende"
+	line "Pokémon (na het toepassen van Zwakte en"
+	line "Weerstand) (naar boven afgerond naar de"
+	line "dichtsbijzijnde 10)."
 	done
 
 VenusaursMegaDrainDescriptionCont: ; 578b7 (15:78b7)
-	text "If Venusaur has fewer damage"
-	line "counters than that, remove all of"
-	line "them."
+	text "Als Venusaur minder schadetellers"
+	line "heeft dan dat, verwijder ze dan"
+	line "allemaal."
 	done
 
 Venusaur1Description: ; 578fd (15:78fd)
-	text "The flower on its back catches"
-	line "the sun's rays. The sunlight is then"
-	line "absorbed and used for energy."
+	text "De bloem op zijn rug vangt zonlicht op."
+	line "Het zonlicht wordt dan geabsorbeerd"
+	line "en gebruikt voor energie."
 	done
 
 EnergyTransName: ; 57960 (15:7960)
-	text "Energy Trans"
+	text "Energietransfer"
 	done
 
 EnergyTransDescription: ; 5796e (15:796e)
-	text "As often as you like during your"
-	line "turn (before your attack), you may"
-	line "take 1 <GRASS> Energy card attached to 1"
-	line "of your Pokémon and attach it to a"
-	line "different one. This power can't be"
-	line "used if Venusaur is Asleep,"
-	line "Confused, or Paralyzed."
+	text "Je mag zo vaak als je wilt tijdens je"
+	line "beurt (vóór je aanval) 1 <GRASS>"
+	line "Energiekaart pakken die gehecht is aan"
+	line "1 van je Pokémon en hem aan een andere"
+	line "Pokémon hechten. Deze kracht kan niet"
+	line "worden gebruikt als Venusaur In Slaap,"
+	line "Verward of Verlamd is."
 	done
 
 SolarBeamName: ; 57a51 (15:7a51)
-	text "Solarbeam"
+	text "Zonnestraal"
 	done
 
 Venusaur2Description: ; 57a5c (15:7a5c)
-	text "This plant blooms when it is"
-	line "absorbing solar energy. It stays on"
-	line "the move to seek sunlight."
+	text "De plant op zijn rug bloeit als het"
+	line "zonne-energie absorbeert. Hij blijft"
+	line "in beweging op zoek naar zonlicht."
 	done
 
 CaterpieName: ; 57ab9 (15:7ab9)
@@ -1364,124 +1416,21 @@ CaterpieName: ; 57ab9 (15:7ab9)
 	done
 
 StringShotName: ; 57ac3 (15:7ac3)
-	text "String Shot"
+	text "Bindschot"
 	done
 
 MayInflictParalysisDescription: ; 57ad0 (15:7ad0)
-	text "Flip a coin. If heads, the Defending"
-	line "Pokémon is now Paralyzed."
+	text "Gooi een munt op. Als het kop is, is"
+	line "de Verdedigende Pokémon nu Verlamd."
 	done
 
 WormName: ; 57b10 (15:7b10)
-	text "Worm"
+	text "Worm-"
 	done
 
 CaterpieDescription: ; 57b16 (15:7b16)
-	text "Its short feet are tipped with"
-	line "suction pads that enable it to"
-	line "tirelessly climb slopes and walls."
-	done
-
-MetapodName: ; 57b78 (15:7b78)
-	text "Metapod"
-	done
-
-StiffenName: ; 57b81 (15:7b81)
-	text "Stiffen"
-	done
-
-MetapodsStiffenDescription: ; 57b8a (15:7b8a)
-	text "Flip a coin. If heads, prevent all"
-	line "damage done to Metapod during your"
-	line "opponent's next turn. (Any other"
-	line "effects of attacks still happen.)"
-	done
-
-StunSporeName: ; 57c14 (15:7c14)
-	text "Stun Spore"
-	done
-
-CocoonName: ; 57c20 (15:7c20)
-	text "Cocoon"
-	done
-
-MetapodDescription: ; 57c28 (15:7c28)
-	text "It is vulnerable to attack because"
-	line "its shell is soft, exposing its weak"
-	line "and tender body."
-	done
-
-ButterfreeName: ; 57c82 (15:7c82)
-	text "Butterfree"
-	done
-
-WhirlwindName: ; 57c8e (15:7c8e)
-	text "Whirlwind"
-	done
-
-WhirlwindDescription: ; 57c99 (15:7c99)
-	text "If your opponent has any Benched"
-	line "Pokémon, he or she chooses 1 of them"
-	line "and switches it with the Defending"
-	line "Pokémon. (Do the damage before"
-	line "switching the Pokémon.)"
-	done
-
-ButterfreesMegaDrainDescription: ; 57d3a (15:7d3a)
-	text "Remove a number of damage counters"
-	line "from Butterfree equal to half the"
-	line "damage done to the Defending Pokémon"
-	line "(after applying Weakness and"
-	line "Resistance) (rounded up to the"
-	line "nearest 10)."
-	done
-
-ButterfreesMegaDrainDescriptionCont: ; 57dee (15:7dee)
-	text "If Butterfree has fewer damage"
-	line "counters than that, remove all of"
-	line "them."
-	done
-
-ButterflyName: ; 57e36 (15:7e36)
-	text "Butterfly"
-	done
-
-ButterfreeDescription: ; 57e41 (15:7e41)
-	text "In battle, it flaps its wings at"
-	line "high speed to release highly toxic"
-	line "dust into the air."
-	done
-
-WeedleName: ; 57e99 (15:7e99)
-	text "Weedle"
-	done
-
-PoisonStingName: ; 57ea1 (15:7ea1)
-	text "Poison Sting"
-	done
-
-MayInflictPoisonDescription: ; 57eaf (15:7eaf)
-	text "Flip a coin. If heads, the Defending"
-	line "Pokémon is now Poisoned."
-	done
-
-HairyBugName: ; 57eee (15:7eee)
-	text "Hairy Bug"
-	done
-
-WeedleDescription: ; 57ef9 (15:7ef9)
-	text "Often found in forests, eating"
-	line "leaves. It has a sharp, venomous"
-	line "stinger on its head."
-	done
-
-KakunaName: ; 57f4f (15:7f4f)
-	text "Kakuna"
-	done
-
-KakunasStiffenDescription: ; 57f57 (15:7f57)
-	text "Flip a coin. If heads, prevent all"
-	line "damage done to Kakuna during your"
-	line "opponent's next turn. (Any other"
-	line "effects of attacks still happen.)"
+	text "Zijn korte voetjes hebben een zuignap"
+	line "aan hun uiteinde waardoor hij"
+	line "onvermoeibaar tegen hellingen en"
+	line "muren op kan kruipen."
 	done

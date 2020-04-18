@@ -279,8 +279,8 @@ BulbasaurCard: ; 30e28 (c:4e28)
 	db 1 ; Pokedex number
 	db 0
 	db 13 ; level
-	db 2, 4 ; length
-	dw 15 * 10 ; weight
+	db 0, 7 ; length
+	dw 6 * 9 ; weight
 	tx BulbasaurDescription ; description
 	db 16
 
@@ -330,8 +330,8 @@ IvysaurCard: ; 30e69 (c:4e69)
 	db 2 ; Pokedex number
 	db 0
 	db 20 ; level
-	db 3, 3 ; length
-	dw 29 * 10 ; weight
+	db 1, 0 ; length
+	dw 13 * 10 ; weight
 	tx IvysaurDescription ; description
 	db 16
 
@@ -381,8 +381,8 @@ Venusaur1Card: ; 30eaa (c:4eaa)
 	db 3 ; Pokedex number
 	db 0
 	db 64 ; level
-	db 6, 7 ; length
-	dw 221 * 10 ; weight
+	db 2, 0 ; length
+	dw 100 * 10 ; weight
 	tx Venusaur1Description ; description
 	db 0
 
@@ -432,8 +432,8 @@ Venusaur2Card: ; 30eeb (c:4eeb)
 	db 3 ; Pokedex number
 	db 0
 	db 67 ; level
-	db 6, 7 ; length
-	dw 221 * 10 ; weight
+	db 2, 0 ; length
+	dw 100 * 10 ; weight
 	tx Venusaur2Description ; description
 	db 0
 
@@ -483,7 +483,7 @@ CaterpieCard: ; 30f2c (c:4f2c)
 	db 10 ; Pokedex number
 	db 0
 	db 13 ; level
-	db 1, 0 ; length
+	db 0, 3 ; length
 	dw 6 * 10 ; weight
 	tx CaterpieDescription ; description
 	db 19
@@ -4104,8 +4104,8 @@ GoldeenCard: ; 32133 (c:6133)
 	db 118 ; Pokedex number
 	db 0
 	db 12 ; level
-	db 2, 0 ; length
-	dw 33 * 10 ; weight
+	db 0, 5 ; length
+	dw 15 * 10 ; weight
 	tx GoldeenDescription ; description
 	db 21
 
@@ -4206,8 +4206,8 @@ StaryuCard: ; 321b5 (c:61b5)
 	db 120 ; Pokedex number
 	db 0
 	db 15 ; level
-	db 2, 7 ; length
-	dw 76 * 10 ; weight
+	db 0, 8 ; length
+	dw 34 * 5 ; weight
 	tx StaryuDescription ; description
 	db 19
 
@@ -6246,8 +6246,8 @@ MachopCard: ; 32bdd (c:6bdd)
 	db 66 ; Pokedex number
 	db 0
 	db 20 ; level
-	db 2, 7 ; length
-	dw 43 * 10 ; weight
+	db 0, 8 ; length
+	dw 19 * 5 ; weight
 	tx MachopDescription ; description
 	db 21
 

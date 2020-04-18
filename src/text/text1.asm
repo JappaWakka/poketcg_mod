@@ -55,11 +55,11 @@ PokemonText: ; 36378 (d:6378)
 	done
 
 Text000f: ; 36382 (d:6382)
-	textfw3 "m"
+	text " m."
 	done
 
 LbsText: ; 36385 (d:6385)
-	text "kg."
+	text " kg."
 	done
 
 PromostarRarityText: ; 3638b (d:638b)
@@ -212,7 +212,7 @@ Text0034: ; 365c7 (d:65c7)
 	done
 
 PokemonsAttackText: ; 365d8 (d:65d8)
-	text "<RAMTEXT> deed de aanval"
+	text "<RAMTEXT> deed"
 	line ""
 	text "<RAMTEXT>!"
 	done
@@ -502,7 +502,7 @@ YouCannotSelectThisCardText: ; 36d0a (d:6d0a)
 	done
 
 PlacingThePrizesText: ; 36d28 (d:6d28)
-	text "Prijskaarten aan het plaatsen..."
+	text "Het plaatsen van de Prijskaarten..."
 	done
 
 PleasePlacePrizesText: ; 36d3f (d:6d3f)
@@ -517,8 +517,8 @@ IfHeadsDuelistPlaysFirstText: ; 36d57 (d:6d57)
 	done
 
 CoinTossToDecideWhoPlaysFirstText: ; 36d72 (d:6d72)
-	text "Een munt zal worden opgegooid om"
-	line "te beslissen wie als eerste speelt."
+	text "Een munt zal worden opgegooid om te"
+	line "beslissen wie als eerste speelt."
 	done
 
 DecisionText: ; 36da4 (d:6da4)
@@ -589,18 +589,18 @@ UnableToUsePkmnPowerDueToToxicGasText: ; 36ed5 (d:6ed5)
 	done
 
 PlayCheck1Text: ; 36f11 (d:6f11)
-	text "  Play"
-	line "  Check"
+	text "  Speel"
+	line "  Bekijk"
 	done
 
 PlayCheck2Text: ; 36f21 (d:6f21)
-	text "  Play"
-	line "  Check"
+	text "  Speel"
+	line "  Bekijk"
 	done
 
 SelectCheckText: ; 36f31 (d:6f31)
-	text "  Select"
-	line "  Check"
+	text "  Selecteer"
+	line "  Bekijk"
 	done
 
 Text0087: ; 36f43 (d:6f43)
@@ -611,7 +611,7 @@ Text0087: ; 36f43 (d:6f43)
 	done
 
 DuelistIsThinkingText: ; 36f4a (d:6f4a)
-	text "<RAMNAME> is thinking."
+	text "<RAMNAME> is aan het denken."
 	done
 
 Text0089: ; 36f5a (d:6f5a)
@@ -619,99 +619,99 @@ Text0089: ; 36f5a (d:6f5a)
 	done
 
 Text008a: ; 36f65 (d:6f65)
-	text "Select a computer opponent."
+	text "Kies een computertegenstander."
 	done
 
 Text008b: ; 36f82 (d:6f82)
-	text "Number of Prizes"
+	text "Hoeveelheid Prijskaarten"
 	done
 
 Text008c: ; 36f94 (d:6f94)
-	text "Random 1"
+	text "Willekeurig 1"
 	done
 
 Text008d: ; 36f9e (d:6f9e)
-	text "Random 2"
+	text "Willekeurig 2"
 	done
 
 Text008e: ; 36fa8 (d:6fa8)
-	text "Random 3"
+	text "Willekeurig 3"
 	done
 
 Text008f: ; 36fb2 (d:6fb2)
-	text "Random 4"
+	text "Willekeurig 4"
 	done
 
 Text0090: ; 36fbc (d:6fbc)
-	text "Training COM"
+	text "Training-Computer"
 	done
 
 Text0091: ; 36fca (d:6fca)
-	text "Player 1"
+	text "Speler 1"
 	done
 
 Player2Text: ; 36fd4 (d:6fd4)
-	text "Player 2"
+	text "Speler 2"
 	done
 
 Text0093: ; 36fde (d:6fde)
-	text "Left to Right"
+	text "Links naar Rechts"
 	done
 
 Text0094: ; 36fed (d:6fed)
-	text "Right to Left"
+	text "Rechts naar Links"
 	done
 
 Text0095: ; 36ffc (d:6ffc)
-	text "START: Change"
-	line "    A: Execute"
-	line "    B: End"
+	text "START: Verander"
+	line "    A: Voer uit"
+	line "    B: Klaar"
 	done
 
 Text0096: ; 37025 (d:7025)
-	text "Other"
-	line "Poison"
-	line "Sleep"
-	line "Payalysis"
-	line "Confusion"
-	line "Double Poison"
-	line "Clear"
-	line "Foul Gas"
-	line "Opponent's Hand"
-	line "Discard from Hand"
-	line "Select Deck"
-	line "Select Discard"
-	line "From Hand to Deck"
-	line "Take Prize"
-	line "Change Player"
-	line "Shuffle Deck"
-	line "Discard Bench"
-	line "Change Card"
+	text "Overig"
+	line "Vergif"
+	line "Slaap"
+	line "Verlamming"
+	line "Verwarring"
+	line "Dubbel Vergif"
+	line "Gezond"
+	line "Gifgas"
+	line "Tegenstander's Hand"
+	line "Gooi weg uit Hand"
+	line "Kies Deck"
+	line "Kies Weggooistapel"
+	line "Van Hand naar Deck"
+	line "Pak Prijskaart"
+	line "Verander Speler"
+	line "Schud Deck"
+	line "Gooi Bank Weg"
+	line "Verander Kaart"
 	done
 
 Text0097: ; 370f9 (d:70f9)
-	text "WIN GAME"
-	line "LOSE GAME"
-	line "DRAW GAME"
+	text "Win Spel"
+	line "Verlies Spel"
+	line "Gelijkspel"
 	line "CHANGE CASE"
-	line "PAUSE MODE"
+	line "Pauzeermodus"
 	line "CHANGE COMPUTER OPPONENT"
 	line "CHANGE PLAYER 2 TO COM"
-	line "FLIP 20"
-	line "SAVE NOW"
-	line "LOAD FILE"
+	line "Gooi 20"
+	line "Sla Op"
+	line "Laad Bestand"
 	done
 
 Text0098: ; 37179 (d:7179)
-	text "Save File"
+	text "Sla Bestand Op"
 	done
 
 Text0099: ; 37184 (d:7184)
-	text "Load File"
+	text "Laad Bestand"
 	line "  "
 	half2full
 	textfw0 "0"
-	text "  Last Saved File"
+	text "  Laatste Opslagbestand"
 	done
 
 Text009a: ; 371a6 (d:71a6)
@@ -784,7 +784,7 @@ TheDiscardPileHasNoCardsText: ; 3735b (d:735b)
 	done
 
 Text00a6: ; 3737b (d:737b)
-	text "Player's Discard Pile"
+	text "Speler's Weggooistapel"
 	done
 
 DuelistHandText: ; 37392 (d:7392)
@@ -792,7 +792,7 @@ DuelistHandText: ; 37392 (d:7392)
 	done
 
 DuelistPlayAreaText: ; 3739c (d:739c)
-	text "<RAMNAME>'s Play Area"
+	text "<RAMNAME>'s Spelgebied"
 	done
 
 DuelistDeckText: ; 373ab (d:73ab)
@@ -800,13 +800,11 @@ DuelistDeckText: ; 373ab (d:73ab)
 	done
 
 PleaseSelectHandText: ; 373b5 (d:73b5)
-	text "Please select"
-	line "Hand."
+	text "Selecteer Hand."
 	done
 
 Text00ab: ; 373ca (d:73ca)
-	text "Please select"
-	line "Card."
+	text "Selecteer kaart."
 	done
 
 Text00ac: ; 373df (d:73df)

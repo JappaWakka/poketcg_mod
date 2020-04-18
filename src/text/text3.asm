@@ -1,3 +1,81 @@
+Text025c: ; 3bdea (e:7dea)
+	text "  Deck Save Machine   "
+	done
+
+Text025d: ; 3be02 (e:7e02)
+	text "Save a Deck"
+	done
+
+Text025e: ; 3be0f (e:7e0f)
+	text "Delete a Deck"
+	done
+
+Text025f: ; 3be1e (e:7e1e)
+	text "Build a Deck"
+	done
+
+Text0260: ; 3be2c (e:7e2c)
+	text "Choose a Deck to Save."
+	done
+
+Text0261: ; 3be44 (e:7e44)
+	text "You may only Save 60 Decks."
+	line "Please Delete a Deck first."
+	done
+
+Text0262: ; 3be7d (e:7e7d)
+	text "for"
+	done
+
+Text0263: ; 3be82 (e:7e82)
+	text "Saved the configuration for"
+	line ""
+	text "<RAMTEXT>! "
+	done
+
+Text0264: ; 3bea4 (e:7ea4)
+	text "No Deck is saved."
+	done
+
+Text0265: ; 3beb7 (e:7eb7)
+	text "Please choose a Deck "
+	line "configuration to delete."
+	done
+
+Text0266: ; 3bee7 (e:7ee7)
+	text "Do you really wish to delete?"
+	done
+
+Text0267: ; 3bf06 (e:7f06)
+	text "Deleted the configuration for"
+	line ""
+	text "<RAMTEXT>."
+	done
+
+Text0268: ; 3bf29 (e:7f29)
+	text "You may only carry 4 Decks!"
+	done
+
+Text0269: ; 3bf46 (e:7f46)
+	text "Choose a deck to dismantle."
+	done
+
+Text026a: ; 3bf63 (e:7f63)
+	text "Dismantled"
+	line ""
+	text "<RAMTEXT>."
+	done
+
+Text026b: ; 3bf73 (e:7f73)
+	text "Please choose the Deck"
+	line "you wish to Build."
+	done
+	
+Text026c: ; 3bf9e (e:7f9e)
+	text "This Deck can only be built if"
+	line "you dismantle another Deck."
+	done
+
 Text026d: ; 3c000 (f:4000)
 	text "You do not own all cards needed"
 	line "to build this Deck."
@@ -1301,7 +1379,7 @@ Text0370: ; 3ecb9 (f:6cb9)
 	half2full
 	textfw0 "/"
 	text ""
-	line "      Play time         "
+	line "      Spelduur         "
 	half2full
 	textfw3 ":"
 	text ""
@@ -1313,23 +1391,23 @@ Text0371: ; 3ed14 (f:6d14)
 	done
 
 Text0372: ; 3ed28 (f:6d28)
-	text "The Game will continue from "
-	line "the point in the duel at"
-	line "which the power was turned OFF."
+	text "Het spel zal doorgaan vanaf"
+	line "het moment tijdens het duel"
+	line "toen de stroom uit ging."
 	done
 
 Text0373: ; 3ed7f (f:6d7f)
-	text "Saved data already exists."
-	line "If you continue, you will lose"
-	line "all the cards you have collected."
+	text "Er is al een opgeslagen spel aanwezig."
+	line "Als je doorgaat, verlies je alle"
+	line "kaarten die je tot nu toe hebt verzameld."
 	done
 
 Text0374: ; 3eddc (f:6ddc)
-	text "OK to delete the data?"
+	text "Dus je wilt alle gegevens verwijderen?"
 	done
 
 Text0375: ; 3edf4 (f:6df4)
-	text "All data was deleted."
+	text "Alle gegevens zijn verwijderd."
 	done
 
 Text0376: ; 3ee0b (f:6e0b)
@@ -1371,8 +1449,8 @@ Text0379: ; 3efc3 (f:6fc3)
 	line "  om de legende over te nemen!”"
 	line "Ervan dromend om de Legendarische"
 	line "Pokémonkaarten over te nemen,"
-	line "bezocht <RAMNAME> de Pokémonkaart-"
-	line "onderzoeker, Dr. Mason..."
+	line "bezocht <RAMNAME> de Pokémon-"
+	line "kaartenonderzoeker, Dr. Mason..."
 	done
 
 Text037a: ; 3f147 (f:7147)
@@ -1630,7 +1708,7 @@ Text03ad: ; 3f67a (f:767a)
 	done
 
 Text03ae: ; 3f682 (f:7682)
-	text "ISHIHARA"
+	text "Ishihara"
 	done
 
 Text03af: ; 3f68c (f:768c)
@@ -1638,7 +1716,7 @@ Text03af: ; 3f68c (f:768c)
 	done
 
 Text03b0: ; 3f696 (f:7696)
-	text "CLERK"
+	text "Bediende"
 	done
 
 Text03b1: ; 3f69d (f:769d)
@@ -1646,11 +1724,11 @@ Text03b1: ; 3f69d (f:769d)
 	done
 
 Text03b2: ; 3f6a2 (f:76a2)
-	text "TECH"
+	text "Techneut"
 	done
 
 Text03b3: ; 3f6a8 (f:76a8)
-	text "CLERK"
+	text "Bediende"
 	done
 
 Text03b4: ; 3f6af (f:76af)
@@ -1967,7 +2045,7 @@ Text0400: ; 3fa32 (f:7a32)
 	line "Aanvallen"
 	line "Terug Trekken"
 	line "Pokémon Evolueren"
-	line "Pokémon-Kracht gebruiken"
+	line "Pokémon-Krachten"
 	line "Je beurt doorgeven"
 	line "Winnen en Verliezen"
 	line "Alles is duidelijk"
@@ -1998,36 +2076,4 @@ Text0401: ; 3faaa (f:7aaa)
 	line "and CARD POP! with them to"
 	line "get new cards!"
 	line "Oh, here's something for you..."
-	done
-
-Text0402: ; 3fd72 (f:7d72)
-	text "I'll be sending you useful"
-	line "information by e-mail."
-	line "I'll also attach a Booster Pack"
-	line "for you, so check your mail"
-	line "often."
-	line "Mason Laboratory"
-	line "      Doctor Mason  ;)"
-	done
-
-Text0403: ; 3fe10 (f:7e10)
-	text "<RAMNAME>,"
-	line "It's me, Doctor Mason."
-	line "I have some information for you"
-	line "about Mitch's deck - he's "
-	line "the Master of the Fighting Club."
-	line "His First-Strike Deck is built"
-	line "for a quick attack, but it's"
-	line "weak against Psychic Pokémon!"
-	line "I suggest you duel him using"
-	line "the Deck from the Psychic Medal"
-	line "Deck Machine."
-	line "Here's a Booster Pack for you..."
-	done
-
-Text0404: ; 3ff4d (f:7f4d)
-	text "<RAMNAME>, I know you can do it!"
-	line "Go win the Fighting Medal!"
-	line "Mason Laboratory"
-	line "      Doctor Mason ;)"
 	done

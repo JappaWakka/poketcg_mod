@@ -1,3 +1,35 @@
+Text0402: ; 3fd72 (f:7d72)
+	text "I'll be sending you useful"
+	line "information by e-mail."
+	line "I'll also attach a Booster Pack"
+	line "for you, so check your mail"
+	line "often."
+	line "Mason Laboratory"
+	line "      Doctor Mason  ;)"
+	done
+
+Text0403: ; 3fe10 (f:7e10)
+	text "<RAMNAME>,"
+	line "It's me, Doctor Mason."
+	line "I have some information for you"
+	line "about Mitch's deck - he's "
+	line "the Master of the Fighting Club."
+	line "His First-Strike Deck is built"
+	line "for a quick attack, but it's"
+	line "weak against Psychic Pokémon!"
+	line "I suggest you duel him using"
+	line "the Deck from the Psychic Medal"
+	line "Deck Machine."
+	line "Here's a Booster Pack for you..."
+	done
+
+Text0404: ; 3ff4d (f:7f4d)
+	text "<RAMNAME>, I know you can do it!"
+	line "Go win the Fighting Medal!"
+	line "Mason Laboratory"
+	line "      Doctor Mason ;)"
+	done
+
 Text0405: ; 40000 (10:4000)
 	text "<RAMNAME>,"
 	line "It's me, Doctor Mason."
@@ -1001,60 +1033,4 @@ Text0481: ; 43cda (10:7cda)
 	text "I hope to duel someone "
 	line "like you again someday!"
 	done
-
-Text0482: ; 43d0b (10:7d0b)
-	text "You may have been able to defeat"
-	line "my pupils, but you still are not"
-	line "experienced enough to defeat me!"
-	line "Come back after you've trained more!"
-	done
-
-Text0483: ; 43d94 (10:7d94)
-	text "You wish to duel the"
-	line "Fighting Club Master again?"
-	done
-
-Text0484: ; 43dc6 (10:7dc6)
-	text "Oh, OK."
-	line "I'd like to duel again, though."
-	done
-
-Text0485: ; 43def (10:7def)
-	text "As before, we'll play with 6 Prizes."
-	line "Come show me what you've got!"
-	done
-
-Text0486: ; 43e33 (10:7e33)
-	text "Another utter defeat!"
-	line "Here, take this!"
-	done
-
-Text0487: ; 43e5b (10:7e5b)
-	text "I'd like to duel someone "
-	line "like you again!"
-	done
-
-Text0488: ; 43e86 (10:7e86)
-	text "You must train harder!"
-	line "I'll be waiting!"
-	done
-
-Text0489: ; 43eaf (10:7eaf)
-	text "I lost to you before at the Rock"
-	line "Club, but not this time!"
-	line "I'm going to train to become"
-	line "an even better player!"
-	line "But before I can start my training"
-	line "again, I must defeat you first!"
-	done
-
-Text048a: ; 43f61 (10:7f61)
-	text "I'm going to train to become"
-	line "an even better player!"
-	line "But before I can start my training"
-	line "again, I must defeat you first!"
-	done
-
-Text048b: ; 43fd9 (10:7fd9)
-	text "Would you like to duel Chris?"
-	done
+	

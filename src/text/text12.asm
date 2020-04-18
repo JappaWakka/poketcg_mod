@@ -1,10 +1,217 @@
+HitmonchanName: ; 5f74e (17:774e)
+	text "Hitmonchan"
+	done
+
+JabName: ; 5f75a (17:775a)
+	text "Jab"
+	done
+
+SpecialPunch: ; 5f75f (17:775f)
+	text "Special Punch"
+	done
+
+PunchingName: ; 5f76e (17:776e)
+	text "Punching"
+	done
+
+HitmonchanDescription: ; 5f778 (17:7778)
+	text "While seeming to do nothing, it"
+	line "fires punches in lightning-fast"
+	line "volleys that are impossible to see."
+	done
+
+RhyhornName: ; 5f7dd (17:77dd)
+	text "Rhyhorn"
+	done
+
+LeerName: ; 5f7e6 (17:77e6)
+	text "Leer"
+	done
+
+LeerDescription: ; 5f7ec (17:77ec)
+	text "Flip a coin. If heads, the Defending"
+	line "Pokémon can't attack Rhyhorn during"
+	line "your opponent's next turn."
+	line "(Benching or evolving either Pokémon"
+	line "ends this effect.)"
+	done
+
+SpikeName: ; 5f889 (17:7889)
+	text "Spike"
+	done
+
+RhyhornDescription: ; 5f890 (17:7890)
+	text "Its massive bones are 1,000 times"
+	line "harder than human bones. It can"
+	line "easily knock a trailer flying."
+	done
+
+RhydonName: ; 5f8f2 (17:78f2)
+	text "Rhydon"
+	done
+
+RamName: ; 5f8fa (17:78fa)
+	text "Ram"
+	done
+
+RamDescription: ; 5f8ff (17:78ff)
+	text "Rhydon does 20 damage to itself."
+	line "If your opponent has any Benched"
+	line "Pokémon, he or she chooses 1 of them"
+	line "and switches it with the Defending"
+	line "Pokémon.(Do the damage before"
+	line "switching the Pokémon."
+	done
+
+RamDescriptionCont: ; 5f9bf (17:79bf)
+	text "Switch the Pokémon even if Rhydon"
+	line "is Knocked Out.)"
+	done
+
+RhydonDescription: ; 5f9f3 (17:79f3)
+	text "Protected by an armor-like hide, it"
+	line "is capable of living in molten lava"
+	line "of 3600 degrees."
+	done
+
+KabutoName: ; 5fa4d (17:7a4d)
+	text "Kabuto"
+	done
+
+KabutoArmorName: ; 5fa55 (17:7a55)
+	text "Kabuto Armor"
+	done
+
+KabutoArmorDescription: ; 5fa63 (17:7a63)
+	text "Whenever an attack (even your own)"
+	line "does damage to Kabuto (after"
+	line "applying Weakness and Resistance),"
+	line "that attack only does half the"
+	line "damage to Kabuto (rounded down to"
+	line "the nearest 10)."
+	done
+
+KabutoArmorDescriptionCont: ; 5fb19 (17:7b19)
+	text "(Any other effects of attacks still"
+	line "happen.) This power stops working"
+	line "while Kabuto is Asleep, Confused,"
+	line "or Paralyzed."
+	done
+
+KabutoDescription: ; 5fb90 (17:7b90)
+	text "A Pokémon that was resurrected from"
+	line "a fossil found in what was once the"
+	line "ocean floor eons ago."
+	done
+	
+KabutopsName: ; 5fbef (17:7bef)
+	text "Kabutops"
+	done
+
+SharpSickleName: ; 5fbf9 (17:7bf9)
+	text "Sharp Sickle"
+	done
+
+AbsorbName: ; 5fc07 (17:7c07)
+	text "Absorb"
+	done
+
+AbsorbDescription: ; 5fc0f (17:7c0f)
+	text "Remove a number of damage counters"
+	line "from Kabutops equal to half the"
+	line "damage done to the Defending"
+	line "Pokémon (after applying Weakness"
+	line "and Resistance)"
+	line "(rounded up to the nearest 10)."
+	done
+
+AbsorbDescriptionCont: ; 5fcc1 (17:7cc1)
+	text "If Kabutops has fewer damage"
+	line "counters than that, remove all of"
+	line "them."
+	done
+
+KabutopsDescription: ; 5fd07 (17:7d07)
+	text "Its sleek shape is perfect for"
+	line "swimming. It slashes prey with its"
+	line "claws and drains the body fluids."
+	done
+
+AerodactylName: ; 5fd6c (17:7d6c)
+	text "Aerodactyl"
+	done
+
+PrehistoricPowerName: ; 5fd78 (17:7d78)
+	text "Prehistoric Power"
+	done
+
+PrehistoricPowerDescription: ; 5fd8b (17:7d8b)
+	text "No more Evolution cards can be"
+	line "played. This power stops working"
+	line "while Aerodactyl is Asleep,"
+	line "Confused, or Paralyzed."
+	done
+
+FossilName: ; 5fe00 (17:7e00)
+	text "Fossil"
+	done
+
+AerodactylDescription: ; 5fe08 (17:7e08)
+	text "A ferocious prehistoric Pokémon that"
+	line "goes for the enemy's throat with its"
+	line "serrated saw-like fangs."
+	done
+
+AbraName: ; 5fe6c (17:7e6c)
+	text "Abra"
+	done
+
+PsiName: ; 5fe72 (17:7e72)
+	text "Psi"
+	done
+
+AbraDescription: ; 5fe77 (17:7e77)
+	text "Using its ability to read minds, it"
+	line "will identify impending danger and"
+	line "teleport to safety."
+	done
+
+KadabraName: ; 5fed3 (17:7ed3)
+	text "Kadabra"
+	done
+
+KadabrasRecoverDescription: ; 5fedc (17:7edc)
+	text "Discard 1 <PSYCHIC> Energy card attached to"
+	line "Kadabra in order to use this attack."
+	line "Remove all damage counters from"
+	line "Kadabra."
+	done
+
+SuperPsiName: ; 5ff50 (17:7f50)
+	text "Super Psy"
+	done
+
+KadabraDescription: ; 5ff5b (17:7f5b)
+	text "It emits special alpha waves from"
+	line "its body that induce headaches even"
+	line "to those just nearby."
+	done
+
+AlakazamName: ; 5ffb8 (17:7fb8)
+	text "Alakazam"
+	done
+
+DamageSwapName: ; 5ffc2 (17:7fc2)
+	text "Damage Swap"
+	done
+
 DamageSwapDescription: ; 60000 (18:4000)
 	text "As often as you like during your"
 	line "turn (before your attack), you may"
 	line "move 1 damage counter from 1 of your"
 	line "Pokémon to another as long as you"
 	line "don't Knock Out that Pokémon."
-	line "This power can't be used if Alakazam"
+	line "Deze kracht kan niet worden gebruikt Alakazam"
 	line "is Asleep, Confused, or Paralyzed."
 	done
 
@@ -192,7 +399,7 @@ CurseDescription: ; 608c9 (18:48c9)
 	line "counter from 1 of your opponent's"
 	line "Pokémon to another (even if it would"
 	line "Knock Out the other Pokémon)."
-	line "This power can't be used if Gengar"
+	line "Deze kracht kan niet worden gebruikt Gengar"
 	line "is Asleep, Confused, or Paralyzed."
 	done
 
@@ -270,7 +477,7 @@ InvisibleWallDescription: ; 60c20 (18:4c20)
 	done
 
 InvisibleWallDescriptionCont: ; 60cd8 (18:4cd8)
-	text "This power can't be used if Mr. Mime"
+	text "Deze kracht kan niet worden gebruikt Mr. Mime"
 	line "is Asleep, Confused, or Paralyzed."
 	done
 
@@ -1104,7 +1311,7 @@ ThickSkinnedName: ; 62fea (18:6fea)
 ThickSkinnedDescription: ; 62ff9 (18:6ff9)
 	text "Snorlax can't become Asleep,"
 	line "Confused, Paralyzed, or Poisoned."
-	line "This power can't be used if Snorlax"
+	line "Deze kracht kan niet worden gebruikt Snorlax"
 	line "is already Asleep, Confused, or"
 	line "Paralyzed."
 	done
@@ -1251,163 +1458,4 @@ ImakuniDescription: ; 635cb (18:75cb)
 	line "A mysterious creature not listed in"
 	line "the Pokédex. He asks kids around the"
 	line "world,”Who is cuter-Pikachu or me?”"
-	done
-
-PokemonTraderName: ; 6369f (18:769f)
-	text "Pokémon Trader"
-	done
-
-PokemonTraderDescription: ; 636af (18:76af)
-	text "Trade 1 of the Basic Pokémon or"
-	line "Evolution cards in your hand for 1"
-	line "of the Basic Pokémon or Evolution"
-	line "cards from your deck. Show both"
-	line "cards to your opponent."
-	line "Shuffle your deck afterward."
-	done
-
-PokemonBreederName: ; 6376a (18:776a)
-	text "Pokémon Breeder"
-	done
-
-PokemonBreederDescription: ; 6377b (18:777b)
-	text "Put a Stage 2 Evolution card from"
-	line "your hand on the matching Basic"
-	line "Pokémon. You can only play this card"
-	line "when you would be allowed to evolve"
-	line "that Pokémon anyway."
-	done
-
-ClefairyDollName: ; 6381c (18:781c)
-	text "Clefairy Doll"
-	done
-
-ClefairyDollDescription: ; 6382b (18:782b)
-	text "Play Clefairy Doll as if it were a"
-	line "Basic Pokémon. While in play,"
-	line "Clefairy Doll counts as a Pokémon"
-	line "(instead of a Trainer card)."
-	line "Clefairy Doll has no attacks, can't"
-	line "retreat, and can't be Asleep,"
-	line "Confused, Paralyzed, or Poisoned."
-	done
-
-ClefairyDollDescriptionCont: ; 63910 (18:7910)
-	text "If Clefairy Doll is Knocked Out, it"
-	line "doesn't count as a Knocked Out"
-	line "Pokémon. At any time during your"
-	line "turn before your attack, you may"
-	line "discard Clefairy Doll."
-	line "(Use GameBoy Pokémon Power menu"
-	line "option to do this.)"
-	done
-
-MysteriousFossilDescription: ; 639e1 (18:79e1)
-	text "Play Mysterious Fossil as if it were"
-	line "a Basic Pokémon. While in play,"
-	line "Mysterious Fossil counts as a"
-	line "Pokémon (instead of a Trainer card)."
-	line "Mysterious Fossil has no attacks,"
-	line "can't retreat, and can't be Asleep,"
-	line "Confused, Paralyzed, or Poisoned."
-	done
-
-MysteriousFossilDescriptionCont: ; 63ad2 (18:7ad2)
-	text "If Mysterious Fossil is Knocked Out,"
-	line "it doesn't count as a Knocked Out"
-	line "Pokémon. (Discard it anyway.) At any"
-	line "time during your turn before your"
-	line "attack, you may discard Mysterious"
-	line "Fossil from play. (Use GameBoy Poké-"
-	line "mon Power menu option to do this.)"
-	done
-
-EnergyRetrievalName: ; 63bcc (18:7bcc)
-	text "Energy Retrieval"
-	done
-
-EnergyRetrievalDescription: ; 63bde (18:7bde)
-	text "Trade 1 of the other cards in your"
-	line "hand for up to 2 basic Energy cards"
-	line "from your discard pile."
-	done
-
-SuperEnergyRetrievalName: ; 63c3e (18:7c3e)
-	text "Super Energy Retrieval"
-	done
-
-SuperEnergyRetrievalDescription: ; 63c56 (18:7c56)
-	text "Trade 2 of the other cards in your"
-	line "hand for up to 4 basic Energy cards"
-	line "from your discard pile."
-	done
-
-EnergySearchName: ; 63cb6 (18:7cb6)
-	text "Energy Search"
-	done
-
-EnergySearchDescription: ; 63cc5 (18:7cc5)
-	text "Search your deck for a basic Energy"
-	line "card and put it into your hand."
-	line "Shuffle your deck afterward."
-	done
-
-EnergyRemovalName: ; 63d27 (18:7d27)
-	text "Energy Removal"
-	done
-
-EnergyRemovalDescription: ; 63d37 (18:7d37)
-	text "Choose 1 Energy card attached to 1"
-	line "of your opponent's Pokémon and"
-	line "discard it."
-	done
-
-SuperEnergyRemovalName: ; 63d86 (18:7d86)
-	text "Super Energy Removal"
-	done
-
-SuperEnergyRemovalDescription: ; 63d9c (18:7d9c)
-	text "Discard 1 Energy card attached to 1"
-	line "of your own Pokémon in order to"
-	line "choose 1 of your opponent's Pokémon"
-	line "and up to 2 Energy cards attached"
-	line "to it. Discard those Energy cards."
-	done
-
-SwitchName: ; 63e4a (18:7e4a)
-	text "Switch"
-	done
-
-SwitchDescription: ; 63e52 (18:7e52)
-	text "Switch 1 of your Benched Pokémon"
-	line "with your Active Pokémon."
-	done
-
-PokemonCenterName: ; 63e8e (18:7e8e)
-	text "Pokémon Center"
-	done
-
-PokemonCenterDescription: ; 63e9e (18:7e9e)
-	text "Remove all damage counters from all"
-	line "of your own Pokémon with damage"
-	line "counters on them, then discard all"
-	line "Energy cards attached to those"
-	line "Pokémon."
-	done
-
-PokeBallName: ; 63f2e (18:7f2e)
-	text "Poké Ball"
-	done
-
-PokeBallDescription: ; 63f39 (18:7f39)
-	text "Flip a coin. If heads, you may"
-	line "search your deck for any Basic"
-	line "Pokémon or Evolution card. Show that"
-	line "card to your opponent, then put it"
-	line "into your hand. Shuffle your deck"
-	line "afterward."
-	done
-
-ScoopUpName: ; 63fed (18:7fed)
-	text "Scoop Up"
 	done

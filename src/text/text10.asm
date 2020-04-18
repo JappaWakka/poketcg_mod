@@ -1,7 +1,120 @@
+MetapodName: ; 57b78 (15:7b78)
+	text "Metapod"
+	done
+
+StiffenName: ; 57b81 (15:7b81)
+	text "Verstijving"
+	done
+
+MetapodsStiffenDescription: ; 57b8a (15:7b8a)
+	text "Gooi een munt op. Als het kop is,"
+	line "voorkomt deze aanval alle schade"
+	line "die aan Metapod wordt gedaan tijdens"
+	line "tegenstander's volgende beurt. (Alle"
+	line "andere gevolgen van aanvallen blijven"
+	line "gewoon geldig.)"
+	done
+
+StunSporeName: ; 57c14 (15:7c14)
+	text "Verdoofspoor"
+	done
+
+CocoonName: ; 57c20 (15:7c20)
+	text "Cocon-"
+	done
+
+MetapodDescription: ; 57c28 (15:7c28)
+	text "Hij is kwetsbaar voor aanvallen"
+	line "omdat zijn schaal zacht is, waardoor"
+	line "zijn zwakke, tere lichaam wordt"
+	line "blootgesteld."
+	done
+
+ButterfreeName: ; 57c82 (15:7c82)
+	text "Butterfree"
+	done
+
+WhirlwindName: ; 57c8e (15:7c8e)
+	text "Wervelwind"
+	done
+
+WhirlwindDescription: ; 57c99 (15:7c99)
+	text "Als je tegenstander Pokémon op de"
+	line "Bank heeft, kiest hij of zij daar"
+	line "1 van en verwisselt deze met de"
+	line "Verdedigende Pokémon. (Doe de"
+	line "schade vóór het verwisselen van"
+	line "de Pokémon.)"
+	done
+
+ButterfreesMegaDrainDescription: ; 57d3a (15:7d3a)
+	text "Verwijder een aantal schadetellers van"
+	line "Butterfree gelijk aan de helft van de"
+	line "schade die gedaan is aan de Verdedigende"
+	line "Pokémon (na het toepassen van Zwakte en"
+	line "Weerstand) (naar boven afgerond naar de"
+	line "dichtsbijzijnde 10)."
+	done
+
+ButterfreesMegaDrainDescriptionCont: ; 57dee (15:7dee)
+	text "Als Butterfree minder schadetellers"
+	line "heeft dan dat, verwijder ze dan"
+	line "allemaal."
+	done
+
+ButterflyName: ; 57e36 (15:7e36)
+	text "Vlinder-"
+	done
+
+ButterfreeDescription: ; 57e41 (15:7e41)
+	text "In de strijd flappert hij met zijn"
+	line "vleugels met hoge snelheid om zwaar"
+	line "giftig stof in de lucht te brengen."
+	done
+	
+WeedleName: ; 57e99 (15:7e99)
+	text "Weedle"
+	done
+
+PoisonStingName: ; 57ea1 (15:7ea1)
+	text "Gifsteek"
+	done
+
+MayInflictPoisonDescription: ; 57eaf (15:7eaf)
+	text "Gooi een munt op. Als het kop is,"
+	line "is de Verdedigende Pokémon nu"
+	line "Vergiftigd."
+	done
+
+HairyBugName: ; 57eee (15:7eee)
+	text "Harige Insect-"
+	done
+
+WeedleDescription: ; 57ef9 (15:7ef9)
+	text "Wordt vaak gevonden in wouden,"
+	line "waar hij bladeren eet. Hij heeft"
+	line "een scherpe, giftige stekel"
+	line "op zijn hoofd."
+	done
+
+KakunaName: ; 57f4f (15:7f4f)
+	text "Kakuna"
+	done
+
+KakunasStiffenDescription: ; 57f57 (15:7f57)
+	text "Gooi een munt op. Als het kop is,"
+	line "voorkomt deze aanval alle schade"
+	line "die aan Kakuna wordt gedaan tijdens"
+	line "tegenstander's volgende beurt. (Alle"
+	line "andere gevolgen van aanvallen blijven"
+	line "gewoon geldig.)"
+	done
+
 KakunaDescription: ; 58000 (16:4000)
-	text "Almost incapable of moving, this"
-	line "Pokémon can only harden its shell to"
-	line "protect itself from predators."
+	text "Omdat hij zich bijna niet kan bewegen,"
+	line "kan deze Pokémon alleen zijn schaal"
+	line "verharden om zichzelf tegen roofdieren"
+	line "te beschermen."
 	done
 
 BeedrillName: ; 58066 (16:4066)
@@ -9,22 +122,22 @@ BeedrillName: ; 58066 (16:4066)
 	done
 
 TwineedleName: ; 58070 (16:4070)
-	text "Twineedle"
+	text "Dubbelnaald"
 	done
 
 DoubleAttackX30Description: ; 5807b (16:407b)
-	text "Flip 2 coins. This attack does 30"
-	line "damage times the number of heads."
+	text "Gooi 2 munten op. Deze aanval doet"
+	line "30 schade maal het aantal keren kop."
 	done
 
 PoisonBeeName: ; 580c0 (16:40c0)
-	text "Poison Bee"
+	text "Gifbij-"
 	done
 
 BeedrillDescription: ; 580cc (16:40cc)
-	text "Flies at high speed and attacks"
-	line "using the large, venomous stingers"
-	line "on its forelegs and tail."
+	text "Vliegt op hoge snelheid en valt aan"
+	line "met behulp van de grote, giftige"
+	line "stekels op zijn voorpoten en staart."
 	done
 
 EkansName: ; 5812a (16:412a)
@@ -444,7 +557,7 @@ ShiftDescription: ; 59146 (16:5146)
 	line "Venomoth to the type of any other"
 	line "Pokémon in play other than"
 	line "Colorless."
-	line "This power can't be used if Venomoth"
+	line "Deze kracht kan niet worden gebruikt Venomoth"
 	line "is Asleep, Confused, or Paralyzed."
 	done
 
@@ -869,11 +982,11 @@ VulpixDescription: ; 5a163 (16:6163)
 	line "tip as it grows older."
 	done
 
-NinetailsName: ; 5a1c0 (16:61c0)
-	text "Ninetails"
+NinetalesName: ; 5a1c0 (16:61c0)
+	text "Ninetales"
 	done
 
-NinetailsLureDescription: ; 5a1cb (16:61cb)
+NinetalesLureDescription: ; 5a1cb (16:61cb)
 	text "If your opponent has any Benched"
 	line "Pokémon, choose 1 of them and switch"
 	line "it with the Defending Pokémon."
@@ -889,7 +1002,7 @@ FireBlastDescription: ; 5a23d (16:623d)
 	line "attack."
 	done
 
-Ninetails1Description: ; 5a28a (16:628a)
+Ninetales1Description: ; 5a28a (16:628a)
 	text "Very smart and very vengeful."
 	line "Grabbing one of its many tails could"
 	line "result in a 1,000-year curse."
@@ -924,7 +1037,7 @@ DancingEmbersDescription: ; 5a441 (16:6441)
 	line "damage times the number of heads."
 	done
 
-Ninetails2Description: ; 5a486 (16:6486)
+Ninetales2Description: ; 5a486 (16:6486)
 	text "According to an enduring legend,"
 	line "9 noble heroes were united and"
 	line "reincarnated as this."
@@ -1251,7 +1364,7 @@ RainDanceDescription: ; 5b165 (16:7165)
 	done
 
 RainDanceDescriptionCont: ; 5b21d (16:721d)
-	text "This power can't be used if"
+	text "Deze kracht kan niet worden gebruikt"
 	line "Blastoise is Asleep, Confused, or"
 	line "Paralyzed."
 	done
@@ -1330,7 +1443,7 @@ PoliwagName: ; 5b533 (16:7533)
 	done
 
 WaterGunName: ; 5b53c (16:753c)
-	text "Water Gun"
+	text "Waterpistool"
 	done
 
 PoliwagsWaterGunDescription: ; 5b547 (16:7547)
@@ -1397,197 +1510,4 @@ PoliwrathDescription: ; 5b814 (16:7814)
 	text "An adept swimmer at both the front"
 	line "crawl and breaststroke. Easily"
 	line "overtakes the best human swimmers."
-	done
-
-TentacoolName: ; 5b87a (16:787a)
-	text "Tentacool"
-	done
-
-CowardiceName: ; 5b885 (16:7885)
-	text "Cowardice"
-	done
-
-CowardiceDescription: ; 5b890 (16:7890)
-	text "At any time during your turn"
-	line "(before your attack), you may return"
-	line "Tentacool to your hand. (Discard all"
-	line "cards attached to Tentacool.) This"
-	line "power can't be used the turn you put"
-	line "Tentacool into play or if Tentacool"
-	line "is Asleep, Confused, or Paralyzed."
-	done
-
-JellyfishName: ; 5b987 (16:7987)
-	text "Jellyfish"
-	done
-
-TentacoolDescription: ; 5b992 (16:7992)
-	text "Drifts in shallow seas. Anglers who"
-	line "hook them by accident are often"
-	line "punished by its stinging acid."
-	done
-
-TentacruelName: ; 5b9f6 (16:79f6)
-	text "Tentacruel"
-	done
-
-JellyfishStingName: ; 5ba02 (16:7a02)
-	text "Jellyfish Sting"
-	done
-
-TentacruelDescription: ; 5ba13 (16:7a13)
-	text "The tentacles are normally kept"
-	line "short. On hunts, they are extended"
-	line "to ensnare and immobilize prey."
-	done
-
-SeelName: ; 5ba77 (16:7a77)
-	text "Seel"
-	done
-
-HeadbuttName: ; 5ba7d (16:7a7d)
-	text "Headbutt"
-	done
-
-SeaLionName: ; 5ba87 (16:7a87)
-	text "Sea Lion"
-	done
-
-SeelDescription: ; 5ba91 (16:7a91)
-	text "The protruding horn on its head is"
-	line "very hard. This horn is used for"
-	line "bashing through thick ice."
-	done
-
-DewgongName: ; 5baf1 (16:7af1)
-	text "Dewgong"
-	done
-
-AuroraBeamName: ; 5bafa (16:7afa)
-	text "Aurora Beam"
-	done
-
-IceBeamName: ; 5bb07 (16:7b07)
-	text "Ice Beam"
-	done
-
-DewgongDescription: ; 5bb11 (16:7b11)
-	text "Stores thermal energy in its body."
-	line "Swims at a steady 8 knots even in"
-	line "intensely cold waters."
-	done
-
-ShellderName: ; 5bb6e (16:7b6e)
-	text "Shellder"
-	done
-
-HideInShellName: ; 5bb78 (16:7b78)
-	text "Hide in Shell"
-	done
-
-HideInShellDescription: ; 5bb87 (16:7b87)
-	text "Flip a coin. If heads, prevent all"
-	line "damage done to Shellder during your"
-	line "opponent's next turn. (Any other"
-	line "effects of attacks still happen.)"
-	done
-
-BivalveName: ; 5bc12 (16:7c12)
-	text "Bivalve"
-	done
-
-ShellderDescription: ; 5bc1b (16:7c1b)
-	text "Its hard shell repels any kind of"
-	line "attack. It is vulnerable only when"
-	line "its shell is open."
-	done
-
-CloysterName: ; 5bc74 (16:7c74)
-	text "Cloyster"
-	done
-
-ClampName: ; 5bc7e (16:7c7e)
-	text "Clamp"
-	done
-
-ClampDescription: ; 5bc85 (16:7c85)
-	text "Flip a coin. If heads, the Defending"
-	line "Pokémon is now Paralyzed. If tails,"
-	line "this attack does nothing (not even"
-	line "damage)."
-	done
-
-SpikeCannonName: ; 5bcfb (16:7cfb)
-	text "Spike Cannon"
-	done
-
-CloysterDescription: ; 5bd09 (16:7d09)
-	text "When attacked, it launches its horns"
-	line "in quick volleys. Its innards have"
-	line "never been seen."
-	done
-
-KrabbyName: ; 5bd63 (16:7d63)
-	text "Krabby"
-	done
-
-KrabbysCallForFamilyDescription: ; 5bd6b (16:7d6b)
-	text "Search your deck for a Basic Pokémon"
-	line "named Krabby and put it onto your"
-	line "Bench. Shuffle your deck afterward."
-	line "(You can't use this attack if your"
-	line "Bench is full.)"
-	done
-
-RiverCrabName: ; 5be0a (16:7e0a)
-	text "River Crab"
-	done
-
-KrabbyDescription: ; 5be16 (16:7e16)
-	text "Its pincers are not only powerful"
-	line "weapons, they are used for balance"
-	line "when walking sideways."
-	done
-
-KinglerName: ; 5be73 (16:7e73)
-	text "Kingler"
-	done
-
-FlailName: ; 5be7c (16:7e7c)
-	text "Flail"
-	done
-
-KinglersFlailDescription: ; 5be83 (16:7e83)
-	text "Does 10 damage times the number of"
-	line "damage counters on Kingler."
-	done
-
-CrabhammerName: ; 5bec3 (16:7ec3)
-	text "Crabhammer"
-	done
-
-PincerName: ; 5becf (16:7ecf)
-	text "Pincer"
-	done
-
-KinglerDescription: ; 5bed7 (16:7ed7)
-	text "The large pincer has 10,000"
-	line "horsepower of crushing power."
-	line "However, its huge size makes it"
-	line "unwieldy to use."
-	done
-
-HorseaName: ; 5bf43 (16:7f43)
-	text "Horsea"
-	done
-
-OpponentAttackMayDoNothingDescription: ; 5bf4b (16:7f4b)
-	text "If the Defending Pokémon tries to"
-	line "attack during your opponent's next"
-	line "turn, your opponent flips a coin."
-	line "If tails, that attack does nothing."
-	done
-
-DragonName: ; 5bfd7 (16:7fd7)
-	text "Dragon"
 	done
