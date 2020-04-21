@@ -70,7 +70,8 @@ LeechSeedName: ; 5755d (15:755d)
 BulbasaursLeechSeedDescription: ; 57569 (15:7569)
 	text "Tenzij alle schade van deze Aanval"
 	line "wordt voorkomen, mag je 1"
-	line "Schadeteller van Bulbasaur verwijderen."
+	line "Schadeteller van Bulbasaur"
+	line "verwijderen."
 	done
 
 SeedName: ; 575cb (15:75cb)
@@ -79,9 +80,9 @@ SeedName: ; 575cb (15:75cb)
 
 BulbasaurDescription: ; 575d1 (15:75d1)
 	text "Bij zijn geboorte is er een vreemd"
-	line "zaadje op zijn rug gepoot. Daaruit is"
-	line "een plant ontkiemd die nu samen met"
-	line "deze Pokémon groeit."
+	line "zaadje op zijn rug gepoot. Daaruit"
+	line "is een plant ontkiemd die nu"
+	line "samen met deze Pokémon groeit."
 	done
 
 IvysaurName: ; 5763b (15:763b)
@@ -408,8 +409,8 @@ FurySwipesName: ; 582ef (16:42ef)
 	done
 
 TripleAttackX10Description: ; 582fc (16:42fc)
-	text "Gooi 3 munten op. Deze Aanval doet 10"
-	line "schade maal het aantal keren kop."
+	text "Gooi 3 munten op. Deze Aanval doet"
+	line "10 schade maal het aantal keren kop."
 	done
 
 CallForFamilyName: ; 58341 (16:4341)
@@ -417,11 +418,12 @@ CallForFamilyName: ; 58341 (16:4341)
 	done
 
 NidoranFsCallForFamilyDescription: ; 58352 (16:4352)
-	text "Zoek in je deck naar een Basis-Pokémon"
-	line "met de naam Nidoran♀ of Nidoran♂ en"
-	line "en plaats deze op je Bank. Schud hierna"
-	line "je deck. (Je kunt deze Aanval niet"
-	line "gebruiken als je Bank vol is.)"
+	text "Zoek in je deck naar een Basis-"
+	line "Pokémon met de naam Nidoran♀ of"
+	line "Nidoran♂ en plaats deze op je Bank."
+	line "Schud hierna je deck. (Je kunt"
+	line "deze Aanval niet gebruiken als"
+	line "je Bank vol is.)"
 	done
 
 PoisonPinName: ; 583ff (16:43ff)
@@ -699,7 +701,8 @@ SporeName: ; 58ee2 (16:4ee2)
 	done
 
 InflictSleepDescription: ; 58ee9 (16:4ee9)
-	text "The Defending Pokémon is now Asleep."
+	text "De Verdedigende Pokémon is nu"
+	line "In Slaap."
 	done
 
 MushroomName: ; 58f0f (16:4f0f)
@@ -1085,10 +1088,10 @@ StagbeetleName: ; 59d93 (16:5d93)
 	done
 
 PinsirDescription: ; 59d9f (16:5d9f)
-	text "Als hij het slachtoffer niet in zijn"
-	line "scharen kan verbrijzelen, slingert"
-	line "hij zijn slachtoffer in het rond"
-	line "en gooit hij hem hard."
+	text "Als hij zijn slachtoffer niet in"
+	line "zijn scharen kan verbrijzelen,"
+	line "slingert hij hem in het rond"
+	line "en gooit hij hem hard neer."
 	done
 
 CharmanderName: ; 59e02 (16:5e02)
@@ -1145,33 +1148,34 @@ CharizardName: ; 59fa0 (16:5fa0)
 	done
 
 EnergyBurnName: ; 59fab (16:5fab)
-	text "Energy Burn"
+	text "Energieverbranding"
 	done
 
 EnergyBurnDescription: ; 59fb8 (16:5fb8)
-	text "As often as you like during your"
-	line "turn (before your attack), you may"
-	line "turn all Energy attached to"
-	line "Charizard into <FIRE> Energy for the"
-	line "rest of the turn. This power can't"
-	line "be used if Charizard is Asleep,"
-	line "Confused, or Paralyzed."
+	text "Je mag zo vaak als je wilt tijdens"
+	line "je beurt (vóór je Aanval) alle aan"
+	line "Charizard gehechte Energie omzetten"
+	line "naar <FIRE> Energie voor de rest van"
+	line "je beurt. Deze kracht kan niet"
+	line "worden gebruikt als Charizard"
+	line "In Slaap, Verward, of Verlamd is."
 	done
 
 FireSpinName: ; 5a095 (16:6095)
-	text "Fire Spin"
+	text "Vuurdraak"
 	done
 
 FireSpinDescription: ; 5a0a0 (16:60a0)
-	text "Discard 2 Energiekaarten attached to"
-	line "Charizard in order to use this"
-	line "attack."
+	text "Om deze Aanval te kunnen gebruiken,"
+	line "moet je 2 aan Charizard gehechte"
+	line "Energiekaarten weggooien."
 	done
 
 CharizardDescription: ; 5a0eb (16:60eb)
-	text "Spits fire that is hot enough to"
-	line "melt boulders. Known to"
-	line "unintentionally cause forest fires."
+	text "Spuwt vuur dat heet genoeg is om"
+	line "rotsblokken te laten smelten. Staat"
+	line "erom bekend dat hij onopzettelijk"
+	line "bosbranden veroorzaakt."
 	done
 
 VulpixName: ; 5a149 (16:6149)
@@ -1339,21 +1343,21 @@ PonytaName: ; 5a7c2 (16:67c2)
 	done
 
 SmashKickName: ; 5a7ca (16:67ca)
-	text "Smash Kick"
+	text "Verpletterende Schop"
 	done
 
 FlameTailName: ; 5a7d6 (16:67d6)
-	text "Flame Tail"
+	text "Vlammenstaart"
 	done
 
 FireHorseName: ; 5a7e2 (16:67e2)
-	text "Fire Horse"
+	text "Vuurpaard-"
 	done
 
 PonytaDescription: ; 5a7ee (16:67ee)
-	text "Its hooves are 10 times harder than"
-	line "diamonds. It can trample anything"
-	line "flat in moments."
+	text "Zijn hoeven zijn 10 keer zo hard"
+	line "als diamant. Hij kan in enkele"
+	line "ogenblikken alles plattrappen."
 	done
 
 RapidashName: ; 5a846 (16:6846)
@@ -1365,10 +1369,10 @@ StompName: ; 5a850 (16:6850)
 	done
 
 StompDescription: ; 5a857 (16:6857)
-	text "Gooi een munt op. Als het kop is, this attack"
-	line "does 20 damage plus 10 more damage;"
-	line "if tails, this attack does 20"
-	line "damage."
+	text "Gooi een munt op. Als het kop is,"
+	line "doet deze Aanval 20 schade plus"
+	line "nog eens 10 schade; als het munt"
+	line "is, doet deze Aanval 20 schade."
 	done
 
 AgilityName: ; 5a8c5 (16:68c5)
@@ -1376,16 +1380,18 @@ AgilityName: ; 5a8c5 (16:68c5)
 	done
 
 RapidashsAgilityDescription: ; 5a8ce (16:68ce)
-	text "Gooi een munt op. Als het kop is, during your"
-	line "opponent's next turn, prevent all"
-	line "effects of attacks, including"
-	line "damage, done to Rapidash."
+	text "Gooi een munt op. Als het kop is,"
+	line "voorkom dan tijdens je"
+	line "tegenstander's volgende beurt alle"
+	line "gevolgen van aanvallen, inclusief"
+	line "schade, toegebracht aan Rapidash."
 	done
 
 RapidashDescription: ; 5a94c (16:694c)
-	text "Very competitive, this Pokémon will"
-	line "chase anything that moves fast in"
-	line "the hopes of racing it."
+	text "Omdat hij graag wedijvert, zal"
+	line "deze Pokémon alles najagen wat"
+	line "snel loopt in de hoop ertegen"
+	line "te kunnen racen."
 	done
 
 MagmarName: ; 5a9ab (16:69ab)

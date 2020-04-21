@@ -66,7 +66,7 @@ UnableToAttackDueToLeerText: ; 3824c (e:424c)
 
 UnableToAttackDueToBoneAttackText: ; 3827a (e:427a)
 	text "Kan niet Aanvallen door"
-	line "de gevolgen van BottenAanval."
+	line "de gevolgen van Bottenaanval."
 	done
 
 UnableToUseAttackDueToAmnesiaText: ; 382af (e:42af)
@@ -963,7 +963,7 @@ Turn1Instr2PracticeDuelText: ; 3a3ad (e:63ad)
 
 Turn1Instr3PracticeDuelText: ; 3a3f0 (e:63f0)
 	text "3. Kies Val Aan in het Menu"
-	line "   en dan HoornAanval."
+	line "   en dan Hoornaanval."
 	done
 
 Turn2Instr1PracticeDuelText: ; 3a42b (e:642b)
@@ -990,7 +990,7 @@ Turn3Instr1PracticeDuelText: ; 3a4df (e:64df)
 Turn3Instr2PracticeDuelText: ; 3a519 (e:6519)
 	text "2. Kies Val Aan in het Menu en"
 	line "   en val je tegenstander aan"
-	line "   met HoornAanval."
+	line "   met Hoornaanval."
 	done
 
 Turn3Instr3PracticeDuelText: ; 3a559 (e:6559)
@@ -1096,7 +1096,7 @@ Turn1DrMason3PracticeDuelText: ; 3a9f7 (e:69f7)
 	line "te selecteren."
 	line ""
 	line "Kies Val Aan in het Menu, en"
-	line "selecteer HoornAanval."
+	line "selecteer Hoornaanval."
 	done
 
 Turn2DrMason1PracticeDuelText: ; 3aa6b (e:6a6b)
@@ -1141,9 +1141,9 @@ Turn3DrMason2PracticeDuelText: ; 3acd7 (e:6cd7)
 	text "Vervolgens kies je het commando"
 	line "Val Aan."
 	line "Machop heeft nog maar 10 IP over."
-	line "Seaking's HoornAanval is genoeg"
+	line "Seaking's Hoornaanval is genoeg"
 	line "om Machop Uit te Schakelen."
-	line "Kies Seaking's HoornAanval."
+	line "Kies Seaking's Hoornaanval."
 	done
 
 Turn3DrMason3PracticeDuelText: ; 3ad6d (e:6d6d)

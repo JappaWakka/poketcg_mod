@@ -1794,7 +1794,7 @@ InputPlayerName: ; (6:67a3)
 	ld [wNamingScreenCursorY], a
 	ld a, $09
 	ld [wd005], a
-	ld a, $06
+	ld a, $07
 	ld [wNamingScreenKeyboardHeight], a
 	ld a, $0f
 	ld [wceaa], a
@@ -1814,7 +1814,7 @@ InputPlayerName: ; (6:67a3)
 	call Func_1aa07
 	ld a, 6
 	ld [wNamingScreenCursorX], a
-	ld a, 5
+	ld a, 6
 	ld [wNamingScreenCursorY], a
 	call Func_1aa23
 	jr .loop

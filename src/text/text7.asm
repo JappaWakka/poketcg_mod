@@ -281,6 +281,7 @@ Text05eb: ; 4cbfe (13:4bfe)
 	line "probeert Uit te schakelen als er"
 	line "Prijskaarten zijn. Dat is"
 	line "de kern van het spel..."
+	line ""
 	done
 
 Text05ec: ; 4ccbe (13:4cbe)
@@ -346,7 +347,7 @@ Text05f5: ; 4cf40 (13:4f40)
 
 Text05f6: ; 4cf67 (13:4f67)
 	text "Ga erop uit en Dueleer met veel"
-	line "verschillende mensen. waarom ga je"
+	line "verschillende mensen. Waarom ga je"
 	line "niet naar een van de Kaartclubs?"
 	line "Er zitten altijd heel veel"
 	line "mensen te spelen in die clubs."

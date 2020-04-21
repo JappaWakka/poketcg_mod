@@ -4518,7 +4518,7 @@ PrintMoveOrPkmnPowerInformation: ; 5c33 (1:5c33)
 	push hl
 	dec hl
 	; print text ID pointed to by hl at 7,e
-	ld d, 7
+	ld d, 6
 	call InitTextPrinting_ProcessTextFromPointerToID
 	pop hl
 	inc hl
@@ -4568,7 +4568,7 @@ PrintMoveOrPkmnPowerInformation: ; 5c33 (1:5c33)
 	ld bc, CARD_DATA_MOVE1_ENERGY_COST - CARD_DATA_MOVE1_CATEGORY
 	add hl, bc
 	ld c, e
-	ld b, 2 ; bc = 2, e
+	ld b, 1 ; bc = 1, e
 	lb de, NUM_TYPES / 2, 0
 .energy_loop
 	ld a, [hl]
@@ -4581,8 +4581,8 @@ PrintMoveOrPkmnPowerInformation: ; 5c33 (1:5c33)
 	pop bc
 	ret
 .print_pokemon_power
-	; print "PKMN PWR" at 2,e
-	ld d, 2
+	; print "PKMN PWR" at 1,e
+	ld d, 1
 	ldtx hl, PKMNPWRText
 	call InitTextPrinting_ProcessTextFromID
 	pop bc

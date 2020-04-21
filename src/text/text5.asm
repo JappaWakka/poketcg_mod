@@ -466,10 +466,10 @@ Text04c1: ; 45474 (11:5474)
 	done
 
 Text04c2: ; 4548b (11:548b)
-	text "The Trainer card, Computer Search,"
-	line "is useful when you want to draw a"
-	line "certain card! Item Finder and"
-	line "Poké Ball will also help!"
+	text "De Trainerkaart Zoeken per Computer"
+	line "is handig als je een bepaalde kaart"
+	line "wilt pakken! Detector en PokéBal"
+	line "kunnen daar ook bij helpen!"
 	done
 
 Text04c3: ; 45509 (11:5509)

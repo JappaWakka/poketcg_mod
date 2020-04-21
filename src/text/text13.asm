@@ -1,3 +1,48 @@
+MeowthName: ; 62274 (18:6274)
+	text "Meowth"
+	done
+
+CatPunchName: ; 6227c (18:627c)
+	text "Kattenmep"
+	done
+
+CatPunchDescription: ; 62287 (18:6287)
+	text "Doet 20 schade aan 1 van je tegen-"
+	line "stander's op willekeurige wijze ge-"
+	line "kozen Pokémon. Pas geen Zwakte en"
+	line "Weerstand toe op deze Aanval (Alle"
+	line "andere gevolgen die na het toepassen"
+	line "van Zwakte en Weerstand zouden"
+	line "gebeuren blijven gewoon geldig.)"
+	done
+
+ScratchCatName: ; 62359 (18:6359)
+	text "Krabkat-"
+	done
+
+Meowth1Description: ; 62366 (18:6366)
+	text "Schijnt actiever te zijn in de"
+	line "nacht. Hij houdt van ronde en"
+	line "glimmende dingen. Hij kan niet"
+	line "stoppen met ze op te pakken."
+	done
+
+PayDayName: ; 623d3 (18:63d3)
+	text "Afrekening"
+	done
+
+PayDayDescription: ; 623dc (18:63dc)
+	text "Gooi een munt op. Als het kop"
+	line "is, pak een kaart."
+	done
+
+Meowth2Description: ; 62401 (18:6401)
+	text "Is gek op cirkelvormige objecten."
+	line "Zwerft elke nacht door de straten"
+	line "op zoek naar kleingeld dat"
+	line "iemand heeft laten vallen."
+	done
+
 PersianName: ; 62464 (18:6464)
 	text "Persian"
 	done
@@ -393,18 +438,18 @@ ProfessorOakName: ; 6342d (18:742d)
 	done
 
 ProfessorOakDescription: ; 6343c (18:743c)
-	text "Discard your hand, then draw 7"
-	line "cards."
+	text "Gooi je hand weg en pak dan"
+	line "7 kaarten."
 	done
 
 ImposterProfessorOakName: ; 63463 (18:7463)
-	text "Imposter Professor Oak"
+	text "Professor Oak's Dubbelganger"
 	done
 
 ImposterProfessorOakDescription: ; 6347b (18:747b)
-	text "Your opponent shuffles his or her"
-	line "hand into his or her deck, then"
-	line "draws 7 cards."
+	text "Je tegenstander schudt zijn of haar"
+	line "Hand door zijn of haar Deck en"
+	line "pakt vervolgens 7 kaarten."
 	done
 
 BillName: ; 634cd (18:74cd)
@@ -412,7 +457,7 @@ BillName: ; 634cd (18:74cd)
 	done
 
 BillDescription: ; 634d3 (18:74d3)
-	text "Draw 2 cards."
+	text "Pak 2 kaarten."
 	done
 
 MrFujiName: ; 634e2 (18:74e2)
@@ -571,12 +616,12 @@ SuperEnergyRemovalDescription: ; 63d9c (18:7d9c)
 	done
 
 SwitchName: ; 63e4a (18:7e4a)
-	text "Switch"
+	text "Verwissel"
 	done
 
 SwitchDescription: ; 63e52 (18:7e52)
-	text "Switch 1 of your Benched Pokémon"
-	line "with your Active Pokémon."
+	text "Verwissel 1 van je Pokémon op"
+	line "de Bank met je Actieve Pokémon."
 	done
 
 PokemonCenterName: ; 63e8e (18:7e8e)
@@ -592,39 +637,40 @@ PokemonCenterDescription: ; 63e9e (18:7e9e)
 	done
 
 PokeBallName: ; 63f2e (18:7f2e)
-	text "Poké Ball"
+	text "PokéBal"
 	done
 
 PokeBallDescription: ; 63f39 (18:7f39)
-	text "Gooi een munt op. Als het kop is, you may"
-	line "search your deck for any Basic"
-	line "Pokémon or Evolution card. Show that"
-	line "card to your opponent, then put it"
-	line "into your hand. Shuffle your deck"
-	line "afterward."
+	text "Gooi een munt op. Als het kop is,"
+	line "mag je in je deck zoeken naar een"
+	line "Basis-Pokémon of een Evolutiekaart."
+	line "Laat die kaart aan je tegenstander"
+	line "zien en neem hem daarna in je Hand."
+	line "Schud hierna je deck."
 	done
 
 ScoopUpName: ; 63fed (18:7fed)
-	text "Scoop Up"
+	text "Haal Binnen"
 	done
 
 ScoopUpDescription: ; 64000 (19:4000)
-	text "Choose 1 of your Pokémon in play"
-	line "and return its Basic Pokémon card to"
-	line "your hand. (Discard all cards"
-	line "attached to that card.)"
+	text "Kies 1 van je eigen Pokémon in"
+	line "het spel en neem de bijbehorende"
+	line "Basis-Pokémonkaart terug in je"
+	line "Hand. (Gooi alle kaarten die aan"
+	line "die kaart gehecht zijn weg.)"
 	done
 
 ComputerSearchName: ; 6407d (19:407d)
-	text "Computer Search"
+	text "Zoeken per Computer"
 	done
 
 ComputerSearchDescription: ; 6408e (19:408e)
-	text "Discard 2 of the other cards from"
-	line "your hand in order to search your"
-	line "deck for any card and put it into"
-	line "your hand. Shuffle your deck"
-	line "afterward."
+	text "Gooi 2 andere kaarten uit je Hand"
+	line "weg om welke kaart dan ook in je"
+	line "Deck te kunnen zoeken, en deze"
+	line "in je Hand te nemen. Schud hierna"
+	line "je Deck."
 	done
 
 PokedexName: ; 6411d (19:411d)
@@ -632,48 +678,48 @@ PokedexName: ; 6411d (19:411d)
 	done
 
 PokedexDescription: ; 64126 (19:4126)
-	text "Look at up to 5 cards from the top"
-	line "of your deck and rearrange them as"
-	line "you like."
+	text "Bekijk ten hoogste 5 kaarten van"
+	line "de bovenkant van je Deck en leg"
+	line "ze in de volgorde die jij wilt."
 	done
 
 PlusPowerName: ; 64177 (19:4177)
-	text "PlusPower"
+	text "Pluskracht"
 	done
 
 PlusPowerDescription: ; 64182 (19:4182)
-	text "Attach PlusPower to your Active"
-	line "Pokémon. At the end of your turn,"
-	line "discard PlusPower. If this Pokémon's"
-	line "attack does damage to any Active"
-	line "Pokémon (after applying Weakness and"
-	line "Resistance), the attack does 10 more"
-	line "damage to that Active Pokémon."
+	text "Hecht Pluskracht aan je Actieve"
+	line "Pokémon. Gooi Pluskracht na je beurt"
+	line "weg. Als je Pokémon schade doet aan"
+	line "de Verdedigende Pokémon (na het"
+	line "toepassen van Zwakte en Weerstand),"
+	line "doet de Aanval nog eens 10 schade"
+	line "aan de Verdedigende Pokémon."
 	done
 
 DefenderName: ; 64274 (19:4274)
-	text "Defender"
+	text "Verdediger"
 	done
 
 DefenderDescription: ; 6427e (19:427e)
-	text "Attach Defender to 1 of your"
-	line "Pokémon. At the end of your"
-	line "opponent's next turn, discard"
-	line "Defender. Damage done to that"
-	line "Pokémon by attacks is reduced by 20"
-	line "(after applying Weakness and"
-	line "Resistance)."
+	text "Hecht Verdediger aan 1 van je Pokémon."
+	line "Gooi Verdediger aan het einde van je"
+	line "tegenstander's volgende beurt weg. De"
+	line "schade die door aanvallen aan deze"
+	line "Pokémon wordt gedaan wordt verminderd"
+	line "met 20 (nadat Zwakte en Weerstand"
+	line "zijn toegepast)."
 	done
 
 ItemFinderName: ; 64342 (19:4342)
-	text "Item Finder"
+	text "Detector"
 	done
 
 ItemFinderDescription: ; 6434f (19:434f)
-	text "Discard 2 of the other cards from"
-	line "your hand in order to put a Trainer"
-	line "card from your Weggooistapel into"
-	line "your hand."
+	text "Gooi 2 andere kaarten uit je"
+	line "Hand weg om een Trainerkaart"
+	line "uit je weggooistapel in je Hand"
+	line "te kunnen nemen."
 	done
 
 GustOfWindName: ; 643c2 (19:43c2)

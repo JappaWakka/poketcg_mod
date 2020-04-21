@@ -57,7 +57,7 @@ WithdrawName: ; 5af41 (16:6f41)
 
 SquirtlesWithdrawDescription: ; 5af4b (16:6f4b)
 	text "Gooi een munt op. Als het kop is,"
-	line "voorkomt deze aanval alle schade"
+	line "voorkomt deze Aanval alle schade"
 	line "die aan Squirtle wordt gedaan"
 	line "tijdens je tegenstanders volgende"
 	line "beurt. (Alle andere gevolgen van"
@@ -81,7 +81,7 @@ WartortleName: ; 5b045 (16:7045)
 
 WartortlesWithdrawDescription: ; 5b050 (16:7050)
 	text "Gooi een munt op. Als het kop is,"
-	line "voorkomt deze aanval alle schade"
+	line "voorkomt deze Aanval alle schade"
 	line "die aan Wartortle wordt gedaan"
 	line "tijdens je tegenstanders volgende"
 	line "beurt. (Alle andere gevolgen van"
@@ -109,7 +109,7 @@ RainDanceName: ; 5b159 (16:7159)
 
 RainDanceDescription: ; 5b165 (16:7165)
 	text "Je mag zo vaak als je wilt tijdens"
-	line "je beurt (vóór je aanval) 1 <WATER>"
+	line "je beurt (vóór je Aanval) 1 <WATER>"
 	line "Energiekaart aan 1 van je <WATER> Pokémon"
 	line "hechten. (Hiermee wordt de "
 	line "aanhechting van 1 Energiekaart"
@@ -177,23 +177,24 @@ GolduckName: ; 5b44f (16:744f)
 	done
 
 PsyshockName: ; 5b458 (16:7458)
-	text "Psyshock"
+	text "Psychische schok"
 	done
 
 HyperBeamName: ; 5b462 (16:7462)
-	text "Hyper Beam"
+	text "Hydrostraal"
 	done
 
 Discard1EnergyFromTargetDescription: ; 5b46e (16:746e)
-	text "If the Defending Pokémon has any"
-	line "Energiekaarten attached to it, choose"
-	line "1 of them and discard it."
+	text "Als er aan de Verdedigende Pokémon"
+	line "Energiekaarten zijn gehecht, kies"
+	line "er dan 1 van en gooi deze weg."
 	done
 
 GolduckDescription: ; 5b4ce (16:74ce)
-	text "Often seen swimming elegantly by"
-	line "lake shores. It is often mistaken"
-	line "for the Japanese monster, Kappa."
+	text "Men kan hem vaak sierlijk langs de"
+	line "kant van een meer zien zwemmen."
+	line "Wordt vaak ten onrechte aangezien"
+	line "voor het Japanse monster, Kappa."
 	done
 
 PoliwagName: ; 5b533 (16:7533)
@@ -503,7 +504,7 @@ GoldeenName: ; 5c1ec (17:41ec)
 	done
 
 HornAttackName: ; 5c1f5 (17:41f5)
-	text "HoornAanval"
+	text "Hoornaanval"
 	done
 
 GoldfishName: ; 5c202 (17:4202)
@@ -635,7 +636,7 @@ LaprasWaterGunDescription: ; 5c597 (17:4597)
 	text "Doet 10 schade plus nog eens 10"
 	line "schade voor elke aan Lapras gehechte"
 	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze aanval te"
+	line "om de Energiekosten van deze Aanval te"
 	line "betalen. Je kunt op deze manier niet"
 	line "meer dan 20 schade toevoegen."
 	done
@@ -842,7 +843,7 @@ SparkName: ; 5cf47 (17:4f47)
 SparkDescription: ; 5cf4e (17:4f4e)
 	text "Als je tegenstander Pokémon op de"
 	line "Bank heeft, kies er daar dan 1 van"
-	line "en deze aanval doet er 10 schade"
+	line "en deze Aanval doet er 10 schade"
 	line "aan. (Pas geen Zwakte en Weerstand"
 	line "toe op de Pokémon op de Bank.)"
 	done
@@ -862,7 +863,7 @@ GrowlDescription: ; 5d051 (17:5051)
 	text "Als de Verdedigende Pokémon Pikachu"
 	line "aanvalt tijdens je tegenstander's"
 	line "volgende beurt, wordt alle schade"
-	line "die door de aanval wordt gedaan"
+	line "die door de Aanval wordt gedaan"
 	line "verminderd met 10 (na het toepassen"
 	line "van Zwakte en Weerstand)."
 	done
@@ -900,7 +901,7 @@ FlyDescription: ; 5d1b3 (17:51b3)
 	done
 
 FlyDescriptionCont: ; Translated text didn't fit so I made this
-	text "als het munt is, doet deze aanval"
+	text "als het munt is, doet deze Aanval"
 	line "niets (zelfs geen schade)."
 	done
 
@@ -929,45 +930,49 @@ RaichuName: ; 5d321 (17:5321)
 	done
 
 RaichusAgilityDescription: ; 5d329 (17:5329)
-	text "Gooi een munt op. Als het kop is, during your"
-	line "opponent's next turn, prevent all"
-	line "effects of attacks, including"
-	line "damage, done to Raichu."
+	text "Gooi een munt op. Als het kop is,"
+	line "voorkom dan tijdens je"
+	line "tegenstander's volgende beurt alle"
+	line "gevolgen van aanvallen, inclusief"
+	line "schade, die aan Raichu worden"
+	line "toegebracht."
 	done
 
 ThunderName: ; 5d3a5 (17:53a5)
-	text "Thunder"
+	text "Donder"
 	done
 
 RaichusThunderDescription: ; 5d3ae (17:53ae)
-	text "Gooi een munt op. If tails, Raichu does"
-	line "30 damage to itself."
+	text "Gooi een munt op. Als het munt is,"
+	line "doet Raichu 30 schade aan zichzelf."
 	done
 
 Raichu1Description: ; 5d3e7 (17:53e7)
-	text "Its long tail serves as a ground to"
-	line "protect itself from its own"
-	line "high-voltage power."
+	text "Zijn lange staart fungeert als een"
+	line "aarde om zichzelf te beschermen"
+	line "tegen zijn eigen"
+	line "hoogspanningsenergie."
 	done
 
 GigashockName: ; 5d43c (17:543c)
-	text "Gigashock"
+	text "Gigaschok"
 	done
 
 GigashockDescription: ; 5d447 (17:5447)
-	text "Choose 3 of your opponent's Benched"
-	line "Pokémon and this attack does 10"
-	line "damage to each of them. (Don't apply"
-	line "Weakness and Resistance for Benched"
-	line "Pokémon.) If your opponent has fewer"
-	line "than 3 Benched Pokémon, do the"
-	line "damage to each of them."
+	text "Kies 3 van je tegenstander's Pokémon"
+	line "op de Bank en deze Aanval doet aan"
+	line "elk van hen 10 schade. (Pas geen"
+	line "Zwakte en Weerstand toe op de Poké-"
+	line "mon op de Bank.) Als je tegenstander"
+	line "minder dan 3 Pokémon op de Bank heeft,"
+	line "doe dan aan elk van deze de schade."
 	done
 
 Raichu2Description: ; 5d531 (17:5531)
-	text "Its long tail serves as a ground to"
-	line "protect itself from its own high"
-	line "voltage power."
+	text "Zijn lange staart fungeert als een"
+	line "aarde om zichzelf te beschermen"
+	line "tegen zijn eigen"
+	line "hoogspanningsenergie."
 	done
 
 MagnemiteName: ; 5d586 (17:5586)
@@ -1041,7 +1046,7 @@ SonicboomName: ; 5d86b (17:586b)
 
 SonicboomDescription: ; 5d876 (17:5876)
 	text "Pas geen Zwakte of Weerstand toe"
-	line "voor deze aanval. (Alle andere"
+	line "voor deze Aanval. (Alle andere"
 	line "gevolgen die na het toepassen van"
 	line "Zwakte en Weerstand zouden"
 	line "gebeuren blijven gewoon geldig.))"
@@ -1125,11 +1130,11 @@ LightScreenName: ; 5dc72 (17:5c72)
 	done
 
 LightScreenDescription: ; 5dc80 (17:5c80)
-	text "Wanneer een aanval tijdens je"
+	text "Wanneer een Aanval tijdens je"
 	line "tegenstander's volgende beurt schade"
 	line "doet aan Electabuzz (na het"
 	line "toepassen van Zwakte en Weerstand),"
-	line "doet die aanval slechts de helft"
+	line "doet die Aanval slechts de helft"
 	line "van de schade aan Electabuzz"
 	done
 
@@ -1142,9 +1147,9 @@ LightScreenDescriptionCont: ; 5dd4f (17:5d4f)
 
 ElectabuzzsQuickAttackDescription: ; 5dd7d (17:5d7d)
 	text "Gooi een munt op. Als het kop is,"
-	line "doet deze aanval 10 schade plus"
+	line "doet deze Aanval 10 schade plus"
 	line "nog eens 20 schade; als het munt"
-	line "is, doet deze aanval 10 schade."
+	line "is, doet deze Aanval 10 schade."
 	done
 
 ElectricName: ; 5ddec (17:5dec)
@@ -1164,9 +1169,9 @@ ThunderpunchName: ; 5de55 (17:5e55)
 
 ThunderpunchDescription: ; 5de63 (17:5e63)
 	text "Gooi een munt op. Als het kop is,"
-	line "doet deze aanval 30 schade plus nog"
+	line "doet deze Aanval 30 schade plus nog"
 	line "eens 10 schade. Als het munt is,"
-	line "doet deze aanval 30 schade en"
+	line "doet deze Aanval 30 schade en"
 	line "doet Electabuzz 10 schade aan"
 	line "zichzelf."
 	done
@@ -1221,76 +1226,80 @@ ZapdosName: ; 5e0cf (17:60cf)
 	done
 
 ThunderstormName: ; 5e0d7 (17:60d7)
-	text "Thunderstorm"
+	text "Onweersbui"
 	done
 
 ThunderstormDescription: ; 5e0e5 (17:60e5)
-	text "For each of your opponent's Benched"
-	line "Pokémon, Gooi een munt op. Als het kop is,"
-	line "this attack does 20 damage to that"
-	line "Pokémon. (Don't apply Weakness and"
-	line "Resistance for Benched Pokémon.)"
-	line "Then, Zapdos does 10 damage times"
-	line "the number of tails to itself."
+	text "Gooi voor elk van je tegenstander's"
+	line "Pokémon een munt op. Als het kop is,"
+	line "doet deze Aanval 20 schade aan die"
+	line "Pokémon. (Pas geen Zwakte en Weer-"
+	line "stand toe op de Pokémon op de Bank.)"
+	line "Daarna doet Zapdos 10 schade aan"
+	line "zichzelf maal het aantal keren munt."
 	done
 
 Zapdos1Description: ; 5e1d2 (17:61d2)
-	text "A legendary thunderbird Pokémon"
-	line "whose anger is said to cause storms."
-	line "Some say it has lived above the"
-	line "clouds for thousands of years."
+	text "Een legendarische dondervogel-Pokémon"
+	line "waarvan ze zeggen dat zijn woede stor-"
+	line "men veroorzaakt. Men zegt ook dat hij al"
+	line "duizenden jaren boven de wolken leeft."
 	done
 
 ZapdosThunderDescription: ; 5e257 (17:6257)
-	text "Gooi een munt op. If tails, Zapdos does"
-	line "30 damage to itself."
+	text "Gooi een munt op. Als het munt is,"
+	line "doet Zapdos 30 schade aan zichzelf."
 	done
 
 ThunderboltName: ; 5e290 (17:6290)
-	text "Thunderbolt"
+	text "Bliksemstraal"
 	done
 
 ThunderboltDescription: ; 5e29d (17:629d)
-	text "Discard all Energiekaarten attached to"
-	line "Zapdos in order to use this attack."
+	text "Om deze Aanval te kunnen gebruiken,"
+	line "moet je alle aan Zapdos gehechte"
+	line "<LIGHTNING> Energiekaarten weggooien."
 	done
 
 Zapdos2Description: ; 5e2e7 (17:62e7)
-	text "A legendary bird Pokémon said to"
-	line "appear from clouds while wielding"
-	line "enormous lightning bolts."
+	text "Een legendarische Vogel-Pokémon waar-"
+	line "van wordt gezegd dat hij uit de wolken"
+	line "tevoorschijn komt en tegelijkertijd"
+	line "bliksemschichten rondslingert."
 	done
 
 PealOfThunderName: ; 5e345 (17:6345)
-	text "Peal of Thunder"
+	text "Donderslag"
 	done
 
 PealOfThunderDescription: ; 5e356 (17:6356)
-	text "When you put Zapdos into play during"
-	line "your turn (not during set-up), do"
-	line "30 damage to a Pokémon other than"
-	line "Zapdos chosen at random. (Don't"
-	line "apply Weakness and Resistance.)"
+	text "Wanneer je Zapdos in het spel brengt"
+	line "tijdens je beurt (niet tijdens het"
+	line "opzetten van het spel), doe je 30"
+	line "schade aan een Pokémon, anders dan"
+	line "Zapdos, op willekeurige wijze gekozen."
+	line "(Pas geen Zwakte en Weerstand toe.)"
 	done
 
 BigThunderName: ; 5e400 (17:6400)
-	text "Big Thunder"
+	text "Grote donder"
 	done
 
 BigThunderDescription: ; 5e40d (17:640d)
-	text "Choose a Pokémon other than Zapdos"
-	line "at random. This attack does 70"
-	line "damage to that Pokémon. Don't apply"
-	line "Weakness and Resistance for this"
-	line "attack. (Any other effects that"
-	line "would happen after applying Weakness"
-	line "and Resistance still happen.)"
+	text "Kies op willekeurige wijze een Pokémon,"
+	line "anders dan Zapdos. Deze Aanval doet 70"
+	line "schade aan die Pokémon. Pas geen Zwakte"
+	line "en Weerstand toe op deze Aanval. (Alle"
+	line "andere gevolgen die na het toepassen"
+	line "van Zwakte en Weerstand zouden gebeuren"
+	line "blijven gewoon geldig.)"
 	done
 
 Zapdos3Description: ; 5e4f8 (17:64f8)
-	text "This legendary bird Pokémon is said"
-	line "to appear when the sky turns dark"
-	line "and lightning showers down."
+	text "Van deze legendarische vogel-Pokémon"
+	line "wordt beweerd dat hij verschijnt wanneer"
+	line "de lucht donker wordt en bliksem-"
+	line "schichten naar beneden schieten."
 	done
 
 SandshrewName: ; 5e55b (17:655b)
@@ -1298,13 +1307,14 @@ SandshrewName: ; 5e55b (17:655b)
 	done
 
 SandAttackName: ; 5e566 (17:6566)
-	text "ZandAanval"
+	text "Zandaanval"
 	done
 
 SandshrewDescription: ; 5e573 (17:6573)
-	text "Burrows deep underground in arid"
-	line "locations far from water. It only"
-	line "emerges to hunt for food."
+	text "Graaft tunnels diep onder de grond"
+	line "in dorre streken ver van het water."
+	line "Hij komt alleen tevoorschijn om op"
+	line "voedsel te jagen."
 	done
 
 SandslashName: ; 5e5d1 (17:65d1)
@@ -1320,47 +1330,4 @@ SandslashDescription: ; 5e621 (17:6621)
 	text "Curls up into a spiny ball when"
 	line "threatened. It can roll while curled"
 	line "up to attack or escape."
-	done
-
-DiglettName: ; 5e67f (17:667f)
-	text "Diglett"
-	done
-
-DigName: ; 5e688 (17:6688)
-	text "Dig"
-	done
-
-MudSlapName: ; 5e68d (17:668d)
-	text "Mud Slap"
-	done
-
-MoleName: ; 5e697 (17:6697)
-	text "Mole"
-	done
-
-DiglettDescription: ; 5e69d (17:669d)
-	text "Lives about three feet underground,"
-	line "where it feeds on plant roots. It"
-	line "sometimes appears above ground."
-	done
-
-DugtrioName: ; 5e704 (17:6704)
-	text "Dugtrio"
-	done
-
-EarthquakeName: ; 5e70d (17:670d)
-	text "Earthquake"
-	done
-
-EarthquakeDescription: ; 5e719 (17:6719)
-	text "Does 10 damage to each of your own"
-	line "Benched Pokémon. (Don't apply"
-	line "Weakness and Resistance for Benched"
-	line "Pokémon.)"
-	done
-
-DugtrioDescription: ; 5e789 (17:6789)
-	text "A team of Diglett triplets."
-	line "It triggers huge earthquakes by"
-	line "burrowing 60 miles underground."
 	done

@@ -1,3 +1,48 @@
+DiglettName: ; 5e67f (17:667f)
+	text "Diglett"
+	done
+
+DigName: ; 5e688 (17:6688)
+	text "Graaf"
+	done
+
+MudSlapName: ; 5e68d (17:668d)
+	text "Modderklap"
+	done
+
+MoleName: ; 5e697 (17:6697)
+	text "Mol-"
+	done
+
+DiglettDescription: ; 5e69d (17:669d)
+	text "Leeft ongeveer een meter onder de"
+	line "grond, waar hij zich voedt met de"
+	line "wortels van planten. Soms"
+	line "verschijnt hij boven de grond."
+	done
+
+DugtrioName: ; 5e704 (17:6704)
+	text "Dugtrio"
+	done
+
+EarthquakeName: ; 5e70d (17:670d)
+	text "Aardbeving"
+	done
+
+EarthquakeDescription: ; 5e719 (17:6719)
+	text "Doet 10 schade aan elke Pokémon"
+	line "op je Bank. (Pas geen Zwakte"
+	line "en Weerstand toe op de Pokémon"
+	line "op de Bank.)"
+	done
+
+DugtrioDescription: ; 5e789 (17:6789)
+	text "Een team gevormd door een Diglett-"
+	line "-drieling. Het veroorzaakt enorme"
+	line "aardbevingen door 90 kilometer"
+	line "onder de grond tunnels te graven."
+	done
+
 MankeyName: ; 5e7e6 (17:67e6)
 	text "Mankey"
 	done
@@ -107,7 +152,7 @@ StrikesBackName: ; 5eb99 (17:6b99)
 	done
 
 StrikesBackDescription: ; 5eba7 (17:6ba7)
-	text "Telkens wanneer de aanval van je"
+	text "Telkens wanneer de Aanval van je"
 	line "tegenstander schade doet aan"
 	line "Machamp (zelfs als Machamp wordt"
 	line "Uitgeschakeld), doet deze kracht"
@@ -144,7 +189,7 @@ StoneBarrageName: ; 5ed41 (17:6d41)
 
 StoneBarrageDescription: ; 5ed50 (17:6d50)
 	text "Gooi een munt op totdat je munt"
-	line "gooit. Deze aanval doet 10"
+	line "gooit. Deze Aanval doet 10"
 	line "schade maal het aantal"
 	line "keren kop."
 	done
@@ -301,7 +346,7 @@ Marowak1Description: ; 5f3f5 (17:73f5)
 	done
 
 BoneAttackName: ; 5f45b (17:745b)
-	text "BottenAanval"
+	text "Bottenaanval"
 	done
 
 BoneAttackDescription: ; 5f468 (17:7468)
@@ -533,13 +578,14 @@ AbraName: ; 5fe6c (17:7e6c)
 	done
 
 PsiName: ; 5fe72 (17:7e72)
-	text "Psi"
+	text "Psychische"
 	done
 
 AbraDescription: ; 5fe77 (17:7e77)
-	text "Using its ability to read minds, it"
-	line "will identify impending danger and"
-	line "teleport to safety."
+	text "Met behulp van zijn vermogen om"
+	line "gedachten te lezen, herkent hij"
+	line "aankomend gevaar en teleporteert"
+	line "hij zichzelf naar de veiligheid."
 	done
 
 KadabraName: ; 5fed3 (17:7ed3)
@@ -547,20 +593,22 @@ KadabraName: ; 5fed3 (17:7ed3)
 	done
 
 KadabrasRecoverDescription: ; 5fedc (17:7edc)
-	text "Discard 1 <PSYCHIC> Energiekaart attached to"
-	line "Kadabra in order to use this attack."
-	line "Remove all damage counters from"
-	line "Kadabra."
+	text "Om deze Aanval te kunnen gebruiken"
+	line "moet je 1 aan Kadabra gehechte"
+	line "<PSYCHIC> Energiekaart weggooien."
+	line "Verwijder alle Schadetellers"
+	line "van Kadabra."
 	done
 
 SuperPsiName: ; 5ff50 (17:7f50)
-	text "Super Psy"
+	text "Superpsyche"
 	done
 
 KadabraDescription: ; 5ff5b (17:7f5b)
-	text "It emits special alpha waves from"
-	line "its body that induce headaches even"
-	line "to those just nearby."
+	text "Hij zendt vanuit zijn lijf speciale"
+	line "alfa-golven uit die hoofdpijn"
+	line "veroorzaken, zelfs bij hen die er"
+	line "toevallig bij in de buurt staan."
 	done
 
 AlakazamName: ; 5ffb8 (17:7fb8)
@@ -663,12 +711,13 @@ GastlyName: ; 604bb (18:44bb)
 	done
 
 SleepingGasName: ; 604c3 (18:44c3)
-	text "Sleeping Gas"
+	text "Slaapgas"
 	done
 
 MayInflictSleepDescription: ; 604d1 (18:44d1)
-	text "Gooi een munt op. Als het kop is, the Defending"
-	line "Pokémon is now Asleep."
+	text "Gooi een munt op. Als het kop is,"
+	line "is de Verdedigende Pokémon nu"
+	line "In Slaap."
 	done
 
 DestinyBondName: ; 6050e (18:450e)
@@ -676,42 +725,44 @@ DestinyBondName: ; 6050e (18:450e)
 	done
 
 DestinyBondDescription: ; 6051c (18:451c)
-	text "Discard 1 <PSYCHIC> Energiekaart attached to"
-	line "Gastly in order to use this attack."
-	line "If a Pokémon Knocks Out Gastly"
-	line "during your opponent's next turn,"
-	line "Knock Out that Pokémon."
+	text "Om deze Aanval te kunnen gebruiken,"
+	line "moet je 1 aan Gastly gehechte <PSYCHIC>"
+	line "Energiekaart weggooien. Als een"
+	line "Pokémon Gastly Uitschakelt tijdens"
+	line "je tegenstander's volgende beurt,"
+	line "Schakel dan die Pokémon Uit."
 	done
 
 GasName: ; 605bf (18:45bf)
-	text "Gas"
+	text "Gas-"
 	done
 
 Gastly1Description: ; 605c4 (18:45c4)
-	text "Almost invisible, this gaseous"
-	line "Pokémon cloaks the target and puts"
-	line "it to sleep without notice."
+	text "Deze gasachtige Pokémon die bijna"
+	line "onzichtbaar is, omhult zijn"
+	line "doelwit en brengt het ongemerkt"
+	line "in slaap."
 	done
 
 LickName: ; 60623 (18:4623)
-	text "Lick"
+	text "Lik"
 	done
 
 EnergyConversionName: ; 60629 (18:4629)
-	text "Energy Conversion"
+	text "Energie-omzetting"
 	done
 
 EnergyConversionDescription: ; 6063c (18:463c)
-	text "Put up to 2 Energiekaarten from your"
-	line "Weggooistapel into your hand. Gastly"
-	line "does 10 damage to itself."
+	text "Neem ten hoogste 2 Energiekaarten"
+	line "uit je Weggooistapel in je Hand."
+	line "Gastly doet 10 schade aan zichzelf."
 	done
 
 Gastly2Description: ; 6069e (18:469e)
-	text "A mysterious Pokémon. Some say it is"
-	line "a lifeform from another dimension,"
-	line "while others believe it is formed"
-	line "from smog."
+	text "Een mysterieuze Pokémon. Sommigen"
+	line "zeggen dat hij een levensvorm is uit"
+	line "een andere dimensie, terwijl anderen"
+	line "menen dat hij uit smog gevormd is."
 	done
 
 HaunterName: ; 60714 (18:4714)
@@ -723,32 +774,39 @@ TransparencyName: ; 6071d (18:471d)
 	done
 
 TransparencyDescription: ; 6072b (18:472b)
-	text "Whenever an attack does anything to"
-	line "Haunter, Gooi een munt op. Als het kop is,"
-	line "prevent all effects of that attack,"
-	line "including damage, done to Haunter."
-	line "This power stops working while"
+	text "Gooi telkens als een Aanval iets"
+	line "Haunter doet een munt op. Als het"
+	line "kop is, voorkom dan alle gevolgen"
+	line "van die Aanval, inclusief schade,"
+	line "toegebracht aan Haunter. Deze"
+	line "Kracht stopt met werken als"
 	line "Haunter In Slaap, Verward, of"
 	line "Verlamd is."
 	done
 
 NightmareName: ; 60801 (18:4801)
-	text "Nightmare"
+	text "Nachtmerrie"
 	done
 
 HaunterDescription: ; 6080c (18:480c)
-	text "Because of its ability to slip"
-	line "through block walls, it is said to"
-	line "be from another dimension."
+	text "Omdat hij in staat is door zware"
+	line "muren heen te glippen, wordt"
+	line "beweerd dat hij uit een andere"
+	line "dimensie komt."
+	done
+
+HypnosisAttackName: ; 597bc (16:57bc)
+	text "Hypnose"
 	done
 
 DreamEaterName: ; 6086a (18:486a)
-	text "Dream Eater"
+	text "Droometer"
 	done
 
 DreamEaterDescription: ; 60877 (18:4877)
-	text "You can't use this attack unless"
-	line "the Defending Pokémon is Asleep."
+	text "Deze Aanval kun je alleen"
+	line "gebruiken als de Verdedigende"
+	line "Pokémon In Slaap is."
 	done
 
 GengarName: ; 608ba (18:48ba)
@@ -756,39 +814,41 @@ GengarName: ; 608ba (18:48ba)
 	done
 
 CurseName: ; 608c2 (18:48c2)
-	text "Curse"
+	text "Vervloeken"
 	done
 
 CurseDescription: ; 608c9 (18:48c9)
-	text "Once during your turn (before your"
-	line "attack), you may move 1 damage"
-	line "counter from 1 of your opponent's"
-	line "Pokémon to another (even if it would"
-	line "Knock Out the other Pokémon)."
-	line "Deze kracht kan niet worden gebruikt Gengar"
-	line "is Asleep, Confused, or Paralyzed."
+	text "Eenmaal tijdens je beurt (voor je"
+	line "Aanval), mag je 1 schadeteller"
+	line "van 1 van je tegenstanders Pokémon"
+	line "naar een andere verplaatsen (zelfs"
+	line "als het de andere Pokémon zou"
+	line "Uitschakelen). Deze kracht kan niet"
+	line "worden gebruikt als Gengar"
+	line "In Slaap, Verward, of Verlamd is."
 	done
 
 DarkMindName: ; 609b7 (18:49b7)
-	text "Dark Mind"
+	text "Duistere geest"
 	done
 
 DarkMindDescription: ; 609c2 (18:49c2)
-	text "If your opponent has any Benched"
-	line "Pokémon, choose 1 of them and this"
-	line "attack does 10 damage to it."
-	line "(Don't apply Weakness and Resistance"
-	line "for Benched Pokémon.)"
+	text "ls je tegenstander Pokémon op de"
+	line "Bank heeft, kies er dan 1 van en"
+	line "deze Aanval doet hem 10 schade."
+	line "(Pas geen Zwakte en Weerstand"
+	line "toe op de Pokémon op de Bank.)"
 	done
 
 ShadowName: ; 60a5f (18:4a5f)
-	text "Shadow"
+	text "Schaduw-"
 	done
 
 GengarDescription: ; 60a67 (18:4a67)
-	text "Under a full moon, this Pokémon"
-	line "likes to mimic the shadows of people"
-	line "and laugh at their fright."
+	text "Onder een volle maan houdt deze"
+	line "Pokémon ervan om de schaduwen van"
+	line "mensen na te doen en om hun angst"
+	line "te lachen."
 	done
 
 DrowzeeName: ; 60ac8 (18:4ac8)
@@ -1031,7 +1091,7 @@ PidgeottoName: ; 614b8 (18:54b8)
 	done
 
 MirrorMoveName: ; 614c3 (18:54c3)
-	text "SpiegelAanval"
+	text "Spiegelaanval"
 	done
 
 PidgeottosMirrorMoveDescription: ; 614d0 (18:54d0)
@@ -1116,7 +1176,7 @@ RatName: ; 618ce (18:58ce)
 	done
 
 RattataDescription: ; 618d3 (18:58d3)
-	text "Bijt alles wanneer hij Aanvalt."
+	text "Bijt alles wanneer hij aanvalt."
 	line "Hij is klein, snel en veelgezien"
 	line "op allerlei plekken."
 	done
@@ -1130,11 +1190,12 @@ SuperFangName: ; 61939 (18:5939)
 	done
 
 SuperFangDescription: ; 61945 (18:5945)
-	text "De schade die deze Aanval doet aan de"
-	line "Verdedigende Pokémon is gelijk aan de"
-	line "helft van de resterende IP van de"
-	line "Verdedigende Pokémon (naar boven afgerond"
-	line "naar de dichtsbijzijnde 10)."
+	text "De schade die deze Aanval doet aan"
+	line "de Verdedigende Pokémon is gelijk"
+	line "aan de helft van de resterende IP"
+	line "van de Verdedigende Pokémon (naar"
+	line "boven afgerond naar de"
+	line "dichtsbijzijnde 10)."
 	done
 
 RaticateDescription: ; 619be (18:59be)
@@ -1334,46 +1395,4 @@ WigglytuffDescription: ; 6220b (18:620b)
 	text "The body is soft and rubbery. When"
 	line "angered, it will suck in air and"
 	line "inflate itself to an enormous size."
-	done
-
-MeowthName: ; 62274 (18:6274)
-	text "Meowth"
-	done
-
-CatPunchName: ; 6227c (18:627c)
-	text "Cat Punch"
-	done
-
-CatPunchDescription: ; 62287 (18:6287)
-	text "Does 20 damage to 1 of your"
-	line "opponent's Pokémon chosen at random."
-	line "Don't apply Weakness and Resistance"
-	line "for this attack. (Any other effects"
-	line "that would happen after applying"
-	line "Weakness and Resistance still"
-	line "happen.)"
-	done
-
-ScratchCatName: ; 62359 (18:6359)
-	text "Scratch Cat"
-	done
-
-Meowth1Description: ; 62366 (18:6366)
-	text "Appears to be more active at night."
-	line "It loves round and shiny things, so"
-	line "it can't stop from picking them up."
-	done
-
-PayDayName: ; 623d3 (18:63d3)
-	text "Pay Day"
-	done
-
-PayDayDescription: ; 623dc (18:63dc)
-	text "Gooi een munt op. Als het kop is, draw a card."
-	done
-
-Meowth2Description: ; 62401 (18:6401)
-	text "Adores circular objects. Wanders"
-	line "the streets on a nightly basis to"
-	line "look for dropped loose change."
 	done

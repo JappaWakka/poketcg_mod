@@ -2993,3 +2993,4 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer GamblerDescription                       ; 0x0bab
 	textpointer RecycleName                              ; 0x0bac
 	textpointer RecycleDescription                       ; 0x0bad
+	textpointer HypnosisAttackName						 ; Made this because I don't want HypnosisName to be used as both a category and an attack name

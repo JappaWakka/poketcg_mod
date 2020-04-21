@@ -381,7 +381,7 @@ Text0298: ; 3c545 (f:4545)
 	done
 
 Text0299: ; 3c552 (f:4552)
-	text "BottenAanval"
+	text "Bottenaanval"
 	done
 
 Text029a: ; 3c55f (f:455f)

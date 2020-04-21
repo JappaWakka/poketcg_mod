@@ -930,7 +930,7 @@ Text00c5: ; 3781b (d:781b)
 
 Text00c6: ; 37837 (d:7837)
 	text "Je hebt geen Aanval gekregen"
-	line "van SpiegelAanval."
+	line "van Spiegelaanval."
 	done
 
 Text00c7: ; 37866 (d:7866)
@@ -1040,7 +1040,7 @@ Text00dd: ; 37b5d (d:7b5d)
 	done
 
 SandAttackCheckText: ; 37ba9 (d:7ba9)
-	text "ZandAanval-controle! Als het munt"
+	text "Zandaanval-controle! Als het munt"
 	line "is, is de Aanval onsuccesvol."
 	done
 
