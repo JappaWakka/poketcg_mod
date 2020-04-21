@@ -1814,7 +1814,7 @@ InputPlayerName: ; (6:67a3)
 	call Func_1aa07
 	ld a, 6
 	ld [wNamingScreenCursorX], a
-	ld a, 5
+	ld a, 6
 	ld [wNamingScreenCursorY], a
 	call Func_1aa23
 	jr .loop
