@@ -1,3 +1,275 @@
+MoltresName: ; 5aced (16:6ced)
+	text "Moltres"
+	done
+
+WildfireName: ; 5acf6 (16:6cf6)
+	text "Wildfire"
+	done
+
+WildfireDescription: ; 5ad00 (16:6d00)
+	text "You may discard any number of <FIRE>"
+	line "Energiekaarten attached to Moltres"
+	line "when you use this attack. If you do,"
+	line "discard that many cards from the top"
+	line "of your opponent's deck."
+	done
+
+DiveBombName: ; 5ada6 (16:6da6)
+	text "Dive Bomb"
+	done
+
+Moltres1Description: ; 5adb1 (16:6db1)
+	text "Known as the legendary bird of fire."
+	line "Every flap of its wings creates a"
+	line "dazzling flash of flames."
+	done
+
+FiregiverName: ; 5ae13 (16:6e13)
+	text "Firegiver"
+	done
+
+FiregiverDescription: ; 5ae1e (16:6e1e)
+	text "When you put Moltres into play"
+	line "during your turn (not during"
+	line "set-up), put from 1 to 4 (chosen at"
+	line "random) <FIRE> Energiekaarten from your"
+	line "deck into your hand. Shuffle your"
+	line "deck afterward."
+	done
+
+Moltres2Description: ; 5aed3 (16:6ed3)
+	text "A legendary bird Pokémon. As it"
+	line "flaps its flaming wings, even the"
+	line "night sky will turn red."
+	done
+
+SquirtleName: ; 5af2f (16:6f2f)
+	text "Squirtle"
+	done
+
+BubbleName: ; 5af39 (16:6f39)
+	text "Bubbel"
+	done
+
+WithdrawName: ; 5af41 (16:6f41)
+	text "Terugtrekking"
+	done
+
+SquirtlesWithdrawDescription: ; 5af4b (16:6f4b)
+	text "Gooi een munt op. Als het kop is,"
+	line "voorkomt deze aanval alle schade"
+	line "die aan Squirtle wordt gedaan"
+	line "tijdens je tegenstanders volgende"
+	line "beurt. (Alle andere gevolgen van"
+	line "aanvallen blijven gewoon geldig.)"
+	done
+
+TinyTurtleName: ; 5afd6 (16:6fd6)
+	text "Kleine Schildpad-"
+	done
+
+SquirtleDescription: ; 5afe3 (16:6fe3)
+	text "Na zijn geboorte zwelt zijn rug op"
+	line "en verhardt die tot een hard schild."
+	line "Hij spuwt met grote kracht schuim"
+	line "uit zijn bek."
+	done
+
+WartortleName: ; 5b045 (16:7045)
+	text "Wartortle"
+	done
+
+WartortlesWithdrawDescription: ; 5b050 (16:7050)
+	text "Gooi een munt op. Als het kop is,"
+	line "voorkomt deze aanval alle schade"
+	line "die aan Wartortle wordt gedaan"
+	line "tijdens je tegenstanders volgende"
+	line "beurt. (Alle andere gevolgen van"
+	line "aanvallen blijven gewoon geldig.)"
+	done
+
+TurtleName: ; 5b0dc (16:70dc)
+	text "Schildpad-"
+	done
+
+WartortleDescription: ; 5b0e4 (16:70e4)
+	text "Verschuilt zich vaak in het water om"
+	line "onbehoedzame prooien te besluipen."
+	line "Als hij snel zwemt, beweegt hij zijn"
+	line "oren om zijn evenwicht te bewaren."
+	done
+
+BlastoiseName: ; 5b14e (16:714e)
+	text "Blastoise"
+	done
+
+RainDanceName: ; 5b159 (16:7159)
+	text "Regendans"
+	done
+
+RainDanceDescription: ; 5b165 (16:7165)
+	text "Je mag zo vaak als je wilt tijdens"
+	line "je beurt (vóór je aanval) 1 <WATER>"
+	line "Energiekaart aan 1 van je <WATER> Pokémon"
+	line "hechten. (Hiermee wordt de "
+	line "aanhechting van 1 Energiekaart"
+	line "voor je beurt niet opgebruikt.)"
+	done
+
+RainDanceDescriptionCont: ; 5b21d (16:721d)
+	text "Deze kracht kan niet worden gebruikt"
+	line "als Blastoise In Slaap, Verward, of"
+	line "Verlamd is."
+	done
+
+HydroPumpName: ; 5b267 (16:7267)
+	text "Hydropomp"
+	done
+
+HydroPumpDescription: ; 5b273 (16:7273)
+	text "Doet 40 schade plus nog eens 10"
+	line "schade voor elke <WATER> Energie die"
+	line "aan Blastoise gehecht is maar niet"
+	line "wordt gebruikt om de Energiekosten"
+	line "van deze Aanval te betalen. Je kunt"
+	line "op deze manier niet meer dan 20"
+	line "schade toevoegen."
+	done
+
+ShellfishName: ; 5b322 (16:7322)
+	text "Schelpdier-"
+	done
+
+BlastoiseDescription: ; 5b32d (16:732d)
+	text "Een brute Pokémon met hogedruk-"
+	line "waterstraalpijpen op zijn schild."
+	line "Ze worden gebruikt voor aanvals-"
+	line "manouevres onder hoge snelheid."
+	done
+
+PsyduckName: ; 5b38f (16:738f)
+	text "Psyduck"
+	done
+
+HeadacheName: ; 5b398 (16:7398)
+	text "Hoofdpijn"
+	done
+
+HeadacheDescription: ; 5b3a2 (16:73a2)
+	text "Je tegenstander kan tijdens"
+	line "zijn of haar volgende beurt geen"
+	line "Trainerkaarten spelen."
+	done
+
+DuckName: ; 5b3e7 (16:73e7)
+	text "Eend-"
+	done
+
+PsyduckDescription: ; 5b3ed (16:73ed)
+	text "Terwijl hij zijn vijanden met zijn"
+	line "lege blik in slaap sust, gebruikt"
+	line "deze sluwe Pokémon zijn"
+	line "psychokinetische krachten."
+	done
+
+GolduckName: ; 5b44f (16:744f)
+	text "Golduck"
+	done
+
+PsyshockName: ; 5b458 (16:7458)
+	text "Psyshock"
+	done
+
+HyperBeamName: ; 5b462 (16:7462)
+	text "Hyper Beam"
+	done
+
+Discard1EnergyFromTargetDescription: ; 5b46e (16:746e)
+	text "If the Defending Pokémon has any"
+	line "Energiekaarten attached to it, choose"
+	line "1 of them and discard it."
+	done
+
+GolduckDescription: ; 5b4ce (16:74ce)
+	text "Often seen swimming elegantly by"
+	line "lake shores. It is often mistaken"
+	line "for the Japanese monster, Kappa."
+	done
+
+PoliwagName: ; 5b533 (16:7533)
+	text "Poliwag"
+	done
+
+WaterGunName: ; 5b53c (16:753c)
+	text "Waterpistool"
+	done
+
+PoliwagsWaterGunDescription: ; 5b547 (16:7547)
+	text "Does 10 damage plus 10 more damage"
+	line "for each <WATER> Energy attached to"
+	line "Poliwag but not used to pay for"
+	line "this attack's Energy cost. You can't"
+	line "add more than 20 damage in this way."
+	done
+
+TadpoleName: ; 5b5f4 (16:75f4)
+	text "Tadpole"
+	done
+
+PoliwagDescription: ; 5b5fd (16:75fd)
+	text "Its newly grown legs prevent it"
+	line "from running. It appears to prefer"
+	line "swimming over trying to stand."
+	done
+
+PoliwhirlName: ; 5b660 (16:7660)
+	text "Poliwhirl"
+	done
+
+AmnesiaName: ; 5b66b (16:766b)
+	text "Amnesie"
+	done
+
+PoliwhirlsAmnesiaDescription: ; 5b674 (16:7674)
+	text "Choose 1 of the Defending Pokémon's"
+	line "attacks. That Pokémon can't use that"
+	line "attack during your opponent's next"
+	line "turn."
+	done
+
+DoubleslapName: ; 5b6e7 (16:76e7)
+	text "Doubleslap"
+	done
+
+PoliwhirlsDescription: ; 5b6f3 (16:76f3)
+	text "Capable of living in or out of"
+	line "water. When out of water, it sweats"
+	line "to keep its body slimy."
+	done
+
+PoliwrathName: ; 5b74f (16:774f)
+	text "Poliwrath"
+	done
+
+PoliwrathsWaterGunDescription: ; 5b75a (16:775a)
+	text "Does 30 damage plus 10 more damage"
+	line "for each <WATER> Energy attached to"
+	line "Poliwrath but not used to pay for"
+	line "this attack's Energy cost. You"
+	line "can't add more than 20 damage in"
+	line "this way."
+	done
+
+WhirlpoolName: ; 5b809 (16:7809)
+	text "Whirlpool"
+	done
+
+PoliwrathDescription: ; 5b814 (16:7814)
+	text "An adept swimmer at both the front"
+	line "crawl and breaststroke. Easily"
+	line "overtakes the best human swimmers."
+	done
+
 TentacoolName: ; 5b87a (16:787a)
 	text "Tentacool"
 	done
@@ -45,17 +317,18 @@ SeelName: ; 5ba77 (16:7a77)
 	done
 
 HeadbuttName: ; 5ba7d (16:7a7d)
-	text "Headbutt"
+	text "Kopstoot"
 	done
 
 SeaLionName: ; 5ba87 (16:7a87)
-	text "Sea Lion"
+	text "Zeeleeuw-"
 	done
 
 SeelDescription: ; 5ba91 (16:7a91)
-	text "The protruding horn on its head is"
-	line "very hard. This horn is used for"
-	line "bashing through thick ice."
+	text "De hoorn die uit zijn kop steekt"
+	line "is erg hard. Deze hoorn wordt"
+	line "gebruikt om door dik ijs"
+	line "te hakken."
 	done
 
 DewgongName: ; 5baf1 (16:7af1)
@@ -63,17 +336,18 @@ DewgongName: ; 5baf1 (16:7af1)
 	done
 
 AuroraBeamName: ; 5bafa (16:7afa)
-	text "Aurora Beam"
+	text "Aurorastraal"
 	done
 
 IceBeamName: ; 5bb07 (16:7b07)
-	text "Ice Beam"
+	text "IJsstraal"
 	done
 
 DewgongDescription: ; 5bb11 (16:7b11)
-	text "Stores thermal energy in its body."
-	line "Swims at a steady 8 knots even in"
-	line "intensely cold waters."
+	text "Slaat thermische energie op in zijn"
+	line "lijf. Zwemt met een gelijkmatige"
+	line "snelheid van 8 knopen, zelfs in"
+	line "intens koude wateren."
 	done
 
 ShellderName: ; 5bb6e (16:7b6e)
@@ -85,7 +359,7 @@ HideInShellName: ; 5bb78 (16:7b78)
 	done
 
 HideInShellDescription: ; 5bb87 (16:7b87)
-	text "Flip a coin. If heads, prevent all"
+	text "Gooi een munt op. Als het kop is, prevent all"
 	line "damage done to Shellder during your"
 	line "opponent's next turn. (Any other"
 	line "effects of attacks still happen.)"
@@ -106,24 +380,26 @@ CloysterName: ; 5bc74 (16:7c74)
 	done
 
 ClampName: ; 5bc7e (16:7c7e)
-	text "Clamp"
+	text "Klem"
 	done
 
 ClampDescription: ; 5bc85 (16:7c85)
-	text "Flip a coin. If heads, the Defending"
-	line "Pokémon is now Paralyzed. If tails,"
-	line "this attack does nothing (not even"
-	line "damage)."
+	text "Gooi een munt op. Als het kop"
+	line "is, is de Verdedigende Pokémon"
+	line "nu Verlamd. Als het munt is,"
+	line "doet deze Aanval niets (zelfs"
+	line "geen schade)."
 	done
 
 SpikeCannonName: ; 5bcfb (16:7cfb)
-	text "Spike Cannon"
+	text "Spijkerkanon"
 	done
 
 CloysterDescription: ; 5bd09 (16:7d09)
-	text "When attacked, it launches its horns"
-	line "in quick volleys. Its innards have"
-	line "never been seen."
+	text "Wanneer hij wordt aangevallen"
+	line "zet hij in snelle salvo's zijn"
+	line "horens uit. Niemand heeft ooit"
+	line "zijn inwendige gezien."
 	done
 
 KrabbyName: ; 5bd63 (16:7d63)
@@ -210,7 +486,7 @@ SeadrasWaterGunDescription: ; 5c065 (17:4065)
 	done
 
 SeadrasAgilityDescription: ; 5c111 (17:4111)
-	text "Flip a coin. If heads, during your"
+	text "Gooi een munt op. Als het kop is, during your"
 	line "opponent's next turn, prevent all "
 	line "effects of attacks, including"
 	line "damage, done to Seadra."
@@ -227,7 +503,7 @@ GoldeenName: ; 5c1ec (17:41ec)
 	done
 
 HornAttackName: ; 5c1f5 (17:41f5)
-	text "Hoornaanval"
+	text "HoornAanval"
 	done
 
 GoldfishName: ; 5c202 (17:4202)
@@ -284,10 +560,11 @@ RecoverName: ; 5c352 (17:4352)
 	done
 
 StarmiesRecoverDescription: ; 5c35b (17:435b)
-	text "Om deze aanval te kunnen gebruiken moet"
-	line "je 1 aan Starmie gehechte <WATER> Energiekaart"
-	line "weggooien. Verwijder alle schadetellers van"
-	line "Starmie."
+	text "Om deze Aanval te kunnen gebruiken"
+	line "moet je 1 aan Starmie gehechte"
+	line "<WATER> Energiekaart weggooien."
+	line "Verwijder alle Schadetellers"
+	line "van Starmie."
 	done
 
 StarFreezeName: ; 5c3cf (17:43cf)
@@ -355,21 +632,22 @@ LaprasName: ; 5c58f (17:458f)
 	done
 
 LaprasWaterGunDescription: ; 5c597 (17:4597)
-	text "Does 10 damage plus 10 more damage"
-	line "for each <WATER> Energy attached to"
-	line "Lapras but not used to pay for this"
-	line "attack's Energy cost. You can't add"
-	line "more than 20 damage in this way."
+	text "Doet 10 schade plus nog eens 10"
+	line "schade voor elke aan Lapras gehechte"
+	line "<WATER> Energie die niet wordt gebruikt"
+	line "om de Energiekosten van deze aanval te"
+	line "betalen. Je kunt op deze manier niet"
+	line "meer dan 20 schade toevoegen."
 	done
 
 TransportName: ; 5c643 (17:4643)
-	text "Transport"
+	text "Transport-"
 	done
 
 LaprasDescription: ; 5c64e (17:464e)
-	text "A Pokémon that has been overhunted"
-	line "almost to extinction. It can ferry"
-	line "people across water."
+	text "Een Pokémon die door overbejaging"
+	line "bijna uitgeroeid is. Hij kan mensen"
+	line "het water overzetten"
 	done
 
 VaporeonName: ; 5c6aa (17:46aa)
@@ -478,7 +756,7 @@ BlizzardName: ; 5cb6d (17:4b6d)
 	done
 
 BlizzardDescription: ; 5cb77 (17:4b77)
-	text "Flip a coin. If heads, this attack"
+	text "Gooi een munt op. Als het kop is, this attack"
 	line "does 10 damage to each of your"
 	line "opponent's Benched Pokémon."
 	line "If tails, this attack does 10 damage"
@@ -504,7 +782,7 @@ QuickfreezeName: ; 5ccc4 (17:4cc4)
 QuickfreezeDescription: ; 5ccd1 (17:4cd1)
 	text "When you put Articuno into play"
 	line "during your turn (not during"
-	line "set-up), flip a coin. If heads, the"
+	line "set-up), Gooi een munt op. Als het kop is, the"
 	line "Defending Pokémon is now Paralyzed."
 	done
 
@@ -533,105 +811,117 @@ PikachuName: ; 5ce94 (17:4e94)
 	done
 
 GnawName: ; 5ce9d (17:4e9d)
-	text "Gnaw"
+	text "Knauw"
 	done
 
 ThunderJoltName: ; 5cea3 (17:4ea3)
-	text "Thunder Jolt"
+	text "Donderstoot"
 	done
 
 ThunderJoltDescription: ; 5ceb1 (17:4eb1)
-	text "Flip a coin. If tails, Pikachu does"
-	line "10 damage to itself."
+	text "Gooi een munt op. Als het munt"
+	line "is, doet Pikachu 10 schade"
+	line "aan zichzelf."
 	done
 
 MouseName: ; 5ceeb (17:4eeb)
-	text "Mouse"
+	text "Muis-"
 	done
 
 Pikachu1Description: ; 5cef2 (17:4ef2)
-	text "When several of these Pokémon"
-	line "gather, their electricity can cause"
-	line "lightning storms."
+	text "Als een aantal van deze Pokémon"
+	line "zich verzamelt, kan hun"
+	line "elektriciteit bliksemstormen"
+	line "veroorzaken."
 	done
 
 SparkName: ; 5cf47 (17:4f47)
-	text "Spark"
+	text "Vonk"
 	done
 
 SparkDescription: ; 5cf4e (17:4f4e)
-	text "If your opponent has any Benched"
-	line "Pokémon, choose 1 of them and this"
-	line "attack does 10 damage to it. (Don't"
-	line "apply Weakness and Resistance for"
-	line "Benched Pokémon.)"
+	text "Als je tegenstander Pokémon op de"
+	line "Bank heeft, kies er daar dan 1 van"
+	line "en deze aanval doet er 10 schade"
+	line "aan. (Pas geen Zwakte en Weerstand"
+	line "toe op de Pokémon op de Bank.)"
 	done
 
 Pikachu2Description: ; 5cfeb (17:4feb)
-	text "When several of these Pokémon"
-	line "gather, their electricity can build"
-	line "and cause lightning storms."
+	text "Als meerdere van deze Pokémon"
+	line "samenkomen, kan hun"
+	line "elektriciteit zich opstapelen"
+	line "en bliksemstormen veroorzaken."
 	done
 
 GrowlName: ; 5d04a (17:504a)
-	text "Growl"
+	text "Grommen"
 	done
 
 GrowlDescription: ; 5d051 (17:5051)
-	text "If the Defending Pokémon attacks"
-	line "Pikachu during your opponent's next"
-	line "turn, any damage done by the attack"
-	line "is reduced by 10 (after applying"
-	line "Weakness and Resistance). "
-	line "(Benching or evolving either Pokémon"
-	line "ends this effect.)"
+	text "Als de Verdedigende Pokémon Pikachu"
+	line "aanvalt tijdens je tegenstander's"
+	line "volgende beurt, wordt alle schade"
+	line "die door de aanval wordt gedaan"
+	line "verminderd met 10 (na het toepassen"
+	line "van Zwakte en Weerstand)."
+	done
+
+GrowlDescriptionCont: ; Translated text didn't fit so I made this
+	text "(Het op de Bank plaatsen van een van"
+	line "beide Pokémon beëindigt dit effect.)"
 	done
 
 ThundershockName: ; 5d12f (17:512f)
-	text "Thundershock"
+	text "Donderschok"
 	done
 
 Pikachu3Description: ; 5d13d (17:513d)
-	text "When several of these Pokémon"
-	line "gather, their electricity could"
-	line "build and cause lightning storms."
+	text "Als meerdere van deze Pokémon"
+	line "samenkomen, kan hun"
+	line "elektriciteit zich opstapelen"
+	line "en bliksemstormen veroorzaken."
 	done
 
 FlyingPikachuName: ; 5d19e (17:519e)
-	text "Flying Pikachu"
+	text "Vliegende Pikachu"
 	done
 
 FlyName: ; 5d1ae (17:51ae)
-	text "Fly"
+	text "Vliegen"
 	done
 
 FlyDescription: ; 5d1b3 (17:51b3)
-	text "Flip a coin. If heads, during your"
-	line "opponent's next turn, prevent all"
-	line "effects of attacks, including"
-	line "damage, done to Flying Pikachu. "
-	line "If tails, this attack does nothing "
-	line "(not even damage)."
+	text "Gooi een munt op. Als het kop is,"
+	line "voorkom dan tijdens je tegenstander's"
+	line "volgende beurt alle gevolgen van"
+	line "aanvallen, inclusief schade,"
+	line "toegebracht aan Vliegende Pikachu;"
+	done
+
+FlyDescriptionCont: ; Translated text didn't fit so I made this
+	text "als het munt is, doet deze aanval"
+	line "niets (zelfs geen schade)."
 	done
 
 FlyingPikachuDescription: ; 5d26f (17:526f)
-	text "By learning how to fly, Pikachu"
-	line "overcame its weakness to Fighting"
-	line "Pokémon."
+	text "Door te leren hoe hij moest vliegen,"
+	line "overkwam Pikachu zijn zwakte tegen"
+	line "Vecht Pokémon."
 	done
 
 SurfingPikachuName: ; 5d2bb (17:52bb)
-	text "Surfing Pikachu"
+	text "Surfende Pikachu"
 	done
 
 SurfName: ; 5d2cc (17:52cc)
-	text "Surf"
+	text "Surfen"
 	done
 
 SurfingPikachuDescription: ; 5d2d2 (17:52d2)
-	text "One summer, a group of Pikachu"
-	line "was found riding the waves at the"
-	line "local beach."
+	text "Tijdens een zomer werd er een"
+	line "groep Pikachu gespot die de golven"
+	line "bereden bij het lokale strand."
 	done
 
 RaichuName: ; 5d321 (17:5321)
@@ -639,7 +929,7 @@ RaichuName: ; 5d321 (17:5321)
 	done
 
 RaichusAgilityDescription: ; 5d329 (17:5329)
-	text "Flip a coin. If heads, during your"
+	text "Gooi een munt op. Als het kop is, during your"
 	line "opponent's next turn, prevent all"
 	line "effects of attacks, including"
 	line "damage, done to Raichu."
@@ -650,7 +940,7 @@ ThunderName: ; 5d3a5 (17:53a5)
 	done
 
 RaichusThunderDescription: ; 5d3ae (17:53ae)
-	text "Flip a coin. If tails, Raichu does"
+	text "Gooi een munt op. If tails, Raichu does"
 	line "30 damage to itself."
 	done
 
@@ -685,41 +975,45 @@ MagnemiteName: ; 5d586 (17:5586)
 	done
 
 ThunderWaveName: ; 5d591 (17:5591)
-	text "Thunder Wave"
+	text "Dondergolf"
 	done
 
 MagnemitesSelfdestructDescription: ; 5d59f (17:559f)
-	text "Does 10 damage to each Pokémon on"
-	line "each player's Bench. (Don't apply"
-	line "Weakness and Resistance for Benched"
-	line "Pokémon.) Magnemite does 40 damage"
-	line "to itself."
+	text "Doet 10 schade aan elke Pokémon op"
+	line "de Bank van elke speler. (Pas geen"
+	line "Zwakte en Weerstand toe op de"
+	line "Pokémon op de Bank.) Magnemite"
+	line "doet 40 schade aan zichzelf."
 	done
 
 MagnetName: ; 5d636 (17:5636)
-	text "Magnet"
+	text "Magneet-"
 	done
 
 Magnemite1Description: ; 5d63e (17:563e)
-	text "Uses anti-gravity to stay suspended."
-	line "Appears without warning and uses"
-	line "attacks like Thunder Wave."
+	text "Gebruikt anti-zwaartekracht om"
+	line "in de lucht te blijven. Verschijnt"
+	line "zonder waarschuwing en gebruikt"
+	line "aanvallen zoals Dondergolf."
 	done
 
 MagneticStormName: ; 5d6a0 (17:56a0)
-	text "Magnetic Storm"
+	text "Magnetische Storm"
 	done
 
 MagneticStormDescription: ; 5d6b0 (17:56b0)
-	text "Remove all Energy cards attached to"
-	line "all of your Pokémon, then randomly"
-	line "reattach each of them."
+	text "Verwijder alle Energiekaarten die"
+	line "gehecht zijn aan al je Pokémon, en"
+	line "hecht de Energiekaarten daarna weer"
+	line "aan je Pokémon, op willekeurige"
+	line "wijze verdeeld."
 	done
 
 Magnemite2Description: ; 5d70f (17:570f)
-	text "It is born with the ability to defy"
-	line "gravity. Floats in air on powerful"
-	line "electromagnetic waves."
+	text "Hij is geboren met het vermogen om"
+	line "de zwaartekracht tegen te gaan. Hij"
+	line "zweeft in de lucht op krachtige"
+	line "electromanetische golven."
 	done
 
 MagnetonName: ; 5d76e (17:576e)
@@ -727,43 +1021,45 @@ MagnetonName: ; 5d76e (17:576e)
 	done
 
 Magneton1sSelfdestructDescription: ; 5d778 (17:5778)
-	text "Does 20 damage to each Pokémon on"
-	line "each player's Bench. (Don't apply"
-	line "Weakness and Resistance for Benched"
-	line "Pokémon.)"
-	line "Magneton does 80 damage to itself."
+	text "Doet 20 schade aan elke Pokémon op"
+	line "de Bank van elke speler. (Pas geen"
+	line "Zwakte en Weerstand toe op de"
+	line "Pokémon op de Bank.) Magneton"
+	line "doet 80 schade aan zichzelf."
 	done
 
 Magneton1Description: ; 5d80e (17:580e)
-	text "Formed by several Magnemites linked"
-	line "together. It frequently appears when"
-	line "sunspots flare up."
+	text "Wordt gevormd door verschillende"
+	line "met elkaar verbonden Magnemites."
+	line "Verschijnt vaak als de"
+	line "zonnevlekken opvlammen."
 	done
 
 SonicboomName: ; 5d86b (17:586b)
-	text "Sonicboom"
+	text "Supersone knal"
 	done
 
 SonicboomDescription: ; 5d876 (17:5876)
-	text "Don't apply Weakness and Resistance"
-	line "for this attack. (Any other effects"
-	line "that would happen after applying"
-	line "Weakness and Resistance still"
-	line "happen.)"
+	text "Pas geen Zwakte of Weerstand toe"
+	line "voor deze aanval. (Alle andere"
+	line "gevolgen die na het toepassen van"
+	line "Zwakte en Weerstand zouden"
+	line "gebeuren blijven gewoon geldig.))"
 	done
 
 Magneton2sSelfdestructDescription: ; 5d907 (17:5907)
-	text "Does 20 damage to each Pokémon on"
-	line "each player's Bench. (Don't apply"
-	line "Weakness and Resistance for Benched"
-	line "Pokémon.) Magneton does 100 damage"
-	line "to itself."
+	text "Doet 20 schade aan elke Pokémon op"
+	line "de Bank van elke speler. (Pas geen"
+	line "Zwakte en Weerstand toe op de"
+	line "Pokémon op de Bank.) Magneton"
+	line "doet 100 schade aan zichzelf."
 	done
 
 Magneton2Description: ; 5d99e (17:599e)
-	text "Formed by several Magnemites linked"
-	line "together. They frequently appear"
-	line "when sunspots flare up."
+	text "Wordt gevormd door verschillende"
+	line "met elkaar verbonden Magnemites."
+	line "Verschijnt vaak als de"
+	line "zonnevlekken opvlammen."
 	done
 
 VoltorbName: ; 5d9fc (17:59fc)
@@ -825,57 +1121,61 @@ ElectabuzzName: ; 5dc66 (17:5c66)
 	done
 
 LightScreenName: ; 5dc72 (17:5c72)
-	text "Light Screen"
+	text "Lichtscherm"
 	done
 
 LightScreenDescription: ; 5dc80 (17:5c80)
-	text "Whenever an attack does damage to"
-	line "Electabuzz (after applying Weakness"
-	line "and Resistance) during your"
-	line "opponent's next turn, that attack"
-	line "only does half the damage to"
-	line "Electabuzz (rounded down to the"
-	line "nearest 10)."
+	text "Wanneer een aanval tijdens je"
+	line "tegenstander's volgende beurt schade"
+	line "doet aan Electabuzz (na het"
+	line "toepassen van Zwakte en Weerstand),"
+	line "doet die aanval slechts de helft"
+	line "van de schade aan Electabuzz"
 	done
 
 LightScreenDescriptionCont: ; 5dd4f (17:5d4f)
-	text "(Any other effects of attacks still"
-	line "happen.)"
+	text "(naar beneden afgerond naar de"
+	line "dichtstbijzijnde 10). (Alle"
+	line "andere gevolgen van aanvallen"
+	line "blijven gewoon geldig.)"
 	done
 
 ElectabuzzsQuickAttackDescription: ; 5dd7d (17:5d7d)
-	text "Flip a coin. If heads, this attack"
-	line "does 10 damage plus 20 more damage; "
-	line "if tails, this attack does"
-	line "10 damage."
+	text "Gooi een munt op. Als het kop is,"
+	line "doet deze aanval 10 schade plus"
+	line "nog eens 20 schade; als het munt"
+	line "is, doet deze aanval 10 schade."
 	done
 
 ElectricName: ; 5ddec (17:5dec)
-	text "Electric"
+	text "Elektrische"
 	done
 
 Electabuzz1Description: ; 5ddf6 (17:5df6)
-	text "A wild Pokémon with a short temper."
-	line "It is able to distinguish colors"
-	line "and likes the color red."
+	text "Een wilde Pokémon met een kort"
+	line "lontje. Hij kan kleuren"
+	line "onderscheiden en hij vindt de"
+	line "kleur rood leuk."
 	done
 
 ThunderpunchName: ; 5de55 (17:5e55)
-	text "Thunderpunch"
+	text "Donderslag"
 	done
 
 ThunderpunchDescription: ; 5de63 (17:5e63)
-	text "Flip a coin. If heads, this attack"
-	line "does 30 damage plus 10 more damage;"
-	line "if tails, this attack does 30 damage"
-	line "and Electabuzz does 10 damage to"
-	line "itself."
+	text "Gooi een munt op. Als het kop is,"
+	line "doet deze aanval 30 schade plus nog"
+	line "eens 10 schade. Als het munt is,"
+	line "doet deze aanval 30 schade en"
+	line "doet Electabuzz 10 schade aan"
+	line "zichzelf."
 	done
 
 Electabuzz2Description: ; 5def9 (17:5ef9)
-	text "Normally found near power plants,"
-	line "it can wander away and cause major"
-	line "blackouts in cities."
+	text "Hoewel hij gewoonlijk te vinden is"
+	line "in de buurt van energiecentrales,"
+	line "kan hij afdwalen en enorme stroom-"
+	line "storingen veroorzaken in steden."
 	done
 
 JolteonName: ; 5df54 (17:5f54)
@@ -926,7 +1226,7 @@ ThunderstormName: ; 5e0d7 (17:60d7)
 
 ThunderstormDescription: ; 5e0e5 (17:60e5)
 	text "For each of your opponent's Benched"
-	line "Pokémon, flip a coin. If heads,"
+	line "Pokémon, Gooi een munt op. Als het kop is,"
 	line "this attack does 20 damage to that"
 	line "Pokémon. (Don't apply Weakness and"
 	line "Resistance for Benched Pokémon.)"
@@ -942,7 +1242,7 @@ Zapdos1Description: ; 5e1d2 (17:61d2)
 	done
 
 ZapdosThunderDescription: ; 5e257 (17:6257)
-	text "Flip a coin. If tails, Zapdos does"
+	text "Gooi een munt op. If tails, Zapdos does"
 	line "30 damage to itself."
 	done
 
@@ -951,7 +1251,7 @@ ThunderboltName: ; 5e290 (17:6290)
 	done
 
 ThunderboltDescription: ; 5e29d (17:629d)
-	text "Discard all Energy cards attached to"
+	text "Discard all Energiekaarten attached to"
 	line "Zapdos in order to use this attack."
 	done
 
@@ -998,7 +1298,7 @@ SandshrewName: ; 5e55b (17:655b)
 	done
 
 SandAttackName: ; 5e566 (17:6566)
-	text "Sand-attack"
+	text "ZandAanval"
 	done
 
 SandshrewDescription: ; 5e573 (17:6573)
@@ -1063,359 +1363,4 @@ DugtrioDescription: ; 5e789 (17:6789)
 	text "A team of Diglett triplets."
 	line "It triggers huge earthquakes by"
 	line "burrowing 60 miles underground."
-	done
-
-MankeyName: ; 5e7e6 (17:67e6)
-	text "Mankey"
-	done
-
-PeekName: ; 5e7ee (17:67ee)
-	text "Peek"
-	done
-
-PeekDescription: ; 5e7f4 (17:67f4)
-	text "Once during your turn (before your"
-	line "attack), you may look at one of the"
-	line "following: the top card of either"
-	line "player's deck, a random card from"
-	line "your opponent's hand, or one of"
-	line "either player's Prizes."
-	done
-
-PeekDescriptionCont: ; 5e8b8 (17:68b8)
-	text "Deze kracht kan niet worden gebruikt Mankey"
-	line "is Asleep, Confused, or Paralyzed."
-	done
-
-PigMonkeyName: ; 5e8ff (17:68ff)
-	text "Pig Monkey"
-	done
-
-MankeyDescription: ; 5e90b (17:690b)
-	text "Extremely quick to anger. It could"
-	line "be docile one moment, then thrashing"
-	line "away the next."
-	done
-
-PrimeapeName: ; 5e963 (17:6963)
-	text "Primeape"
-	done
-
-TantrumName: ; 5e96d (17:696d)
-	text "Tantrum"
-	done
-
-TantrumDescription: ; 5e976 (17:6976)
-	text "Flip a coin. If tails, Primeape is"
-	line "now Confused (after doing damage)."
-	done
-
-PrimeapeDescription: ; 5e9bd (17:69bd)
-	text "Always furious and tenacious to"
-	line "boot. It will not abandon chasing"
-	line "its quarry until its quarry is"
-	line "caught."
-	done
-
-MachopName: ; 5ea27 (17:6a27)
-	text "Machop"
-	done
-
-LowKickName: ; 5ea2f (17:6a2f)
-	text "Lage schop"
-	done
-
-SuperpowerName: ; 5ea39 (17:6a39)
-	text "Superkracht-"
-	done
-
-MachopDescription: ; 5ea45 (17:6a45)
-	text "Vindt het heerlijk om zijn spieren"
-	line "te ontwikkelen. Hij beoefent"
-	line "allerlei vechtsporten om nog"
-	line "sterker te worden."
-	done
-
-MachokeName: ; 5eaa3 (17:6aa3)
-	text "Machoke"
-	done
-
-KarateChopName: ; 5eaac (17:6aac)
-	text "Karate Chop"
-	done
-
-KarateChopDescription: ; 5eab9 (17:6ab9)
-	text "Does 50 damage minus 10 damage for"
-	line "each damage counter on Machoke."
-	done
-
-SubmissionName: ; 5eafd (17:6afd)
-	text "Submission"
-	done
-
-SubmissionDescription: ; 5eb09 (17:6b09)
-	text "Machoke does 20 damage to itself."
-	done
-
-MachokeDescription: ; 5eb2c (17:6b2c)
-	text "Its muscular body is so powerful"
-	line "that it must wear a power-save belt"
-	line "to help regulate its motions."
-	done
-
-MachampName: ; 5eb90 (17:6b90)
-	text "Machamp"
-	done
-
-StrikesBackName: ; 5eb99 (17:6b99)
-	text "Strikes Back"
-	done
-
-StrikesBackDescription: ; 5eba7 (17:6ba7)
-	text "Whenever your opponent's attack"
-	line "damages Machamp (even if Machamp is"
-	line "Knocked Out), this power does 10"
-	line "damage to the attacking Pokémon."
-	line "(Don't apply Weakness and"
-	line "Resistance.) "
-	done
-
-StrikesBackDescriptionCont: ; 5ec56 (17:6c56)
-	text "Deze kracht kan niet worden gebruikt Machamp"
-	line "is already Asleep, Confused, or"
-	line "Paralyzed when your opponent"
-	line "attacks."
-	done
-
-SeismicTossName: ; 5ecc1 (17:6cc1)
-	text "Seismic Toss"
-	done
-
-MachampDescription: ; 5eccf (17:6ccf)
-	text "Using its amazing muscles, it throws"
-	line "powerful punches that can knock its"
-	line "victim clear over the horizon."
-	done
-
-GeodudeName: ; 5ed38 (17:6d38)
-	text "Geodude"
-	done
-
-StoneBarrageName: ; 5ed41 (17:6d41)
-	text "Stone Barrage"
-	done
-
-StoneBarrageDescription: ; 5ed50 (17:6d50)
-	text "Flip a coin until you get tails."
-	line "This attack does 10 damage times"
-	line "the number of heads."
-	done
-
-RockName: ; 5eda8 (17:6da8)
-	text "Rock"
-	done
-
-GeodudeDescription: ; 5edae (17:6dae)
-	text "Found in fields and mountains."
-	line "Mistaking them for boulders, people"
-	line "often step or trip on them."
-	done
-
-GravelerName: ; 5ee0e (17:6e0e)
-	text "Graveler"
-	done
-
-HardenName: ; 5ee18 (17:6e18)
-	text "Harden"
-	done
-
-GravelersHardenDescription: ; 5ee20 (17:6e20)
-	text "During your opponent's next turn,"
-	line "whenever 30 or less damage is done"
-	line "to Graveler (after applying"
-	line "Weakness and Resistance), prevent"
-	line "that damage. (Any other effects of"
-	line "attacks still happen.)"
-	done
-
-RockThrowName: ; 5eede (17:6ede)
-	text "Rock Throw"
-	done
-
-GravelerDescription: ; 5eeea (17:6eea)
-	text "Rolls down slopes to move. It rolls"
-	line "over any obstacle without slowing"
-	line "or changing its direction."
-	done
-
-GolemName: ; 5ef4c (17:6f4c)
-	text "Golem"
-	done
-
-AvalancheName: ; 5ef53 (17:6f53)
-	text "Avalanche"
-	done
-
-GolemsSelfdestructDescription: ; 5ef5e (17:6f5e)
-	text "Does 20 damage to each Pokémon on"
-	line "each player's Bench. (Don't apply"
-	line "Weakness and Resistance for Benched"
-	line "Pokémon.) Golem does 100 damage to"
-	line "itself."
-	done
-
-MegatonName: ; 5eff2 (17:6ff2)
-	text "Megaton"
-	done
-
-GolemDescription: ; 5effb (17:6ffb)
-	text "Its boulder-like body is extremely"
-	line "hard. It can easily withstand"
-	line "dynamite blasts without damage."
-	done
-
-OnixName: ; 5f05d (17:705d)
-	text "Onix"
-	done
-
-OnixsHardenDescription: ; 5f063 (17:7063)
-	text "During your opponent's next turn,"
-	line "whenever 30 or less damage is done"
-	line "to Onix (after applying Weakness and"
-	line "Resistance), prevent that damage."
-	line "(Any other effects of attacks still"
-	line "happen.)"
-	done
-
-RockSnakeName: ; 5f11d (17:711d)
-	text "Rock Snake"
-	done
-
-OnixDescription: ; 5f129 (17:7129)
-	text "As it grows, the stone portions of"
-	line "its body harden to become similar"
-	line "to a diamond, though colored black."
-	done
-
-CuboneName: ; 5f193 (17:7193)
-	text "Cubone"
-	done
-
-SnivelName: ; 5f19b (17:719b)
-	text "Snivel"
-	done
-
-SnivelDescription: ; 5f1a3 (17:71a3)
-	text "If the Defending Pokémon attacks"
-	line "Cubone during your opponent's next"
-	line "turn, any damage done by the attack"
-	line "is reduced by 20 (after applying"
-	line "Weakness and Resistance). (Benching"
-	line "or evolving either Pokémon ends this"
-	line "effect.)"
-	done
-
-CubonesRageDescription: ; 5f27f (17:727f)
-	text "Does 10 damage plus 10 more damage"
-	line "for each damage counter on Cubone."
-	done
-
-LonelyName: ; 5f2c6 (17:72c6)
-	text "Lonely"
-	done
-
-CuboneDescription: ; 5f2ce (17:72ce)
-	text "Because it never removes its skull"
-	line "helmet, no one has ever seen this"
-	line "Pokémon's real face."
-	done
-
-MarowakName: ; 5f329 (17:7329)
-	text "Marowak"
-	done
-
-BonemerangName: ; 5f332 (17:7332)
-	text "Bonemerang"
-	done
-
-CallforFriendName: ; 5f33e (17:733e)
-	text "Call for Friend"
-	done
-
-CallforFriendDescription: ; 5f34f (17:734f)
-	text "Search your deck for a <FIGHTING> Basic"
-	line "Pokémon card and put it onto your"
-	line "Bench. Shuffle your deck afterward."
-	line "(You can't use this attack if your"
-	line "Bench is full.)"
-	done
-
-BonekeeperName: ; 5f3e9 (17:73e9)
-	text "Bonekeeper"
-	done
-
-Marowak1Description: ; 5f3f5 (17:73f5)
-	text "The bone it holds is its key weapon."
-	line "It throws the bone skillfully like"
-	line "a boomerang to K.O. targets."
-	done
-
-BoneAttackName: ; 5f45b (17:745b)
-	text "Bone Attack"
-	done
-
-BoneAttackDescription: ; 5f468 (17:7468)
-	text "Flip a coin. If heads, the Defending"
-	line "Pokémon can't attack during your"
-	line "opponent's next turn."
-	done
-
-WailName: ; 5f4c5 (17:74c5)
-	text "Wail"
-	done
-
-WailDescription: ; 5f4cb (17:74cb)
-	text "Each player fills his or her Bench"
-	line "with Basic Pokémon chosen at random"
-	line "from his or her deck. If a player"
-	line "has fewer Basic Pokémon than that in"
-	line "his or deck, he or she chooses all"
-	line "of them. Each player shuffles his"
-	line "or her deck afterward."
-	done
-
-Marowak2Description: ; 5f5b6 (17:75b6)
-	text "Small and weak, this Pokémon is"
-	line "adept with its bone club. It has"
-	line "grown more vicious over the ages."
-	done
-
-HitmonleeName: ; 5f61a (17:761a)
-	text "Hitmonlee"
-	done
-
-StretchKickName: ; 5f625 (17:7625)
-	text "Stretch Kick"
-	done
-
-StretchKickDescription: ; 5f633 (17:7633)
-	text "If your opponent has any Benched"
-	line "Pokémon, choose 1 of them and this"
-	line "attack does 20 damage to it."
-	line "(Don't apply Weakness and"
-	line "Resistance for Benched Pokémon.)"
-	done
-
-HighJumpKickName: ; 5f6d0 (17:76d0)
-	text "High Jump Kick"
-	done
-
-KickingName: ; 5f6e0 (17:76e0)
-	text "Kicking"
-	done
-
-HitmonleeDescription: ; 5f6e9 (17:76e9)
-	text "When in a hurry, its legs lengthen"
-	line "progressively. It runs smoothly with"
-	line "extra long, loping strides."
 	done

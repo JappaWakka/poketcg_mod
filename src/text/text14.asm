@@ -14,7 +14,7 @@ PokemonFluteName: ; 6483c (19:483c)
 
 PokemonFluteDescription: ; 6484b (19:484b)
 	text "Choose 1 Basic Pokémon card from"
-	line "your opponent's discard pile and put"
+	line "your opponent's Weggooistapel and put"
 	line "it onto his or her Bench. (You can't"
 	line "play Pokémon Flute if your"
 	line "opponent's Bench is full.)"
@@ -26,7 +26,7 @@ GamblerName: ; 648ed (19:48ed)
 
 GamblerDescription: ; 648f6 (19:48f6)
 	text "Shuffle your hand into your deck."
-	line "Flip a coin. If heads, draw 8 cards."
+	line "Gooi een munt op. Als het kop is, draw 8 cards."
 	line "If tails, draw 1 card."
 	done
 
@@ -35,8 +35,8 @@ RecycleName: ; 64955 (19:4955)
 	done
 
 RecycleDescription: ; 6495e (19:495e)
-	text "Flip a coin. If heads, put a card"
-	line "in your discard pile on top of your"
+	text "Gooi een munt op. Als het kop is, put a card"
+	line "in your Weggooistapel on top of your"
 	line "deck."
 	done
 

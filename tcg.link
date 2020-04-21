@@ -41,7 +41,6 @@ ROMX $06
 	"Bank 6"
 ROMX $07
 	"Bank 7"
-	"Booster Packs"
 ROMX $08
 	"Bank 8"
 ROMX $09
@@ -161,6 +160,8 @@ ROMX $41
 	"Text Offsets"
 ROMX $42
 	"Text 14"
+ROMX $43
+	"Booster Packs"
 WRAM0
 	"WRAM0"
 	"WRAM0 Duels 1"

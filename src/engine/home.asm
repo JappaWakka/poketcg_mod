@@ -7546,12 +7546,12 @@ HandleDuelMenuInput: ; 271a (0:271a)
 ; 0x278d
 
 DuelMenuCursorCoords: ; 278d (0:278d)
-	db  2, 14 ; Hand
-	db  2, 16 ; Attack
-	db  8, 14 ; Check
-	db  8, 16 ; Pkmn Power
-	db 14, 14 ; Retreat
-	db 14, 16 ; Done
+	db  1, 14 ; Hand
+	db  1, 16 ; Attack
+	db  6, 14 ; Check
+	db  6, 16 ; Pkmn Power
+	db 13, 14 ; Retreat
+	db 13, 16 ; Done
 
 ; print the items of a list of cards (hand cards in a duel, cards from a booster pack...)
 ; and initialize the parameters of the list given:

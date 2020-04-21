@@ -3,11 +3,11 @@ HandText: ; 3630a (d:630a)
 	done
 
 CheckText: ; 36310 (d:6310)
-	text "Bekijken"
+	text "Bekijk"
 	done
 
 AttackText: ; 36317 (d:6317)
-	text "Aanvallen"
+	text "Val Aan"
 	done
 
 PKMNPowerText: ; 3631f (d:631f)
@@ -23,7 +23,7 @@ TypeText: ; 36331 (d:6331)
 	done
 
 RetreatText: ; 36337 (d:6337)
-	text "Terugtr."
+	text "Trek Terug"
 	done
 
 WeaknessText: ; 36340 (d:6340)
@@ -172,7 +172,7 @@ IsCuredOfParalysisText: ; 36539 (d:6539)
 	done
 
 BetweenTurnsText: ; 36553 (d:6553)
-	text "Tussen beurten."
+	text "Tussen de beurten."
 	done
 
 Text002c: ; 36563 (d:6563)
@@ -188,7 +188,7 @@ Text002e: ; 36588 (d:6588)
 	done
 
 YesOrNoText: ; 36595 (d:6595)
-	text "Ja     Nee"
+	text "Ja       Nee"
 	done
 
 DiscardName: ; 365a1 (d:65a1)
@@ -252,7 +252,7 @@ NoSelectableAttackText: ; 366af (d:66af)
 	done
 
 UnableToRetreatText: ; 366c5 (d:66c5)
-	text "Kan niet terugtrekken."
+	text "Kan niet Terugtrekken."
 	done
 
 MayOnlyAttachOneEnergyCardText: ; 366d9 (d:66d9)
@@ -404,7 +404,7 @@ WillUseThePokemonPowerText: ; 36a53 (d:6a53)
 
 FinishedTurnWithoutAttackingText: ; 36a74 (d:6a74)
 	text "De beurt is doorgegeven"
-	line "zonder aan te vallen."
+	line "zonder Aan te Vallen."
 	done
 
 DuelistTurnText: ; 36a9a (d:6a9a)
@@ -513,7 +513,7 @@ PleasePlacePrizesText: ; 36d3f (d:6d3f)
 IfHeadsDuelistPlaysFirstText: ; 36d57 (d:6d57)
 	text "Als het kop is,"
 	line ""
-	text "speelt <RAMTEXT> als eerste."
+	text "speelt  <RAMTEXT> als eerste."
 	done
 
 CoinTossToDecideWhoPlaysFirstText: ; 36d72 (d:6d72)
@@ -546,9 +546,9 @@ StartSuddenDeathMatchText: ; 36e05 (d:6e05)
 	done
 
 PrizesLeftActivePokemonCardsInDeckText: ; 36e2e (d:6e2e)
-	text "Prijskaarten over"
+	text "Prijskaarten"
 	line "Actieve Pokémon"
-	line "Kaarten in het Deck"
+	line "Deck kaarten"
 	done
 
 NoneText: ; 36e58 (d:6e58)
@@ -560,7 +560,7 @@ YesText: ; 36e5e (d:6e5e)
 	done
 
 CardsText: ; 36e63 (d:6e63)
-	text "Kaarten"
+	text "Over"
 	done
 
 TookAllThePrizesText: ; 36e6a (d:6e6a)
@@ -569,23 +569,23 @@ TookAllThePrizesText: ; 36e6a (d:6e6a)
 	done
 
 ThereAreNoPokemonInPlayAreaText: ; 36e82 (d:6e82)
-	text "There are no Pokémon"
-	line "in <RAMNAME>'s Play Area!"
+	text "Er zijn geen Pokémon meer"
+	line "in <RAMNAME>'s Speelveld!"
 	done
 
 WasKnockedOutText: ; 36eaa (d:6eaa)
-	text "<RAMTEXT> was"
-	line "Knocked Out!"
+	text "<RAMTEXT> is"
+	line "Uitgeschakeld!"
 	done
 
 HavePokemonPowerText: ; 36ebe (d:6ebe)
-	text "<RAMTEXT> have"
-	line "Pokémon Power."
+	text "<RAMTEXT> heeft een"
+	line "Pokémon-Kracht."
 	done
 
 UnableToUsePkmnPowerDueToToxicGasText: ; 36ed5 (d:6ed5)
-	text "Unable to us Pokémon Power due to"
-	line "the effect of Toxic Gas."
+	text "Kan de Pokémon-Kracht niet gebruiken"
+	line "door de gevolgen van Gifgas."
 	done
 
 PlayCheck1Text: ; 36f11 (d:6f11)
@@ -619,7 +619,7 @@ Text0089: ; 36f5a (d:6f5a)
 	done
 
 Text008a: ; 36f65 (d:6f65)
-	text "Kies een computertegenstander."
+	text "Kies een Computertegenstander."
 	done
 
 Text008b: ; 36f82 (d:6f82)
@@ -715,20 +715,20 @@ Text0099: ; 37184 (d:7184)
 	done
 
 Text009a: ; 371a6 (d:71a6)
-	text "Pause Mode is ON"
+	text "Pauzeermodus staat AAN"
 	line "Press SELECT to Pause"
 	done
 
 Text009b: ; 371ce (d:71ce)
-	text "Pause Mode is OFF"
+	text "Pauzeermodus staat UIT"
 	done
 
 Text009c: ; 371e1 (d:71e1)
-	text "Computer Mode is OFF"
+	text "Computermodus staat UIT"
 	done
 
 Text009d: ; 371f7 (d:71f7)
-	text "Computer Mode is ON"
+	text "Computermodus staat AAN"
 	done
 
 Text009e: ; 3720c (d:720c)
@@ -745,42 +745,42 @@ Text009e: ; 3720c (d:720c)
 	text "<PSYCHIC> Pokémon"
 	line ""
 	text "<COLORLESS> Pokémon"
-	line "Trainer Card"
-	line "Energy Card"
+	line "Trainerkaart"
+	line "Energiekaart"
 	done
 
 Text009f: ; 37279 (d:7279)
-	text "Card List"
+	text "Kaartenlijst"
 	done
 
 Text00a0: ; 37284 (d:7284)
-	text "Test Coin Flip"
+	text "Testmunt opgooien"
 	done
 
 Text00a1: ; 37294 (d:7294)
-	text "End without Prizes?"
+	text "Stoppen zonder Prijskaarten?"
 	done
 
 ResetBackUpRamText: ; 372a9 (d:72a9)
-	text "Reset Back Up RAM?"
+	text "Back-up-werkgeheugen resetten?"
 	done
 
 Text00a3: ; 372bd (d:72bd)
-	text "Your Data was destroyed"
-	line "somehow."
+	text "Je gegevens zijn op de een"
+	line "of andere manier vernietigd."
 	line ""
-	line "The game cannot be continued"
-	line "in its present condition."
-	line "Please restart the game after"
-	line "the Data is reset."
+	line "Het spel kan niet worden"
+	line "voortgezet in zijn huidige staat."
+	line "Herstart het spel nadat de"
+	line "gegevens opnieuw zijn ingesteld."
 	done
 
 NoCardsInHandText: ; 37348 (d:7348)
-	text "No cards in Hand."
+	text "Geen kaarten in Hand."
 	done
 
 TheDiscardPileHasNoCardsText: ; 3735b (d:735b)
-	text "The Discard Pile has no cards."
+	text "De Weggooistapel heeft geen kaarten."
 	done
 
 Text00a6: ; 3737b (d:737b)
@@ -808,346 +808,349 @@ Text00ab: ; 373ca (d:73ca)
 	done
 
 Text00ac: ; 373df (d:73df)
-	text "There are no Pokémon"
-	line "with Damage Counters."
+	text "Er zijn geen Pokémon"
+	line "met Schadetellers."
 	done
 
 Text00ad: ; 3740b (d:740b)
-	text "There are no Damage Counters."
+	text "Er zijn geen Schadetellers."
 	done
 
 Text00ae: ; 3742a (d:742a)
-	text "No Energy cards are attached to"
-	line "the opponent's Active Pokémon."
+	text "Er zijn geen Energiekaarten gehecht"
+	line "aan de tegenstander's Actieve Pokémon."
 	done
 
 Text00af: ; 3746a (d:746a)
-	text "There are no Energy cards"
-	line "in the the Discard Pile."
+	text "Er zijn geen Energiekaarten"
+	line "in de Weggooistapel."
 	done
 
 Text00b0: ; 3749e (d:749e)
-	text "There are no Basic Energy cards"
-	line "in the Discard Pile."
+	text "Er zijn geen Basis-Energiekaarten"
+	line "in de Weggooistapel."
 	done
 
 Text00b1: ; 374d4 (d:74d4)
-	text "There are no cards left in the Deck."
+	text "Er zitten geen kaarten meer in het Deck."
 	done
 
 NoSpaceOnTheBenchText: ; 374fa (d:74fa)
-	text "There is no space on the Bench."
+	text "Er is geen ruimte op de Bank."
 	done
 
 NoPokemonCapableOfEvolvingText: ; 3751b (d:751b)
-	text "There are no Pokémon capable"
-	line "of Evolving."
+	text "Er zijn geen Pokémon die kunnen"
+	line "Evolueren."
 	done
 
 CantEvolvePokemonInSameTurnItsPlacedText: ; 37546 (d:7546)
-	text "You cannot Evolve a Pokémon"
-	line "in the same turn it was placed."
+	text "Je kan een Pokémon niet Evolueren in"
+	line "dezelfde beurt als dat hij geplaatst is."
 	done
 
 Text00b5: ; 37583 (d:7583)
-	text "Not affected by Poison,"
-	line "Sleep, Paralysis, or Confusion."
+	text "Wordt niet beïnvloed door Vergif,"
+	line "Slaap, Verlamming, of Verwarring."
 	done
 
 Text00b6: ; 375bc (d:75bc)
-	text "Not enough cards in Hand."
+	text "Niet genoeg kaarten in Hand."
 	done
 
 Text00b7: ; 375d7 (d:75d7)
-	text "No Pokémon on the Bench."
+	text "Geen Pokémon op de Bank."
 	done
 
 Text00b8: ; 375f1 (d:75f1)
-	text "There are no Pokémon"
-	line "in the Discard Pile."
+	text "Er zijn geen Pokémon"
+	line "in de Weggooistapel."
 	done
 
 Text00b9: ; 3761c (d:761c)
-	text "Conditions for evolving to"
-	line "Stage 2 not fulfilled."
+	text "Voorwaarden om naar Fase-2"
+	line "te evolueren zijn niet vervuld."
 	done
 
 Text00ba: ; 3764f (d:764f)
-	text "There are no cards in Hand"
-	line "that you can change."
+	text "Er zijn geen kaarten in Hand"
+	line "die je kan veranderen."
 	done
 
 Text00bb: ; 37680 (d:7680)
-	text "There are no cards in the"
-	line "Discard Pile."
+	text "Er zijn geen kaarten in de"
+	line "Weggooistapel."
 	done
 
 Text00bc: ; 376a9 (d:76a9)
-	text "There are no Stage 1 Pokémon"
-	line "in the Play Area."
+	text "Er zijn geen Fase-1-Pokémon"
+	line "in het Speelveld."
 	done
 
 Text00bd: ; 376d9 (d:76d9)
-	text "No Energy cards are attached to"
-	line "Pokémon in your Play Area."
+	text "Er zijn geen Energiekaarten gehecht"
+	line "aan Pokémon in je Speelveld."
 	done
 
 Text00be: ; 37715 (d:7715)
-	text "No Energy cards attached to Pokémon"
-	line "in your opponent's Play Area."
+	text "Er zijn geen Energiekaarten gehecht aan"
+	line "Pokémon in je tegenstander's Speelveld."
 	done
 
 EnergyCardsRequiredToRetreatText: ; 37758 (d:7758)
-	text "<RAMNUM> Energy cards"
-	line "are required to Retreat."
+	text "Er zijn <RAMNUM> Energiekaarten"
+	line "nodig om Terug te Trekken."
 	done
 
 NotEnoughEnergyCardsText: ; 37781 (d:7781)
-	text "Not enough Energy cards."
+	text "Niet genoeg Energiekaarten."
 	done
 
 Text00c1: ; 3779b (d:779b)
-	text "Not enough Fire Energy."
+	text "Niet genoeg Vuur Energie."
 	done
 
 Text00c2: ; 377b4 (d:77b4)
-	text "Not enough Psychic Energy."
+	text "Niet genoeg Psychische Energie."
 	done
 
 Text00c3: ; 377d0 (d:77d0)
-	text "Not enough Water Energy."
+	text "Niet genoeg Water Energy."
 	done
 
 Text00c4: ; 377ea (d:77ea)
-	text "There are no Trainer Cards"
-	line "in the Discard Pile."
+	text "There are no Trainerkaarten"
+	line "in de Weggooistapel."
 	done
 
 Text00c5: ; 3781b (d:781b)
-	text "No Attacks may be choosen."
+	text "Er mogen geen Aanvallen"
+	line "gekozen worden."
 	done
 
 Text00c6: ; 37837 (d:7837)
-	text "You did not receive an Attack"
-	line "to Mirror Move."
+	text "Je hebt geen Aanval gekregen"
+	line "van SpiegelAanval."
 	done
 
 Text00c7: ; 37866 (d:7866)
-	text "This attack cannot"
-	line "be used twice."
+	text "Deze Aanval kan niet"
+	line "twee keer gebruikt worden."
 	done
 
 Text00c8: ; 37889 (d:7889)
-	text "No Weakness."
+	text "Geen Zwakte."
 	done
 
 Text00c9: ; 37897 (d:7897)
-	text "No Resistance."
+	text "Geen Weerstand."
 	done
 
 Text00ca: ; 378a7 (d:78a7)
-	text "Only once per turn."
+	text "Eenmaal per beurt."
 	done
 
 CannotUseDueToStatusText: ; 378bc (d:78bc)
-	text "Cannot use due to Sleep, Paralysis,"
-	line "or Confusion."
+	text "Kan niet gebruikt worden vanwege"
+	line "Slaap, Verlamming, of Verwarring"
 	done
 
 Text00cc: ; 378ef (d:78ef)
-	text "Cannot be used in the turn in"
-	line "which it was played."
+	text "Kan niet gebruikt worden tijdens"
+	line "de beurt waarin hij is gespeeld."
 	done
 
 Text00cd: ; 37923 (d:7923)
-	text "There is no Energy card attached."
+	text "Er is geen Energiekaart aan gehecht."
 	done
 
 Text00ce: ; 37946 (d:7946)
-	text "No Grass Energy."
+	text "Geen Gras Energie."
 	done
 
 Text00cf: ; 37958 (d:7958)
-	text "Cannot use since there's only"
-	line "1 Pokémon."
+	text "Kan niet gebruikt worden omdat er maar"
+	line "1 Pokémon is."
 	done
 
 Text00d0: ; 37982 (d:7982)
-	text "Cannot use because"
-	line "it will be Knocked Out."
+	text "Kan niet gebruikt worden omdat hij"
+	line "anders Uitgeschakeld wordt."
 	done
 
 Text00d1: ; 379ae (d:79ae)
-	text "Can only be used on the Bench."
+	text "Kan alleen gebruikt worden op de Bank."
 	done
 
 Text00d2: ; 379ce (d:79ce)
-	text "There are no Pokémon on the Bench."
+	text "Er zijn geen Pokémon op de Bank."
 	done
 
 Text00d3: ; 379f2 (d:79f2)
-	text "Opponent is not Asleep"
+	text "Tegenstander is niet In Slaap."
 	done
 
 UnableDueToToxicGasText: ; 37a0a (d:7a0a)
-	text "Unable to use due to the"
-	line "effects of Toxic Gas."
+	text "Kan niet gebruiken door de"
+	line "gevolgen van Gifgas."
 	done
 
 Text00d5: ; 37a3a (d:7a3a)
-	text "A Transmission Error occured."
+	text "Er gebeurde een overdrachtsfout."
 	done
 
 BackUpIsBrokenText: ; 37a59 (d:7a59)
-	text "Back Up is broken."
+	text "Back-up is kapot."
 	done
 
 Text00d7: ; 37a6d (d:7a6d)
-	text "Error No. 02:"
-	line "Printer is not connected."
+	text "Foutmelding Nr. 02:"
+	line "Printer is niet verbonden."
 	done
 
 Text00d8: ; 37a96 (d:7a96)
-	text "Error No. 01:"
-	line "Batteries have lost their charge."
+	text "Foutmelding Nr. 01:"
+	line "Batterijen hebben geen lading meer."
 	done
 
 Text00d9: ; 37ac7 (d:7ac7)
-	text "Error No. 03:"
-	line "Printer paper is jammed."
+	text "Foutmelding Nr. 03:"
+	line "Printerpapier zit vast."
 	done
 
 Text00da: ; 37aef (d:7aef)
-	text "Error No. 02:"
-	line "Check cable or printer switch."
+	text "Foutmelding Nr. 02:"
+	line "Controleer de kabel of printerschakelaar."
 	done
 
 Text00db: ; 37b1d (d:7b1d)
-	text "Error No. 04:"
-	line "Printer Packet Error."
+	text "Foutmelding Nr. 04:"
+	line "Printerpakket fout."
 	done
 
 Text00dc: ; 37b42 (d:7b42)
-	text "Printing was interrupted."
+	text "Printen was onderbroken."
 	done
 
 Text00dd: ; 37b5d (d:7b5d)
-	text "Card Pop! cannot be played"
-	line "with the Game Boy."
-	line "Please use a"
+	text "Kaart-Flits! kan niet gespeeld"
+	line "worden met de Game Boy."
+	line "Gebruik alstublieft een"
 	line "Game Boy Color."
 	done
 
 SandAttackCheckText: ; 37ba9 (d:7ba9)
-	text "Sand-attack check!"
-	line "If Tails, Attack is unsuccessful."
+	text "ZandAanval-controle! Als het munt"
+	line "is, is de Aanval onsuccesvol."
 	done
 
 SmokescreenCheckText: ; 37bdf (d:7bdf)
-	text "Smokescreen check!"
-	line "If Tails, Attack is unsuccessful."
+	text "Rookgordijn-controle! Als het munt"
+	line "is, is de Aanval onsuccesvol."
 	done
 
 ParalysisCheckText: ; 37c15 (d:7c15)
-	text "Paralysis check!"
-	line "If Heads, opponent is Paralyzed."
+	text "Verlammings-controle! Als het kop"
+	line "is, is de tegenstander Verlamd."
 	done
 
 SleepCheckText: ; 37c48 (d:7c48)
-	text "Sleep check!"
-	line "If Heads, opponent becomes Asleep."
+	text "Slaap-controle! Als het kop"
+	line "is, is de tegenstander In Slaap."
 	done
 
 PoisonCheckText: ; 37c79 (d:7c79)
-	text "Poison check!"
-	line "If Heads, opponent is Poisoned."
+	text "Vergif-controle! Als het kop"
+	line "is, is de tegenstander Vergiftigd."
 	done
 
 ConfusionCheckText: ; 37ca8 (d:7ca8)
-	text "Confusion check! If Heads,"
-	line "opponent becomes Confused."
+	text "Verwarring-controle! Als het kop"
+	line "is, is de tegenstander Verward."
 	done
 
 VenomPowderCheckText: ; 37cdf (d:7cdf)
-	text "Venom Powder check! If Heads,"
-	line "opponent is Poisoned & Confused."
+	text "Gifpoeder-controle! Als het kop is,"
+	line "is de tegenstander Vergiftigd & Verward."
 	done
 
 Text00e5: ; 37d1f (d:7d1f)
-	text "If Tails,  your Pokémon"
-	line "becomes Confused."
+	text "Als het munt is, is je Pokémon Verward."
 	done
 
 Text00e6: ; 37d4a (d:7d4a)
-	text "Damage check!"
-	line "If Tails, no damage!!!"
+	text "Schade-controle!"
+	line "Als het munt is, geen schade!!!"
 	done
 
 Text00e7: ; 37d70 (d:7d70)
-	text "If Heads,"
-	line "Draw 1 card from Deck!"
+	text "Als het kop is,"
+	line "pak 1 kaart van het Deck!"
 	done
 
 Text00e8: ; 37d92 (d:7d92)
-	text "Flip until Tails appears."
-	line "10 damage for each Heads!!!"
+	text "Gooi munten op tot het munt is."
+	line "10 schade maal het aantal keren kop!!!"
 	done
 
 IfHeadPlus10IfTails10ToYourselfText: ; 37dc9 (d:7dc9)
-	text "If Heads, + 10 damage!"
-	line "If Tails, +10 damage to yourself!"
+	text "Als het kop is, plus 10 schade!"
+	line "Als het munt is, plus 10 schade aan jezelf!"
 	done
 
 Text00ea: ; 37e03 (d:7e03)
-	text "10 damage to opponent's Bench if"
-	line "Heads, damage to yours if Tails."
+	text "10 schade aan de tegenstander's Bank als"
+	line "het kop is, schade aan die van jou als"
+	line "het munt is."
 	done
 
 Text00eb: ; 37e46 (d:7e46)
-	text "If Heads, change opponent's"
-	line "Active Pokémon."
+	text "Als het kop is, wissel de tegenstander's"
+	line "Actieve Pokémon."
 	done
 
 Text00ec: ; 37e73 (d:7e73)
-	text "If Heads,"
-	line "Heal is successful."
+	text "Als het kop is,"
+	line "is de Genezing succesvol."
 	done
 
 Text00ed: ; 37e92 (d:7e92)
-	text "If Tails, <RAMNUM> damage"
-	line "to yourself, too."
+	text "Als het munt is, ook <RAMNUM> schade"
+	line "aan jezelf."
 	done
 
 Text00ee: ; 37eb8 (d:7eb8)
-	text "Success check!!!"
-	line "If Heads, Attack is successful!"
+	text "Succes-controle!!!"
+	line "Als het kop is, is de Aanval succesvol!"
 	done
 
 Text00ef: ; 37eea (d:7eea)
-	text "Trainer card success check!"
-	line "If Heads, you're successful!"
+	text "Trainerkaart succes-controle!"
+	line "Als het kop is, is hij succesvol!"
 	done
 
 Text00f0: ; 37f24 (d:7f24)
-	text "Card check!"
-	line "If Heads, 8 cards! If Tails, 1 card!"
+	text "Kaart-controle!"
+	line "Als het kop is, 8 kaarten! Als het munt"
+	line "is, 1 kaart!"
 	done
 
 IfHeadsNoDamageNextTurnText: ; 37f56 (d:7f56)
-	text "If Heads, you will not receive"
-	line "damage during opponent's next turn!"
+	text "Als het kop is, ontvang je geen"
+	line "schade tijdens je tegenstander's"
+	line "volgende beurt!"
 	done
 
 Text00f2: ; 37f9a (d:7f9a)
-	text "Damage check"
+	text "Schade-controle"
 	done
 
 DamageCheckIfHeadsPlusDamageText: ; 37fa8 (d:7fa8)
-	text "Damage check!"
-	line "If Heads, +<RAMNUM> damage!!"
+	text "Schade-controle!"
+	line "Als het kop is, plus <RAMNUM> schade!!"
 	done
 
 DamageCheckIfHeadsXDamageText: ; 37fcd (d:7fcd)
-	text "Damage check!"
-	line "If Heads, x <RAMNUM> damage!!"
+	text "Damage-controle!"
+	line "Als het kop is, maal <RAMNUM> schade!!"
 	done

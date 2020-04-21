@@ -1,3 +1,48 @@
+; farcall from 0xb87e(2:787d): [EF|06|9A|7A]
+Func_1ba9a: ; 1ba9a (6:7a9a)
+	xor a
+	ld [wd0a6], a
+	ld a, $01
+.asm_7aa0
+	call Func_1bae4
+	ret nc
+	sla a
+	cp $10
+	jr z, .asm_7aac
+	jr .asm_7aa0
+.asm_7aac
+	ld a, $03
+	call Func_1bae4
+	ret nc
+	ld a, $05
+	call Func_1bae4
+	ret nc
+	ld a, $09
+	call Func_1bae4
+	ret nc
+	ld a, $06
+	call Func_1bae4
+	ret nc
+	ld a, $0a
+	call Func_1bae4
+	ret nc
+	ld a, $0c
+	call Func_1bae4
+	ret nc
+	ld a, $f7
+.asm_7ad2
+	call Func_1bae4
+	ret nc
+	sra a
+	cp $ff
+	jr z, .asm_7ade
+	jr .asm_7ad2
+.asm_7ade
+	call Func_1bae4
+	ret nc
+	scf
+	ret
+	
 	INCROM $1c000, $1c056
 
 Func_1c056: ; 1c056 (7:4056)

@@ -1,3 +1,30 @@
+Text0401: ; 3faaa (f:7aaa)
+	text "<RAMNAME>,"
+	line "It's me, Doctor Mason."
+	line "Are you getting the hang of"
+	line "the Pokémon Trading Card Game?"
+	line "I have some information for you"
+	line "about Booster Packs. "
+	line "If you want to collect the same"
+	line "cards, Duel the same person many"
+	line "times to get a particular Booster"
+	line "Pack! By doing so, you will be able "
+	line "to collect the same cards, making it"
+	line "easier for you to build your Deck."
+	line "Another method for collecting "
+	line "cards is to use Kaart-Flits!"
+	line "When you and a friend use Kaart-Flits!,"
+	line "you will each receive a new card!"
+	line "Once you POP! with a certain"
+	line "friend, you won't be able to POP!"
+	line "with that friend again, so find "
+	line "many friends who own the Pokémon "
+	line "Trading Card Game for Game Boy,"
+	line "and Kaart-Flits! with them to"
+	line "get new cards!"
+	line "Oh, here's something for you..."
+	done
+
 Text0402: ; 3fd72 (f:7d72)
 	text "I'll be sending you useful"
 	line "information by e-mail."
@@ -17,7 +44,7 @@ Text0403: ; 3fe10 (f:7e10)
 	line "His First-Strike Deck is built"
 	line "for a quick attack, but it's"
 	line "weak against Psychic Pokémon!"
-	line "I suggest you duel him using"
+	line "I suggest you Duel him using"
 	line "the Deck from the Psychic Medal"
 	line "Deck Machine."
 	line "Here's a Booster Pack for you..."
@@ -66,7 +93,7 @@ Text0407: ; 401a3 (10:41a3)
 	line "power them up."
 	line "Her deck's weakness is"
 	line "Lightning Pokémon!"
-	line "I suggest you duel her using"
+	line "I suggest you Duel her using"
 	line "the deck from the Psychic Medal"
 	line "Deck Machine."
 	line "Here's a Booster Pack for you."
@@ -88,7 +115,7 @@ Text0409: ; 40389 (10:4389)
 	line "His deck is a Selfdestruct "
 	line "deck! He uses Selfdestruct for "
 	line "maximum damage!"
-	line "Watch the number of Energy cards"
+	line "Watch the number of Energiekaarten"
 	line "on his Pokémon and look out for"
 	line "Selfdestruct."
 	line "I would suggest using Fighting"
@@ -171,7 +198,7 @@ Text040f: ; 40a15 (10:4a15)
 	line "that relies on Pokémon Power to "
 	line "attack. His deck's weakness is "
 	line "Psychic Pokémon! Collect Psychic "
-	line "Pokémon to duel his deck!"
+	line "Pokémon to Duel his deck!"
 	line "I suggest you study the deck from"
 	line "the Psychic Medal Deck Machine."
 	line "Hopefully, it will be of some"
@@ -293,7 +320,7 @@ Text0416: ; 413f1 (10:53f1)
 	line "your Active Pokémon, but also"
 	line "the Pokémon on your Bench."
 	line "His deck should be made up mostly"
-	line "of Lightning Pokémon, so duel him"
+	line "of Lightning Pokémon, so Duel him"
 	line "using your Fighting Pokémon."
 	line "Defeat the Grand Masters,"
 	line ""
@@ -325,11 +352,11 @@ Text0417: ; 415cf (10:55cf)
 
 Text0418: ; 4174c (10:574c)
 	text "It's me, Dr. Mason!"
-	line "The final duel is here!"
+	line "The final Duel is here!"
 	line "I have some information on Rod,"
 	line "the leader of the Grand Masters."
 	line "Rod uses the Legendary Dragonite."
-	line "The longer the duel takes, the "
+	line "The longer the Duel takes, the "
 	line "greater the advantages for his "
 	line "deck. His workhorse will be his"
 	line "Evolution Pokémon, so defeat them"
@@ -461,7 +488,7 @@ Text0429: ; 41f2d (10:5f2d)
 	line "It's rumored that he has really"
 	line "rare cards!"
 	line "He's really strange, but you"
-	line "might want to duel him."
+	line "might want to Duel him."
 	done
 
 Text042a: ; 41fc7 (10:5fc7)
@@ -486,7 +513,7 @@ Text042c: ; 42087 (10:6087)
 	done
 
 Text042d: ; 420e4 (10:60e4)
-	text "Would you like to duel Sara?"
+	text "Would you like to Duel Sara?"
 	done
 
 Text042e: ; 42102 (10:6102)
@@ -496,7 +523,7 @@ Text042e: ; 42102 (10:6102)
 
 Text042f: ; 42125 (10:6125)
 	text "There will be 2 Prizes."
-	line "The duel will be 1 match."
+	line "The Duel will be 1 match."
 	line "OK, let's start!"
 	done
 
@@ -526,7 +553,7 @@ Text0433: ; 42279 (10:6279)
 	done
 
 Text0434: ; 422d6 (10:62d6)
-	text "Would you like to duel Amanda?"
+	text "Would you like to Duel Amanda?"
 	done
 
 Text0435: ; 422f6 (10:62f6)
@@ -564,7 +591,7 @@ Text043a: ; 423e1 (10:63e1)
 Text043b: ; 4242a (10:642a)
 	text "The person resting over there"
 	line "is Amy, the Club Master."
-	line "If you wish to duel Amy,"
+	line "If you wish to Duel Amy,"
 	line "go defeat Sara and Amanda first."
 	line "Then I will test your skill,"
 	line "and if by chance you should win,"
@@ -586,11 +613,11 @@ Text043d: ; 4252d (10:652d)
 	done
 
 Text043e: ; 425b8 (10:65b8)
-	text "You wish to duel against me?"
+	text "You wish to Duel against me?"
 	done
 
 Text043f: ; 425d6 (10:65d6)
-	text "Would you like to duel Joshua?"
+	text "Would you like to Duel Joshua?"
 	done
 
 Text0440: ; 425f6 (10:65f6)
@@ -685,11 +712,11 @@ Text044e: ; 4296d (10:696d)
 Text044f: ; 429bd (10:69bd)
 	text "Aren't you <RAMNAME>?"
 	line "So you decided you want to"
-	line "duel me?"
+	line "Duel me?"
 	done
 
 Text0450: ; 429f0 (10:69f0)
-	text "Would you like to duel Amy?"
+	text "Would you like to Duel Amy?"
 	done
 
 Text0451: ; 42a0d (10:6a0d)
@@ -722,7 +749,7 @@ Text0455: ; 42b2d (10:6b2d)
 
 Text0456: ; 42b68 (10:6b68)
 	text "Come see me again! I'd like"
-	line "to duel you again sometime!"
+	line "to Duel you again sometime!"
 	done
 
 Text0457: ; 42ba1 (10:6ba1)
@@ -740,13 +767,13 @@ Text0458: ; 42be9 (10:6be9)
 
 Text0459: ; 42c3e (10:6c3e)
 	text "OK, same rules as before!"
-	line "A 1-match duel with 6 Prizes!"
+	line "A 1-match Duel with 6 Prizes!"
 	done
 
 Text045a: ; 42c77 (10:6c77)
 	text "Hello."
 	line "Welcome to the Fighting Club!"
-	line "Here at this Club, we duel using"
+	line "Here at this Club, we Duel using"
 	line "Fighting Pokémon."
 	line "No dirty dueling is allowed!"
 	line "Only nice, clean duels are allowed"
@@ -857,7 +884,7 @@ Text0467: ; 43221 (10:7221)
 	line "Hey!"
 	line "Move those feet!"
 	line "What? Cards?"
-	line "You want to duel me?"
+	line "You want to Duel me?"
 	line "OK, but if I win, you dance!"
 	done
 
@@ -869,7 +896,7 @@ Text0468: ; 43325 (10:7325)
 	done
 
 Text0469: ; 43391 (10:7391)
-	text "Would you like to duel Imakuni??"
+	text "Would you like to Duel Imakuni??"
 	done
 
 Text046a: ; 433b3 (10:73b3)
@@ -878,7 +905,7 @@ Text046a: ; 433b3 (10:73b3)
 	done
 
 Text046b: ; 433ea (10:73ea)
-	text "OK, a 1-match duel with 6 Prizes!"
+	text "OK, a 1-match Duel with 6 Prizes!"
 	line "...Whatever that means..."
 	done
 
@@ -958,79 +985,11 @@ Text0477: ; 43822 (10:7822)
 	line "Fighting Club!"
 	line "I have to warn you that you will"
 	line "be unable to defeat me!"
-	line "If you wish to duel with me,"
+	line "If you wish to Duel with me,"
 	line "you must defeat my pupils first!"
 	line "My pupils are training at "
 	line "other Clubs!"
 	line "Go see if you can defeat all"
 	line "3 of my pupils!"
-	done
-
-Text0478: ; 43918 (10:7918)
-	text "If you wish to duel me, you "
-	line "must defeat my pupils first!"
-	line "My pupils are training at the"
-	line "other Clubs!"
-	line "Go and see if you can defeat all"
-	line "3 of my pupils!"
-	done
-
-Text0479: ; 439af (10:79af)
-	text "So, you've defeated 1 of my pupils."
-	line "You must be a pretty good player."
-	line "But you're not good enough!"
-	line "If you wish to duel me, you"
-	line "must defeat my 2 remaining pupils!"
-	done
-
-Text047a: ; 43a51 (10:7a51)
-	text "So, you've defeated 2 of my pupils!"
-	line "You are pretty good."
-	line "But there's still the last one..."
-	line "Can you defeat my last pupil?"
-	done
-
-Text047b: ; 43acb (10:7acb)
-	text "So, you have defeated"
-	line "all of my pupils!"
-	line "Let's see if you have "
-	line "what it takes to inherit"
-	line "the Legendary Pokémon Cards!"
-	line "OK! Are you ready?"
-	done
-
-Text047c: ; 43b54 (10:7b54)
-	text "Would you like to Duel Mitch?"
-	done
-
-Text047d: ; 43b73 (10:7b73)
-	text "What?"
-	line "Are you getting cold feet?"
-	line "Come see me again when you"
-	line "finally work up enough nerves!"
-	done
-
-Text047e: ; 43bcf (10:7bcf)
-	text "Come on! Show me what you've got!"
-	line "We'll play with 6 Prizes!"
-	done
-
-Text047f: ; 43c0c (10:7c0c)
-	text "Wonderful! Great Match!"
-	line "You're very good."
-	line "Here, take this."
-	line "It's the Fighting Medal!"
-	line "You'll find the secret to the Decks"
-	line "of this Club encrypted in it."
-	done
-
-Text0480: ; 43ca3 (10:7ca3)
-	text "Here, take this, too. It's a"
-	line "LABORATORY Booster Pack."
-	done
-
-Text0481: ; 43cda (10:7cda)
-	text "I hope to duel someone "
-	line "like you again someday!"
 	done
 	

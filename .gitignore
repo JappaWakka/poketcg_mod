@@ -23,3 +23,7 @@
 
 # *disasm.py output file
 *disasm_output.asm
+
+# Photoshop + Clip Studio Paint project files
+*.psd
+*.clip

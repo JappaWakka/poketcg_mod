@@ -1,3 +1,71 @@
+Text0478: ; 43918 (10:7918)
+	text "If you wish to Duel me, you "
+	line "must defeat my pupils first!"
+	line "My pupils are training at the"
+	line "other Clubs!"
+	line "Go and see if you can defeat all"
+	line "3 of my pupils!"
+	done
+
+Text0479: ; 439af (10:79af)
+	text "So, you've defeated 1 of my pupils."
+	line "You must be a pretty good player."
+	line "But you're not good enough!"
+	line "If you wish to Duel me, you"
+	line "must defeat my 2 remaining pupils!"
+	done
+
+Text047a: ; 43a51 (10:7a51)
+	text "So, you've defeated 2 of my pupils!"
+	line "You are pretty good."
+	line "But there's still the last one..."
+	line "Can you defeat my last pupil?"
+	done
+
+Text047b: ; 43acb (10:7acb)
+	text "So, you have defeated"
+	line "all of my pupils!"
+	line "Let's see if you have "
+	line "what it takes to inherit"
+	line "the Legendary Pokémon Cards!"
+	line "OK! Are you ready?"
+	done
+
+Text047c: ; 43b54 (10:7b54)
+	text "Would you like to Duel Mitch?"
+	done
+
+Text047d: ; 43b73 (10:7b73)
+	text "What?"
+	line "Are you getting cold feet?"
+	line "Come see me again when you"
+	line "finally work up enough nerves!"
+	done
+
+Text047e: ; 43bcf (10:7bcf)
+	text "Come on! Show me what you've got!"
+	line "We'll play with 6 Prizes!"
+	done
+
+Text047f: ; 43c0c (10:7c0c)
+	text "Wonderful! Great Match!"
+	line "You're very good."
+	line "Here, take this."
+	line "It's the Fighting Medal!"
+	line "You'll find the secret to the Decks"
+	line "of this Club encrypted in it."
+	done
+
+Text0480: ; 43ca3 (10:7ca3)
+	text "Here, take this, too. It's a"
+	line "LABORATORY Booster Pack."
+	done
+
+Text0481: ; 43cda (10:7cda)
+	text "I hope to Duel someone "
+	line "like you again someday!"
+	done
+
 Text0482: ; 43d0b (10:7d0b)
 	text "You may have been able to defeat"
 	line "my pupils, but you still are not"
@@ -6,13 +74,13 @@ Text0482: ; 43d0b (10:7d0b)
 	done
 
 Text0483: ; 43d94 (10:7d94)
-	text "You wish to duel the"
+	text "You wish to Duel the"
 	line "Fighting Club Master again?"
 	done
 
 Text0484: ; 43dc6 (10:7dc6)
 	text "Oh, OK."
-	line "I'd like to duel again, though."
+	line "I'd like to Duel again, though."
 	done
 
 Text0485: ; 43def (10:7def)
@@ -26,7 +94,7 @@ Text0486: ; 43e33 (10:7e33)
 	done
 
 Text0487: ; 43e5b (10:7e5b)
-	text "I'd like to duel someone "
+	text "I'd like to Duel someone "
 	line "like you again!"
 	done
 
@@ -52,7 +120,7 @@ Text048a: ; 43f61 (10:7f61)
 	done
 
 Text048b: ; 43fd9 (10:7fd9)
-	text "Would you like to duel Chris?"
+	text "Would you like to Duel Chris?"
 	done
 
 Text048c: ; 44000 (11:4000)
@@ -61,7 +129,7 @@ Text048c: ; 44000 (11:4000)
 	done
 
 Text048d: ; 44034 (11:4034)
-	text "A 1-match duel with 4 prizes!"
+	text "A 1-match Duel with 4 prizes!"
 	line "Let's do it!"
 	done
 
@@ -88,16 +156,16 @@ Text0491: ; 44113 (11:4113)
 	done
 
 Text0492: ; 44163 (11:4163)
-	text "Would you like to duel Michael?"
+	text "Would you like to Duel Michael?"
 	done
 
 Text0493: ; 44184 (11:4184)
-	text "OK. But do duel me "
+	text "OK. But do Duel me "
 	line "again sometime."
 	done
 
 Text0494: ; 441a9 (11:41a9)
-	text "OK, a 1-match duel with 4 prizes!"
+	text "OK, a 1-match Duel with 4 prizes!"
 	line "Let's do it!"
 	done
 
@@ -119,11 +187,11 @@ Text0498: ; 44262 (11:4262)
 	text "Training is so boring..."
 	line "Why anyone would want to?"
 	line "Hey, it's you!"
-	line "Do you want to duel me again?"
+	line "Do you want to Duel me again?"
 	done
 
 Text0499: ; 442c3 (11:42c3)
-	text "Would you like to duel Jessica?"
+	text "Would you like to Duel Jessica?"
 	done
 
 Text049a: ; 442e4 (11:42e4)
@@ -132,7 +200,7 @@ Text049a: ; 442e4 (11:42e4)
 	done
 
 Text049b: ; 44300 (11:4300)
-	text "OK! A 1-match duel with 4 prizes!"
+	text "OK! A 1-match Duel with 4 prizes!"
 	line "Let's go to it!"
 	done
 
@@ -189,23 +257,23 @@ Text04a3: ; 44630 (11:4630)
 	done
 
 Text04a4: ; 4464d (11:464d)
-	text "Attach Energy cards to your Pokémon"
+	text "Attach Energiekaarten to your Pokémon"
 	line "to give them the energy they need to"
-	line "attack. Choose an Energy card from "
+	line "attack. Choose an Energiekaart from "
 	line "your hand and attach it to a"
 	line "Pokémon. You may attach only "
-	line "one Energy card per turn."
+	line "one Energiekaart per turn."
 	done
 
 Text04a5: ; 44710 (11:4710)
-	text "Cards, Vol. 3: Trainer Cards"
+	text "Cards, Vol. 3: Trainerkaarten"
 	done
 
 Text04a6: ; 4472e (11:472e)
-	text "Trainer cards are one-shot cards"
+	text "Trainerkaarten are one-shot cards"
 	line "that can be used once and are "
 	line "then discarded. You can play as "
-	line "many Trainer cards as you like "
+	line "many Trainerkaarten as you like "
 	line "during your turn."
 	done
 
@@ -217,7 +285,7 @@ Text04a8: ; 447e2 (11:47e2)
 	text "When a Pokémon loses all of "
 	line "its HP, the Pokémon is knocked out. "
 	line "Place it and all attached Energy "
-	line "cards in the discard pile."
+	line "cards in the Weggooistapel."
 	line "Each time you knock out 1 "
 	line "of your opponent's Pokémon, "
 	line "you draw 1 of your prize cards "
@@ -256,7 +324,7 @@ Text04ad: ; 44a75 (11:4a75)
 Text04ae: ; 44a7d (11:4a7d)
 	text "You can create powerful combos by"
 	line "combining the abilities of 2 cards."
-	line "Pokémon Powers and Trainer Cards "
+	line "Pokémon Powers and Trainerkaarten "
 	line "are useful in creating combos! "
 	line "Find card combinations that will"
 	line "create your own powerful combos."
@@ -272,7 +340,7 @@ Text04b0: ; 44b56 (11:4b56)
 	line "cards? In this case, use Venusaur's"
 	line "Energy Trans to transfer Grass"
 	line "Energy and use Big Eggsplosion! If"
-	line "you attach 8 Energy cards, you can"
+	line "you attach 8 Energiekaarten, you can"
 	line "give your opponent up to 160 damage."
 	done
 
@@ -295,7 +363,7 @@ Text04b4: ; 44ce9 (11:4ce9)
 	text "Blastoise's Pokémon Power, Rain "
 	line "Dance, is a great boon for your"
 	line "Water Pokémon! You can attach "
-	line "as many Water Energy cards as "
+	line "as many Water Energiekaarten as "
 	line "you have to your Water Pokémon."
 	line "Power up your Pokémon and attack!"
 	done
@@ -336,18 +404,18 @@ Text04b9: ; 44fe1 (11:4fe1)
 
 Text04ba: ; 44fed (11:4fed)
 	text "Hyper Beam is extremely powerful!"
-	line "You can remove the Energy cards "
+	line "You can remove the Energiekaarten "
 	line "attached to your opponent's"
 	line "Pokémon! Without Energy, they won't"
 	line "be able to Attack or Retreat!"
 	done
 
 Text04bb: ; 4508f (11:508f)
-	text "Prehistoric Power"
+	text "Prehistorische kracht"
 	done
 
 Text04bc: ; 450a2 (11:50a2)
-	text "Use Aerodactyl's Prehistoric Power"
+	text "Use Aerodactyl's Prehistorische kracht"
 	line "to block your opponent's Pokémon"
 	line "from evolving. Your own Pokémon "
 	line "can't evolve? In that case, use"
@@ -364,13 +432,13 @@ Text04bd: ; 451a1 (11:51a1)
 Text04be: ; 451b0 (11:51b0)
 	text "It is rumored that there is a"
 	line "Phantom Card that can only be "
-	line "gotten by using Card Pop!"
+	line "gotten by using Kaart-Flits!"
 	line "It is believed there are 2 such"
 	line "cards, but no one knows what"
 	line "kind of cards they are."
 	line "I'm off to search for someone "
 	line "who will give me these cards!"
-	line "                        ISHIHARA"
+	line "                        Ishihara"
 	done
 
 Text04bf: ; 452bb (11:52bb)
@@ -412,9 +480,9 @@ Text04c4: ; 45515 (11:5515)
 	text "Retreating your Active Pokémon to"
 	line "the Bench is a good strategy in"
 	line "certain situations! Retreating a "
-	line "Pokémon requires Energy cards."
+	line "Pokémon requires Energiekaarten."
 	line "Dodrio's Retreat Aid decreases the "
-	line "number of Energy cards required to"
+	line "number of Energiekaarten required to"
 	line "retreat. If you retreat right away,"
 	line "your Pokémon won't get knocked out!"
 	done
@@ -427,7 +495,7 @@ Text04c6: ; 4563a (11:563a)
 	text "Fighting Pokémon Characteristics:"
 	line "Strong against Lightning Pokémon."
 	line "Weak against Psychic Pokémon."
-	line "Require Fighting Energy cards "
+	line "Require Fighting Energiekaarten "
 	line "to Attack."
 	done
 
@@ -464,7 +532,7 @@ Text04cc: ; 45854 (11:5854)
 	text "Rock Pokémon Characteristics:"
 	line "Strong against Lightning Pokémon."
 	line "Weak against Grass Pokémon."
-	line "Require Fighting Energy cards"
+	line "Require Fighting Energiekaarten"
 	line "to Attack."
 	done
 
@@ -507,7 +575,7 @@ Text04d2: ; 45ae4 (11:5ae4)
 	line "Weak against Lightning Pokémon."
 	line "Some cards are weak against "
 	line "Grass Pokémon. Require Water "
-	line "Energy cards to attack."
+	line "Energiekaarten to attack."
 	done
 
 Text04d3: ; 45b94 (11:5b94)
@@ -547,7 +615,7 @@ Text04d8: ; 45d9e (11:5d9e)
 	text "Lightning Pokémon Characteristics:"
 	line "Strong against Water Pokémon."
 	line "Weak against Fighting Pokémon."
-	line "Require Lightning Energy cards"
+	line "Require Lightning Energiekaarten"
 	line "to attack."
 	done
 
@@ -556,23 +624,23 @@ Text04d9: ; 45e29 (11:5e29)
 	done
 
 Text04da: ; 45e37 (11:5e37)
-	text "There are 6 Basic Energy cards:"
+	text "There are 6 Basic Energiekaarten:"
 	line "Grass, Fire, Water, Lightning,"
 	line "Fighting and Psychic!"
 	line "There is also the Double Colorless"
-	line "Energy card."
+	line "Energiekaart."
 	line "You may include as many Energy "
 	line "cards as you like in your deck,"
 	line "but you may only include 4"
-	line "Double Colorless Energy cards."
+	line "Double Colorless Energiekaarten."
 	done
 
 Text04db: ; 45f37 (11:5f37)
-	text "Card Pop!"
+	text "Kaart-Flits!"
 	done
 
 Text04dc: ; 45f42 (11:5f42)
-	text "When you and a friend Card Pop!,"
+	text "When you and a friend Kaart-Flits!,"
 	line "you will each receive a new card."
 	line "After you Pop! with a friend, you "
 	line "won't be able to Pop! with the same"
@@ -592,7 +660,7 @@ Text04de: ; 46063 (11:6063)
 	line "Weak against Fire Pokémon."
 	line "Some Water Pokémon are weak"
 	line "against Grass Pokémon. Require "
-	line "Grass Energy cards to attack."
+	line "Grass Energiekaarten to attack."
 	done
 
 Text04df: ; 46115 (11:6115)
@@ -603,7 +671,7 @@ Text04e0: ; 4611d (11:611d)
 	text "When your Pokémon is poisoned, it"
 	line "will continue to lose HP."
 	line "The poisoned Pokémon will lose"
-	line "10 HP at the end of each player's "
+	line "10 IP at the end of each player's "
 	line "turn. To heal a Poisoned Pokémon,"
 	line "you may retreat it to the Bench"
 	line "or use the Trainer Card, Full Heal."
@@ -633,7 +701,7 @@ Text04e4: ; 46331 (11:6331)
 	line "Weak against Psychic Pokémon."
 	line "Some Colorless Pokémon are strong "
 	line "against Psychic Pokémon. Require"
-	line "Psychic Energy cards to attack."
+	line "Psychische Energie cards to attack."
 	done
 
 Text04e5: ; 463d5 (11:63d5)
@@ -678,7 +746,7 @@ Text04ea: ; 46627 (11:6627)
 	line "Weak against Psychic Pokémon."
 	line "Many cards have attacks with "
 	line "poison and sleep effects."
-	line "Require Grass Energy cards"
+	line "Require Grass Energiekaarten"
 	line "to attack."
 	done
 
@@ -705,11 +773,11 @@ Text04ee: ; 467ec (11:67ec)
 	text "While pressing the B Button,"
 	line "use the + Control Pad to view"
 	line "your own or your opponent's "
-	line "Play Area or Discard Pile!"
+	line "Play Area or Weggooistapel!"
 	line "B + Down = Your Play Area"
-	line "B + Left = Your Discard Pile"
+	line "B + Left = Your Weggooistapel"
 	line "B + Up = Opponent's Play Area"
-	line "B + Right = Opponent's Discard Pile"
+	line "B + Right = Opponent's Weggooistapel"
 	line "Remember these handy functions!"
 	done
 
@@ -723,7 +791,7 @@ Text04f0: ; 46907 (11:6907)
 	line "Weak against Water Pokémon."
 	line "Some Grass Pokémon are not weak"
 	line "against Fire Pokémon."
-	line "Require Fire Energy cards"
+	line "Require Fire Energiekaarten"
 	line "to attack."
 	done
 
@@ -733,7 +801,7 @@ Text04f1: ; 469bb (11:69bb)
 
 Text04f2: ; 469d1 (11:69d1)
 	text "Many Fire Pokémon attacks require"
-	line "that an Energy card be removed."
+	line "that an Energiekaart be removed."
 	line "Be sure to include many Energy"
 	line "cards in decks with Fire Pokémon."
 	line "It might be wise to also include"
@@ -761,7 +829,7 @@ Text04f5: ; 46b5d (11:6b5d)
 Text04f6: ; 46b70 (11:6b70)
 	text "Colorless Pokémon are very easy"
 	line "to use. They can attack with "
-	line "any type of Energy card, so"
+	line "any type of Energiekaart, so"
 	line "you can include them in any type"
 	line "of deck. There are many Colorless "
 	line "Pokémon, so check them all out!"
@@ -776,7 +844,7 @@ Text04f8: ; 46c3f (11:6c3f)
 	line "have resistance to Psychic"
 	line "Pokémon and have no weaknesses."
 	line "They can attack with any type"
-	line "of Energy card - they are truly"
+	line "of Energiekaart - they are truly"
 	line "worthy of the name ”dragon!”"
 	done
 
@@ -789,7 +857,7 @@ Text04fa: ; 46d03 (11:6d03)
 	line "have resistance to Fighting"
 	line "Pokémon but are weak against"
 	line "Lightning Pokémon. They can attack"
-	line "with any type of Energy card."
+	line "with any type of Energiekaart."
 	line "They can retreat easily, since"
 	line "they are flying."
 	done
@@ -802,7 +870,7 @@ Text04fc: ; 46dec (11:6dec)
 	text "The first of the Legendary Pokémon"
 	line "Cards is <Lv>37 Moltres. With"
 	line "Firegiver, you can place Fire"
-	line "Energy cards in your hand! Also,"
+	line "Energiekaarten in your hand! Also,"
 	line "Dive Bomb is a powerful attack!"
 	line "Grand Master Courtney, the Fire"
 	line "Queen, owns this card!"
@@ -945,93 +1013,4 @@ Text0510: ; 4775d (11:775d)
 	text "I work at the Challenge Cup"
 	line "as the HOST."
 	line "I can't wait to get up on stage!"
-	done
-
-Text0511: ; 477a8 (11:77a8)
-	text "The time has come to see if all"
-	line "my training has paid off!"
-	line "I'm going to win the Challenge Cup"
-	line "and become a Grand Master!"
-	done
-
-Text0512: ; 47821 (11:7821)
-	text "Hey now! It's the Challenge Cup!"
-	line "Hey now! Gonna give it a try!"
-	line "Hey now! Gonna beat 3 people!"
-	line "Hey now! Watch me win the prize!"
-	done
-
-Text0513: ; 478a0 (11:78a0)
-	text "I'm good enough to compete in"
-	line "the Challenge Cup! Girls are just"
-	line "as good at the Pokémon Trading"
-	line "Card Game as boys!"
-	done
-
-Text0514: ; 47913 (11:7913)
-	text "What's that? Oh! The Challenge "
-	line "Cup isn't being held right now."
-	line "Me? I'm waiting for the Challenge"
-	line "Cup to begin."
-	done
-
-Text0515: ; 47984 (11:7984)
-	text "Hi, <RAMNAME>."
-	line "Are you competing, too?"
-	done
-
-Text0516: ; 479a4 (11:79a4)
-	text "I'm the one who's going to"
-	line "defeat 3 opponents! The prize, "
-	line ""
-	text "<Lv>60 Mewtwo, belongs to me!"
-	line "You just sit tight and watch me win!"
-	line "See Ya! Ha ha ha ha ha ha!"
-	done
-
-Text0517: ; 47a3d (11:7a3d)
-	text "Hey, it's <RAMNAME> - the loser"
-	line "of the Challenge Cup!"
-	done
-
-Text0518: ; 47a6c (11:7a6c)
-	text "What? You're asking if I won?"
-	line "I lost to the third opponent!"
-	line "I just lost my concentration."
-	line "But I'll win the next Challenge "
-	line "Cup! Of course I'll puverize you!"
-	line "See ya! Ha ha ha ha ha ha!"
-	done
-
-Text0519: ; 47b25 (11:7b25)
-	text "Hey <RAMNAME>, too bad "
-	line "you're too late!"
-	done
-
-Text051a: ; 47b47 (11:7b47)
-	text "The Challenge Cup is over! I"
-	line "defeated 3 opponents and won"
-	line "the prize - <Lv>60 Mewtwo!"
-	line "See ya! Ha ha ha ha ha ha!"
-	done
-
-Text051b: ; 47bb6 (11:7bb6)
-	text "Hi, <RAMNAME>."
-	line "What are you doing here?"
-	done
-
-Text051c: ; 47bd7 (11:7bd7)
-	text "The Challenge Cup is over! I"
-	line "defeated 3 opponents and won"
-	line "the prize - <Lv>60 Mewtwo!"
-	line "I guess you could try entering"
-	line "the next Challenge Cup, but "
-	line "you won't have a chance since "
-	line "I'll win that one, too!"
-	line "See ya! Ha ha ha ha ha ha!"
-	done
-
-Text051d: ; 47cb9 (11:7cb9)
-	text "Hey, <RAMNAME>."
-	line "We meet again."
 	done

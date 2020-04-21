@@ -1,3 +1,108 @@
+Text0242: ; 3bc36 (e:7c36)
+	text "Naar jouw Speelveld"
+	done
+
+OpponentsPokemonText: ; 3bc49 (e:7c49)
+	text "Tegenstander's Pokémon"
+	done
+
+OpponentsDiscardPileText2: ; 3bc5d (e:7c5d)
+	text "Tegenstander's Weggooistapel"
+	done
+
+OpponentsHandText: ; 3bc76 (e:7c76)
+	text "Tegenstander's Hand"
+	done
+
+Text0246: ; 3bc85 (e:7c85)
+	text "Naar tegenstander's Speelveld"
+	done
+
+DuelistsPlayAreaText: ; 3bc9e (e:7c9e)
+	text "<RAMNAME>'s Speelveld"
+	done
+
+YourPlayAreaText: ; 3bcad (e:7cad)
+	text "Jouw Speelveld"
+	done
+
+OppPlayAreaText: ; 3bcbd (e:7cbd)
+	text "Teg. Speelveld"
+	done
+
+InPlayAreaText: ; 3bccd (e:7ccd)
+	text "In het Speelveld"
+	done
+
+GlossaryText: ; 3bcdb (e:7cdb)
+	text "Trefwoorden"
+	done
+
+WhichCardWouldYouLikeToSeeText: ; 3bce5 (e:7ce5)
+	text "Welke kaart wil je bekijken?"
+	done
+
+Text024d: ; 3bd08 (e:7d08)
+	text "Kies een Prijskaart."
+	done
+
+HandText_2: ; 3bd20 (e:7d20)
+	text "Hand"
+	done
+
+DuelistHandText_2: ; 3bd26 (e:7d26)
+	text "<RAMNAME>'s Hand"
+	done
+
+DuelistDiscardPileText: ; 3bd30 (e:7d30)
+	text "<RAMNAME>'s Weggooistapel"
+	done
+
+EmptyLineText: ; 3bd42 (e:7d42)
+	textfw0 " ", " ", " ", " ", " ", " ", " ", " ", " "
+	textfw0 " ", " ", " ", " ", " ", " ", " ", " ", " "
+	done
+
+Text0252: ; 3bd55 (e:7d55)
+	text "Booster Pakje"
+	done
+
+Text0253: ; 3bd63 (e:7d63)
+	text "1. Stadion"
+	done
+
+Text0254: ; 3bd71 (e:7d71)
+	text "2. Evolutie"
+	done
+
+Text0255: ; 3bd7f (e:7d7f)
+	text "3. Mysterie"
+	done
+
+Text0256: ; 3bd8b (e:7d8b)
+	text "4. Chemie"
+	done
+
+Text0257: ; 3bd9a (e:7d9a)
+	text "5. Promokaart"
+	done
+
+Text0258: ; 3bdaf (e:7daf)
+	text "Welk Kaartbestand bekijken?"
+	done
+
+Text0259: ; 3bdc6 (e:7dc6)
+	textfw0 "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"
+	done
+
+Text025a: ; 3bdd1 (e:7dd1)
+	text "'s Kaarten"
+	done
+
+Text025b: ; 3bddb (e:7ddb)
+	textfw0 "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"
+	done
+
 Text025c: ; 3bdea (e:7dea)
 	text "  Deck Save Machine   "
 	done
@@ -276,7 +381,7 @@ Text0298: ; 3c545 (f:4545)
 	done
 
 Text0299: ; 3c552 (f:4552)
-	text "Bone Attack"
+	text "BottenAanval"
 	done
 
 Text029a: ; 3c55f (f:455f)
@@ -408,15 +513,15 @@ Text02b9: ; 3c730 (f:4730)
 	done
 
 Text02ba: ; 3c73d (f:473d)
-	text "Charmander & Friends"
+	text "Charmander & Vrienden"
 	done
 
 Text02bb: ; 3c753 (f:4753)
-	text "Squirtle & Friends"
+	text "Squirtle & Vrienden"
 	done
 
 Text02bc: ; 3c767 (f:4767)
-	text "Bulbasaur & Friends"
+	text "Bulbasaur & Vrienden"
 	done
 
 Text02bd: ; 3c77c (f:477c)
@@ -514,7 +619,7 @@ Text02d0: ; 3ca90 (f:4a90)
 
 Text02d1: ; 3cac9 (f:4ac9)
 	text "Uses Whirlpool and Hyper Beam to"
-	line "remove opponents' Energy cards."
+	line "remove opponents' Energiekaarten."
 	done
 
 Text02d2: ; 3cb0b (f:4b0b)
@@ -584,7 +689,7 @@ Text02de: ; 3cdd0 (f:4dd0)
 
 Text02df: ; 3ce03 (f:4e03)
 	text "Continually draw Trainer "
-	line "Cards from the Discard Pile!"
+	line "Cards from the Weggooistapel!"
 	done
 
 Text02e0: ; 3ce3b (f:4e3b)
@@ -629,7 +734,7 @@ Text02e7: ; 3cfd1 (f:4fd1)
 
 Text02e8: ; 3cffc (f:4ffc)
 	text "Attack with Charizard - with "
-	line "just a few Fire Energy cards!"
+	line "just a few Fire Energiekaarten!"
 	done
 
 Text02e9: ; 3d039 (f:5039)
@@ -673,7 +778,7 @@ Text02f0: ; 3d1f0 (f:51f0)
 	done
 
 Text02f1: ; 3d22a (f:522a)
-	text "Gather Fire Energy with the"
+	text "Gather Vuur Energie with the"
 	line "Legendary Moltres!"
 	done
 
@@ -698,211 +803,216 @@ Text02f5: ; 3d2e6 (f:52e6)
 	done
 
 PokemonCardGlossaryText: ; 3d31c (f:531c)
-	text "Pokémon Card Glossary"
+	text "Pokémonkaart Trefwoorden"
 	done
 
 GlossaryMenuPage1Text: ; 3d333 (f:5333)
-	text "Deck                Active Pokémon"
-	line "Discard Pile        Bench Pokémon"
-	line "Hand                Prizes    "
-	line "Arena               Damage Counter"
-	line "Bench               To next page    "
+	text "Deck                Actieve Pokémon"
+	line "Weggooistapel       Pokémon op de Bank"
+	line "Hand                Prijskaarten"
+	line "Arena               Schadeteller"
+	line "Bank                Volgende pagina"
 	done
 
 GlossaryMenuPage2Text: ; 3d3e0 (f:53e0)
-	text "Energy Card         Pokémon Power "
-	line "Trainer Card        Weakness       "
-	line "Basic Pokémon       Resistance"
-	line "Evolution Card      Retreat       "
-	line "Attack              To previous page"
+	text "Energiekaart        Pokémon-Kracht   "
+	line "Trainerkaart        Zwakte           "
+	line "Basis-Pokémon       Weerstand        "
+	line "Evolutiekaart       Terugtrekken     "
+	line "Aanvallen           Vorige pagina    "
 	done
 
 ChooseWordAndPressAButtonText: ; 3d48f (f:548f)
-	text "Choose a word and press the"
-	line "A button."
+	text "Kies een woord en druk op de"
+	line "A-knop."
 	done
 
 Text02fa: ; 3d4b6 (f:54b6)
-	text "About the Deck"
+	text "Over het Deck"
 	done
 
 Text02fb: ; 3d4c6 (f:54c6)
-	text "About the Discard Pile"
+	text "Over de Weggooistapel"
 	done
 
 Text02fc: ; 3d4de (f:54de)
-	text "About the Hand"
+	text "Over de Hand"
 	done
 
 Text02fd: ; 3d4ee (f:54ee)
-	text "About the Arena"
+	text "Over de Arena"
 	done
 
 Text02fe: ; 3d4ff (f:54ff)
-	text "About the Bench"
+	text "Over de Bank"
 	done
 
 Text02ff: ; 3d510 (f:5510)
-	text "About the Active Pokémon"
+	text "Over de Actieve Pokémon"
 	done
 
 Text0300: ; 3d52a (f:552a)
-	text "About Bench Pokémon"
+	text "Over Pokémon op de Bank"
 	done
 
 Text0301: ; 3d53f (f:553f)
-	text "About Prizes"
+	text "Over Prijskaarten"
 	done
 
 Text0302: ; 3d54d (f:554d)
-	text "About Damage Counters"
+	text "Over Schadetellers"
 	done
 
 Text0303: ; 3d564 (f:5564)
-	text "About Energy Cards"
+	text "Over Energiekaarten"
 	done
 
 Text0304: ; 3d578 (f:5578)
-	text "About Trainer Cards"
+	text "Over Trainerkaarten"
 	done
 
 Text0305: ; 3d58d (f:558d)
-	text "About Basic Pokémon"
+	text "Over Basis-Pokémon"
 	done
 
 Text0306: ; 3d5a2 (f:55a2)
-	text "About Evolution Cards"
+	text "Over Evolutiekaarten"
 	done
 
 Text0307: ; 3d5b9 (f:55b9)
-	text "About Attacking"
+	text "Over Aanvallen"
 	done
 
 Text0308: ; 3d5ca (f:55ca)
-	text "About Pokémon Power"
+	text "Over Pokémon-Krachten"
 	done
 
 Text0309: ; 3d5df (f:55df)
-	text "About Weakness"
+	text "Over Zwakte"
 	done
 
 Text030a: ; 3d5ef (f:55ef)
-	text "About Resistance"
+	text "Over Weerstand"
 	done
 
 Text030b: ; 3d601 (f:5601)
-	text "About Retreating"
+	text "Over Terugtrekken"
 	done
 
 Text030c: ; 3d613 (f:5613)
-	text "The Deck is the pile of cards"
-	line "you will be drawing from."
-	line "At the beginning of your turn, you"
-	line "will draw 1 card from your Deck."
-	line "If there are no cards to draw"
-	line "from the Deck, you lose the game."
+	text "Het Deck is de stapel kaarten"
+	line "waarvan je kaarten pakt. Aan het"
+	line "begin van je beurt, pak je 1"
+	line "kaart van je Deck. Als er geen"
+	line "kaarten meer zijn om van het Deck"
+	line "te pakken, verlies je het spel."
 	done
 
 Text030d: ; 3d6d0 (f:56d0)
-	text "The pile in which you place used"
-	line "cards is called the Discard Pile."
-	line "You can look at both yours and your"
-	line "opponent's Discard Pile "
-	line "with the Check command."
+	text "De stapel waarop je gebruikte"
+	line "kaarten legt heet de Weggooistapel."
+	line "Je kan naar jouw en de"
+	line "tegenstander's Weggooistapel kijken"
+	line "met het Bekijk-commando."
 	done
 
 Text030e: ; 3d769 (f:5769)
-	text "The cards held by each player"
-	line "are called a Hand."
-	line "There is no restriction to the"
-	line "number of cards in the Hand."
-	line "You may even have 10 or 20 "
-	line "cards in your Hand."
+	text "De kaarten die iedere speler vast"
+	line "houdt wordt de Hand genoemd."
+	line "Er is geen limiet aan de hoeveelheid"
+	line "kaarten in je Hand."
+	line "Je mag 10 of zelfs 20 kaarten"
+	line "in je Hand hebben."
 	done
 
 Text030f: ; 3d807 (f:5807)
-	text "The place where the Pokémon"
-	line "that is actively fighting"
-	line "is placed is called the Arena."
-	line "The game proceeds by using the"
-	line "Active Pokémon in the Arena."
+	text "De plek waar de Pokémon worden"
+	line "geplaatst die actief aan het vechten"
+	line "zijn wordt de Arena genoemd."
+	line "Het spel wordt voortgezet door de"
+	line "Actieve Pokémon in de Arena"
+	line "te gebruiken."
 	done
 
 Text0310: ; 3d899 (f:5899)
-	text "The Bench is where your Pokémon"
-	line "that are in play but aren't actively"
-	line "fighting sit."
-	line "They're ready to come out and fight"
-	line "if the Active Pokémon retreats or"
-	line "is Knocked Out."
-	line "You can have up to 5 Pokémon on"
-	line "the Bench."
+	text "De Bank is waar je Pokémon zitten"
+	line "die in het spel zijn maar niet"
+	line "actief aan het vechten zijn."
+	line "Ze staan klaar om van de Bank af te"
+	line "komen en te vechten als de Actieve"
+	line "Pokémon zich Terugtrekt of"
+	line "Uitgeschakeld is."
+	line "Je kan ten hoogste 5 Pokémon op"
+	line "je Bank hebben."
 	done
 
 Text0311: ; 3d96e (f:596e)
-	text "The Active Pokémon is the "
-	line "Pokémon that is in the Arena."
-	line "Only Active Pokémon can "
-	line "attack."
+	text "De Actieve Pokémon is de Pokémon"
+	line "die zich in de Arena bevindt."
+	line "Alleen Actieve Pokémon kunnen"
+	line "Aanvallen."
 	done
 
 Text0312: ; 3d9c9 (f:59c9)
-	text "The Pokémon that are in play"
-	line "but aren't actively fighting"
-	line "are called Bench Pokémon."
-	line "They're ready to come out and fight"
-	line "if the Active Pokémon retreats or"
-	line "is Knocked Out."
-	line "If the Active Pokémon is Knocked"
-	line "Out and you don't have a Bench "
-	line "Pokémon, you lose the game."
+	text "De Pokémon die in het spel zijn"
+	line "maar niet actief aan het vechten"
+	line "zijn worden Pokémon op de Bank"
+	line "genoemd."
+	line "Ze staan klaar om van de Bank af te"
+	line "komen en te vechten als de Actieve"
+	line "Pokémon zich Terugtrekt of"
+	line "Uitgeschakeld is."
+	line "Als de Actieve Pokémon Uitgeschakeld"
+	line "is en je geen Pokémon op de Bank"
+	line "hebt, verlies je het spel."
 	done
 
 Text0313: ; 3dad1 (f:5ad1)
-	text "Prizes are the cards placed to"
-	line "count the number of the opponent's"
-	line "Pokémon you Knocked Out."
-	line "Every time one of your opponent's"
-	line "Pokémon is Knocked Out, you take 1"
-	line "of your Prizes into your Hand."
-	line "When you take all of your Prizes,"
-	line "you win the game."
+	text "Prijskaarten zijn de kaarten die je"
+	line "plaatst om te tellen hoeveel"
+	line "Pokémon je hebt Uitgeschakeld."
+	line "Elke keer dat een van je"
+	line "tegenstander's Pokémon is"
+	line "Uitgeschakeld, neem je 1 van de"
+	line "Prijskaarten in je Hand."
+	line "Wanneer je alle Prijskaarten hebt,"
+	line "gepakt, win je het spel."
 	done
 
 Text0314: ; 3dbc5 (f:5bc5)
-	text "A Damage Counter represents the"
-	line "amount of damage a certain Pokémon"
-	line "has taken."
-	line "1 Damage Counter represents"
-	line "10 HP of damage."
-	line "If a Pokémon with an HP of 30 has"
-	line "3 Damage Counters, it has received"
-	line "30 HP of damage, and its remaining"
-	line "HP is 0."
+	text "Een Schadeteller staat gelijk aan"
+	line "de hoeveelheid schade die een"
+	line "Pokémon heeft opgelopen."
+	line "1 Schadeteller staat gelijk aan"
+	line "10 IP (Incasseringspunten) schade."
+	line "Als een Pokémon met 30 IP"
+	line "3 Schadetellers heeft, heeft hij"
+	line "30 IP schade opgelopen, en is zijn"
+	line "overgebleven IP 0."
 	done
 
 Text0315: ; 3dcb2 (f:5cb2)
-	text "Energy Cards are cards that power"
-	line "your Pokémon, making them able"
-	line "to Attack."
-	line "There are 7 types of Energy Cards"
-	line "[<GRASS> Grass] [<FIRE> Fire]"
-	line "[<WATER> Water] [<LIGHTNING> Lightning]"
-	line "[<PSYCHIC> Psychic] [<FIGHTING> Fighting]"
-	line "and [<COLORLESS> Double Colorless]"
-	line "You may only play 1 Energy Card"
-	line "from your Hand per turn."
+	text "Energiekaarten zijn kaarten die"
+	line "je Pokémon de kracht geven om"
+	line "Aan te Vallen."
+	line "Er zijn 7 typen Energiekaarten:"
+	line "[<GRASS> Gras] [<FIRE> Vuur]"
+	line "[<WATER> Water] [<LIGHTNING> Bliksem]"
+	line "[<PSYCHIC> Psychisch] [<FIGHTING> Vecht]"
+	line "en [<COLORLESS> Kleurloos]"
+	line "Je mag maar 1 Energiekaart uit"
+	line "je Hand spelen per beurt."
 	done
 
 Text0316: ; 3ddbe (f:5dbe)
-	text "Trainer Cards are support cards."
-	line "There are many Trainer Cards"
+	text "Trainerkaarten bieden ondersteuning."
+	line "There are many Trainerkaarten"
 	line "with different effects."
-	line "Trainer Cards are played during"
+	line "Trainerkaarten are played during"
 	line "your turn by following the"
 	line "instructions on the card and then"
 	line "discarding it."
-	line "You may use as many Trainer Cards"
+	line "You may use as many Trainerkaarten"
 	line "as you like."
 	done
 
@@ -1025,7 +1135,7 @@ Text0323: ; 3e660 (f:6660)
 	done
 
 Text0324: ; 3e676 (f:6676)
-	text "  ISHIHARA's Huis  "
+	text "  Ishihara's Huis  "
 	done
 
 Text0325: ; 3e68c (f:668c)
@@ -1126,59 +1236,59 @@ Text033c: ; 3e804 (f:6804)
 
 Text033d: ; 3e810 (f:6810)
 	text "Status"
-	line "Diary"
+	line "Dagboek"
 	line "Deck"
-	line "Card"
-	line "Config"
-	line "Exit"
+	line "Kaarten"
+	line "Opties"
+	line "Sluit Menu"
 	done
 
 Text033e: ; 3e834 (f:6834)
 	text "Status"
-	line "Diary"
+	line "Dagboek"
 	line "Deck"
-	line "Card"
-	line "Config"
+	line "Kaarten"
+	line "Opties"
 	line "Debug"
-	line "Close"
+	line "Sluit Menu"
 	done
 
 Text033f: ; 3e85f (f:685f)
-	text "Name <RAMNAME>"
+	text "Naam <RAMNAME>"
 	done
 
 Text0340: ; 3e867 (f:6867)
-	text "Album           "
+	text "Kaarten           "
 	half2full
 	textfw0 "/"
 	done
 
 Text0341: ; 3e87b (f:687b)
-	text "Play time         "
+	text "Spelduur         "
 	half2full
 	textfw3 ":"
 	done
 
 Text0342: ; 3e892 (f:6892)
-	text "<RAMNAME>'s diary"
+	text "<RAMNAME>'s dagboek"
 	done
 
 Text0343: ; 3e89d (f:689d)
-	text "Master Medals Won "
+	text "Gewonnen Medailles"
 	done
 
 Text0344: ; 3e8b1 (f:68b1)
-	text "Would you like to keep a diary?"
+	text "Wil je je dagboek bijwerken?"
 	done
 
 Text0345: ; 3e8d2 (f:68d2)
-	text "<RAMNAME>"
-	line "wrote in the diary."
+	text "<RAMNAME> heeft"
+	line "in het dagboek geschreven."
 	done
 
 Text0346: ; 3e8e9 (f:68e9)
-	text "Nothing was recorded "
-	line "in the diary."
+	text "Er is niks in het dagboek"
+	line "geschreven."
 	done
 
 Text0347: ; 3e90e (f:690e)
@@ -1365,8 +1475,9 @@ Text036e: ; 3ec3e (f:6c3e)
 	done
 
 Text036f: ; 3ec74 (f:6c74)
-	text "Als je een Kaart-Flits! doet met een vriend,"
-	line "krijgen jullie beide een nieuwe kaart!"
+	text "Als je een Kaart-Flits! doet met"
+	line "een vriend, krijgen jullie"
+	line "beide een nieuwe kaart!"
 	done
 
 Text0370: ; 3ecb9 (f:6cb9)
@@ -1397,13 +1508,15 @@ Text0372: ; 3ed28 (f:6d28)
 	done
 
 Text0373: ; 3ed7f (f:6d7f)
-	text "Er is al een opgeslagen spel aanwezig."
+	text "Er is al een opgeslagen spel"
+	line "aanwezig."
 	line "Als je doorgaat, verlies je alle"
-	line "kaarten die je tot nu toe hebt verzameld."
+	line "kaarten die je tot nu toe hebt"
+	line "verzameld."
 	done
 
 Text0374: ; 3eddc (f:6ddc)
-	text "Dus je wilt alle gegevens verwijderen?"
+	text "Wil je alle gegevens verwijderen?"
 	done
 
 Text0375: ; 3edf4 (f:6df4)
@@ -1413,7 +1526,7 @@ Text0375: ; 3edf4 (f:6df4)
 Text0376: ; 3ee0b (f:6e0b)
 	text "Data exists from when the power "
 	line "was turned OFF during a duel."
-	line "Choose CONTINUE DUEL on the"
+	line "Choose CONTINUE Duel on the"
 	line "Main Menu to continue the duel."
 	line "If you continue now, the heading,"
 	line "CONTINUE DUEL, will be"
@@ -1430,7 +1543,7 @@ Text0377: ; 3ef50 (f:6f50)
 	done
 
 Text0378: ; 3ef66 (f:6f66)
-	text "You can access Card Pop! only"
+	text "You can access Kaart-Flits! only"
 	line "with two Game Boy Colors."
 	line "Please play using a Game Boy Color."
 	done
@@ -1455,7 +1568,7 @@ Text0379: ; 3efc3 (f:6fc3)
 
 Text037a: ; 3f147 (f:7147)
 	text "POWER ON"
-	line "DUEL MODE"
+	line "Duel MODE"
 	line "CONTINUE FROM DIARY"
 	line "CGB TEST"
 	line "SGB FRAME"
@@ -1473,11 +1586,11 @@ Text037b: ; 3f1ce (f:71ce)
 	done
 
 Text037c: ; 3f1e0 (f:71e0)
-	text "COLOSSEUM"
-	line "EVOLUTION"
-	line "MYSTERY"
-	line "LABORATORY"
-	line "Energy"
+	text "STADION"
+	line "EVOLUTIE"
+	line "MYSTERIE"
+	line "CHEMIE"
+	line "Energie"
 	done
 
 Text037d: ; 3f20f (f:720f)
@@ -1688,15 +1801,15 @@ Text03a8: ; 3f644 (f:7644)
 	done
 
 Text03a9: ; 3f64f (f:764f)
-	text "EVOLUTION"
+	text "EVOLUTIE"
 	done
 
 Text03aa: ; 3f65a (f:765a)
-	text "MYSTERY"
+	text "MYSTERIE"
 	done
 
 Text03ab: ; 3f663 (f:7663)
-	text "LABORATORY"
+	text "CHEMIE"
 	done
 
 Text03ac: ; 3f66f (f:766f)
@@ -2013,19 +2126,19 @@ Text03f9: ; 3f950 (f:7950)
 	done
 
 Text03fa: ; 3f982 (f:7982)
-	text "CHARMANDER & Friends Deck"
+	text "Charmander & Vrienden Deck"
 	done
 
 Text03fb: ; 3f99d (f:799d)
-	text "SQUIRTLE & Friends Deck"
+	text "Squirtle & Vrienden Deck"
 	done
 
 Text03fc: ; 3f9b6 (f:79b6)
-	text "BULBASAUR & Friends Deck"
+	text "Bulbasaur & Vrienden Deck"
 	done
 
 Text03fd: ; 3f9d0 (f:79d0)
-	text "Please select the Deck you want."
+	text "Kies het deck dat je wilt."
 	done
 
 Text03fe: ; 3f9f2 (f:79f2)
@@ -2049,31 +2162,4 @@ Text0400: ; 3fa32 (f:7a32)
 	line "Je beurt doorgeven"
 	line "Winnen en Verliezen"
 	line "Alles is duidelijk"
-	done
-
-Text0401: ; 3faaa (f:7aaa)
-	text "<RAMNAME>,"
-	line "It's me, Doctor Mason."
-	line "Are you getting the hang of"
-	line "the Pokémon Trading Card Game?"
-	line "I have some information for you"
-	line "about Booster Packs. "
-	line "If you want to collect the same"
-	line "cards, duel the same person many"
-	line "times to get a particular Booster"
-	line "Pack! By doing so, you will be able "
-	line "to collect the same cards, making it"
-	line "easier for you to build your Deck."
-	line "Another method for collecting "
-	line "cards is to use CARD POP!"
-	line "When you and a friend use CARD POP!,"
-	line "you will each receive a new card!"
-	line "Once you POP! with a certain"
-	line "friend, you won't be able to POP!"
-	line "with that friend again, so find "
-	line "many friends who own the Pokémon "
-	line "Trading Card Game for Game Boy,"
-	line "and CARD POP! with them to"
-	line "get new cards!"
-	line "Oh, here's something for you..."
 	done

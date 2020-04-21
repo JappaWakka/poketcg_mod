@@ -1,3 +1,18 @@
+Func_1bae4: ; 1bae4 (6:7ae4)
+	push af
+	ld hl, wd088
+	ld b, [hl]
+	farcall $2, $7625
+	jr c, .asm_7af5
+	pop af
+	ld [wd0a6], a
+	or a
+	ret
+.asm_7af5
+	pop af
+	scf
+	ret
+
 ; copy the name and level of the card at wLoadedCard1 to wDefaultText
 ; a = length in number of tiles (the resulting string will be padded with spaces to match it)
 _CopyCardNameAndLevel: ; 18000 (6:4000)
@@ -2509,65 +2524,74 @@ KeyboardData_Player: ; (6:6baf)
 	kbitem $04, $02, $11, $00, TX_FULLWIDTH3,   "A"
 	kbitem $06, $02, $12, $00, TX_FULLWIDTH3,   "J"
 	kbitem $08, $02, $13, $00, TX_FULLWIDTH3,   "S"
-	kbitem $0a, $02, $14, $00, TX_FULLWIDTH3,   "b"
-	kbitem $0c, $02, $15, $00, TX_FULLWIDTH3,   "k"
-	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "t"
+	kbitem $0a, $02, $14, $00, TX_FULLWIDTH3,   "a"
+	kbitem $0c, $02, $15, $00, TX_FULLWIDTH3,   "j"
+	kbitem $0e, $02, $16, $00, TX_FULLWIDTH3,   "s"
+	kbitem $10, $0f, $01, $09, $0000
 
-	kbitem $04, $04, $16, $00, TX_FULLWIDTH3,   "B"
-	kbitem $06, $04, $17, $00, TX_FULLWIDTH3,   "K"
-	kbitem $08, $04, $18, $00, TX_FULLWIDTH3,   "T"
-	kbitem $0a, $04, $19, $00, TX_FULLWIDTH3,   "c"
-	kbitem $0c, $04, $1a, $00, TX_FULLWIDTH3,   "l"
-	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "u"
+	kbitem $04, $04, $17, $00, TX_FULLWIDTH3,   "B"
+	kbitem $06, $04, $18, $00, TX_FULLWIDTH3,   "K"
+	kbitem $08, $04, $19, $00, TX_FULLWIDTH3,   "T"
+	kbitem $0a, $04, $1a, $00, TX_FULLWIDTH3,   "b"
+	kbitem $0c, $04, $1b, $00, TX_FULLWIDTH3,   "k"
+	kbitem $0e, $04, $1c, $00, TX_FULLWIDTH3,   "t"
+	kbitem $10, $0f, $01, $09, $0000
 
-	kbitem $04, $06, $1b, $00, TX_FULLWIDTH3,   "C"
-	kbitem $06, $06, $1c, $00, TX_FULLWIDTH3,   "L"
-	kbitem $08, $06, $1d, $00, TX_FULLWIDTH3,   "U"
-	kbitem $0a, $06, $1e, $00, TX_FULLWIDTH3,   "d"
-	kbitem $0c, $06, $1f, $00, TX_FULLWIDTH3,   "m"
-	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "v"
+	kbitem $04, $06, $1d, $00, TX_FULLWIDTH3,   "C"
+	kbitem $06, $06, $1e, $00, TX_FULLWIDTH3,   "L"
+	kbitem $08, $06, $1f, $00, TX_FULLWIDTH3,   "U"
+	kbitem $0a, $06, $20, $00, TX_FULLWIDTH3,   "c"
+	kbitem $0c, $06, $21, $00, TX_FULLWIDTH3,   "l"
+	kbitem $0e, $06, $22, $00, TX_FULLWIDTH3,   "u"
+	kbitem $10, $0f, $01, $09, $0000
 
-	kbitem $04, $08, $20, $00, TX_FULLWIDTH3,   "D"
-	kbitem $06, $08, $21, $00, TX_FULLWIDTH3,   "M"
-	kbitem $08, $08, $22, $00, TX_FULLWIDTH3,   "V"
-	kbitem $0a, $08, $23, $00, TX_FULLWIDTH3,   "e"
-	kbitem $0c, $08, $24, $00, TX_FULLWIDTH3,   "n"
-	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "w"
+	kbitem $04, $08, $23, $00, TX_FULLWIDTH3,   "D"
+	kbitem $06, $08, $24, $00, TX_FULLWIDTH3,   "M"
+	kbitem $08, $08, $25, $00, TX_FULLWIDTH3,   "V"
+	kbitem $0a, $08, $26, $00, TX_FULLWIDTH3,   "d"
+	kbitem $0c, $08, $27, $00, TX_FULLWIDTH3,   "m"
+	kbitem $0e, $08, $28, $00, TX_FULLWIDTH3,   "v"
+	kbitem $10, $0f, $01, $09, $0000
 
-	kbitem $04, $0a, $25, $00, TX_FULLWIDTH3,   "E"
-	kbitem $06, $0a, $26, $00, TX_FULLWIDTH3,   "N"
-	kbitem $08, $0a, $27, $00, TX_FULLWIDTH3,   "W"
-	kbitem $0a, $0a, $28, $00, TX_FULLWIDTH3,   "f"
-	kbitem $0c, $0a, $29, $00, TX_FULLWIDTH3,   "o"
-	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,   "x"
+	kbitem $04, $0a, $29, $00, TX_FULLWIDTH3,   "E"
+	kbitem $06, $0a, $2a, $00, TX_FULLWIDTH3,   "N"
+	kbitem $08, $0a, $2b, $00, TX_FULLWIDTH3,   "W"
+	kbitem $0a, $0a, $2c, $00, TX_FULLWIDTH3,   "e"
+	kbitem $0c, $0a, $2d, $00, TX_FULLWIDTH3,   "n"
+	kbitem $0e, $0a, $2e, $00, TX_FULLWIDTH3,   "w"
+	kbitem $10, $0f, $01, $09, $0000
 
 	kbitem $04, $0c, $2a, $00, TX_FULLWIDTH3,   "F"
 	kbitem $06, $0c, $2b, $00, TX_FULLWIDTH3,   "O"
 	kbitem $08, $0c, $2c, $00, TX_FULLWIDTH3,   "X"
-	kbitem $0a, $0c, $2d, $00, TX_FULLWIDTH3,   "g"
-	kbitem $0c, $0c, $2e, $00, TX_FULLWIDTH3,   "p"
-	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"y"
+	kbitem $0a, $0c, $2d, $00, TX_FULLWIDTH3,   "f"
+	kbitem $0c, $0c, $2e, $00, TX_FULLWIDTH3,   "o"
+	kbitem $0e, $0c, $30, $00, TX_FULLWIDTH3,	"x"
+	kbitem $10, $0f, $01, $09, $0000
 
-	kbitem $04, $0e, $2f, $00, TX_FULLWIDTH3,   "G"
-	kbitem $06, $0e, $30, $00, TX_FULLWIDTH3,   "P"
-	kbitem $08, $0e, $31, $00, TX_FULLWIDTH3,   "Y"
-	kbitem $0a, $0e, $32, $00, TX_FULLWIDTH3,   "h"
-	kbitem $0c, $0e, $33, $00, TX_FULLWIDTH3,   "q"
-	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"z"
+	kbitem $04, $0e, $31, $00, TX_FULLWIDTH3,   "G"
+	kbitem $06, $0e, $32, $00, TX_FULLWIDTH3,   "P"
+	kbitem $08, $0e, $33, $00, TX_FULLWIDTH3,   "Y"
+	kbitem $0a, $0e, $34, $00, TX_FULLWIDTH3,   "g"
+	kbitem $0c, $0e, $35, $00, TX_FULLWIDTH3,   "p"
+	kbitem $0e, $0e, $36, $00, TX_FULLWIDTH3,	"y"
+	kbitem $10, $0f, $01, $09, $0000
 
-	kbitem $04, $10, $34, $00, TX_FULLWIDTH3,   "H"
-	kbitem $06, $10, $35, $00, TX_FULLWIDTH3,   "Q"
-	kbitem $08, $10, $36, $00, TX_FULLWIDTH3,   "Z"
-	kbitem $0a, $10, $3c, $00, TX_FULLWIDTH3,   "i"
-	kbitem $0c, $10, $3d, $00, TX_FULLWIDTH3,   "r"
-	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"!"
+	kbitem $04, $10, $37, $00, TX_FULLWIDTH3,   "H"
+	kbitem $06, $10, $38, $00, TX_FULLWIDTH3,   "Q"
+	kbitem $08, $10, $39, $00, TX_FULLWIDTH3,   "Z"
+	kbitem $0a, $10, $3a, $00, TX_FULLWIDTH3,   "h"
+	kbitem $0c, $10, $3b, $00, TX_FULLWIDTH3,   "q"
+	kbitem $0e, $10, $3c, $00, TX_FULLWIDTH3,	"z"
+	kbitem $10, $0f, $01, $09, $0000
 
-	kbitem $04, $12, $37, $00, TX_FULLWIDTH3,   "I"
-	kbitem $06, $12, $38, $00, TX_FULLWIDTH3,   "R"
-	kbitem $08, $12, $39, $00, TX_FULLWIDTH3,   "a"
-	kbitem $0a, $12, $3a, $00, TX_FULLWIDTH3,   "j"
-	kbitem $0c, $12, $3b, $00, TX_FULLWIDTH3,   "s"
-	kbitem $10, $0f, $01, $09, TX_FULLWIDTH3,	"-"
+	kbitem $04, $12, $3d, $00, TX_FULLWIDTH3,   "I"
+	kbitem $06, $12, $3e, $00, TX_FULLWIDTH3,   "R"
+	kbitem $08, $12, $40, $00, TX_FULLWIDTH3,   "!"
+	kbitem $0a, $12, $41, $00, TX_FULLWIDTH3,   "i"
+	kbitem $0c, $12, $42, $00, TX_FULLWIDTH3,   "r"
+	kbitem $0e, $12, $43, $00, TX_FULLWIDTH3,	"-"
+	kbitem $10, $0f, $01, $09, $0000
 
 ; a set of transition datum.
 ; unit: 4 bytes.
@@ -3056,73 +3080,73 @@ KeyboardData_Deck: ; (6:7019)
 	db $04, $02, "A"
 	db $06, $02, "J"
 	db $08, $02, "S"
-	db $0a, $02, "?"
-	db $0c, $02, "4"
-	db $0e, $02, $02
-	db $10, $0f, $01
+	db $0a, $02, "a"
+	db $0c, $02, "j"
+	db $0e, $02, "s"
+	db $10, $02, "-"
 
 	db $04, $04, "B"
 	db $06, $04, "K"
 	db $08, $04, "T"
-	db $0a, $04, "&"
-	db $0c, $04, "5"
-	db $0e, $04, $02
-	db $10, $0f, $01
+	db $0a, $04, "b"
+	db $0c, $04, "k"
+	db $0e, $04, "t"
+	db $10, $04, "+"
 
 	db $04, $06, "C"
 	db $06, $06, "L"
 	db $08, $06, "U"
-	db $0a, $06, "+"
-	db $0c, $06, "6"
-	db $0e, $06, $02
-	db $10, $0f, $01
+	db $0a, $06, "c"
+	db $0c, $06, "l"
+	db $0e, $06, "u"
+	db $10, $06, "'"
 
 	db $04, $08, "D"
 	db $06, $08, "M"
 	db $08, $08, "V"
-	db $0a, $08, "-"
-	db $0c, $08, "7"
-	db $0e, $08, $02
-	db $10, $0f, $01
+	db $0a, $08, "d"
+	db $0c, $08, "m"
+	db $0e, $08, "v"
+	db $10, $08, "”"
 
 	db $04, $0a, "E"
 	db $06, $0a, "N"
 	db $08, $0a, "W"
-	db $0a, $0a, "'"
-	db $0c, $0a, "8"
-	db $0e, $0a, $02
-	db $10, $0f, $01
+	db $0a, $0a, "e"
+	db $0c, $0a, "n"
+	db $0e, $0a, "w"
+	db $10, $0a, "?"
 
 	db $04, $0c, "F"
 	db $06, $0c, "O"
 	db $08, $0c, "X"
-	db $0a, $0c, "0"
-	db $0c, $0c, "9"
-	db $0e, $0c, $02
+	db $0a, $0c, "f"
+	db $0c, $0c, "o"
+	db $0e, $0c, "x"
 	db $10, $0f, $01
 
 	db $04, $0e, "G"
 	db $06, $0e, "P"
 	db $08, $0e, "Y"
-	db $0a, $0e, "1"
-	db $0c, $0e, " "
-	db $0e, $0e, $02
+	db $0a, $0e, "g"
+	db $0c, $0e, "p"
+	db $0e, $0e, "y"
 	db $10, $0f, $01
 
 	db $04, $10, "H"
 	db $06, $10, "Q"
 	db $08, $10, "Z"
-	db $0a, $10, "2"
-	db $0c, $10, " "
-	db $0e, $10, $02
+	db $0a, $10, "h"
+	db $0c, $10, "q"
+	db $0e, $10, "z"
 	db $10, $0f, $01
 
 	db $04, $12, "I"
 	db $06, $12, "R"
-	db $08, $12, "!"
-	db $0a, $12, "3"
-	db $0c, $12, " "
-	db $0e, $12, $02
+	db $08, $12, " "
+	db $0a, $12, "i"
+	db $0c, $12, "r"
+	db $0e, $12, "!"
 	db $10, $0f, $01
 
 ; unknown data.
@@ -3235,66 +3259,6 @@ Func_1ba7d: ; 1ba7d (6:7a7d)
 	pop hl
 	inc hl
 	inc hl
-	ret
-
-; farcall from 0xb87e(2:787d): [EF|06|9A|7A]
-Func_1ba9a: ; 1ba9a (6:7a9a)
-	xor a
-	ld [wd0a6], a
-	ld a, $01
-.asm_7aa0
-	call Func_1bae4
-	ret nc
-	sla a
-	cp $10
-	jr z, .asm_7aac
-	jr .asm_7aa0
-.asm_7aac
-	ld a, $03
-	call Func_1bae4
-	ret nc
-	ld a, $05
-	call Func_1bae4
-	ret nc
-	ld a, $09
-	call Func_1bae4
-	ret nc
-	ld a, $06
-	call Func_1bae4
-	ret nc
-	ld a, $0a
-	call Func_1bae4
-	ret nc
-	ld a, $0c
-	call Func_1bae4
-	ret nc
-	ld a, $f7
-.asm_7ad2
-	call Func_1bae4
-	ret nc
-	sra a
-	cp $ff
-	jr z, .asm_7ade
-	jr .asm_7ad2
-.asm_7ade
-	call Func_1bae4
-	ret nc
-	scf
-	ret
-
-Func_1bae4: ; 1bae4 (6:7ae4)
-	push af
-	ld hl, wd088
-	ld b, [hl]
-	farcall $2, $7625
-	jr c, .asm_7af5
-	pop af
-	ld [wd0a6], a
-	or a
-	ret
-.asm_7af5
-	pop af
-	scf
 	ret
 
 rept $508

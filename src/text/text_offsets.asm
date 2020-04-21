@@ -2124,7 +2124,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer CobraName                                ; 0x0848
 	textpointer ArbokDescription                         ; 0x0849
 	textpointer NidoranFName                             ; 0x084a
-	textpointer FurySweepesName                          ; 0x084b
+	textpointer FurySwipesName                          ; 0x084b
 	textpointer TripleAttackX10Description               ; 0x084c
 	textpointer CallForFamilyName                        ; 0x084d
 	textpointer NidoranFsCallForFamilyDescription        ; 0x084e
@@ -2497,11 +2497,13 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer Pikachu2Description                      ; 0x09bd
 	textpointer GrowlName                                ; 0x09be
 	textpointer GrowlDescription                         ; 0x09bf
+	textpointer GrowlDescriptionCont					 ; Translated text didn't fit so I made this
 	textpointer ThundershockName                         ; 0x09c0
 	textpointer Pikachu3Description                      ; 0x09c1
 	textpointer FlyingPikachuName                        ; 0x09c2
 	textpointer FlyName                                  ; 0x09c3
 	textpointer FlyDescription                           ; 0x09c4
+	textpointer FlyDescriptionCont						 ; Translated text didn't fit so I made this
 	textpointer FlyingPikachuDescription                 ; 0x09c5
 	textpointer SurfingPikachuName                       ; 0x09c6
 	textpointer SurfName                                 ; 0x09c7
