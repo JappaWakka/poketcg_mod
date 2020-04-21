@@ -160,6 +160,8 @@ ROMX $41
 	"Text Offsets"
 ROMX $42
 	"Booster Packs"
+ROMX $43
+	"Bank 21"
 WRAM0
 	"WRAM0"
 	"WRAM0 Duels 1"
