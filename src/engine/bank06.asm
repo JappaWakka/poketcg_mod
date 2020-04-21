@@ -1794,7 +1794,7 @@ InputPlayerName: ; (6:67a3)
 	ld [wNamingScreenCursorY], a
 	ld a, $09
 	ld [wd005], a
-	ld a, $06
+	ld a, $07
 	ld [wNamingScreenKeyboardHeight], a
 	ld a, $0f
 	ld [wceaa], a
