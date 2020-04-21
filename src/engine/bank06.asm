@@ -1,18 +1,3 @@
-Func_1bae4: ; 1bae4 (6:7ae4)
-	push af
-	ld hl, wd088
-	ld b, [hl]
-	farcall $2, $7625
-	jr c, .asm_7af5
-	pop af
-	ld [wd0a6], a
-	or a
-	ret
-.asm_7af5
-	pop af
-	scf
-	ret
-
 ; copy the name and level of the card at wLoadedCard1 to wDefaultText
 ; a = length in number of tiles (the resulting string will be padded with spaces to match it)
 _CopyCardNameAndLevel: ; 18000 (6:4000)
