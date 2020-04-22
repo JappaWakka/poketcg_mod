@@ -1,3 +1,179 @@
+FearowName: ; 61aee (18:5aee)
+	text "Fearow"
+	done
+
+FearowsAgilityDescription: ; 61af6 (18:5af6)
+	text "Gooi een munt op. Als het kop is, during your"
+	line "opponent's next turn, prevent all"
+	line "effects of attacks, including"
+	line "damage, done to Fearow."
+	done
+
+DrillPeckName: ; 61b72 (18:5b72)
+	text "Drill Peck"
+	done
+
+BeakName: ; 61b7e (18:5b7e)
+	text "Beak"
+	done
+
+FearowDescription: ; 61b84 (18:5b84)
+	text "With its huge and magnificent wings,"
+	line "it can keep aloft without ever"
+	line "having to land for rest."
+	done
+
+ClefairyName: ; 61be2 (18:5be2)
+	text "Clefairy"
+	done
+
+SingName: ; 61bec (18:5bec)
+	text "Sing"
+	done
+
+MetronomeName: ; 61bf2 (18:5bf2)
+	text "Metronome"
+	done
+
+ClefairysMetronomeDescription: ; 61bfd (18:5bfd)
+	text "Choose 1 of the Defending Pokémon's"
+	line "attacks. Metronome copies that"
+	line "attack except for its Energy costs."
+	line "(No matter what type the Defending"
+	line "Pokemon is, Clefairy's type is"
+	line "still Colorless.)"
+	done
+
+FairyName: ; 61cb9 (18:5cb9)
+	text "Fairy"
+	done
+
+ClefairyDescription: ; 61cc0 (18:5cc0)
+	text "Its magical and cute appeal has many"
+	line "admirers. It is rare and found only"
+	line "in certain areas."
+	done
+
+ClefableName: ; 61d1c (18:5d1c)
+	text "Clefable"
+	done
+
+ClefablesMetronomeDescription: ; 61d26 (18:5d26)
+	text "Choose 1 of the Defending Pokémon's"
+	line "attacks. Metronome copies that"
+	line "attack except for its Energy costs."
+	line "(No matter what type the Defending"
+	line "Pokémon is, Clefable's type is"
+	line "still Colorless.)"
+	done
+
+ClefablesMinimizeDescription: ; 61de2 (18:5de2)
+	text "All damage done by attacks to"
+	line "Clefable during your opponent's next"
+	line "turn is reduced by 20 (after"
+	line "applying Weakness and Resistance)."
+	done
+
+ClefableDescription: ; 61e66 (18:5e66)
+	text "A timid Fairy Pokémon that is rarely"
+	line "seen. It will run and hide the"
+	line "moment it senses people."
+	done
+
+JigglypuffName: ; 61ec4 (18:5ec4)
+	text "Jigglypuff"
+	done
+
+FirstAidName: ; 61ed0 (18:5ed0)
+	text "Eerste hulp"
+	done
+
+FirstAidDescription: ; 61edb (18:5edb)
+	text "Verwijder 1 schadeteller van"
+	line "Jigglypuff."
+	done
+
+DoubleEdgeName: ; 61f05 (18:5f05)
+	text "Weerslag"
+	done
+
+JigglypuffsDoubleEdgeDescription: ; 61f12 (18:5f12)
+	text "Jigglypuff doet 20 schade aan"
+	line "zichzelf."
+	done
+
+BalloonName: ; 61f38 (18:5f38)
+	text "Ballon-"
+	done
+
+Jigglypuff1Description: ; 61f41 (18:5f41)
+	text "Wanneer zijn enorme ogen oplichten,"
+	line "mysterieus kalmerende melodie die"
+	line "zijn vijanden in slaap brengt."
+	done
+
+FriendshipSongName: ; 61fa8 (18:5fa8)
+	text "Vriendschapslied"
+	done
+
+FriendshipSongDescription: ; 61fb9 (18:5fb9)
+	text "Gooi een munt op. Als het kop is,"
+	line "plaats een Pokémon-kaart op willekeurige"
+	line "wijze gekozen uit je Deck op je Bank."
+	line "Je kunt deze Aanval niet gebruiken als"
+	line "je Bank vol is.)"
+	done
+
+ExpandName: ; 6204e (18:604e)
+	text "Uitzetten"
+	done
+
+ExpandDescription: ; 62056 (18:6056)
+	text "Alle schade die tijdens je"
+	line "tegenstander's volgende beurt aan"
+	line "Jigglypuff wordt gedaan wordt"
+	line "verminderd met 10 (na het toepassen"
+	line "van Zwakte en Weerstand)."
+	done
+
+Jigglypuff2Description: ; 620d1 (18:60d1)
+	text "Gebruikt zijn aanlokkelijke ogen om"
+	line "zijn tegenstander te beroeren."
+	line "Daarna zingt hij een prettige melodie"
+	line "die zijn tegenstander in slaap brengt."
+	done
+
+LullabyName: ; 6213c (18:613c)
+	text "Slaapliedje"
+	done
+
+Jigglypuff3Description: ; 62145 (18:6145)
+	text "Wanneer zijn enorme ogen oplichten,"
+	line "mysterieus kalmerende melodie die"
+	line "zijn vijanden in slaap brengt."
+	done
+
+WigglytuffName: ; 621ac (18:61ac)
+	text "Wigglytuff"
+	done
+
+DoTheWaveName: ; 621b8 (18:61b8)
+	text "Doe de wave"
+	done
+
+DoTheWaveDescription: ; 621c5 (18:61c5)
+	text "Doet 10 schade plus nog eens"
+	line "10 schade voor elk van je Pokémon"
+	line "op de Bank."
+	done
+
+WigglytuffDescription: ; 6220b (18:620b)
+	text "Het lichaam is zacht en rubberachtig."
+	line "Wanneer hij kwaad wordt, zuigt hij"
+	line "zich vol met lucht en blaast hij"
+	line "zichzelf op tot een enorme grootte."
+	done
+
 MeowthName: ; 62274 (18:6274)
 	text "Meowth"
 	done
@@ -197,25 +373,25 @@ KangaskhanName: ; 62a42 (18:6a42)
 	done
 
 FetchName: ; 62a4e (18:6a4e)
-	text "Fetch"
+	text "Haal terug"
 	done
 
 FetchDescription: ; 62a55 (18:6a55)
-	text "Draw a card."
+	text "Pak een kaart."
 	done
 
 CometPunchName: ; 62a63 (18:6a63)
-	text "Comet Punch"
+	text "Komeetslag"
 	done
 
 ParentName: ; 62a70 (18:6a70)
-	text "Parent"
+	text "Ouder-"
 	done
 
 KangaskhanDescription: ; 62a78 (18:6a78)
-	text "The infant rarely ventures out of"
-	line "its mother's protective pouch until"
-	line "it is three years old."
+	text "Het kind waagt zich zelden buiten"
+	line "de beschermende buidel van zijn"
+	line "moeder totdat het drie jaar oud is."
 	done
 
 TaurosName: ; 62ad6 (18:6ad6)
@@ -275,28 +451,6 @@ DittoDescription: ; 62d2e (18:6d2e)
 	text "When it spots an enemy, its body"
 	line "transfigures into an almost perfect"
 	line "copy of its opponent."
-	done
-
-TailWagName: ; 62d8a (18:6d8a)
-	text "Kwispel"
-	done
-
-TailWagDescription: ; 62d94 (18:6d94)
-	text "Gooi een munt op. Als het kop is, the Defending"
-	line "Pokémon can't attack Eevee during"
-	line "your opponent's next turn. (Benching"
-	line "or evolving either Pokémon ends this"
-	line "effect.)"
-	done
-
-EvolutionName: ; 62e2f (18:6e2f)
-	text "Evolution"
-	done
-
-EeveeDescription: ; 62e3a (18:6e3a)
-	text "Its genetic code is irregular."
-	line "It may mutate if it is exposed to"
-	line "radiation from elemental stones."
 	done
 
 PorygonName: ; 62e9d (18:6e9d)
@@ -705,7 +859,7 @@ DefenderDescription: ; 6427e (19:427e)
 	text "Hecht Verdediger aan 1 van je Pokémon."
 	line "Gooi Verdediger aan het einde van je"
 	line "tegenstander's volgende beurt weg. De"
-	line "schade die door aanvallen aan deze"
+	line "schade die door Aanvallen aan deze"
 	line "Pokémon wordt gedaan wordt verminderd"
 	line "met 20 (nadat Zwakte en Weerstand"
 	line "zijn toegepast)."
@@ -723,13 +877,14 @@ ItemFinderDescription: ; 6434f (19:434f)
 	done
 
 GustOfWindName: ; 643c2 (19:43c2)
-	text "Gust of Wind"
+	text "Windvlaag"
 	done
 
 GustOfWindDescription: ; 643d0 (19:43d0)
-	text "Choose 1 of your opponent's Benched"
-	line "Pokémon and switch it with his or"
-	line "her Active Pokémon."
+	text "Kies 1 van de Pokémon op je"
+	line "tegenstander's Bank en verwissel"
+	line "deze met zijn of haar Actieve"
+	line "Pokémon."
 	done
 
 DevolutionSprayName: ; 6442b (19:442b)
@@ -757,8 +912,8 @@ PotionName: ; 64565 (19:4565)
 
 PotionDescription: ; 6456d (19:456d)
 	text "Verwijder ten hoogste 2"
-	line "schadetellers van 1 van je Pokémon."
-	line "als die Pokémon minder schadetellers"
+	line "Schadetellers van 1 van je Pokémon."
+	line "als die Pokémon minder Schadetellers"
 	line "heeft dan dat, verwijder ze dan"
 	line "allemaal."
 	done
@@ -787,14 +942,15 @@ FullHealDescription: ; 646ba (19:46ba)
 	done
 
 ReviveName: ; 64706 (19:4706)
-	text "Revive"
+	text "Opwekking"
 	done
 
 ReviveDescription: ; 6470e (19:470e)
-	text "Put 1 Basic Pokémon card from your"
-	line "Weggooistapel onto your Bench."
-	line "Put damage counters on that Pokémon"
-	line "equal to half its HP (rounded down"
-	line "to the nearest 10). (You can't play"
-	line "Revive if your Bench is full.)"
+	text "Leg 1 Basis-Pokémonkaart uit je"
+	line "weggooistapel op je Bank. Leg op die"
+	line "Pokémon schadetellers ter waarde"
+	line "van de helft van zijn IP (naar"
+	line "beneden afgerond naar de dichtst-"
+	line "bijzijnde 10). (Je kunt Opwekking"
+	line "niet spelen als je Bank vol is.)"
 	done

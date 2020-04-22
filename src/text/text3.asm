@@ -1258,7 +1258,7 @@ Text033f: ; 3e85f (f:685f)
 	done
 
 Text0340: ; 3e867 (f:6867)
-	text "Kaarten           "
+	text "Kaarten        "
 	half2full
 	textfw0 "/"
 	done

@@ -221,127 +221,137 @@ Text049e: ; 4437a (11:437a)
 	done
 
 Text049f: ; 443d6 (11:43d6)
-	text "What is a deck?"
+	text "Wat is een Deck?"
 	done
 
 Text04a0: ; 443e7 (11:43e7)
-	text "A deck is the set of Pokémon cards"
-	line "used in duels."
-	line "A deck consists of 60 cards."
-	line "Only 4 of the same card are"
-	line "allowed in a deck. Create your "
-	line "own deck to play the game."
-	line "These are the basic rules of the"
-	line "Pokémon Trading Card Game."
+	text "Een Deck is de stapel Pokémonkaarten"
+	line "die gebruikt wordt bij duellen."
+	line "Een deck bestaat uit 60 kaarten."
+	line "Er mogen maar 4 kaarten met dezelfde"
+	line "naam in een Deck. Maak je eigen Deck"
+	line "om het spel te spelen."
+	line "Dit zijn de basisregels van het"
+	line "Pokémon Ruilkaartspel."
 	done
 
 Text04a1: ; 444ca (11:44ca)
-	text "Cards, Vol. 1: Pokémon Cards"
+	text "Kaarten, Deel 1: Pokémon-kaarten"
 	done
 
 Text04a2: ; 444e8 (11:44e8)
-	text "There are 2 types of Pokémon cards "
-	line "in the Pokémon Trading Card Game:"
-	line "Basic Pokémon and Evolution "
-	line "Pokémon. Only Basic Pokémon may be "
-	line "placed directly on the Bench."
-	line "There are 2 types of Evolution"
-	line "Pokémon cards: Stage 1 and "
-	line "Stage 2. Play Stage 1 Pokémon on "
-	line "top of Basic Pokémon, and Stage 2"
-	line "Pokémon on top of Stage 1 Pokémon."
+	text "Er zijn 2 soorten Pokémon-kaarten"
+	line "in het Pokémon Ruilkaartspel:"
+	line "Basis-Pokémon en Evolutie-Pokémon"
+	line "Alleen Basis-Pokémon mogen meteen"
+	line "op de Bank geplaatst worden."
+	line "Er zijn 2 soorten Evolutie-"
+	line "Pokémon-kaarten: Fase 1 en"
+	line "Fase 2. Leg Fase-1-Pokémon"
+	line "bovenop Basis-Pokémon, en Fase-2-"
+	line "Pokémon bovenop Fase-1-Pokémon."
 	done
 
 Text04a3: ; 44630 (11:4630)
-	text "Cards, Vol. 2: Energy Cards"
+	text "Kaarten, Deel 2: Energiekaarten"
 	done
 
 Text04a4: ; 4464d (11:464d)
-	text "Attach Energiekaarten to your Pokémon"
-	line "to give them the energy they need to"
-	line "attack. Choose an Energiekaart from "
-	line "your hand and attach it to a"
-	line "Pokémon. You may attach only "
-	line "one Energiekaart per turn."
+	text "Hecht Energiekaarten aan je Pokémon"
+	line "om ze de kracht te geven die ze nodig"
+	line "hebben om aan te vallen. Kies een"
+	line "Energiekaart uit je Hand en hecht"
+	line "hem aan een Pokémon. je mag maar"
+	line "1 Energiekaart per beurt hechten."
 	done
 
 Text04a5: ; 44710 (11:4710)
-	text "Cards, Vol. 3: Trainerkaarten"
+	text "Kaarten, Deel 3: Trainerkaarten"
 	done
 
 Text04a6: ; 4472e (11:472e)
-	text "Trainerkaarten are one-shot cards"
-	line "that can be used once and are "
-	line "then discarded. You can play as "
-	line "many Trainerkaarten as you like "
-	line "during your turn."
+	text "Trainerkaarten zijn eenmalig"
+	line "te gebruiken kaarten die"
+	line "meteen in werking gaan en dan"
+	line "weg worden gegooid. Je kan zo veel"
+	line "Trainerkaarten spelen als je wilt"
+	line "tijdens je beurt."
 	done
 
 Text04a7: ; 447c2 (11:47c2)
-	text "Win or Loss of a Match, Vol. 1"
+	text "Winnen en Verliezen, Deel 1"
 	done
 
 Text04a8: ; 447e2 (11:47e2)
-	text "When a Pokémon loses all of "
-	line "its HP, the Pokémon is knocked out. "
-	line "Place it and all attached Energy "
-	line "cards in the Weggooistapel."
-	line "Each time you knock out 1 "
-	line "of your opponent's Pokémon, "
-	line "you draw 1 of your prize cards "
-	line "and place it in your hand. "
-	line "When you've taken all "
-	line "of your prizes, you win the game."
+	text "Als een Pokémon al zijn IP"
+	line "verliest, is de Pokémon"
+	line "Uitgeschakeld. Leg de Pokémon"
+	line "en alle eraan gehechte Energie-"
+	line "kaarten op de Weggooistapel."
+	line "Elke keer als je 1 van je"
+	line "tegenstander's Pokémon Uitschakelt,"
+	line "mag je 1 van je Prijskaarten pakken"
+	line "en hem in je hand nemen."
+	line "Als je alle Prijskaarten hebt"
+	line "gepakt, win je het spel."
 	done
 
 Text04a9: ; 4490f (11:490f)
-	text "Win or Loss of a Match, Vol. 2"
+	text "Winnen en Verliezen, Deel 2"
 	done
 
 Text04aa: ; 4492f (11:492f)
-	text "You also win if your opponent's"
-	line "deck is out of cards at the start"
-	line "of your opponent's turn. Be "
-	line "careful not to run out of cards!"
+	text "Je kan ook winnen als er geen"
+	line "kaarten meer zitten in je"
+	line "tegenstander's Deck aan het"
+	line "begin van je tegenstander's"
+	line "beurt. Pas op dat je niet"
+	line "zonder kaarten komt te zitten!"
 	done
 
 Text04ab: ; 449b0 (11:49b0)
-	text "Win or Loss of a Match, Vol. 3"
+	text "Winnen en Verliezen, Deel 3"
 	done
 
 Text04ac: ; 449d0 (11:49d0)
-	text "You also win if your opponent has"
-	line "no Pokémon left on the bench"
-	line "after you have knocked out his or"
-	line "her active Pokémon. Be sure to "
-	line "keep enough Pokémon on your bench."
+	text "Je kan ook winnen als je"
+	line "tegenstander geen Pokémon meer"
+	line "over heeft op de Bank nadat"
+	line "je zijn of haar Actieve Pokémon"
+	line "hebt Uitgeschakeld. Zorg ervoor"
+	line "dat je genoeg Pokémon op je"
+	line "Bank hebt."
 	done
 
 Text04ad: ; 44a75 (11:4a75)
-	text "Combos"
+	text "Combo's"
 	done
 
 Text04ae: ; 44a7d (11:4a7d)
-	text "You can create powerful combos by"
-	line "combining the abilities of 2 cards."
-	line "Pokémon Powers and Trainerkaarten "
-	line "are useful in creating combos! "
-	line "Find card combinations that will"
-	line "create your own powerful combos."
+	text "Je kan krachtige combo's maken"
+	line "door de vaardigheden van 2 kaarten"
+	line "te combineren. Pokémon-Krachten"
+	line "en Trainerkaarten kunnen handig"
+	line "zijn om zulke combo's te maken!"
+	line "Vind kaartencombinaties waarin"
+	line "de kaarten goed met elkaar"
+	line "kunnen samenwerken."
 	done
 
 Text04af: ; 44b48 (11:4b48)
-	text "Energy Trans"
+	text "Energietransfer"
 	done
 
 Text04b0: ; 44b56 (11:4b56)
-	text "What if you place Exeggutor in the"
-	line "arena, but you don't have any Energy"
-	line "cards? In this case, use Venusaur's"
-	line "Energy Trans to transfer Grass"
-	line "Energy and use Big Eggsplosion! If"
-	line "you attach 8 Energiekaarten, you can"
-	line "give your opponent up to 160 damage."
+	text "Wat als je Exeggutor in de Arena"
+	line "plaatst, maar je heb geen Energie-"
+	line "kaarten? In dat geval kun je"
+	line "Venusaur's Energietransfer Pokémon-"
+	line "Kracht gebruiken om Gras Energie"
+	line "over te zetten en Grote eisplosie te"
+	line "gebruiken! Als je 8 Energiekaarten"
+	line "eraan gehecht hebt, kan je tot 160"
+	line "schade doen aan je tegenstander."
 	done
 
 Text04b1: ; 44c4d (11:4c4d)

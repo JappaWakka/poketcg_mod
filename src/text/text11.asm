@@ -1,3 +1,40 @@
+FlareonName: ; 5ab7d (16:6b7d)
+	text "Flareon"
+	done
+
+BiteName: ; 5ab8d (16:6b8d)
+	text "Beet"
+	done
+
+RageName: ; 5ab93 (16:6b93)
+	text "Razernij"
+	done
+
+FlareonsRageDescription: ; 5ab99 (16:6b99)
+	text "Doet 10 schade plus nog eens 10"
+	line "schade voor elke Schadeteller"
+	line "op Flareon."
+	done
+
+Flareon1Description: ; 5abe1 (16:6be1)
+	text "Het heeft een stookruimte in zijn"
+	line "lichaam. Hij ademt in, waarna hij"
+	line "vuur uitademt met een temperatuur"
+	line "van boven de 1600 graden."
+	done
+
+FlareonsFlamethrowerDescription: ; 5ac46 (16:6c46)
+	text "Om deze Aanval te kunnen gebruiken,"
+	line "moet je 1 aan Flareon gehechte <FIRE>"
+	line "Energiekaart weggooien."
+	done
+
+Flareon2Description: ; 5ac91 (16:6c91)
+	text "Als hij thermische energie in zijn"
+	line "lichaam opslaat, kan zijn temperatuur"
+	line "oplopen tot boven de 900 graden."
+	done
+
 MoltresName: ; 5aced (16:6ced)
 	text "Moltres"
 	done
@@ -59,9 +96,9 @@ SquirtlesWithdrawDescription: ; 5af4b (16:6f4b)
 	text "Gooi een munt op. Als het kop is,"
 	line "voorkomt deze Aanval alle schade"
 	line "die aan Squirtle wordt gedaan"
-	line "tijdens je tegenstanders volgende"
+	line "tijdens je tegenstander's volgende"
 	line "beurt. (Alle andere gevolgen van"
-	line "aanvallen blijven gewoon geldig.)"
+	line "Aanvallen blijven gewoon geldig.)"
 	done
 
 TinyTurtleName: ; 5afd6 (16:6fd6)
@@ -83,9 +120,9 @@ WartortlesWithdrawDescription: ; 5b050 (16:7050)
 	text "Gooi een munt op. Als het kop is,"
 	line "voorkomt deze Aanval alle schade"
 	line "die aan Wartortle wordt gedaan"
-	line "tijdens je tegenstanders volgende"
+	line "tijdens je tegenstander's volgende"
 	line "beurt. (Alle andere gevolgen van"
-	line "aanvallen blijven gewoon geldig.)"
+	line "Aanvallen blijven gewoon geldig.)"
 	done
 
 TurtleName: ; 5b0dc (16:70dc)
@@ -206,21 +243,23 @@ WaterGunName: ; 5b53c (16:753c)
 	done
 
 PoliwagsWaterGunDescription: ; 5b547 (16:7547)
-	text "Does 10 damage plus 10 more damage"
-	line "for each <WATER> Energy attached to"
-	line "Poliwag but not used to pay for"
-	line "this attack's Energy cost. You can't"
-	line "add more than 20 damage in this way."
+	text "Doet 10 schade plus nog eens 10"
+	line "schade voor elke aan Poliwag gehechte"
+	line "<WATER> Energie die niet wordt gebruikt"
+	line "om de Energiekosten van deze Aanval te"
+	line "betalen. Je kunt op deze manier niet"
+	line "meer dan 20 schade toevoegen."
 	done
 
 TadpoleName: ; 5b5f4 (16:75f4)
-	text "Tadpole"
+	text "Kikkervisje-"
 	done
 
 PoliwagDescription: ; 5b5fd (16:75fd)
-	text "Its newly grown legs prevent it"
-	line "from running. It appears to prefer"
-	line "swimming over trying to stand."
+	text "Met zijn pas gegroeide pootjes kan"
+	line "hij niet rennen. Het lijkt erop dat"
+	line "hij liever zwemt dan probeert"
+	line "te staan."
 	done
 
 PoliwhirlName: ; 5b660 (16:7660)
@@ -232,20 +271,20 @@ AmnesiaName: ; 5b66b (16:766b)
 	done
 
 PoliwhirlsAmnesiaDescription: ; 5b674 (16:7674)
-	text "Choose 1 of the Defending Pokémon's"
-	line "attacks. That Pokémon can't use that"
-	line "attack during your opponent's next"
-	line "turn."
+	text "Kies 1 van de Aanvallen van de"
+	line "Verdedigende Pokémon. Gedurende je"
+	line "tegenstander's volgende beurt kan"
+	line "die Pokémon die Aanval niet gebruiken."
 	done
 
 DoubleslapName: ; 5b6e7 (16:76e7)
-	text "Doubleslap"
+	text "Dubbelslag"
 	done
 
 PoliwhirlsDescription: ; 5b6f3 (16:76f3)
-	text "Capable of living in or out of"
-	line "water. When out of water, it sweats"
-	line "to keep its body slimy."
+	text "Kan zowel in als buiten het water"
+	line "leven. Buiten het water zweet hij"
+	line "om zijn lijf slijmerig te houden."
 	done
 
 PoliwrathName: ; 5b74f (16:774f)
@@ -253,22 +292,22 @@ PoliwrathName: ; 5b74f (16:774f)
 	done
 
 PoliwrathsWaterGunDescription: ; 5b75a (16:775a)
-	text "Does 30 damage plus 10 more damage"
-	line "for each <WATER> Energy attached to"
-	line "Poliwrath but not used to pay for"
-	line "this attack's Energy cost. You"
-	line "can't add more than 20 damage in"
-	line "this way."
+	text "Doet 30 schade plus nog eens 10"
+	line "schade voor elke aan Poliwrath gehechte"
+	line "<WATER> Energie die niet wordt gebruikt"
+	line "om de Energiekosten van deze Aanval te"
+	line "betalen. Je kunt op deze manier niet"
+	line "meer dan 20 schade toevoegen."
 	done
 
 WhirlpoolName: ; 5b809 (16:7809)
-	text "Whirlpool"
+	text "Draaikolk"
 	done
 
 PoliwrathDescription: ; 5b814 (16:7814)
-	text "An adept swimmer at both the front"
-	line "crawl and breaststroke. Easily"
-	line "overtakes the best human swimmers."
+	text "Een ervaren zwemmer, zowel met crawlen"
+	line "als met de borstslag. Haalt met gemak"
+	line "de beste menselijke zwemmers in."
 	done
 
 TentacoolName: ; 5b87a (16:787a)
@@ -408,21 +447,23 @@ KrabbyName: ; 5bd63 (16:7d63)
 	done
 
 KrabbysCallForFamilyDescription: ; 5bd6b (16:7d6b)
-	text "Search your deck for a Basic Pokémon"
-	line "named Krabby and put it onto your"
-	line "Bench. Shuffle your deck afterward."
-	line "(You can't use this attack if your"
-	line "Bench is full.)"
+	text "Zoek in je deck naar een Basis-"
+	line "Pokémon met de naam Krabby"
+	line "en plaats deze op je Bank. Schud"
+	line "hierna je deck. (Je kunt deze"
+	line "Aanval niet gebruiken als je"
+	line "Bank vol is.)"
 	done
 
 RiverCrabName: ; 5be0a (16:7e0a)
-	text "River Crab"
+	text "Rivierkreeft-"
 	done
 
 KrabbyDescription: ; 5be16 (16:7e16)
-	text "Its pincers are not only powerful"
-	line "weapons, they are used for balance"
-	line "when walking sideways."
+	text "Zijn grijpers zijn niet alleen"
+	line "krachtige wapens, maar ze worden ook"
+	line "gebruikt om zijn evenwicht te"
+	line "bewaren wanneer hij zijwaarts loopt."
 	done
 
 KinglerName: ; 5be73 (16:7e73)
@@ -430,27 +471,27 @@ KinglerName: ; 5be73 (16:7e73)
 	done
 
 FlailName: ; 5be7c (16:7e7c)
-	text "Flail"
+	text "Spartelen"
 	done
 
 KinglersFlailDescription: ; 5be83 (16:7e83)
-	text "Does 10 damage times the number of"
-	line "damage counters on Kingler."
+	text "Doet 10 schade maal het aantal"
+	line "Schadetellers op Kingler."
 	done
 
 CrabhammerName: ; 5bec3 (16:7ec3)
-	text "Crabhammer"
+	text "Krabhamer"
 	done
 
 PincerName: ; 5becf (16:7ecf)
-	text "Pincer"
+	text "Schaar-"
 	done
 
 KinglerDescription: ; 5bed7 (16:7ed7)
-	text "The large pincer has 10,000"
-	line "horsepower of crushing power."
-	line "However, its huge size makes it"
-	line "unwieldy to use."
+	text "De grote schaar heeft een"
+	line "verbrijzelingsvermogen van 10.000"
+	line "pk. Maar omdat hij zo groot is,"
+	line "is hij moeilijk te hanteren."
 	done
 
 HorseaName: ; 5bf43 (16:7f43)
@@ -479,11 +520,12 @@ SeadraName: ; 5c05d (17:405d)
 	done
 
 SeadrasWaterGunDescription: ; 5c065 (17:4065)
-	text "Does 20 damage plus 10 more damage"
-	line "for each <WATER> Energy attached to"
-	line "Seadra but not used to pay for this"
-	line "attack's Energy cost. You can't add"
-	line "more than 20 damage in this way."
+	text "Doet 20 schade plus nog eens 10"
+	line "schade voor elke aan Seadra gehechte"
+	line "<WATER> Energie die niet wordt gebruikt"
+	line "om de Energiekosten van deze Aanval te"
+	line "betalen. Je kunt op deze manier niet"
+	line "meer dan 20 schade toevoegen."
 	done
 
 SeadrasAgilityDescription: ; 5c111 (17:4111)
@@ -656,37 +698,40 @@ VaporeonName: ; 5c6aa (17:46aa)
 	done
 
 FocusEnergyName: ; 5c6b4 (17:46b4)
-	text "Focus Energy"
+	text "Focus-energie"
 	done
 
 FocusEnergyDescription: ; 5c6c2 (17:46c2)
-	text "During your next turn, Vaporeon's"
-	line "Bite attack's base damage is"
-	line "doubled."
+	text "Tijdens je volgende beurt is de"
+	line "basisschade van Vaporeon's Beet-"
+	line "Aanval 60 in plaats van 30."
 	done
 
 BubbleJetName: ; 5c70b (17:470b)
-	text "Bubble Jet"
+	text "Bubbelstraal-"
 	done
 
 Vaporeon1Description: ; 5c717 (17:4717)
-	text "Its cell structure is similar to"
-	line "water molecules. It will melt away"
-	line "and become invisible in water."
+	text "Zijn celstructuur is vergelijkbaar"
+	line "met watermoleculen. Hij smelt weg"
+	line "en wordt onzichtbaar in water."
 	done
 
 VaporeonsWaterGunDescription: ; 5c77b (17:477b)
-	text "Does 30 damage plus 10 more damage"
-	line "for each <WATER> Energy attached to"
-	line "Vaporeon but not used to pay for"
-	line "this attack's Energy cost. You can't"
-	line "add more than 20 damage in this way."
+	text "Doet 30 schade plus nog eens 10"
+	line "schade voor elke aan Vaporeon"
+	line "gehechte <WATER> Energie die niet"
+	line "wordt gebruikt om de Energiekosten"
+	line "van deze Aanval te betalen. Je"
+	line "kunt op deze manier niet meer"
+	line "dan 20 schade toevoegen."
 	done
 
 Vaporeon2Description: ; 5c829 (17:4829)
-	text "Lives close to water. Its long tail"
-	line "is ridged with a fin that is often"
-	line "mistaken for a mermaid's."
+	text "Leeft dicht bij het water. Op zijn"
+	line "lange staart zit een vin die vaak"
+	line "verward wordt met die van een"
+	line "meermin."
 	done
 
 OmanyteName: ; 5c88b (17:488b)
@@ -709,11 +754,12 @@ ClairvoyanceDescription: ; 5c8b5 (17:48b5)
 	done
 
 OmanytesWaterGunDescription: ; 5c932 (17:4932)
-	text "Does 10 damage plus 10 more damage"
-	line "for each <WATER> Energy attached to"
-	line "Omanyte but not used to pay for this"
-	line "attack's Energy cost. You can't add"
-	line "more than 20 damage in this way."
+	text "Doet 10 schade plus nog eens 10"
+	line "schade voor elke aan Omanyte gehechte"
+	line "<WATER> Energie die niet wordt gebruikt"
+	line "om de Energiekosten van deze Aanval te"
+	line "betalen. Je kunt op deze manier niet"
+	line "meer dan 20 schade toevoegen."
 	done
 
 SpiralName: ; 5c9df (17:49df)
@@ -731,11 +777,12 @@ OmastarName: ; 5ca3e (17:4a3e)
 	done
 
 OmastarsWaterGunDescription: ; 5ca47 (17:4a47)
-	text "Does 20 damage plus 10 more damage"
-	line "for each <WATER> Energy attached to"
-	line "Omastar but not used to pay for this"
-	line "attack's Energy cost. You can't add"
-	line "more than 20 damage in this way."
+	text "Doet 20 schade plus nog eens 10"
+	line "schade voor elke aan Omastar gehechte"
+	line "<WATER> Energie die niet wordt gebruikt"
+	line "om de Energiekosten van deze Aanval te"
+	line "betalen. Je kunt op deze manier niet"
+	line "meer dan 20 schade toevoegen."
 	done
 
 OmastarDescription: ; 5caf4 (17:4af4)
@@ -861,7 +908,7 @@ GrowlName: ; 5d04a (17:504a)
 
 GrowlDescription: ; 5d051 (17:5051)
 	text "Als de Verdedigende Pokémon Pikachu"
-	line "aanvalt tijdens je tegenstander's"
+	line "Aanvalt tijdens je tegenstander's"
 	line "volgende beurt, wordt alle schade"
 	line "die door de Aanval wordt gedaan"
 	line "verminderd met 10 (na het toepassen"
@@ -896,7 +943,7 @@ FlyDescription: ; 5d1b3 (17:51b3)
 	text "Gooi een munt op. Als het kop is,"
 	line "voorkom dan tijdens je tegenstander's"
 	line "volgende beurt alle gevolgen van"
-	line "aanvallen, inclusief schade,"
+	line "Aanvallen, inclusief schade,"
 	line "toegebracht aan Vliegende Pikachu;"
 	done
 
@@ -933,7 +980,7 @@ RaichusAgilityDescription: ; 5d329 (17:5329)
 	text "Gooi een munt op. Als het kop is,"
 	line "voorkom dan tijdens je"
 	line "tegenstander's volgende beurt alle"
-	line "gevolgen van aanvallen, inclusief"
+	line "gevolgen van Aanvallen, inclusief"
 	line "schade, die aan Raichu worden"
 	line "toegebracht."
 	done
@@ -1141,7 +1188,7 @@ LightScreenDescription: ; 5dc80 (17:5c80)
 LightScreenDescriptionCont: ; 5dd4f (17:5d4f)
 	text "(naar beneden afgerond naar de"
 	line "dichtstbijzijnde 10). (Alle"
-	line "andere gevolgen van aanvallen"
+	line "andere gevolgen van Aanvallen"
 	line "blijven gewoon geldig.)"
 	done
 
@@ -1211,123 +1258,12 @@ PinMissileName: ; 5e020 (17:6020)
 	done
 
 QuadrupleAttackX20Description: ; 5e02d (17:602d)
-	text "Flip 4 coins. This attack does 20"
-	line "damage times the number of heads."
+	text "Gooi 4 munten op. Deze aanval doet"
+	line "20 schade maal het aantal keren kop."
 	done
 
 Jolteon2Description: ; 5e072 (17:6072)
 	text "It accumulates negative ions from"
 	line "the atmosphere to blast out 10,000-"
 	line "volt lightning bolts."
-	done
-
-ZapdosName: ; 5e0cf (17:60cf)
-	text "Zapdos"
-	done
-
-ThunderstormName: ; 5e0d7 (17:60d7)
-	text "Onweersbui"
-	done
-
-ThunderstormDescription: ; 5e0e5 (17:60e5)
-	text "Gooi voor elk van je tegenstander's"
-	line "Pokémon een munt op. Als het kop is,"
-	line "doet deze Aanval 20 schade aan die"
-	line "Pokémon. (Pas geen Zwakte en Weer-"
-	line "stand toe op de Pokémon op de Bank.)"
-	line "Daarna doet Zapdos 10 schade aan"
-	line "zichzelf maal het aantal keren munt."
-	done
-
-Zapdos1Description: ; 5e1d2 (17:61d2)
-	text "Een legendarische dondervogel-Pokémon"
-	line "waarvan ze zeggen dat zijn woede stor-"
-	line "men veroorzaakt. Men zegt ook dat hij al"
-	line "duizenden jaren boven de wolken leeft."
-	done
-
-ZapdosThunderDescription: ; 5e257 (17:6257)
-	text "Gooi een munt op. Als het munt is,"
-	line "doet Zapdos 30 schade aan zichzelf."
-	done
-
-ThunderboltName: ; 5e290 (17:6290)
-	text "Bliksemstraal"
-	done
-
-ThunderboltDescription: ; 5e29d (17:629d)
-	text "Om deze Aanval te kunnen gebruiken,"
-	line "moet je alle aan Zapdos gehechte"
-	line "<LIGHTNING> Energiekaarten weggooien."
-	done
-
-Zapdos2Description: ; 5e2e7 (17:62e7)
-	text "Een legendarische Vogel-Pokémon waar-"
-	line "van wordt gezegd dat hij uit de wolken"
-	line "tevoorschijn komt en tegelijkertijd"
-	line "bliksemschichten rondslingert."
-	done
-
-PealOfThunderName: ; 5e345 (17:6345)
-	text "Donderslag"
-	done
-
-PealOfThunderDescription: ; 5e356 (17:6356)
-	text "Wanneer je Zapdos in het spel brengt"
-	line "tijdens je beurt (niet tijdens het"
-	line "opzetten van het spel), doe je 30"
-	line "schade aan een Pokémon, anders dan"
-	line "Zapdos, op willekeurige wijze gekozen."
-	line "(Pas geen Zwakte en Weerstand toe.)"
-	done
-
-BigThunderName: ; 5e400 (17:6400)
-	text "Grote donder"
-	done
-
-BigThunderDescription: ; 5e40d (17:640d)
-	text "Kies op willekeurige wijze een Pokémon,"
-	line "anders dan Zapdos. Deze Aanval doet 70"
-	line "schade aan die Pokémon. Pas geen Zwakte"
-	line "en Weerstand toe op deze Aanval. (Alle"
-	line "andere gevolgen die na het toepassen"
-	line "van Zwakte en Weerstand zouden gebeuren"
-	line "blijven gewoon geldig.)"
-	done
-
-Zapdos3Description: ; 5e4f8 (17:64f8)
-	text "Van deze legendarische vogel-Pokémon"
-	line "wordt beweerd dat hij verschijnt wanneer"
-	line "de lucht donker wordt en bliksem-"
-	line "schichten naar beneden schieten."
-	done
-
-SandshrewName: ; 5e55b (17:655b)
-	text "Sandshrew"
-	done
-
-SandAttackName: ; 5e566 (17:6566)
-	text "Zandaanval"
-	done
-
-SandshrewDescription: ; 5e573 (17:6573)
-	text "Graaft tunnels diep onder de grond"
-	line "in dorre streken ver van het water."
-	line "Hij komt alleen tevoorschijn om op"
-	line "voedsel te jagen."
-	done
-
-SandslashName: ; 5e5d1 (17:65d1)
-	text "Sandslash"
-	done
-
-TripleAttackX20Description: ; 5e5dc (17:65dc)
-	text "Flip 3 coins. This attack does 20"
-	line "damage times the number of heads."
-	done
-
-SandslashDescription: ; 5e621 (17:6621)
-	text "Curls up into a spiny ball when"
-	line "threatened. It can roll while curled"
-	line "up to attack or escape."
 	done

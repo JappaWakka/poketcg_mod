@@ -64,7 +64,7 @@ BulbasaurName: ; 57552 (15:7552)
 	done
 
 LeechSeedName: ; 5755d (15:755d)
-	text "Energie-onttrekkend zaadje"
+	text "IP-onttrekkend zaadje"
 	done
 
 BulbasaursLeechSeedDescription: ; 57569 (15:7569)
@@ -162,11 +162,11 @@ EnergyTransName: ; 57960 (15:7960)
 
 EnergyTransDescription: ; 5796e (15:796e)
 	text "Je mag zo vaak als je wilt tijdens je"
-	line "beurt (vóór je Aanval) 1 <GRASS>"
-	line "Energiekaart pakken die gehecht is aan"
+	line "beurt (vóór je Aanval) 1 <GRASS> Ener-"
+	line "giekaart pakken die gehecht is aan"
 	line "1 van je Pokémon en hem aan een andere"
 	line "Pokémon hechten. Deze kracht kan niet"
-	line "worden gebruikt als Venusaur In Slaap,"
+	line "worden gebruikt als Venusaur In Slaap"
 	line "Verward of Verlamd is."
 	done
 
@@ -442,7 +442,7 @@ NidorinaName: ; 5846a (16:446a)
 	done
 
 SupersonicName: ; 58474 (16:4474)
-	text "Supersonic"
+	text "Supersonisch"
 	done
 
 MayInflictConfusionDescription: ; 58480 (16:4480)
@@ -451,13 +451,14 @@ MayInflictConfusionDescription: ; 58480 (16:4480)
 	done
 
 DoubleKickName: ; 584bf (16:44bf)
-	text "Double Kick"
+	text "Dubbelschop"
 	done
 
 NidorinaDescription: ; 584cc (16:44cc)
-	text "The female's horn develops slowly."
-	line "Prefers physical attacks such as"
-	line "clawing and biting."
+	text "De hoorn van het vrouwtje ontwikkelt"
+	line "zich langzaam. Geeft de voorkeur aan"
+	line "fysieke aanvallen zoals klauwen"
+	line "en bijten."
 	done
 
 NidoqueenName: ; 58525 (16:4525)
@@ -465,26 +466,28 @@ NidoqueenName: ; 58525 (16:4525)
 	done
 
 BoyfriendsName: ; 58530 (16:4530)
-	text "Boyfriends"
+	text "Vriendjes"
 	done
 
 BoyfriendsDescription: ; 5853c (16:453c)
-	text "Does 20 damage plus 20 more damage"
-	line "for each Nidoking you have in play."
+	text "Doet 20 schade plus nog eens 20"
+	line "schade voor elke Nidoking die je"
+	line "in het spel hebt."
 	done
 
 MegaPunchName: ; 58584 (16:4584)
-	text "Mega Punch"
+	text "Megaslag"
 	done
 
 DrillName: ; 58590 (16:4590)
-	text "Drill"
+	text "Boor-"
 	done
 
 NidoqueenDescription: ; 58597 (16:4597)
-	text "Its hard scales provide strong"
-	line "protection. It uses its hefty bulk"
-	line "to execute powerful moves."
+	text "Haar harde schubben vormen een uit-"
+	line "stekende bescherming. Zij gebruikt"
+	line "haar grote omvang om krachtige"
+	line "aanvalsmanoeuvres uit te voeren."
 	done
 
 NidoranMName: ; 585f5 (16:45f5)
@@ -511,13 +514,13 @@ NidorinoName: ; 58699 (16:4699)
 	done
 
 HornDrillName: ; 586a3 (16:46a3)
-	text "Horn Drill"
+	text "Hoornboor"
 	done
 
 NidorinoDescription: ; 586af (16:46af)
-	text "An aggressive Pokémon that is quick"
-	line "to attack. The horn on its head"
-	line "secretes a powerful venom."
+	text "Een agressieve Pokémon die snel"
+	line "aanvalt. De hoorn op zijn kop"
+	line "scheidt een krachtig gif af."
 	done
 
 NidokingName: ; 5870f (16:470f)
@@ -525,33 +528,34 @@ NidokingName: ; 5870f (16:470f)
 	done
 
 ThrashName: ; 58719 (16:4719)
-	text "Thrash"
+	text "Afranselen"
 	done
 
 ThrashDescriptipn: ; 58721 (16:4721)
-	text "Gooi een munt op. Als het kop is, this attack"
-	line "does 30 damage plus 10 more damage;"
-	line "if tails, this attack does 30 damage"
-	line "and Nidoking does 10 damage to"
-	line "itself."
+	text "Gooi een munt op. Als het kop is,"
+	line "doet deze Aanval 30 schade plus nog"
+	line "eens 10 schade; als het munt is,"
+	line "doet deze Aanval 30 schade en doet"
+	line "Nidoking 10 schade aan zichzelf."
 	done
 
 ToxicName: ; 587b5 (16:47b5)
-	text "Toxic"
+	text "Vergif"
 	done
 
 ToxicDescription: ; 587bc (16:47bc)
-	text "The Defending Pokémon is now"
-	line "Poisoned. It now takes 20 Poison"
-	line "damage instead of 10 after each"
-	line "player's turn (even if it was"
-	line "already Poisoned)."
+	text "De Verdedigende Pokémon is nu"
+	line "Vergiftigd. Hij lijdt nu 20"
+	line "Vergifschade in plaats van 10 na"
+	line "de beurt van elke speler (zelfs"
+	line "als hij al eerder Vergiftigd was)."
 	done
 
 NidokingDescription: ; 5884c (16:484c)
-	text "Uses its powerful tail in battle to"
-	line "smash, constrict, then break its"
-	line "prey's bones."
+	text "Gebruikt tijdens een gevecht zijn"
+	line "krachtige staart om zijn slachtoffer"
+	line "te vermorzelen, te verstikken en"
+	line "vervolgens zijn botten te breken."
 	done
 
 ZubatName: ; 588a0 (16:48a0)
@@ -559,26 +563,28 @@ ZubatName: ; 588a0 (16:48a0)
 	done
 
 LeechLifeName: ; 588a7 (16:48a7)
-	text "Leech Life"
+	text "Onttrek leven"
 	done
 
 ZubatsLeechLifeDescription: ; 588b3 (16:48b3)
-	text "Remove a number of damage counters"
-	line "from Zubat equal to the damage done"
-	line "to the Defending Pokémon (after"
-	line "applying Weakness and Resistance)."
-	line "If Zubat has fewer damage counters"
-	line "than that, remove all of them."
+	text "Verwijder een aantal Schadetellers"
+	line "van Zubat gelijk aan de schade die"
+	line "gedaan is aan de Verdedigende"
+	line "Pokémon (na het toepassen van"
+	line "Zwakte en Weerstand). Als Zubat"
+	line "minder Schadetellers heeft dan"
+	line "dat, verwijder ze dan allemaal."
 	done
 
 BatName: ; 58980 (16:4980)
-	text "Bat"
+	text "Vleermuis-"
 	done
 
 ZubatDescription: ; 58985 (16:4985)
-	text "Forms colonies in perpetually dark"
-	line "places. Uses ultrasonic waves to"
-	line "identify and approach targets."
+	text "Vormt kolonies in plaatsen die"
+	line "eeuwig duister blijven. Gebruikt"
+	line "ultrasone golven om zijn doelwit"
+	line "te herkennen en te benaderen."
 	done
 
 GolbatName: ; 589e9 (16:49e9)
@@ -586,22 +592,24 @@ GolbatName: ; 589e9 (16:49e9)
 	done
 
 WingAttackName: ; 589f1 (16:49f1)
-	text "Wing Attack"
+	text "Vleugelaanval"
 	done
 
 GolbatsLeechLifeDescription: ; 589fe (16:49fe)
-	text "Remove a number of damage counters"
-	line "from Golbat equal to the damage done"
-	line "to the Defending Pokémon (after"
-	line "applying Weakness and Resistance)."
-	line "If Golbat has fewer damage counters"
-	line "than that, remove all of them."
+	text "Verwijder een aantal Schadetellers"
+	line "van Golbat gelijk aan de schade die"
+	line "gedaan is aan de Verdedigende"
+	line "Pokémon (na het toepassen van"
+	line "Zwakte en Weerstand). Als Golbat"
+	line "minder Schadetellers heeft dan"
+	line "dat, verwijder ze dan allemaal."
 	done
 
 GolbatDescription: ; 58acd (16:4acd)
-	text "Once it strikes, it will not stop"
-	line "draining energy from the victim even"
-	line "if it gets too heavy to fly."
+	text "Als hij een keer toeslaat, houdt hij"
+	line "niet op energie aan zijn slachtoffer"
+	line "te onttrekken, zelfs niet wanneer"
+	line "hij te zwaar wordt om te vliegen."
 	done
 
 OddishName: ; 58b32 (16:4b32)
@@ -795,11 +803,12 @@ BellsproutName: ; 592e5 (16:52e5)
 	done
 
 BellsproutsCallForFamilyDescription: ; 592f1 (16:52f1)
-	text "Search your deck for a Basic Pokémon"
-	line "named Bellsprout and put it onto"
-	line "your Bench. Shuffle your deck"
-	line "afterward. (You can't use this"
-	line "attack if your Bench is full.)"
+	text "Zoek in je deck naar een Basis-"
+	line "Pokémon met de naam Bellsprout"
+	line "en plaats deze op je Bank. Schud"
+	line "hierna je deck. (Je kunt deze"
+	line "Aanval niet gebruiken als je"
+	line "Bank vol is.)"
 	done
 
 BellsproutDescription: ; 59394 (16:5394)
@@ -946,7 +955,7 @@ TeleportDescription: ; 59896 (16:5896)
 	done
 
 BigEggsplosionName: ; 598c8 (16:58c8)
-	text "Big Eggsplosion"
+	text "Grote eisplosie"
 	done
 
 BigEggsplosionDescription: ; 598d9 (16:58d9)
@@ -1024,27 +1033,29 @@ TangelaName: ; 59bbe (16:5bbe)
 	done
 
 BindName: ; 59bc7 (16:5bc7)
-	text "Bind"
+	text "Koppelen"
 	done
 
 VineName: ; 59bcd (16:5bcd)
-	text "Vine"
+	text "Klimplant-"
 	done
 
 Tangela1Description: ; 59bd3 (16:5bd3)
-	text "Its whole body is swathed with wide"
-	line "vines that are similar to seaweed."
-	line "These vines shake as it walks."
+	text "Zijn hele lichaam is gewikkeld in"
+	line "brede strengen die veel op zeewier"
+	line "lijken. Als hij loopt, schudden"
+	line "deze strengen."
 	done
 
 PoisonWhipName: ; 59c3a (16:5c3a)
-	text "Poison Whip"
+	text "Gifzweepslag"
 	done
 
 Tangela2Description: ; 59c47 (16:5c47)
-	text "Its identity is obscured by masses"
-	line "of thick, blue vines. The vines are"
-	line "said to never stop growing."
+	text "Zijn identiteit wordt verhuld door"
+	line "grote hoeveelheden dikke blauwe"
+	line "strengen. Er wordt gezegd dat de"
+	line "strengen nooit stoppen met groeien."
 	done
 
 ScytherName: ; 59cab (16:5cab)
@@ -1302,7 +1313,7 @@ FlamesOfRageDescription: ; 5a5e8 (16:65e8)
 	line "Energiekaarten weggooien. Deze"
 	line "Aanval doet 40 schade plus nog"
 	line "eens 10 schade voor elke"
-	line "schadeteller op Arcanine."
+	line "Schadeteller op Arcanine."
 	done
 
 LegendaryName: ; 5a689 (16:6689)
@@ -1383,7 +1394,7 @@ RapidashsAgilityDescription: ; 5a8ce (16:68ce)
 	text "Gooi een munt op. Als het kop is,"
 	line "voorkom dan tijdens je"
 	line "tegenstander's volgende beurt alle"
-	line "gevolgen van aanvallen, inclusief"
+	line "gevolgen van Aanvallen, inclusief"
 	line "schade, toegebracht aan Rapidash."
 	done
 
@@ -1438,40 +1449,31 @@ Magmar2Description: ; 5ab07 (16:6b07)
 	line "weinig gevallen gevangen."
 	done
 
-FlareonName: ; 5ab7d (16:6b7d)
-	text "Flareon"
-	done
-
 EeveeName: ; 5ab86 (16:6b86)
 	text "Eevee"
 	done
 
-BiteName: ; 5ab8d (16:6b8d)
-	text "Beet"
+TailWagName: ; 62d8a (18:6d8a)
+	text "Kwispel"
 	done
 
-RageName: ; 5ab93 (16:6b93)
-	text "Rage"
+TailWagDescription: ; 62d94 (18:6d94)
+	text "Gooi een munt op. Als het kop is,"
+	line "kan de Verdedigende Pokémon Eevee"
+	line "niet aanvallen tijdens je"
+	line "tegenstander's volgende beurt. (Het"
+	line "op de Bank plaatsen of evolueren van"
+	line "een van beide Pokémon beëindigt"
+	line "dit effect.)"
 	done
 
-FlareonsRageDescription: ; 5ab99 (16:6b99)
-	text "Does 10 damage plus 10 more damage"
-	line "for each damage counter on Flareon."
+EvolutionName: ; 62e2f (18:6e2f)
+	text "Evolutie-"
 	done
 
-Flareon1Description: ; 5abe1 (16:6be1)
-	text "It has a flame chamber inside its"
-	line "body. It inhales, then blows out"
-	line "fire that is over 3,000 degrees."
-	done
-
-FlareonsFlamethrowerDescription: ; 5ac46 (16:6c46)
-	text "Discard 1 <FIRE> Energiekaart attached to"
-	line "Flareon in order to use this attack."
-	done
-
-Flareon2Description: ; 5ac91 (16:6c91)
-	text "When storing thermal energy in its"
-	line "body, its temperature could soar to"
-	line "over 1,600 degrees."
+EeveeDescription: ; 62e3a (18:6e3a)
+	text "Zijn genetische code is onregel-"
+	line "matig. Hij zou kunnen muteren als"
+	line "hij wordt blootgesteld aan"
+	line "elementaire gesteenten."
 	done

@@ -144,14 +144,15 @@ Text05dc: ; 4c141 (13:4141)
 	done
 
 Text05dd: ; 4c2c4 (13:42c4)
-	text "Gathering information is important"
-	line "if you wish to inherit the Legendary"
-	line "Pokémon Cards! Listen to what people"
-	line "have to say and read the books on "
-	line "the bookshelves. If I have any "
-	line "information, I'll send you an"
-	line "e-mail, so check the PC every"
-	line "so often to read your mail!"
+	text "Informatie verzamelen is belangrijk"
+	line "als je de Legendarische Pokémon-"
+	line "kaarten wilt overnemen! Luister"
+	line "naar wat mensen te zeggen hebben"
+	line "en lees de boeken in de boeken-"
+	line "kasten. Als ik nieuwe informatie"
+	line "heb, zal ik je een e-mail sturen,"
+	line "dus kijk geregeld op de PC of"
+	line "je nieuwe e-mails hebt ontvangen!"
 	done
 
 Text05de: ; 4c3cd (13:43cd)
@@ -322,7 +323,7 @@ Text05f1: ; 4ce96 (13:4e96)
 	done
 
 Text05f2: ; 4ceb9 (13:4eb9)
-	text "Hmm...laat me wat van mijn kaarten"
+	text "Hmm... laat me wat van mijn kaarten"
 	line "aan die van jou toevoegen!"
 	line "Oké, <RAMNAME>, wat voor Deck"
 	line "zou je willen?"

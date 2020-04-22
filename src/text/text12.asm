@@ -1,3 +1,114 @@
+ZapdosName: ; 5e0cf (17:60cf)
+	text "Zapdos"
+	done
+
+ThunderstormName: ; 5e0d7 (17:60d7)
+	text "Onweersbui"
+	done
+
+ThunderstormDescription: ; 5e0e5 (17:60e5)
+	text "Gooi voor elk van je tegenstander's"
+	line "Pokémon een munt op. Als het kop is,"
+	line "doet deze Aanval 20 schade aan die"
+	line "Pokémon. (Pas geen Zwakte en Weer-"
+	line "stand toe op de Pokémon op de Bank.)"
+	line "Daarna doet Zapdos 10 schade aan"
+	line "zichzelf maal het aantal keren munt."
+	done
+
+Zapdos1Description: ; 5e1d2 (17:61d2)
+	text "Een legendarische dondervogel-Pokémon"
+	line "waarvan ze zeggen dat zijn woede stor-"
+	line "men veroorzaakt. Men zegt ook dat hij al"
+	line "duizenden jaren boven de wolken leeft."
+	done
+
+ZapdosThunderDescription: ; 5e257 (17:6257)
+	text "Gooi een munt op. Als het munt is,"
+	line "doet Zapdos 30 schade aan zichzelf."
+	done
+
+ThunderboltName: ; 5e290 (17:6290)
+	text "Bliksemstraal"
+	done
+
+ThunderboltDescription: ; 5e29d (17:629d)
+	text "Om deze Aanval te kunnen gebruiken,"
+	line "moet je alle aan Zapdos gehechte"
+	line "<LIGHTNING> Energiekaarten weggooien."
+	done
+
+Zapdos2Description: ; 5e2e7 (17:62e7)
+	text "Een legendarische Vogel-Pokémon waar-"
+	line "van wordt gezegd dat hij uit de wolken"
+	line "tevoorschijn komt en tegelijkertijd"
+	line "bliksemschichten rondslingert."
+	done
+
+PealOfThunderName: ; 5e345 (17:6345)
+	text "Donderslag"
+	done
+
+PealOfThunderDescription: ; 5e356 (17:6356)
+	text "Wanneer je Zapdos in het spel brengt"
+	line "tijdens je beurt (niet tijdens het"
+	line "opzetten van het spel), doe je 30"
+	line "schade aan een Pokémon, anders dan"
+	line "Zapdos, op willekeurige wijze gekozen."
+	line "(Pas geen Zwakte en Weerstand toe.)"
+	done
+
+BigThunderName: ; 5e400 (17:6400)
+	text "Grote donder"
+	done
+
+BigThunderDescription: ; 5e40d (17:640d)
+	text "Kies op willekeurige wijze een Pokémon,"
+	line "anders dan Zapdos. Deze Aanval doet 70"
+	line "schade aan die Pokémon. Pas geen Zwakte"
+	line "en Weerstand toe op deze Aanval. (Alle"
+	line "andere gevolgen die na het toepassen"
+	line "van Zwakte en Weerstand zouden gebeuren"
+	line "blijven gewoon geldig.)"
+	done
+
+Zapdos3Description: ; 5e4f8 (17:64f8)
+	text "Van deze legendarische vogel-Pokémon"
+	line "wordt beweerd dat hij verschijnt wanneer"
+	line "de lucht donker wordt en bliksem-"
+	line "schichten naar beneden schieten."
+	done
+
+SandshrewName: ; 5e55b (17:655b)
+	text "Sandshrew"
+	done
+
+SandAttackName: ; 5e566 (17:6566)
+	text "Zandaanval"
+	done
+
+SandshrewDescription: ; 5e573 (17:6573)
+	text "Graaft tunnels diep onder de grond"
+	line "in dorre streken ver van het water."
+	line "Hij komt alleen tevoorschijn om op"
+	line "voedsel te jagen."
+	done
+
+SandslashName: ; 5e5d1 (17:65d1)
+	text "Sandslash"
+	done
+
+TripleAttackX20Description: ; 5e5dc (17:65dc)
+	text "Flip 3 coins. This attack does 20"
+	line "damage times the number of heads."
+	done
+
+SandslashDescription: ; 5e621 (17:6621)
+	text "Curls up into a spiny ball when"
+	line "threatened. It can roll while curled"
+	line "up to attack or escape."
+	done
+
 DiglettName: ; 5e67f (17:667f)
 	text "Diglett"
 	done
@@ -17,8 +128,8 @@ MoleName: ; 5e697 (17:6697)
 DiglettDescription: ; 5e69d (17:669d)
 	text "Leeft ongeveer een meter onder de"
 	line "grond, waar hij zich voedt met de"
-	line "wortels van planten. Soms"
-	line "verschijnt hij boven de grond."
+	line "wortels van planten. Soms verschijnt"
+	line "hij boven de grond."
 	done
 
 DugtrioName: ; 5e704 (17:6704)
@@ -38,7 +149,7 @@ EarthquakeDescription: ; 5e719 (17:6719)
 
 DugtrioDescription: ; 5e789 (17:6789)
 	text "Een team gevormd door een Diglett-"
-	line "-drieling. Het veroorzaakt enorme"
+	line "drieling. Het veroorzaakt enorme"
 	line "aardbevingen door 90 kilometer"
 	line "onder de grond tunnels te graven."
 	done
@@ -124,7 +235,7 @@ KarateChopName: ; 5eaac (17:6aac)
 
 KarateChopDescription: ; 5eab9 (17:6ab9)
 	text "Doet 50 schade min 10 schade"
-	line "voor elke schadeteller op Machoke."
+	line "voor elke Schadeteller op Machoke."
 	done
 
 SubmissionName: ; 5eafd (17:6afd)
@@ -165,7 +276,7 @@ StrikesBackDescriptionCont: ; 5ec56 (17:6c56)
 	text "Deze kracht kan niet worden gebruikt"
 	line "als Machamp al In Slaap, Verward, of"
 	line "Verlamd is op het moment dat je"
-	line "tegenstander aanvalt."
+	line "tegenstander Aanvalt."
 	done
 
 SeismicTossName: ; 5ecc1 (17:6cc1)
@@ -819,8 +930,8 @@ CurseName: ; 608c2 (18:48c2)
 
 CurseDescription: ; 608c9 (18:48c9)
 	text "Eenmaal tijdens je beurt (voor je"
-	line "Aanval), mag je 1 schadeteller"
-	line "van 1 van je tegenstanders Pokémon"
+	line "Aanval), mag je 1 Schadeteller"
+	line "van 1 van je tegenstander's Pokémon"
 	line "naar een andere verplaatsen (zelfs"
 	line "als het de andere Pokémon zou"
 	line "Uitschakelen). Deze kracht kan niet"
@@ -909,13 +1020,13 @@ InvisibleWallDescriptionCont: ; 60cd8 (18:4cd8)
 	done
 
 MeditateName: ; 60d21 (18:4d21)
-	text "Meditate"
+	text "Mediteren"
 	done
 
 MrMimesMeditateDescription: ; 60d2b (18:4d2b)
-	text "Does 10 damage plus 10 more damage"
-	line "for each damage counter on the"
-	line "Defending Pokémon."
+	text "Doet 10 schade plus nog eens 10"
+	line "schade voor elke Schadeteller"
+	line "op de Verdedigende Pokémon."
 	done
 
 BarrierName: ; 60d81 (18:4d81)
@@ -933,24 +1044,24 @@ JynxName: ; 60ddc (18:4ddc)
 	done
 
 DoubleAttackX10Description: ; 60de2 (18:4de2)
-	text "Flip 2 coins. This attack does 10"
-	line "damage times the number of heads."
+	text "Gooi 2 munten op. Deze Aanval doet"
+	line "10 schade maal het aantal keren kop."
 	done
 
 JynxsMeditateDescription: ; 60e27 (18:4e27)
-	text "Does 20 damage plus 10 more damage"
-	line "for each damage counter on the"
-	line "Defending Pokémon."
+	text "Doet 20 schade plus nog eens 10"
+	line "schade voor elke Schadeteller"
+	line "op de Verdedigende Pokémon."
 	done
 
 HumanShapeName: ; 60e7d (18:4e7d)
-	text "Human Shape"
+	text "Menselijk gevormde"
 	done
 
 JynxDescription: ; 60e8a (18:4e8a)
-	text "Merely by meditating, the Pokémon"
-	line "launches a powerful psychic energy"
-	line "attack."
+	text "Enkel door te mediteren, lanceert"
+	line "de Pokémon een krachtige psychische"
+	line "energieaanval."
 	done
 
 MewtwoName: ; 60ed8 (18:4ed8)
@@ -1223,176 +1334,4 @@ SpearowDescription: ; 61a93 (18:5a93)
 	text "Eats bugs in grassy areas. It has to"
 	line "flap its short wings at high speed"
 	line "to stay airborne."
-	done
-
-FearowName: ; 61aee (18:5aee)
-	text "Fearow"
-	done
-
-FearowsAgilityDescription: ; 61af6 (18:5af6)
-	text "Gooi een munt op. Als het kop is, during your"
-	line "opponent's next turn, prevent all"
-	line "effects of attacks, including"
-	line "damage, done to Fearow."
-	done
-
-DrillPeckName: ; 61b72 (18:5b72)
-	text "Drill Peck"
-	done
-
-BeakName: ; 61b7e (18:5b7e)
-	text "Beak"
-	done
-
-FearowDescription: ; 61b84 (18:5b84)
-	text "With its huge and magnificent wings,"
-	line "it can keep aloft without ever"
-	line "having to land for rest."
-	done
-
-ClefairyName: ; 61be2 (18:5be2)
-	text "Clefairy"
-	done
-
-SingName: ; 61bec (18:5bec)
-	text "Sing"
-	done
-
-MetronomeName: ; 61bf2 (18:5bf2)
-	text "Metronome"
-	done
-
-ClefairysMetronomeDescription: ; 61bfd (18:5bfd)
-	text "Choose 1 of the Defending Pokémon's"
-	line "attacks. Metronome copies that"
-	line "attack except for its Energy costs."
-	line "(No matter what type the Defending"
-	line "Pokemon is, Clefairy's type is"
-	line "still Colorless.)"
-	done
-
-FairyName: ; 61cb9 (18:5cb9)
-	text "Fairy"
-	done
-
-ClefairyDescription: ; 61cc0 (18:5cc0)
-	text "Its magical and cute appeal has many"
-	line "admirers. It is rare and found only"
-	line "in certain areas."
-	done
-
-ClefableName: ; 61d1c (18:5d1c)
-	text "Clefable"
-	done
-
-ClefablesMetronomeDescription: ; 61d26 (18:5d26)
-	text "Choose 1 of the Defending Pokémon's"
-	line "attacks. Metronome copies that"
-	line "attack except for its Energy costs."
-	line "(No matter what type the Defending"
-	line "Pokémon is, Clefable's type is"
-	line "still Colorless.)"
-	done
-
-ClefablesMinimizeDescription: ; 61de2 (18:5de2)
-	text "All damage done by attacks to"
-	line "Clefable during your opponent's next"
-	line "turn is reduced by 20 (after"
-	line "applying Weakness and Resistance)."
-	done
-
-ClefableDescription: ; 61e66 (18:5e66)
-	text "A timid Fairy Pokémon that is rarely"
-	line "seen. It will run and hide the"
-	line "moment it senses people."
-	done
-
-JigglypuffName: ; 61ec4 (18:5ec4)
-	text "Jigglypuff"
-	done
-
-FirstAidName: ; 61ed0 (18:5ed0)
-	text "First Aid"
-	done
-
-FirstAidDescription: ; 61edb (18:5edb)
-	text "Remove 1 damage counter from"
-	line "Jigglypuff."
-	done
-
-DoubleEdgeName: ; 61f05 (18:5f05)
-	text "Double-edge"
-	done
-
-JigglypuffsDoubleEdgeDescription: ; 61f12 (18:5f12)
-	text "Jigglypuff does 20 damage to itself."
-	done
-
-BalloonName: ; 61f38 (18:5f38)
-	text "Balloon"
-	done
-
-Jigglypuff1Description: ; 61f41 (18:5f41)
-	text "When its huge eyes light up, it"
-	line "sings a mysteriously soothing"
-	line "melody that lulls its enemies to"
-	line "sleep."
-	done
-
-FriendshipSongName: ; 61fa8 (18:5fa8)
-	text "Friendship Song"
-	done
-
-FriendshipSongDescription: ; 61fb9 (18:5fb9)
-	text "Gooi een munt op. Als het kop is, put a Basic"
-	line "Pokémon card chosen at random from"
-	line "your deck onto your Bench. (You"
-	line "can't use this attack if your Bench"
-	line "is full.)"
-	done
-
-ExpandName: ; 6204e (18:604e)
-	text "Expand"
-	done
-
-ExpandDescription: ; 62056 (18:6056)
-	text "All damage done to Jigglypuff during"
-	line "your opponent's next turn is reduced"
-	line "by 10 (after applying Weakness and"
-	line "Resistance)."
-	done
-
-Jigglypuff2Description: ; 620d1 (18:60d1)
-	text "Uses its alluring eyes to enrapture"
-	line "its foe. It then sings a pleasing"
-	line "melody that lulls the foe to sleep."
-	done
-
-LullabyName: ; 6213c (18:613c)
-	text "Lullaby"
-	done
-
-Jigglypuff3Description: ; 62145 (18:6145)
-	text "When its huge eyes light up, it"
-	line "sings a mysteriously soothing melody"
-	line "that lulls its enemies to sleep."
-	done
-
-WigglytuffName: ; 621ac (18:61ac)
-	text "Wigglytuff"
-	done
-
-DoTheWaveName: ; 621b8 (18:61b8)
-	text "Do the Wave"
-	done
-
-DoTheWaveDescription: ; 621c5 (18:61c5)
-	text "Does 10 damage plus 10 more damage"
-	line "for each of your Benched Pokémon."
-	done
-
-WigglytuffDescription: ; 6220b (18:620b)
-	text "The body is soft and rubbery. When"
-	line "angered, it will suck in air and"
-	line "inflate itself to an enormous size."
 	done
