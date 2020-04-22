@@ -162,8 +162,6 @@ ROMX $42
 	"Text 14"
 ROMX $43
 	"Booster Packs"
-ROMX $44
-	"Bank 21"
 WRAM0
 	"WRAM0"
 	"WRAM0 Duels 1"

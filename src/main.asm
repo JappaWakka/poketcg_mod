@@ -68,6 +68,3 @@ SECTION "Empty Bank 30", ROMX
 
 SECTION "Empty Bank 3C", ROMX
 	emptybank
-
-SECTION "Bank 21", ROMX
-INCLUDE "engine/bank21.asm"
