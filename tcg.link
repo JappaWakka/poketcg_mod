@@ -41,7 +41,6 @@ ROMX $06
 	"Bank 6"
 ROMX $07
 	"Bank 7"
-	"Booster Packs"
 ROMX $08
 	"Bank 8"
 ROMX $09
@@ -155,6 +154,14 @@ ROMX $3e
 	"Audio 2"
 ROMX $3f
 	"Audio 3"
+ROMX $40
+	"Gfx Fonts"
+ROMX $41
+	"Text Offsets"
+ROMX $42
+	"Booster Packs"
+ROMX $43
+	"Bank 21"
 WRAM0
 	"WRAM0"
 	"WRAM0 Duels 1"

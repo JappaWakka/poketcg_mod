@@ -12,7 +12,7 @@ GameLoop: ; 4000 (1:4000)
 	ld a, [s0a009]
 	ld [wSkipDelayAllowed], a
 	call DisableSRAM
-	ld a, 1
+	ld a, 0
 	ld [wUppercaseHalfWidthLetters], a
 	ei
 	farcall CommentedOut_1a6cc
@@ -6288,10 +6288,10 @@ DiscardSavedDuelData: ; 6785 (1:6785)
 ; 0x6793
 
 ; loads a player deck (sDeck*Cards) from SRAM to wPlayerDeck
-; s0b700 determines which sDeck*Cards source (0-3)
+; sCurrentlySelectedDeck determines which sDeck*Cards source (0-3)
 LoadPlayerDeck: ; 6793 (1:6793)
 	call EnableSRAM
-	ld a, [s0b700]
+	ld a, [sCurrentlySelectedDeck]
 	ld l, a
 	ld h, sDeck2Cards - sDeck1Cards
 	call HtimesL

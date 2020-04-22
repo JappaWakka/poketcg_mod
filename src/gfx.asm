@@ -1,6 +1,6 @@
 INCLUDE "macros.asm"
 
-SECTION "Gfx 1", ROMX
+SECTION "Gfx Fonts", ROMX
 
 Fonts::
 
@@ -19,7 +19,14 @@ INCBIN "gfx/fonts/half_width.1bpp"
 SymbolsFont:: ; 76968 (1d:6968)
 INCBIN "gfx/fonts/symbols.2bpp"
 
+SymbolsFontEnd::
+
+SECTION "Gfx 1", ROMX
+
 DuelGraphics::
+
+SymbolsDuel:: ; 76968 (1d:6968)
+INCBIN "gfx/fonts/symbols.2bpp"
 
 DuelCardHeaderGraphics:: ; 76ce8 (1d:6ce8)
 INCBIN "gfx/duel/card_headers.2bpp"
@@ -28,11 +35,9 @@ DuelDmgSgbSymbolGraphics:: ; 76fe8 (1d:6fe8)
 INCBIN "gfx/duel/dmg_sgb_symbols.t7.2bpp"
 
 DuelCgbSymbolGraphics:: ; 777f8 (1d:77f8)
-INCBIN "gfx/duel/cgb_symbols.t7.2bpp", $0, $808
+INCBIN "gfx/duel/cgb_symbols.t7.2bpp"
 
 SECTION "Gfx 2", ROMX
-
-INCBIN "gfx/duel/cgb_symbols.t7.2bpp", $808, $8
 
 DuelOtherGraphics:: ; 78008 (1e:4008)
 INCBIN "gfx/duel/other.t7.2bpp"
@@ -1133,13 +1138,13 @@ VulpixCardGfx:: ; cd840 (33:5840)
 	INCBIN "gfx/cards/vulpix.8x6.2bpp"
 	INCBIN "gfx/cards/vulpix.pal"
 
-Ninetails1CardGfx:: ; cdb48 (33:5b48)
-	INCBIN "gfx/cards/ninetails1.8x6.2bpp"
-	INCBIN "gfx/cards/ninetails1.pal"
+Ninetales1CardGfx:: ; cdb48 (33:5b48)
+	INCBIN "gfx/cards/ninetales1.8x6.2bpp"
+	INCBIN "gfx/cards/ninetales1.pal"
 
-Ninetails2CardGfx:: ; cde50 (33:5e50)
-	INCBIN "gfx/cards/ninetails2.8x6.2bpp"
-	INCBIN "gfx/cards/ninetails2.pal"
+Ninetales2CardGfx:: ; cde50 (33:5e50)
+	INCBIN "gfx/cards/ninetales2.8x6.2bpp"
+	INCBIN "gfx/cards/ninetales2.pal"
 
 GrowlitheCardGfx:: ; ce158 (33:6158)
 	INCBIN "gfx/cards/growlithe.8x6.2bpp"
