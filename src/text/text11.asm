@@ -12,7 +12,7 @@ RageName: ; 5ab93 (16:6b93)
 
 FlareonsRageDescription: ; 5ab99 (16:6b99)
 	text "Doet 10 schade plus nog eens 10"
-	line "schade voor elke Schadeteller"
+	line "schade voor elke schadeteller"
 	line "op Flareon."
 	done
 
@@ -24,7 +24,7 @@ Flareon1Description: ; 5abe1 (16:6be1)
 	done
 
 FlareonsFlamethrowerDescription: ; 5ac46 (16:6c46)
-	text "Om deze Aanval te kunnen gebruiken,"
+	text "Om deze aanval te kunnen gebruiken,"
 	line "moet je 1 aan Flareon gehechte <FIRE>"
 	line "Energiekaart weggooien."
 	done
@@ -94,11 +94,11 @@ WithdrawName: ; 5af41 (16:6f41)
 
 SquirtlesWithdrawDescription: ; 5af4b (16:6f4b)
 	text "Gooi een munt op. Als het kop is,"
-	line "voorkomt deze Aanval alle schade"
+	line "voorkomt deze aanval alle schade"
 	line "die aan Squirtle wordt gedaan"
 	line "tijdens je tegenstander's volgende"
 	line "beurt. (Alle andere gevolgen van"
-	line "Aanvallen blijven gewoon geldig.)"
+	line "aanvallen blijven gewoon geldig.)"
 	done
 
 TinyTurtleName: ; 5afd6 (16:6fd6)
@@ -118,11 +118,11 @@ WartortleName: ; 5b045 (16:7045)
 
 WartortlesWithdrawDescription: ; 5b050 (16:7050)
 	text "Gooi een munt op. Als het kop is,"
-	line "voorkomt deze Aanval alle schade"
+	line "voorkomt deze aanval alle schade"
 	line "die aan Wartortle wordt gedaan"
 	line "tijdens je tegenstander's volgende"
 	line "beurt. (Alle andere gevolgen van"
-	line "Aanvallen blijven gewoon geldig.)"
+	line "aanvallen blijven gewoon geldig.)"
 	done
 
 TurtleName: ; 5b0dc (16:70dc)
@@ -146,7 +146,7 @@ RainDanceName: ; 5b159 (16:7159)
 
 RainDanceDescription: ; 5b165 (16:7165)
 	text "Je mag zo vaak als je wilt tijdens"
-	line "je beurt (vóór je Aanval) 1 <WATER>"
+	line "je beurt (vóór je aanval) 1 <WATER>"
 	line "Energiekaart aan 1 van je <WATER> Pokémon"
 	line "hechten. (Hiermee wordt de "
 	line "aanhechting van 1 Energiekaart"
@@ -168,7 +168,7 @@ HydroPumpDescription: ; 5b273 (16:7273)
 	line "schade voor elke <WATER> Energie die"
 	line "aan Blastoise gehecht is maar niet"
 	line "wordt gebruikt om de Energiekosten"
-	line "van deze Aanval te betalen. Je kunt"
+	line "van deze aanval te betalen. Je kunt"
 	line "op deze manier niet meer dan 20"
 	line "schade toevoegen."
 	done
@@ -246,7 +246,7 @@ PoliwagsWaterGunDescription: ; 5b547 (16:7547)
 	text "Doet 10 schade plus nog eens 10"
 	line "schade voor elke aan Poliwag gehechte"
 	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze Aanval te"
+	line "om de Energiekosten van deze aanval te"
 	line "betalen. Je kunt op deze manier niet"
 	line "meer dan 20 schade toevoegen."
 	done
@@ -271,10 +271,10 @@ AmnesiaName: ; 5b66b (16:766b)
 	done
 
 PoliwhirlsAmnesiaDescription: ; 5b674 (16:7674)
-	text "Kies 1 van de Aanvallen van de"
+	text "Kies 1 van de aanvallen van de"
 	line "Verdedigende Pokémon. Gedurende je"
 	line "tegenstander's volgende beurt kan"
-	line "die Pokémon die Aanval niet gebruiken."
+	line "die Pokémon die aanval niet gebruiken."
 	done
 
 DoubleslapName: ; 5b6e7 (16:76e7)
@@ -295,7 +295,7 @@ PoliwrathsWaterGunDescription: ; 5b75a (16:775a)
 	text "Doet 30 schade plus nog eens 10"
 	line "schade voor elke aan Poliwrath gehechte"
 	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze Aanval te"
+	line "om de Energiekosten van deze aanval te"
 	line "betalen. Je kunt op deze manier niet"
 	line "meer dan 20 schade toevoegen."
 	done
@@ -427,7 +427,7 @@ ClampDescription: ; 5bc85 (16:7c85)
 	text "Gooi een munt op. Als het kop"
 	line "is, is de Verdedigende Pokémon"
 	line "nu Verlamd. Als het munt is,"
-	line "doet deze Aanval niets (zelfs"
+	line "doet deze aanval niets (zelfs"
 	line "geen schade)."
 	done
 
@@ -451,7 +451,7 @@ KrabbysCallForFamilyDescription: ; 5bd6b (16:7d6b)
 	line "Pokémon met de naam Krabby"
 	line "en plaats deze op je Bank. Schud"
 	line "hierna je deck. (Je kunt deze"
-	line "Aanval niet gebruiken als je"
+	line "aanval niet gebruiken als je"
 	line "Bank vol is.)"
 	done
 
@@ -476,7 +476,7 @@ FlailName: ; 5be7c (16:7e7c)
 
 KinglersFlailDescription: ; 5be83 (16:7e83)
 	text "Doet 10 schade maal het aantal"
-	line "Schadetellers op Kingler."
+	line "schadetellers op Kingler."
 	done
 
 CrabhammerName: ; 5bec3 (16:7ec3)
@@ -523,7 +523,7 @@ SeadrasWaterGunDescription: ; 5c065 (17:4065)
 	text "Doet 20 schade plus nog eens 10"
 	line "schade voor elke aan Seadra gehechte"
 	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze Aanval te"
+	line "om de Energiekosten van deze aanval te"
 	line "betalen. Je kunt op deze manier niet"
 	line "meer dan 20 schade toevoegen."
 	done
@@ -603,10 +603,10 @@ RecoverName: ; 5c352 (17:4352)
 	done
 
 StarmiesRecoverDescription: ; 5c35b (17:435b)
-	text "Om deze Aanval te kunnen gebruiken"
+	text "Om deze aanval te kunnen gebruiken"
 	line "moet je 1 aan Starmie gehechte"
 	line "<WATER> Energiekaart weggooien."
-	line "Verwijder alle Schadetellers"
+	line "Verwijder alle schadetellers"
 	line "van Starmie."
 	done
 
@@ -678,7 +678,7 @@ LaprasWaterGunDescription: ; 5c597 (17:4597)
 	text "Doet 10 schade plus nog eens 10"
 	line "schade voor elke aan Lapras gehechte"
 	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze Aanval te"
+	line "om de Energiekosten van deze aanval te"
 	line "betalen. Je kunt op deze manier niet"
 	line "meer dan 20 schade toevoegen."
 	done
@@ -704,7 +704,7 @@ FocusEnergyName: ; 5c6b4 (17:46b4)
 FocusEnergyDescription: ; 5c6c2 (17:46c2)
 	text "Tijdens je volgende beurt is de"
 	line "basisschade van Vaporeon's Beet-"
-	line "Aanval 60 in plaats van 30."
+	line "aanval 60 in plaats van 30."
 	done
 
 BubbleJetName: ; 5c70b (17:470b)
@@ -722,7 +722,7 @@ VaporeonsWaterGunDescription: ; 5c77b (17:477b)
 	line "schade voor elke aan Vaporeon"
 	line "gehechte <WATER> Energie die niet"
 	line "wordt gebruikt om de Energiekosten"
-	line "van deze Aanval te betalen. Je"
+	line "van deze aanval te betalen. Je"
 	line "kunt op deze manier niet meer"
 	line "dan 20 schade toevoegen."
 	done
@@ -757,7 +757,7 @@ OmanytesWaterGunDescription: ; 5c932 (17:4932)
 	text "Doet 10 schade plus nog eens 10"
 	line "schade voor elke aan Omanyte gehechte"
 	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze Aanval te"
+	line "om de Energiekosten van deze aanval te"
 	line "betalen. Je kunt op deze manier niet"
 	line "meer dan 20 schade toevoegen."
 	done
@@ -780,7 +780,7 @@ OmastarsWaterGunDescription: ; 5ca47 (17:4a47)
 	text "Doet 20 schade plus nog eens 10"
 	line "schade voor elke aan Omastar gehechte"
 	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze Aanval te"
+	line "om de Energiekosten van deze aanval te"
 	line "betalen. Je kunt op deze manier niet"
 	line "meer dan 20 schade toevoegen."
 	done
@@ -890,7 +890,7 @@ SparkName: ; 5cf47 (17:4f47)
 SparkDescription: ; 5cf4e (17:4f4e)
 	text "Als je tegenstander Pokémon op de"
 	line "Bank heeft, kies er daar dan 1 van"
-	line "en deze Aanval doet er 10 schade"
+	line "en deze aanval doet er 10 schade"
 	line "aan. (Pas geen Zwakte en Weerstand"
 	line "toe op de Pokémon op de Bank.)"
 	done
@@ -908,9 +908,9 @@ GrowlName: ; 5d04a (17:504a)
 
 GrowlDescription: ; 5d051 (17:5051)
 	text "Als de Verdedigende Pokémon Pikachu"
-	line "Aanvalt tijdens je tegenstander's"
+	line "aanvalt tijdens je tegenstander's"
 	line "volgende beurt, wordt alle schade"
-	line "die door de Aanval wordt gedaan"
+	line "die door de aanval wordt gedaan"
 	line "verminderd met 10 (na het toepassen"
 	line "van Zwakte en Weerstand)."
 	done
@@ -943,12 +943,12 @@ FlyDescription: ; 5d1b3 (17:51b3)
 	text "Gooi een munt op. Als het kop is,"
 	line "voorkom dan tijdens je tegenstander's"
 	line "volgende beurt alle gevolgen van"
-	line "Aanvallen, inclusief schade,"
+	line "aanvallen, inclusief schade,"
 	line "toegebracht aan Vliegende Pikachu;"
 	done
 
 FlyDescriptionCont: ; Translated text didn't fit so I made this
-	text "als het munt is, doet deze Aanval"
+	text "als het munt is, doet deze aanval"
 	line "niets (zelfs geen schade)."
 	done
 
@@ -980,7 +980,7 @@ RaichusAgilityDescription: ; 5d329 (17:5329)
 	text "Gooi een munt op. Als het kop is,"
 	line "voorkom dan tijdens je"
 	line "tegenstander's volgende beurt alle"
-	line "gevolgen van Aanvallen, inclusief"
+	line "gevolgen van aanvallen, inclusief"
 	line "schade, die aan Raichu worden"
 	line "toegebracht."
 	done
@@ -1007,7 +1007,7 @@ GigashockName: ; 5d43c (17:543c)
 
 GigashockDescription: ; 5d447 (17:5447)
 	text "Kies 3 van je tegenstander's Pokémon"
-	line "op de Bank en deze Aanval doet aan"
+	line "op de Bank en deze aanval doet aan"
 	line "elk van hen 10 schade. (Pas geen"
 	line "Zwakte en Weerstand toe op de Poké-"
 	line "mon op de Bank.) Als je tegenstander"
@@ -1093,7 +1093,7 @@ SonicboomName: ; 5d86b (17:586b)
 
 SonicboomDescription: ; 5d876 (17:5876)
 	text "Pas geen Zwakte of Weerstand toe"
-	line "voor deze Aanval. (Alle andere"
+	line "voor deze aanval. (Alle andere"
 	line "gevolgen die na het toepassen van"
 	line "Zwakte en Weerstand zouden"
 	line "gebeuren blijven gewoon geldig.))"
@@ -1177,26 +1177,26 @@ LightScreenName: ; 5dc72 (17:5c72)
 	done
 
 LightScreenDescription: ; 5dc80 (17:5c80)
-	text "Wanneer een Aanval tijdens je"
+	text "Wanneer een aanval tijdens je"
 	line "tegenstander's volgende beurt schade"
 	line "doet aan Electabuzz (na het"
 	line "toepassen van Zwakte en Weerstand),"
-	line "doet die Aanval slechts de helft"
+	line "doet die aanval slechts de helft"
 	line "van de schade aan Electabuzz"
 	done
 
 LightScreenDescriptionCont: ; 5dd4f (17:5d4f)
 	text "(naar beneden afgerond naar de"
 	line "dichtstbijzijnde 10). (Alle"
-	line "andere gevolgen van Aanvallen"
+	line "andere gevolgen van aanvallen"
 	line "blijven gewoon geldig.)"
 	done
 
 ElectabuzzsQuickAttackDescription: ; 5dd7d (17:5d7d)
 	text "Gooi een munt op. Als het kop is,"
-	line "doet deze Aanval 10 schade plus"
+	line "doet deze aanval 10 schade plus"
 	line "nog eens 20 schade; als het munt"
-	line "is, doet deze Aanval 10 schade."
+	line "is, doet deze aanval 10 schade."
 	done
 
 ElectricName: ; 5ddec (17:5dec)
@@ -1216,9 +1216,9 @@ ThunderpunchName: ; 5de55 (17:5e55)
 
 ThunderpunchDescription: ; 5de63 (17:5e63)
 	text "Gooi een munt op. Als het kop is,"
-	line "doet deze Aanval 30 schade plus nog"
+	line "doet deze aanval 30 schade plus nog"
 	line "eens 10 schade. Als het munt is,"
-	line "doet deze Aanval 30 schade en"
+	line "doet deze aanval 30 schade en"
 	line "doet Electabuzz 10 schade aan"
 	line "zichzelf."
 	done

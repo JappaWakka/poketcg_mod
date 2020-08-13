@@ -120,7 +120,7 @@ FriendshipSongDescription: ; 61fb9 (18:5fb9)
 	text "Gooi een munt op. Als het kop is,"
 	line "plaats een Pokémon-kaart op willekeurige"
 	line "wijze gekozen uit je Deck op je Bank."
-	line "Je kunt deze Aanval niet gebruiken als"
+	line "Je kunt deze aanval niet gebruiken als"
 	line "je Bank vol is.)"
 	done
 
@@ -186,7 +186,7 @@ CatPunchDescription: ; 62287 (18:6287)
 	text "Doet 20 schade aan 1 van je tegen-"
 	line "stander's op willekeurige wijze ge-"
 	line "kozen Pokémon. Pas geen Zwakte en"
-	line "Weerstand toe op deze Aanval (Alle"
+	line "Weerstand toe op deze aanval (Alle"
 	line "andere gevolgen die na het toepassen"
 	line "van Zwakte en Weerstand zouden"
 	line "gebeuren blijven gewoon geldig.)"
@@ -799,7 +799,7 @@ PokeBallDescription: ; 63f39 (18:7f39)
 	line "mag je in je deck zoeken naar een"
 	line "Basis-Pokémon of een Evolutiekaart."
 	line "Laat die kaart aan je tegenstander"
-	line "zien en neem hem daarna in je Hand."
+	line "zien en neem hem daarna in je hand."
 	line "Schud hierna je deck."
 	done
 
@@ -811,7 +811,7 @@ ScoopUpDescription: ; 64000 (19:4000)
 	text "Kies 1 van je eigen Pokémon in"
 	line "het spel en neem de bijbehorende"
 	line "Basis-Pokémonkaart terug in je"
-	line "Hand. (Gooi alle kaarten die aan"
+	line "hand. (Gooi alle kaarten die aan"
 	line "die kaart gehecht zijn weg.)"
 	done
 
@@ -847,7 +847,7 @@ PlusPowerDescription: ; 64182 (19:4182)
 	line "weg. Als je Pokémon schade doet aan"
 	line "de Verdedigende Pokémon (na het"
 	line "toepassen van Zwakte en Weerstand),"
-	line "doet de Aanval nog eens 10 schade"
+	line "doet de aanval nog eens 10 schade"
 	line "aan de Verdedigende Pokémon."
 	done
 
@@ -859,7 +859,7 @@ DefenderDescription: ; 6427e (19:427e)
 	text "Hecht Verdediger aan 1 van je Pokémon."
 	line "Gooi Verdediger aan het einde van je"
 	line "tegenstander's volgende beurt weg. De"
-	line "schade die door Aanvallen aan deze"
+	line "schade die door aanvallen aan deze"
 	line "Pokémon wordt gedaan wordt verminderd"
 	line "met 20 (nadat Zwakte en Weerstand"
 	line "zijn toegepast)."
@@ -912,8 +912,8 @@ PotionName: ; 64565 (19:4565)
 
 PotionDescription: ; 6456d (19:456d)
 	text "Verwijder ten hoogste 2"
-	line "Schadetellers van 1 van je Pokémon."
-	line "als die Pokémon minder Schadetellers"
+	line "schadetellers van 1 van je Pokémon."
+	line "als die Pokémon minder schadetellers"
 	line "heeft dan dat, verwijder ze dan"
 	line "allemaal."
 	done

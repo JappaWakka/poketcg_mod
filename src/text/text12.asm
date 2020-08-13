@@ -9,7 +9,7 @@ ThunderstormName: ; 5e0d7 (17:60d7)
 ThunderstormDescription: ; 5e0e5 (17:60e5)
 	text "Gooi voor elk van je tegenstander's"
 	line "Pokémon een munt op. Als het kop is,"
-	line "doet deze Aanval 20 schade aan die"
+	line "doet deze aanval 20 schade aan die"
 	line "Pokémon. (Pas geen Zwakte en Weer-"
 	line "stand toe op de Pokémon op de Bank.)"
 	line "Daarna doet Zapdos 10 schade aan"
@@ -33,7 +33,7 @@ ThunderboltName: ; 5e290 (17:6290)
 	done
 
 ThunderboltDescription: ; 5e29d (17:629d)
-	text "Om deze Aanval te kunnen gebruiken,"
+	text "Om deze aanval te kunnen gebruiken,"
 	line "moet je alle aan Zapdos gehechte"
 	line "<LIGHTNING> Energiekaarten weggooien."
 	done
@@ -64,9 +64,9 @@ BigThunderName: ; 5e400 (17:6400)
 
 BigThunderDescription: ; 5e40d (17:640d)
 	text "Kies op willekeurige wijze een Pokémon,"
-	line "anders dan Zapdos. Deze Aanval doet 70"
+	line "anders dan Zapdos. Deze aanval doet 70"
 	line "schade aan die Pokémon. Pas geen Zwakte"
-	line "en Weerstand toe op deze Aanval. (Alle"
+	line "en Weerstand toe op deze aanval. (Alle"
 	line "andere gevolgen die na het toepassen"
 	line "van Zwakte en Weerstand zouden gebeuren"
 	line "blijven gewoon geldig.)"
@@ -235,7 +235,7 @@ KarateChopName: ; 5eaac (17:6aac)
 
 KarateChopDescription: ; 5eab9 (17:6ab9)
 	text "Doet 50 schade min 10 schade"
-	line "voor elke Schadeteller op Machoke."
+	line "voor elke schadeteller op Machoke."
 	done
 
 SubmissionName: ; 5eafd (17:6afd)
@@ -263,11 +263,11 @@ StrikesBackName: ; 5eb99 (17:6b99)
 	done
 
 StrikesBackDescription: ; 5eba7 (17:6ba7)
-	text "Telkens wanneer de Aanval van je"
+	text "Telkens wanneer de aanval van je"
 	line "tegenstander schade doet aan"
 	line "Machamp (zelfs als Machamp wordt"
 	line "Uitgeschakeld), doet deze kracht"
-	line "10 schade aan de Aanvallende"
+	line "10 schade aan de aanvallende"
 	line "Pokémon. (Pas geen Zwakte en"
 	line "Weerstand toe.)"
 	done
@@ -276,7 +276,7 @@ StrikesBackDescriptionCont: ; 5ec56 (17:6c56)
 	text "Deze kracht kan niet worden gebruikt"
 	line "als Machamp al In Slaap, Verward, of"
 	line "Verlamd is op het moment dat je"
-	line "tegenstander Aanvalt."
+	line "tegenstander aanvalt."
 	done
 
 SeismicTossName: ; 5ecc1 (17:6cc1)
@@ -300,7 +300,7 @@ StoneBarrageName: ; 5ed41 (17:6d41)
 
 StoneBarrageDescription: ; 5ed50 (17:6d50)
 	text "Gooi een munt op totdat je munt"
-	line "gooit. Deze Aanval doet 10"
+	line "gooit. Deze aanval doet 10"
 	line "schade maal het aantal"
 	line "keren kop."
 	done
@@ -441,7 +441,7 @@ CallforFriendDescription: ; 5f34f (17:734f)
 	text "Zoek in je deck naar een <FIGHTING> Basis-"
 	line "Pokémonkaart en plaats hem op je"
 	line "Bank. Schud hierna je deck. (Je kunt"
-	line "deze Aanval niet gebruiken als je"
+	line "deze aanval niet gebruiken als je"
 	line "Bank vol is.)"
 	done
 
@@ -463,7 +463,7 @@ BoneAttackName: ; 5f45b (17:745b)
 BoneAttackDescription: ; 5f468 (17:7468)
 	text "Gooi een munt op. Als het kop is,"
 	line "kan de Verdedigende Pokémon niet"
-	line "Aanvallen tijdens je tegenstander's"
+	line "aanvallen tijdens je tegenstander's"
 	line "volgende beurt."
 	done
 
@@ -552,7 +552,7 @@ LeerName: ; 5f7e6 (17:77e6)
 LeerDescription: ; 5f7ec (17:77ec)
 	text "Gooi een munt op. Als het kop is,"
 	line "kan de Verdedigende Pokémon Rhyhorn"
-	line "niet Aanvallen tijdens je tegenstander's"
+	line "niet aanvallen tijdens je tegenstander's"
 	line "volgende beurt."
 	line "(Het op de Bank plaatsen van een van"
 	line "beide Pokémon beëindigt dit effect.)"
@@ -704,10 +704,10 @@ KadabraName: ; 5fed3 (17:7ed3)
 	done
 
 KadabrasRecoverDescription: ; 5fedc (17:7edc)
-	text "Om deze Aanval te kunnen gebruiken"
+	text "Om deze aanval te kunnen gebruiken"
 	line "moet je 1 aan Kadabra gehechte"
 	line "<PSYCHIC> Energiekaart weggooien."
-	line "Verwijder alle Schadetellers"
+	line "Verwijder alle schadetellers"
 	line "van Kadabra."
 	done
 
@@ -836,7 +836,7 @@ DestinyBondName: ; 6050e (18:450e)
 	done
 
 DestinyBondDescription: ; 6051c (18:451c)
-	text "Om deze Aanval te kunnen gebruiken,"
+	text "Om deze aanval te kunnen gebruiken,"
 	line "moet je 1 aan Gastly gehechte <PSYCHIC>"
 	line "Energiekaart weggooien. Als een"
 	line "Pokémon Gastly Uitschakelt tijdens"
@@ -865,7 +865,7 @@ EnergyConversionName: ; 60629 (18:4629)
 
 EnergyConversionDescription: ; 6063c (18:463c)
 	text "Neem ten hoogste 2 Energiekaarten"
-	line "uit je Weggooistapel in je Hand."
+	line "uit je Weggooistapel in je hand."
 	line "Gastly doet 10 schade aan zichzelf."
 	done
 
@@ -885,10 +885,10 @@ TransparencyName: ; 6071d (18:471d)
 	done
 
 TransparencyDescription: ; 6072b (18:472b)
-	text "Gooi telkens als een Aanval iets"
+	text "Gooi telkens als een aanval iets"
 	line "Haunter doet een munt op. Als het"
 	line "kop is, voorkom dan alle gevolgen"
-	line "van die Aanval, inclusief schade,"
+	line "van die aanval, inclusief schade,"
 	line "toegebracht aan Haunter. Deze"
 	line "Kracht stopt met werken als"
 	line "Haunter In Slaap, Verward, of"
@@ -915,7 +915,7 @@ DreamEaterName: ; 6086a (18:486a)
 	done
 
 DreamEaterDescription: ; 60877 (18:4877)
-	text "Deze Aanval kun je alleen"
+	text "Deze aanval kun je alleen"
 	line "gebruiken als de Verdedigende"
 	line "Pokémon In Slaap is."
 	done
@@ -930,7 +930,7 @@ CurseName: ; 608c2 (18:48c2)
 
 CurseDescription: ; 608c9 (18:48c9)
 	text "Eenmaal tijdens je beurt (voor je"
-	line "Aanval), mag je 1 Schadeteller"
+	line "aanval), mag je 1 schadeteller"
 	line "van 1 van je tegenstander's Pokémon"
 	line "naar een andere verplaatsen (zelfs"
 	line "als het de andere Pokémon zou"
@@ -946,7 +946,7 @@ DarkMindName: ; 609b7 (18:49b7)
 DarkMindDescription: ; 609c2 (18:49c2)
 	text "ls je tegenstander Pokémon op de"
 	line "Bank heeft, kies er dan 1 van en"
-	line "deze Aanval doet hem 10 schade."
+	line "deze aanval doet hem 10 schade."
 	line "(Pas geen Zwakte en Weerstand"
 	line "toe op de Pokémon op de Bank.)"
 	done
@@ -1025,7 +1025,7 @@ MeditateName: ; 60d21 (18:4d21)
 
 MrMimesMeditateDescription: ; 60d2b (18:4d2b)
 	text "Doet 10 schade plus nog eens 10"
-	line "schade voor elke Schadeteller"
+	line "schade voor elke schadeteller"
 	line "op de Verdedigende Pokémon."
 	done
 
@@ -1044,13 +1044,13 @@ JynxName: ; 60ddc (18:4ddc)
 	done
 
 DoubleAttackX10Description: ; 60de2 (18:4de2)
-	text "Gooi 2 munten op. Deze Aanval doet"
+	text "Gooi 2 munten op. Deze aanval doet"
 	line "10 schade maal het aantal keren kop."
 	done
 
 JynxsMeditateDescription: ; 60e27 (18:4e27)
 	text "Doet 20 schade plus nog eens 10"
-	line "schade voor elke Schadeteller"
+	line "schade voor elke schadeteller"
 	line "op de Verdedigende Pokémon."
 	done
 
@@ -1301,7 +1301,7 @@ SuperFangName: ; 61939 (18:5939)
 	done
 
 SuperFangDescription: ; 61945 (18:5945)
-	text "De schade die deze Aanval doet aan"
+	text "De schade die deze aanval doet aan"
 	line "de Verdedigende Pokémon is gelijk"
 	line "aan de helft van de resterende IP"
 	line "van de Verdedigende Pokémon (naar"

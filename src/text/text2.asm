@@ -7,7 +7,7 @@ AcidCheckText: ; 38000 (e:4000)
 TransparencyCheckText: ; 3803b (e:403b)
 	text "Transparantie-controle! Als het kop is,"
 	line "ondervind je geen gevolgen van de"
-	line "tegenstander's Aanval!"
+	line "tegenstander's aanval!"
 	done
 
 ConfusionCheckDamageText: ; 3807c (e:407c)
@@ -32,12 +32,12 @@ PoisonedIfHeadsConfusedIfTailsText: ; 380ed (e:40ed)
 
 Text00fb: ; 38124 (e:4124)
 	text "Als het kop is, ondervind je geen schade"
-	line "of gevolgen van de tegenstander's Aanval!"
+	line "of gevolgen van de tegenstander's aanval!"
 	done
 
 Text00fc: ; 3816a (e:416a)
 	text "Als het kop is, kan de tegenstander niet"
-	line "Aanvallen tijdens de volgende beurt!"
+	line "aanvallen tijdens de volgende beurt!"
 	done
 
 AttackUnsuccessfulText: ; 38197 (e:4197)
@@ -55,22 +55,22 @@ UnableToUseTrainerDueToHeadacheText: ; 381dc (e:41dc)
 	done
 
 UnableToAttackDueToTailWagText: ; 3821a (e:421a)
-	text "Kan niet Aanvallen door"
+	text "Kan niet aanvallen door"
 	line "de gevolgen van Kwispel."
 	done
 
 UnableToAttackDueToLeerText: ; 3824c (e:424c)
-	text "Kan niet Aanvallen door"
+	text "Kan niet aanvallen door"
 	line "de gevolgen van Lonk."
 	done
 
 UnableToAttackDueToBoneAttackText: ; 3827a (e:427a)
-	text "Kan niet Aanvallen door"
+	text "Kan niet aanvallen door"
 	line "de gevolgen van Bottenaanval."
 	done
 
 UnableToUseAttackDueToAmnesiaText: ; 382af (e:42af)
-	text "Kan deze Aanval niet gebruiken"
+	text "Kan deze aanval niet gebruiken"
 	line "door de gevolgen van Amnesie."
 	done
 
@@ -91,33 +91,33 @@ UnableToEvolveDueToPrehistoricPowerText: ; 38359 (e:4359)
 
 NoDamageOrEffectDueToFlyText: ; 38394 (e:4394)
 	text "Geen schade of gevolgen van de volgende"
-	line "Aanval door de gevolgen van Vliegen."
+	line "aanval door de gevolgen van Vliegen."
 	done
 
 NoDamageOrEffectDueToBarrierText: ; 383d3 (e:43d3)
 	text "Geen schade of gevolgen van de volgende"
-	line "Aanval door de gevolgen van Barrière."
+	line "aanval door de gevolgen van Barrière."
 	done
 
 NoDamageOrEffectDueToAgilityText: ; 38416 (e:4416)
 	text "Geen schade of gevolgen van de volgende"
-	line "Aanval door de gevolgen van Behendigheid."
+	line "aanval door de gevolgen van Behendigheid."
 	done
 
 UnableToUseAttackDueToNShieldText: ; 38459 (e:4459)
-	text "Kan deze Aanval niet gebruiken door"
+	text "Kan deze aanval niet gebruiken door"
 	line "de gevolgen van Neutraliserend Schild."
 	done
 
 NoDamageOrEffectDueToNShieldText: ; 38494 (e:4494)
 	text "Geen schade of gevolgen van de volgende"
-	line "Aanval door de gevolgen van"
+	line "aanval door de gevolgen van"
 	line "Neutraliserend Schild."
 	done
 
 NoDamageOrEffectDueToTransparencyText: ; 384d8 (e:44d8)
 	text "Geen schade of gevolgen van de volgende"
-	line "Aanval door de gevolgen van Transparantie."
+	line "aanval door de gevolgen van Transparantie."
 	done
 
 Text010d: ; 3851f (e:451f)
@@ -328,7 +328,7 @@ Text0132: ; 38cda (e:4cda)
 
 Text0133: ; 38d1e (e:4d1e)
 	text "Choose 2 Energiekaarten from the"
-	line "Weggooistapel for your Hand."
+	line "Weggooistapel for your hand."
 	done
 
 Text0134: ; 38d5a (e:4d5a)
@@ -455,7 +455,7 @@ Text0144: ; 3930a (e:530a)
 
 Text0145: ; 39318 (e:5318)
 	text "Peek was used to look at the"
-	line "<RAMTEXT> in your Hand."
+	line "<RAMTEXT> in your hand."
 	done
 
 Text0146: ; 39346 (e:5346)
@@ -464,7 +464,7 @@ Text0146: ; 39346 (e:5346)
 
 Text0147: ; 3935d (e:535d)
 	text "<RAMTEXT> and all attached"
-	line "cards were returned to the Hand."
+	line "cards were returned to the hand."
 	done
 
 Text0148: ; 39392 (e:5392)
@@ -494,7 +494,7 @@ Text014c: ; 3941c (e:541c)
 
 Text014d: ; 3944b (e:544b)
 	text "<RAMNAME> drew"
-	line "<RAMNUM> Vuur Energie from the Hand."
+	line "<RAMNUM> Vuur Energie from the hand."
 	done
 
 Text014e: ; 39470 (e:5470)
@@ -514,7 +514,7 @@ Text0150: ; 394f0 (e:54f0)
 
 Text0151: ; 39525 (e:5525)
 	text "Choose the card to Discard"
-	line "from the Hand."
+	line "from the hand."
 	done
 
 Text0152: ; 39550 (e:5550)
@@ -544,7 +544,7 @@ Text0156: ; 39631 (e:5631)
 
 Text0157: ; 39666 (e:5666)
 	text "Choose a card to"
-	line "place in the Hand."
+	line "place in the hand."
 	done
 
 Text0158: ; 3968b (e:568b)
@@ -604,7 +604,7 @@ Text0162: ; 39809 (e:5809)
 
 Text0163: ; 39838 (e:5838)
 	text "Please check the opponent's"
-	line "Hand."
+	line "hand."
 	done
 
 Text0164: ; 3985b (e:585b)
@@ -647,12 +647,12 @@ Text016b: ; 39987 (e:5987)
 
 Text016c: ; 399bc (e:59bc)
 	text "<RAMTEXT> was returned"
-	line "from the Arena to the Hand."
+	line "from the Arena to the hand."
 	done
 
 Text016d: ; 399e8 (e:59e8)
 	text "<RAMTEXT> was returned"
-	line "from the Bench to the Hand."
+	line "from the Bench to the hand."
 	done
 
 Text016e: ; 39a14 (e:5a14)
@@ -662,7 +662,7 @@ Text016e: ; 39a14 (e:5a14)
 
 Text016f: ; 39a31 (e:5a31)
 	text "<RAMTEXT> was placed"
-	line "in the Hand."
+	line "in the hand."
 	done
 
 TheCardYouReceivedText: ; 39a4c (e:5a4c)
@@ -690,7 +690,7 @@ Text0174: ; 39ab9 (e:5ab9)
 
 Text0175: ; 39adb (e:5adb)
 	text "Discarded <RAMTEXT>"
-	line "from the Hand."
+	line "from the hand."
 	done
 
 Text0176: ; 39af7 (e:5af7)
@@ -761,7 +761,7 @@ ThereWasNoEffectFromPoisonConfusionText: ; 39c5a (e:5c5a)
 
 Text0184: ; 39c86 (e:5c86)
 	text "Exchanged the cards"
-	line "in <RAMNAME>'s Hand."
+	line "in <RAMNAME>'s hand."
 	done
 
 Text0185: ; 39ca8 (e:5ca8)
@@ -1123,7 +1123,7 @@ Turn2DrMason2PracticeDuelText: ; 3ab08 (e:6b08)
 
 Turn2DrMason3PracticeDuelText: ; 3abdb (e:6bdb)
 	text "Nou, laten we je tegenstander"
-	line "Aanvallen met Seaking's Waterval!"
+	line "aanvallen met Seaking's Waterval!"
 	done
 
 Turn3DrMason1PracticeDuelText: ; 3ac15 (e:6c15)
@@ -1179,7 +1179,7 @@ Turn5DrMason1PracticeDuelText: ; 3af04 (e:6f04)
 	text "Staryu evolueert in Starmie!"
 	line ""
 	line "Laten we Staryu klaar maken om"
-	line "Starmie's Aanval te gebruiken"
+	line "Starmie's aanval te gebruiken"
 	line "als hij in Starmie evolueert."
 	line ""
 	line "Kies de Water Energiekaart uit"
@@ -1194,7 +1194,7 @@ Turn5DrMason2PracticeDuelText: ; 3afbc (e:6fbc)
 Turn6DrMason1PracticeDuelText: ; 3afe6 (e:6fe6)
 	text "Herstel nu Staryu's IP met een"
 	line "Trainerkaart."
-	line "Kies Drankje uit je Hand."
+	line "Kies Drankje uit je hand."
 	done
 
 Turn6DrMason2PracticeDuelText: ; 3b02e (e:702e)

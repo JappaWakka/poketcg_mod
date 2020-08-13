@@ -68,9 +68,9 @@ LeechSeedName: ; 5755d (15:755d)
 	done
 
 BulbasaursLeechSeedDescription: ; 57569 (15:7569)
-	text "Tenzij alle schade van deze Aanval"
+	text "Tenzij alle schade van deze aanval"
 	line "wordt voorkomen, mag je 1"
-	line "Schadeteller van Bulbasaur"
+	line "schadeteller van Bulbasaur"
 	line "verwijderen."
 	done
 
@@ -119,7 +119,7 @@ SolarPowerName: ; 576f8 (15:76f8)
 
 SolarPowerDescription: ; 57705 (15:7705)
 	text "Eenmaal tijdens je beurt (vóór je"
-	line "Aanval), mag je deze kracht gebruiken."
+	line "aanval), mag je deze kracht gebruiken."
 	line "Je Actieve Pokémon en de Verdedigende"
 	line "Pokémon zijn niet langer In Slaap,"
 	line "Verward, Verlamd, of Vergiftigd."
@@ -136,7 +136,7 @@ MegaDrainName: ; 577f9 (15:77f9)
 	done
 
 VenusaursMegaDrainDescription: ; 57805 (15:7805)
-	text "Verwijder een aantal Schadetellers van"
+	text "Verwijder een aantal schadetellers van"
 	line "Venusaur gelijk aan de helft van de"
 	line "schade die gedaan is aan de Verdedigende"
 	line "Pokémon (na het toepassen van Zwakte en"
@@ -145,7 +145,7 @@ VenusaursMegaDrainDescription: ; 57805 (15:7805)
 	done
 
 VenusaursMegaDrainDescriptionCont: ; 578b7 (15:78b7)
-	text "Als Venusaur minder Schadetellers"
+	text "Als Venusaur minder schadetellers"
 	line "heeft dan dat, verwijder ze dan"
 	line "allemaal."
 	done
@@ -162,7 +162,7 @@ EnergyTransName: ; 57960 (15:7960)
 
 EnergyTransDescription: ; 5796e (15:796e)
 	text "Je mag zo vaak als je wilt tijdens je"
-	line "beurt (vóór je Aanval) 1 <GRASS> Ener-"
+	line "beurt (vóór je aanval) 1 <GRASS> Ener-"
 	line "giekaart pakken die gehecht is aan"
 	line "1 van je Pokémon en hem aan een andere"
 	line "Pokémon hechten. Deze kracht kan niet"
@@ -214,10 +214,10 @@ StiffenName: ; 57b81 (15:7b81)
 
 MetapodsStiffenDescription: ; 57b8a (15:7b8a)
 	text "Gooi een munt op. Als het kop is,"
-	line "voorkomt deze Aanval alle schade"
+	line "voorkomt deze aanval alle schade"
 	line "die aan Metapod wordt gedaan tijdens"
 	line "je tegenstander's volgende beurt."
-	line "(Alle andere gevolgen van Aanvallen"
+	line "(Alle andere gevolgen van aanvallen"
 	line "blijven gewoon geldig.)"
 	done
 
@@ -230,7 +230,7 @@ CocoonName: ; 57c20 (15:7c20)
 	done
 
 MetapodDescription: ; 57c28 (15:7c28)
-	text "Hij is kwetsbaar voor Aanvallen"
+	text "Hij is kwetsbaar voor aanvallen"
 	line "omdat zijn schaal zacht is, waardoor"
 	line "zijn zwakke, tere lichaam wordt"
 	line "blootgesteld."
@@ -254,7 +254,7 @@ WhirlwindDescription: ; 57c99 (15:7c99)
 	done
 
 ButterfreesMegaDrainDescription: ; 57d3a (15:7d3a)
-	text "Verwijder een aantal Schadetellers van"
+	text "Verwijder een aantal schadetellers van"
 	line "Butterfree gelijk aan de helft van de"
 	line "schade die gedaan is aan de Verdedigende"
 	line "Pokémon (na het toepassen van Zwakte en"
@@ -263,7 +263,7 @@ ButterfreesMegaDrainDescription: ; 57d3a (15:7d3a)
 	done
 
 ButterfreesMegaDrainDescriptionCont: ; 57dee (15:7dee)
-	text "Als Butterfree minder Schadetellers"
+	text "Als Butterfree minder schadetellers"
 	line "heeft dan dat, verwijder ze dan"
 	line "allemaal."
 	done
@@ -309,10 +309,10 @@ KakunaName: ; 57f4f (15:7f4f)
 
 KakunasStiffenDescription: ; 57f57 (15:7f57)
 	text "Gooi een munt op. Als het kop is,"
-	line "voorkomt deze Aanval alle schade"
+	line "voorkomt deze aanval alle schade"
 	line "die aan Kakuna wordt gedaan tijdens"
 	line "je Tegenstander's volgende beurt."
-	line "(Alle andere gevolgen van Aanvallen"
+	line "(Alle andere gevolgen van aanvallen"
 	line "blijven gewoon geldig.)"
 	done
 
@@ -332,7 +332,7 @@ TwineedleName: ; 58070 (16:4070)
 	done
 
 DoubleAttackX30Description: ; 5807b (16:407b)
-	text "Gooi 2 munten op. Deze Aanval doet"
+	text "Gooi 2 munten op. Deze aanval doet"
 	line "30 schade maal het aantal keren kop."
 	done
 
@@ -409,7 +409,7 @@ FurySwipesName: ; 582ef (16:42ef)
 	done
 
 TripleAttackX10Description: ; 582fc (16:42fc)
-	text "Gooi 3 munten op. Deze Aanval doet"
+	text "Gooi 3 munten op. Deze aanval doet"
 	line "10 schade maal het aantal keren kop."
 	done
 
@@ -422,7 +422,7 @@ NidoranFsCallForFamilyDescription: ; 58352 (16:4352)
 	line "Pokémon met de naam Nidoran♀ of"
 	line "Nidoran♂ en plaats deze op je Bank."
 	line "Schud hierna je deck. (Je kunt"
-	line "deze Aanval niet gebruiken als"
+	line "deze aanval niet gebruiken als"
 	line "je Bank vol is.)"
 	done
 
@@ -500,7 +500,7 @@ HornHazardName: ; 585ff (16:45ff)
 
 MayDoNothingDescription: ; 5860c (16:460c)
 	text "Gooi een munt op. Als het munt"
-	line "is, doet deze Aanval niets."
+	line "is, doet deze aanval niets."
 	done
 
 NidoranMDescription: ; 5863e (16:463e)
@@ -531,11 +531,11 @@ ThrashName: ; 58719 (16:4719)
 	text "Afranselen"
 	done
 
-ThrashDescriptipn: ; 58721 (16:4721)
+ThrashDescription: ; 58721 (16:4721)
 	text "Gooi een munt op. Als het kop is,"
-	line "doet deze Aanval 30 schade plus nog"
+	line "doet deze aanval 30 schade plus nog"
 	line "eens 10 schade; als het munt is,"
-	line "doet deze Aanval 30 schade en doet"
+	line "doet deze aanval 30 schade en doet"
 	line "Nidoking 10 schade aan zichzelf."
 	done
 
@@ -567,12 +567,12 @@ LeechLifeName: ; 588a7 (16:48a7)
 	done
 
 ZubatsLeechLifeDescription: ; 588b3 (16:48b3)
-	text "Verwijder een aantal Schadetellers"
+	text "Verwijder een aantal schadetellers"
 	line "van Zubat gelijk aan de schade die"
 	line "gedaan is aan de Verdedigende"
 	line "Pokémon (na het toepassen van"
 	line "Zwakte en Weerstand). Als Zubat"
-	line "minder Schadetellers heeft dan"
+	line "minder schadetellers heeft dan"
 	line "dat, verwijder ze dan allemaal."
 	done
 
@@ -596,12 +596,12 @@ WingAttackName: ; 589f1 (16:49f1)
 	done
 
 GolbatsLeechLifeDescription: ; 589fe (16:49fe)
-	text "Verwijder een aantal Schadetellers"
+	text "Verwijder een aantal schadetellers"
 	line "van Golbat gelijk aan de schade die"
 	line "gedaan is aan de Verdedigende"
 	line "Pokémon (na het toepassen van"
 	line "Zwakte en Weerstand). Als Golbat"
-	line "minder Schadetellers heeft dan"
+	line "minder schadetellers heeft dan"
 	line "dat, verwijder ze dan allemaal."
 	done
 
@@ -807,7 +807,7 @@ BellsproutsCallForFamilyDescription: ; 592f1 (16:52f1)
 	line "Pokémon met de naam Bellsprout"
 	line "en plaats deze op je Bank. Schud"
 	line "hierna je deck. (Je kunt deze"
-	line "Aanval niet gebruiken als je"
+	line "aanval niet gebruiken als je"
 	line "Bank vol is.)"
 	done
 
@@ -1114,7 +1114,7 @@ EmberName: ; 59e0e (16:5e0e)
 	done
 
 EmberDescription: ; 59e15 (16:5e15)
-	text "Om deze Aanval te kunnen gebruiken"
+	text "Om deze aanval te kunnen gebruiken"
 	line "moet je 1 aan Charmander gehechte"
 	line "<FIRE> Energiekaart weggooien."
 	done
@@ -1139,7 +1139,7 @@ FlamethrowerName: ; 59ee6 (16:5ee6)
 	done
 
 CharmeleonsFlamethrowerDescription: ; 59ef4 (16:5ef4)
-	text "Om deze Aanval te kunnen gebruiken"
+	text "Om deze aanval te kunnen gebruiken"
 	line "moet je 1 aan Charmeleon gehechte"
 	line "<FIRE> Energiekaart weggooien."
 	done
@@ -1164,7 +1164,7 @@ EnergyBurnName: ; 59fab (16:5fab)
 
 EnergyBurnDescription: ; 59fb8 (16:5fb8)
 	text "Je mag zo vaak als je wilt tijdens"
-	line "je beurt (vóór je Aanval) alle aan"
+	line "je beurt (vóór je aanval) alle aan"
 	line "Charizard gehechte Energie omzetten"
 	line "naar <FIRE> Energie voor de rest van"
 	line "je beurt. Deze kracht kan niet"
@@ -1177,7 +1177,7 @@ FireSpinName: ; 5a095 (16:6095)
 	done
 
 FireSpinDescription: ; 5a0a0 (16:60a0)
-	text "Om deze Aanval te kunnen gebruiken,"
+	text "Om deze aanval te kunnen gebruiken,"
 	line "moet je 2 aan Charizard gehechte"
 	line "Energiekaarten weggooien."
 	done
@@ -1292,14 +1292,14 @@ ArcanineName: ; 5a552 (16:6552)
 	done
 
 QuickAttackName: ; 5a55c (16:655c)
-	text "Snelle Aanval"
+	text "Snelle aanval"
 	done
 
 QuickAttackDescription: ; 5a56a (16:656a)
 	text "Gooi een munt op. Als het kop"
-	line "is, doet deze Aanval 10 schade"
+	line "is, doet deze aanval 10 schade"
 	line "plus nog eens 20 schade; als"
-	line "het munt is, doet deze Aanval"
+	line "het munt is, doet deze aanval"
 	line "10 schade."
 	done
 
@@ -1308,12 +1308,12 @@ FlamesOfRageName: ; 5a5d8 (16:65d8)
 	done
 
 FlamesOfRageDescription: ; 5a5e8 (16:65e8)
-	text "Om deze Aanval te kunnen gebruiken,"
+	text "Om deze aanval te kunnen gebruiken,"
 	line "moet je 2 aan Arcanine gehechte <FIRE>"
 	line "Energiekaarten weggooien. Deze"
-	line "Aanval doet 40 schade plus nog"
+	line "aanval doet 40 schade plus nog"
 	line "eens 10 schade voor elke"
-	line "Schadeteller op Arcanine."
+	line "schadeteller op Arcanine."
 	done
 
 LegendaryName: ; 5a689 (16:6689)
@@ -1328,7 +1328,7 @@ Arcanine1Description: ; 5a694 (16:6694)
 	done
 
 ArcaninesFlamethrowerDescription: ; 5a6ed (16:66ed)
-	text "Om deze Aanval te kunnen gebruiken,"
+	text "Om deze aanval te kunnen gebruiken,"
 	line "moet je 1 aan Arcanine gehechte <FIRE>"
 	line "Energiekaart weggooien."
 	done
@@ -1381,9 +1381,9 @@ StompName: ; 5a850 (16:6850)
 
 StompDescription: ; 5a857 (16:6857)
 	text "Gooi een munt op. Als het kop is,"
-	line "doet deze Aanval 20 schade plus"
+	line "doet deze aanval 20 schade plus"
 	line "nog eens 10 schade; als het munt"
-	line "is, doet deze Aanval 20 schade."
+	line "is, doet deze aanval 20 schade."
 	done
 
 AgilityName: ; 5a8c5 (16:68c5)
@@ -1394,7 +1394,7 @@ RapidashsAgilityDescription: ; 5a8ce (16:68ce)
 	text "Gooi een munt op. Als het kop is,"
 	line "voorkom dan tijdens je"
 	line "tegenstander's volgende beurt alle"
-	line "gevolgen van Aanvallen, inclusief"
+	line "gevolgen van aanvallen, inclusief"
 	line "schade, toegebracht aan Rapidash."
 	done
 
@@ -1414,7 +1414,7 @@ FirePunchName: ; 5a9b3 (16:69b3)
 	done
 
 FirePunchDescription: ; 5a9bf (16:69bf)
-	text "Om deze Aanval te kunnen gebruiken,"
+	text "Om deze aanval te kunnen gebruiken,"
 	line "moet je 1 aan Magmar gehechte <FIRE>"
 	line "Energiekaart weggooien."
 	done
@@ -1439,7 +1439,7 @@ MagmarsSmokescreenDescription: ; 5aa7b (16:6a7b)
 	line "je tegenstander's volgende beurt"
 	line "probeert Aan te Vallen, gooit je"
 	line "tegenstander een munt op. Als het"
-	line "munt is, doet die Aanval niets."
+	line "munt is, doet die aanval niets."
 	done
 
 Magmar2Description: ; 5ab07 (16:6b07)

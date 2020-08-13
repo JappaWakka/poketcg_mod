@@ -63,7 +63,7 @@ Text05d7: ; 4ba32 (12:7a32)
 	line "1 Water Energie-kaart en nog een"
 	line "andere Energiekaart van welk"
 	line "type dan ook. De benodigde Energie"
-	line "verschilt per Aanval."
+	line "verschilt per aanval."
 	done
 
 Text05d8: ; 4bb56 (12:7b56)
@@ -111,7 +111,7 @@ Text05da: ; 4be3e (12:7e3e)
 	done
 
 Text05db: ; 4c000 (13:4000)
-	text "Je beurt eindigt na je Aanval."
+	text "Je beurt eindigt na je aanval."
 	line "Als je niet genoeg Energie hebt om"
 	line "Aan te Vallen, of als je Actieve"
 	line "Pokémon niets kan doen door"

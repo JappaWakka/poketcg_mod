@@ -860,7 +860,7 @@ Text0301: ; 3d53f (f:553f)
 	done
 
 Text0302: ; 3d54d (f:554d)
-	text "Over Schadetellers"
+	text "Over schadetellers"
 	done
 
 Text0303: ; 3d564 (f:5564)
@@ -880,7 +880,7 @@ Text0306: ; 3d5a2 (f:55a2)
 	done
 
 Text0307: ; 3d5b9 (f:55b9)
-	text "Over Aanvallen"
+	text "Over aanvallen"
 	done
 
 Text0308: ; 3d5ca (f:55ca)
@@ -920,7 +920,7 @@ Text030e: ; 3d769 (f:5769)
 	text "De kaarten die iedere speler vast"
 	line "houdt wordt de Hand genoemd."
 	line "Er is geen limiet aan de hoeveelheid"
-	line "kaarten in je Hand."
+	line "kaarten in je hand."
 	line "Je mag 10 of zelfs 20 kaarten"
 	line "in je Hand hebben."
 	done
@@ -950,7 +950,7 @@ Text0311: ; 3d96e (f:596e)
 	text "De Actieve Pokémon is de Pokémon"
 	line "die zich in de Arena bevindt."
 	line "Alleen Actieve Pokémon kunnen"
-	line "Aanvallen."
+	line "aanvallen."
 	done
 
 Text0312: ; 3d9c9 (f:59c9)
@@ -974,19 +974,19 @@ Text0313: ; 3dad1 (f:5ad1)
 	line "Elke keer dat een van je"
 	line "tegenstander's Pokémon is"
 	line "Uitgeschakeld, neem je 1 van de"
-	line "Prijskaarten in je Hand."
+	line "Prijskaarten in je hand."
 	line "Wanneer je alle Prijskaarten hebt,"
 	line "gepakt, win je het spel."
 	done
 
 Text0314: ; 3dbc5 (f:5bc5)
-	text "Een Schadeteller staat gelijk aan"
+	text "Een schadeteller staat gelijk aan"
 	line "de hoeveelheid schade die een"
 	line "Pokémon heeft opgelopen."
-	line "1 Schadeteller staat gelijk aan"
+	line "1 schadeteller staat gelijk aan"
 	line "10 IP (Incasseringspunten) schade."
 	line "Als een Pokémon met 30 IP"
-	line "3 Schadetellers heeft, heeft hij"
+	line "3 schadetellers heeft, heeft hij"
 	line "30 IP schade opgelopen, en is zijn"
 	line "overgebleven IP 0."
 	done
@@ -1253,65 +1253,65 @@ Text033e: ; 3e834 (f:6834)
 	line "Sluit Menu"
 	done
 
-Text033f: ; 3e85f (f:685f)
+PlayerStatusNameText: ; 3e85f (f:685f)
 	text "Naam <RAMNAME>"
 	done
 
-Text0340: ; 3e867 (f:6867)
+PlayerStatusAlbumText: ; 3e867 (f:6867)
 	text "Kaarten        "
 	half2full
 	textfw0 "/"
 	done
 
-Text0341: ; 3e87b (f:687b)
+PlayerStatusPlayTimeText: ; 3e87b (f:687b)
 	text "Spelduur         "
 	half2full
 	textfw3 ":"
 	done
 
-Text0342: ; 3e892 (f:6892)
+PlayerDiaryTitleText: ; 3e892 (f:6892)
 	text "<RAMNAME>'s dagboek"
 	done
 
-Text0343: ; 3e89d (f:689d)
+PlayerDiaryMedalsWonText: ; 3e89d (f:689d)
 	text "Gewonnen Medailles"
 	done
 
-Text0344: ; 3e8b1 (f:68b1)
+PlayerDiarySaveQuestionText: ; 3e8b1 (f:68b1)
 	text "Wil je je dagboek bijwerken?"
 	done
 
-Text0345: ; 3e8d2 (f:68d2)
+PlayerDiarySaveConfirmText: ; 3e8d2 (f:68d2)
 	text "<RAMNAME> heeft"
 	line "in het dagboek geschreven."
 	done
 
-Text0346: ; 3e8e9 (f:68e9)
+PlayerDiarySaveCancelText: ; 3e8e9 (f:68e9)
 	text "Er is niks in het dagboek"
 	line "geschreven."
 	done
 
-Text0347: ; 3e90e (f:690e)
+PlayerStatusMedalsTitleText: ; 3e90e (f:690e)
 	text "Master Medals"
 	done
 
-Text0348: ; 3e91d (f:691d)
+ConfigMenuTitleText: ; 3e91d (f:691d)
 	text "           Change Settings"
 	done
 
-Text0349: ; 3e939 (f:6939)
+ConfigMenuMessageSpeedText: ; 3e939 (f:6939)
 	text "Message Speed"
 	line ""
 	line "   Slow   1   2   3   4   5   Fast"
 	done
 
-Text034a: ; 3e96c (f:696c)
+ConfigMenuDuelAnimationText: ; 3e96c (f:696c)
 	text "Duel Animation"
 	line ""
 	line "  Show All    Skip Some       None"
 	done
 
-Text034b: ; 3e9a0 (f:69a0)
+ConfigMenuExitText: ; 3e9a0 (f:69a0)
 	text "   Exit Settings"
 	done
 

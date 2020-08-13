@@ -54,7 +54,7 @@ PokemonText: ; 36378 (d:6378)
 	text " Pokémon"
 	done
 
-Text000f: ; 36382 (d:6382)
+MetresText: ; 36382 (d:6382)
 	text " m."
 	done
 
@@ -78,51 +78,51 @@ StarRarityText: ; 36393 (d:6393)
 	textfw3 "★"
 	done
 
-Text0015: ; 36396 (d:6396)
+AllCardsOwnedText: ; 36396 (d:6396)
 	text " Kaarten in bezit:"
 	done
 
-Text0016: ; 363a9 (d:63a9)
+TotalNumberOfCardsText: ; 363a9 (d:63a9)
 	text "Alle kaarten"
 	done
 
-Text0017: ; 363c0 (d:63c0)
+TypesOfCardsText: ; 363c0 (d:63c0)
 	text "Soorten kaarten"
 	done
 
-Text0018: ; 363d0 (d:63d0)
+TypeGrassPokemonText: ; 363d0 (d:63d0)
 	text "Gras-Pokémon"
 	done
 
-Text0019: ; 363df (d:63df)
+TypeFirePokemonText: ; 363df (d:63df)
 	text "Vuur-Pokémon"
 	done
 
-Text001a: ; 363ed (d:63ed)
+TypeWaterPokemonText: ; 363ed (d:63ed)
 	text "Water-Pokémon"
 	done
 
-Text001b: ; 363fc (d:63fc)
+TypeLightningPokemonText: ; 363fc (d:63fc)
 	text "Bliksem-Pokémon"
 	done
 
-Text001c: ; 3640f (d:640f)
+TypeFightingPokemonText: ; 3640f (d:640f)
 	text "Vecht-Pokémon"
 	done
 
-Text001d: ; 36421 (d:6421)
+TypePsychicPokemonText: ; 36421 (d:6421)
 	text "Psychische Pokémon"
 	done
 
-Text001e: ; 36432 (d:6432)
+TypeColorlessPokemonText: ; 36432 (d:6432)
 	text "Kleurloze Pokémon"
 	done
 
-Text001f: ; 36445 (d:6445)
+TypeTrainerCardText: ; 36445 (d:6445)
 	text "Trainerkaart"
 	done
 
-Text0020: ; 36453 (d:6453)
+TypeEnergyCardText: ; 36453 (d:6453)
 	text "Energiekaart"
 	done
 
@@ -175,15 +175,15 @@ BetweenTurnsText: ; 36553 (d:6553)
 	text "Tussen de beurten."
 	done
 
-Text002c: ; 36563 (d:6563)
+UnableToUseItText: ; 36563 (d:6563)
 	text "Kan het niet gebruiken."
 	done
 
-Text002d: ; 36576 (d:6576)
+NoEnergyCardsText: ; 36576 (d:6576)
 	text "Geen Energiekaarten."
 	done
 
-Text002e: ; 36588 (d:6588)
+IsThisOKText: ; 36588 (d:6588)
 	text "Is dit goed?"
 	done
 
@@ -195,7 +195,7 @@ DiscardName: ; 365a1 (d:65a1)
 	text "Weggooi"
 	done
 
-Text0031: ; 365aa (d:65aa)
+IncompleteText: ; 365aa (d:65aa)
 	text "Incompleet"
 	done
 
@@ -217,7 +217,7 @@ PokemonsAttackText: ; 365d8 (d:65d8)
 	text "<RAMTEXT>!"
 	done
 
-Text0036: ; 365e1 (d:65e1)
+ResistanceLessDamageText: ; 365e1 (d:65e1)
 	text "<RAMTEXT> ontving"
 	line "<RAMNUM> schade door Weerstand!"
 	done
@@ -232,23 +232,23 @@ Text0038: ; 3662f (d:662f)
 	line "<RAMNUM> schade door Zwakte!"
 	done
 
-Text0039: ; 36655 (d:6655)
+ResistanceNoDamageText: ; 36655 (d:6655)
 	text "<RAMTEXT> ontving geen"
 	line "schade door Weerstand."
 	done
 
-Text003a: ; 36682 (d:6682)
+AttackDamageText: ; 36682 (d:6682)
 	text "<RAMTEXT> ontving"
 	line "<RAMNUM> schade."
 	done
 
-Text003b: ; 36694 (d:6694)
+NoDamageText: ; 36694 (d:6694)
 	text "<RAMTEXT> ontving"
 	line "geen schade!"
 	done
 
 NoSelectableAttackText: ; 366af (d:66af)
-	text "Geen selecteerbare Aanval"
+	text "Geen selecteerbare aanval"
 	done
 
 UnableToRetreatText: ; 366c5 (d:66c5)
@@ -260,11 +260,11 @@ MayOnlyAttachOneEnergyCardText: ; 366d9 (d:66d9)
 	line "per beurt."
 	done
 
-Text003f: ; 36706 (d:6706)
+UsePkMnPowerQuestionText: ; 36706 (d:6706)
 	text "Deze Pokémon-Kracht gebruiken?"
 	done
 
-Text0040: ; 3671f (d:671f)
+PkMnPowerSelectNotRequiredText: ; 3671f (d:671f)
 	text "Je hoeft de Pokémon-Kracht niet"
 	line "te selecteren om hem te gebruiken."
 	done
@@ -345,12 +345,12 @@ ChooseEnergyCardToDiscardText: ; 36891 (d:6891)
 	line "die je weg wilt gooien."
 	done
 
-Text0051: ; 368be (d:68be)
+ChooseNextActivePokemonText: ; 368be (d:68be)
 	text "De Actieve Pokémon is Uitgeschakeld."
 	line "Kies de volgende Pokémon."
 	done
 
-Text0052: ; 36903 (d:6903)
+PressSTARTWhenReadyText: ; 36903 (d:6903)
 	text "Druk op START"
 	line "als je klaar bent."
 	done
@@ -465,12 +465,12 @@ ChooseBasicPkmnToPlaceInArenaText: ; 36bc2 (d:6bc2)
 
 ThereAreNoBasicPokemonInHand: ; 36bf1 (d:6bf1)
 	text "Er zitten geen Basis-Pokémon"
-	line "in <RAMNAME>'s Hand."
+	line "in <RAMNAME>'s hand."
 	done
 
 NeitherPlayerHasBasicPkmnText: ; 36c1a (d:6c1a)
 	text "Geen van beide spelers heeft Basis-"
-	line "Pokémon in zijn of haar Hand."
+	line "Pokémon in zijn of haar hand."
 	done
 
 ReturnCardsToDeckAndDrawAgainText: ; 36c54 (d:6c54)
@@ -618,7 +618,7 @@ Text0089: ; 36f5a (d:6f5a)
 	textfw0 " ", " ", " ", " ", " ", " ", " ", " ", " ", " "
 	done
 
-Text008a: ; 36f65 (d:6f65)
+SelectCpuOpponentText: ; 36f65 (d:6f65)
 	text "Kies een Computertegenstander."
 	done
 
@@ -776,14 +776,14 @@ Text00a3: ; 372bd (d:72bd)
 	done
 
 NoCardsInHandText: ; 37348 (d:7348)
-	text "Geen kaarten in Hand."
+	text "Geen kaarten in hand."
 	done
 
 TheDiscardPileHasNoCardsText: ; 3735b (d:735b)
 	text "De Weggooistapel heeft geen kaarten."
 	done
 
-Text00a6: ; 3737b (d:737b)
+PlayerDiscardPileText: ; 3737b (d:737b)
 	text "Speler's Weggooistapel"
 	done
 
@@ -800,23 +800,23 @@ DuelistDeckText: ; 373ab (d:73ab)
 	done
 
 PleaseSelectHandText: ; 373b5 (d:73b5)
-	text "Selecteer Hand."
+	text "Selecteer hand."
 	done
 
-Text00ab: ; 373ca (d:73ca)
+PleaseSelectCardText: ; 373ca (d:73ca)
 	text "Selecteer kaart."
 	done
 
-Text00ac: ; 373df (d:73df)
+NoPokemonWithDamageCountersText: ; 373df (d:73df)
 	text "Er zijn geen Pokémon"
-	line "met Schadetellers."
+	line "met schadetellers."
 	done
 
-Text00ad: ; 3740b (d:740b)
-	text "Er zijn geen Schadetellers."
+NoDamageCountersText: ; 3740b (d:740b)
+	text "Er zijn geen schadetellers."
 	done
 
-Text00ae: ; 3742a (d:742a)
+NoEnergyAttachedToOpponentsActiveText: ; 3742a (d:742a)
 	text "Er zijn geen Energiekaarten gehecht"
 	line "aan de tegenstander's Actieve Pokémon."
 	done
@@ -855,7 +855,7 @@ Text00b5: ; 37583 (d:7583)
 	done
 
 Text00b6: ; 375bc (d:75bc)
-	text "Niet genoeg kaarten in Hand."
+	text "Niet genoeg kaarten in hand."
 	done
 
 Text00b7: ; 375d7 (d:75d7)
@@ -924,17 +924,17 @@ Text00c4: ; 377ea (d:77ea)
 	done
 
 Text00c5: ; 3781b (d:781b)
-	text "Er mogen geen Aanvallen"
+	text "Er mogen geen aanvallen"
 	line "gekozen worden."
 	done
 
 Text00c6: ; 37837 (d:7837)
-	text "Je hebt geen Aanval gekregen"
+	text "Je hebt geen aanval gekregen"
 	line "van Spiegelaanval."
 	done
 
 Text00c7: ; 37866 (d:7866)
-	text "Deze Aanval kan niet"
+	text "Deze aanval kan niet"
 	line "twee keer gebruikt worden."
 	done
 
@@ -1041,12 +1041,12 @@ Text00dd: ; 37b5d (d:7b5d)
 
 SandAttackCheckText: ; 37ba9 (d:7ba9)
 	text "Zandaanval-controle! Als het munt"
-	line "is, is de Aanval onsuccesvol."
+	line "is, is de aanval onsuccesvol."
 	done
 
 SmokescreenCheckText: ; 37bdf (d:7bdf)
 	text "Rookgordijn-controle! Als het munt"
-	line "is, is de Aanval onsuccesvol."
+	line "is, is de aanval onsuccesvol."
 	done
 
 ParalysisCheckText: ; 37c15 (d:7c15)
@@ -1121,7 +1121,7 @@ Text00ed: ; 37e92 (d:7e92)
 
 Text00ee: ; 37eb8 (d:7eb8)
 	text "Succes-controle!!!"
-	line "Als het kop is, is de Aanval succesvol!"
+	line "Als het kop is, is de aanval succesvol!"
 	done
 
 Text00ef: ; 37eea (d:7eea)
