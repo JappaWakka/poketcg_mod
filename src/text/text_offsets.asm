@@ -2079,6 +2079,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer Venusaur1Description                     ; 0x081b
 	textpointer EnergyTransName                          ; 0x081c
 	textpointer EnergyTransDescription                   ; 0x081d
+	textpointer EnergyTransDescriptionCont               ; Translated text looked less nice with the limited space
 	textpointer SolarBeamName                            ; 0x081e
 	textpointer Venusaur2Description                     ; 0x081f
 	textpointer CaterpieName                             ; 0x0820

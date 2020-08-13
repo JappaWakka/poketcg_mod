@@ -1292,7 +1292,7 @@ PlayerDiarySaveCancelText: ; 3e8e9 (f:68e9)
 	done
 
 PlayerStatusMedalsTitleText: ; 3e90e (f:690e)
-	text "Master Medals"
+	text "MeesterMedailles"
 	done
 
 ConfigMenuTitleText: ; 3e91d (f:691d)
@@ -1477,12 +1477,12 @@ Text036e: ; 3ec3e (f:6c3e)
 Text036f: ; 3ec74 (f:6c74)
 	text "Als je een Kaart-Flits! doet met"
 	line "een vriend, krijgen jullie"
-	line "beide een nieuwe kaart!"
+	line "allebei een nieuwe kaart!"
 	done
 
 Text0370: ; 3ecb9 (f:6cb9)
 	text "  <RAMNAME>  <RAMTEXT>"
-	line "      Gewonnen Medailles "
+	line "      MeesterMedailles "
 	half2full
 	textfw0 "<RAMNUM>"
 	text ""

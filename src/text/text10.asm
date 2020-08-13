@@ -54,9 +54,9 @@ DoubleColorlessEnergyDescription: ; 57496 (15:7496)
 	text "Levert <COLORLESS><COLORLESS> Energie."
 	line "(Telt niet als een Basis-Energiekaart.)"
 	line "Kleurloze Energie kan niet worden gebruikt"
-	line "als om gekleurde Energiekosten te betalen."
+	line "om gekleurde Energiekosten te betalen."
 	line "(Elk type Energie kan worden gebruikt"
-	line "als om Kleurloze Energiekosten te betalen.)"
+	line "om Kleurloze Energiekosten te betalen.)"
 	done
 
 BulbasaurName: ; 57552 (15:7552)
@@ -68,10 +68,10 @@ LeechSeedName: ; 5755d (15:755d)
 	done
 
 BulbasaursLeechSeedDescription: ; 57569 (15:7569)
-	text "Tenzij alle schade van deze aanval"
-	line "wordt voorkomen, mag je 1"
-	line "schadeteller van Bulbasaur"
-	line "verwijderen."
+	text "Tenzij alle schade van deze"
+	line "aanval wordt voorkomen,"
+	line "mag je 1 schadeteller van"
+	line "Bulbasaur verwijderen."
 	done
 
 SeedName: ; 575cb (15:75cb)
@@ -98,8 +98,8 @@ PoisonPowderName: ; 5764f (15:764f)
 	done
 
 InflictPoisonDescription: ; 5765d (15:765d)
-	text "De Verdedigende Pokémon is nu"
-	line "Vergiftigd."
+	text "De Verdedigende Pokémon"
+	line "is nu Vergiftigd."
 	done
 
 IvysaurDescription: ; 57685 (15:7685)
@@ -119,7 +119,7 @@ SolarPowerName: ; 576f8 (15:76f8)
 
 SolarPowerDescription: ; 57705 (15:7705)
 	text "Eenmaal tijdens je beurt (vóór je"
-	line "aanval), mag je deze kracht gebruiken."
+	line "aanval) mag je deze kracht gebruiken."
 	line "Je Actieve Pokémon en de Verdedigende"
 	line "Pokémon zijn niet langer In Slaap,"
 	line "Verward, Verlamd, of Vergiftigd."
@@ -162,12 +162,16 @@ EnergyTransName: ; 57960 (15:7960)
 
 EnergyTransDescription: ; 5796e (15:796e)
 	text "Je mag zo vaak als je wilt tijdens je"
-	line "beurt (vóór je aanval) 1 <GRASS> Ener-"
-	line "giekaart pakken die gehecht is aan"
-	line "1 van je Pokémon en hem aan een andere"
-	line "Pokémon hechten. Deze kracht kan niet"
-	line "worden gebruikt als Venusaur In Slaap"
-	line "Verward of Verlamd is."
+	line "beurt (vóór je aanval) 1 <GRASS>"
+	line "Energiekaart pakken die gehecht"
+	line "is aan 1 van je Pokémon en hem"
+	line "aan een andere Pokémon hechten."
+	done
+
+EnergyTransDescriptionCont:
+	text "Deze kracht kan niet worden gebruikt"
+	line "als Venusaur In Slaap, Verward,"
+	line "of Verlamd is."
 	done
 
 SolarBeamName: ; 57a51 (15:7a51)
@@ -189,8 +193,9 @@ StringShotName: ; 57ac3 (15:7ac3)
 	done
 
 MayInflictParalysisDescription: ; 57ad0 (15:7ad0)
-	text "Gooi een munt op. Als het kop is, is"
-	line "de Verdedigende Pokémon nu Verlamd."
+	text "Gooi een munt op."
+	line "Als het kop is, is de Verdedigende"
+	line "Pokémon nu Verlamd."
 	done
 
 WormName: ; 57b10 (15:7b10)
@@ -213,10 +218,11 @@ StiffenName: ; 57b81 (15:7b81)
 	done
 
 MetapodsStiffenDescription: ; 57b8a (15:7b8a)
-	text "Gooi een munt op. Als het kop is,"
-	line "voorkomt deze aanval alle schade"
-	line "die aan Metapod wordt gedaan tijdens"
-	line "je tegenstander's volgende beurt."
+	text "Gooi een munt op."
+	line "Als het kop is, voorkomt deze aanval"
+	line "alle schade die aan Metapod wordt"
+	line "gedaan tijdens je tegenstander's"
+	line "volgende beurt."
 	line "(Alle andere gevolgen van aanvallen"
 	line "blijven gewoon geldig.)"
 	done
@@ -246,11 +252,11 @@ WhirlwindName: ; 57c8e (15:7c8e)
 
 WhirlwindDescription: ; 57c99 (15:7c99)
 	text "Als je tegenstander Pokémon op de"
-	line "Bank heeft, kiest hij of zij daar"
+	line "Bank heeft, kiest hij of zij er"
 	line "1 van en verwisselt deze met de"
-	line "Verdedigende Pokémon. (Doe de"
-	line "schade vóór het verwisselen van"
-	line "de Pokémon.)"
+	line "Verdedigende Pokémon."
+	line "(Doe de schade vóór het verwisselen"
+	line "van de Pokémon.)"
 	done
 
 ButterfreesMegaDrainDescription: ; 57d3a (15:7d3a)
@@ -287,9 +293,9 @@ PoisonStingName: ; 57ea1 (15:7ea1)
 	done
 
 MayInflictPoisonDescription: ; 57eaf (15:7eaf)
-	text "Gooi een munt op. Als het kop is, is"
-	line "de Verdedigende Pokémon nu"
-	line "Vergiftigd."
+	text "Gooi een munt op."
+	line "Als het kop is, is de Verdedigende"
+	line "Pokémon nu Vergiftigd."
 	done
 
 HairyBugName: ; 57eee (15:7eee)
@@ -308,10 +314,11 @@ KakunaName: ; 57f4f (15:7f4f)
 	done
 
 KakunasStiffenDescription: ; 57f57 (15:7f57)
-	text "Gooi een munt op. Als het kop is,"
-	line "voorkomt deze aanval alle schade"
-	line "die aan Kakuna wordt gedaan tijdens"
-	line "je Tegenstander's volgende beurt."
+	text "Gooi een munt op."
+	line "Als het kop is, voorkomt deze aanval"
+	line "alle schade die aan Kakuna wordt"
+	line "gedaan tijdens je tegenstander's"
+	line "volgende beurt."
 	line "(Alle andere gevolgen van aanvallen"
 	line "blijven gewoon geldig.)"
 	done
@@ -332,8 +339,9 @@ TwineedleName: ; 58070 (16:4070)
 	done
 
 DoubleAttackX30Description: ; 5807b (16:407b)
-	text "Gooi 2 munten op. Deze aanval doet"
-	line "30 schade maal het aantal keren kop."
+	text "Gooi 2 munten op."
+	line "Deze aanval doet 30 schade"
+	line "maal het aantal keren kop."
 	done
 
 PoisonBeeName: ; 580c0 (16:40c0)
@@ -351,21 +359,21 @@ EkansName: ; 5812a (16:412a)
 	done
 
 SpitPoisonName: ; 58131 (16:4131)
-	text "Spit Poison"
+	text "Spuw gif"
 	done
 
 WrapName: ; 5813e (16:413e)
-	text "Wrap"
+	text "Wikkel"
 	done
 
 SnakeName: ; 58144 (16:4144)
-	text "Snake"
+	text "Slang-"
 	done
 
 EkansDescription: ; 5814b (16:414b)
-	text "Moves silently and stealthily. Eats"
-	line "the eggs of birds, such as Pidgey"
-	line "and Spearow, whole."
+	text "Beweegt stilletjes en heimelijk."
+	line "Eet de eieren van vogels als"
+	line "Pidgey en Spearow heel op."
 	done
 
 ArbokName: ; 581a6 (16:41a6)
@@ -373,31 +381,32 @@ ArbokName: ; 581a6 (16:41a6)
 	done
 
 TerrorStrikeName: ; 581ad (16:41ad)
-	text "Terror Strike"
+	text "Angstaanval"
 	done
 
 TerrorStrikeDescription: ; 581bc (16:41bc)
-	text "Gooi een munt op. If heads and if your"
-	line "opponent has any Benched Pokémon,"
-	line "he or she chooses 1 of them and"
-	line "switches it with the Defending"
-	line "Pokémon."
-	line "(Do the damage before switching"
-	line "the Pokémon.)"
+	text "Gooi een munt op. Als het kop is,"
+	line "en je tegenstander Pokémon op de"
+	line "Bank heeft, kiest hij of zij daar"
+	line "1 van en verwisselt deze met de"
+	line "Verdedigende Pokémon."
+	line "(Doe de schade vóór het verwisselen"
+	line "van de Pokémon.)"
 	done
 
 PoisonFangName: ; 58277 (16:4277)
-	text "Poison Fang"
+	text "Giftand"
 	done
 
 CobraName: ; 58284 (16:4284)
-	text "Cobra"
+	text "Cobra-"
 	done
 
 ArbokDescription: ; 5828b (16:428b)
-	text "It is rumored that the ferocious"
-	line "warning markings on its belly differ"
-	line "from area to area."
+	text "Het gerucht gaat dat de woeste"
+	line "waarschuwingsmarkeringen op"
+	line "zijn buik van gebied tot"
+	line "gebied variëren."
 	done
 
 NidoranFName: ; 582e5 (16:42e5)
@@ -409,8 +418,9 @@ FurySwipesName: ; 582ef (16:42ef)
 	done
 
 TripleAttackX10Description: ; 582fc (16:42fc)
-	text "Gooi 3 munten op. Deze aanval doet"
-	line "10 schade maal het aantal keren kop."
+	text "Gooi 3 munten op."
+	line "Deze aanval doet 10 schade"
+	line "maal het aantal keren kop."
 	done
 
 CallForFamilyName: ; 58341 (16:4341)
@@ -419,11 +429,12 @@ CallForFamilyName: ; 58341 (16:4341)
 
 NidoranFsCallForFamilyDescription: ; 58352 (16:4352)
 	text "Zoek in je deck naar een Basis-"
-	line "Pokémon met de naam Nidoran♀ of"
-	line "Nidoran♂ en plaats deze op je Bank."
-	line "Schud hierna je deck. (Je kunt"
-	line "deze aanval niet gebruiken als"
-	line "je Bank vol is.)"
+	line "Pokémon met Nidoran♀ of Nidoran♂"
+	line "in zijn of haar naam en plaats"
+	line "deze op je Bank. Schud hierna"
+	line "je deck. (Je kunt deze aanval"
+	line "niet gebruiken als je Bank"
+	line "vol is.)"
 	done
 
 PoisonPinName: ; 583ff (16:43ff)
@@ -432,7 +443,7 @@ PoisonPinName: ; 583ff (16:43ff)
 
 NidoranFDescription: ; 5840b (16:440b)
 	text "Alhoewel zij klein is, maken haar"
-	line "giftige stekels deze Pokémon."
+	line "giftige stekels deze Pokémon"
 	line "gevaarlijk. Het vrouwtje heeft"
 	line "kleinere horens."
 	done
@@ -446,8 +457,9 @@ SupersonicName: ; 58474 (16:4474)
 	done
 
 MayInflictConfusionDescription: ; 58480 (16:4480)
-	text "Gooi een munt op. Als het kop is, is"
-	line "de Verdedigende Pokémon nu Verward."
+	text "Gooi een munt op."
+	line "Als het kop is, is de Verdedigende"
+	line "Pokémon nu Verward."
 	done
 
 DoubleKickName: ; 584bf (16:44bf)
@@ -470,9 +482,9 @@ BoyfriendsName: ; 58530 (16:4530)
 	done
 
 BoyfriendsDescription: ; 5853c (16:453c)
-	text "Doet 20 schade plus nog eens 20"
-	line "schade voor elke Nidoking die je"
-	line "in het spel hebt."
+	text "Deze aanval doet 20 schade plus"
+	line "nog eens 20 schade voor elke"
+	line "Nidoking die je in het spel hebt."
 	done
 
 MegaPunchName: ; 58584 (16:4584)
@@ -499,8 +511,9 @@ HornHazardName: ; 585ff (16:45ff)
 	done
 
 MayDoNothingDescription: ; 5860c (16:460c)
-	text "Gooi een munt op. Als het munt"
-	line "is, doet deze aanval niets."
+	text "Gooi een munt op."
+	line "Als het munt is, doet deze"
+	line "aanval niets."
 	done
 
 NidoranMDescription: ; 5863e (16:463e)
@@ -532,11 +545,12 @@ ThrashName: ; 58719 (16:4719)
 	done
 
 ThrashDescription: ; 58721 (16:4721)
-	text "Gooi een munt op. Als het kop is,"
-	line "doet deze aanval 30 schade plus nog"
-	line "eens 10 schade; als het munt is,"
-	line "doet deze aanval 30 schade en doet"
-	line "Nidoking 10 schade aan zichzelf."
+	text "Gooi een munt op."
+	line "Als het kop is, doet deze aanval"
+	line "30 schade plus nog eens 10 schade;"
+	line "als het munt is, doet deze aanval"
+	line "30 schade en doet Nidoking 10"
+	line "schade aan zichzelf."
 	done
 
 ToxicName: ; 587b5 (16:47b5)
@@ -617,25 +631,27 @@ OddishName: ; 58b32 (16:4b32)
 	done
 
 SproutName: ; 58b3a (16:4b3a)
-	text "Sprout"
+	text "Spruiten"
 	done
 
 SproutDescription: ; 58b42 (16:4b42)
-	text "Search your deck for a Basic Pokémon"
-	line "named Oddish and put it onto your"
-	line "Bench. Shuffle your deck afterward."
-	line "(You can't use this attack if your"
-	line "Bench is full.)"
+	text "Zoek in je deck naar een Basis-"
+	line "Pokémon met Oddish in zijn naam"
+	line "en plaats hem op je Bank."
+	line "Schud hierna je deck."
+	line "(Je kunt deze aanval niet gebruiken"
+	line "als je Bank vol is.)"
 	done
 
 WeedName: ; 58be1 (16:4be1)
-	text "Weed"
+	text "Onkruid-"
 	done
 
 OddishDescription: ; 58be7 (16:4be7)
-	text "During the day, it keeps its face"
-	line "buried in the ground. At night, it"
-	line "wanders around sowing its seeds."
+	text "Overdag houdt hij zijn hoofd"
+	line "begraven in de grond."
+	line "'s Nachts zwerft hij rond"
+	line "en zaait hij zijn zaad."
 	done
 
 GloomName: ; 58c4e (16:4c4e)
@@ -643,13 +659,13 @@ GloomName: ; 58c4e (16:4c4e)
 	done
 
 FoulOdorName: ; 58c55 (16:4c55)
-	text "Foul Odor"
+	text "Vieze geur"
 	done
 
 FoulOdorDescription: ; 58c60 (16:4c60)
-	text "Both the Defending Pokémon and"
-	line "Gloom are now Confused (after doing"
-	line "damage)."
+	text "De Verdedigende Pokémon en Gloom"
+	line "zijn nu allebei Verward (nadat"
+	line "de schade is gedaan)."
 	done
 
 GloomDescription: ; 58cad (16:4cad)

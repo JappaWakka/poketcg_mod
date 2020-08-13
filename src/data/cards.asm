@@ -401,7 +401,7 @@ Venusaur2Card: ; 30eeb (c:4eeb)
 	energy 0 ; energies
 	tx EnergyTransName ; name
 	tx EnergyTransDescription ; description
-	dw NONE ; description (cont)
+	tx EnergyTransDescriptionCont ; description (cont)
 	db 0 ; damage
 	db POKEMON_POWER ; category
 	dw VenusaurEnergyTransEffectCommands ; effect commands
