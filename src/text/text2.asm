@@ -979,7 +979,7 @@ Turn2Instr2PracticeDuelText: ; 3a45d (e:645d)
 Turn2Instr3PracticeDuelText: ; 3a499 (e:6499)
 	text "3. Kies Val Aan in het Menu"
 	line "   en dan Waterval om je"
-	line "   tegenstander Aan te Vallen."
+	line "   tegenstander aan te vallen."
 	done
 
 Turn3Instr1PracticeDuelText: ; 3a4df (e:64df)
@@ -1166,7 +1166,7 @@ Turn4DrMason1PracticeDuelText: ; 3addd (e:6ddd)
 Turn4DrMason2PracticeDuelText: ; 3ae7d (e:6e7d)
 	text "Hecht een Water Energiekaart aan"
 	line "Drowzee om hem klaar te maken om"
-	line "Aan te Vallen."
+	line "aan te vallen."
 	done
 
 Turn4DrMason3PracticeDuelText: ; 3aebf (e:6ebf)

@@ -404,7 +404,7 @@ WillUseThePokemonPowerText: ; 36a53 (d:6a53)
 
 FinishedTurnWithoutAttackingText: ; 36a74 (d:6a74)
 	text "De beurt is doorgegeven"
-	line "zonder Aan te Vallen."
+	line "zonder aan te vallen."
 	done
 
 DuelistTurnText: ; 36a9a (d:6a9a)

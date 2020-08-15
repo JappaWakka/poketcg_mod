@@ -41,7 +41,7 @@ Text05d6: ; 4b8c8 (12:78c8)
 	line "Als er geen Energiekaarten aan"
 	line "gehecht zijn, zou de Pokémon"
 	line "geen mogelijkheid kunnen hebben"
-	line "om Aan te Vallen of zich Terug"
+	line "om aan te vallen of zich Terug"
 	line "te Trekken. Er zijn 7 typen"
 	line "Energiekaarten: Gras, Vuur"
 	line "Water, Bliksem, Psychisch, "
@@ -113,7 +113,7 @@ Text05da: ; 4be3e (12:7e3e)
 Text05db: ; 4c000 (13:4000)
 	text "Je beurt eindigt na je aanval."
 	line "Als je niet genoeg Energie hebt om"
-	line "Aan te Vallen, of als je Actieve"
+	line "aan te vallen, of als je Actieve"
 	line "Pokémon niets kan doen door"
 	line "Verlamming of Slaap, kan je"
 	line "je beurt beëindigen door het"

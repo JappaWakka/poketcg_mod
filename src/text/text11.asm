@@ -11,9 +11,9 @@ RageName: ; 5ab93 (16:6b93)
 	done
 
 FlareonsRageDescription: ; 5ab99 (16:6b99)
-	text "Doet 10 schade plus nog eens 10"
-	line "schade voor elke schadeteller"
-	line "op Flareon."
+	text "Deze aanval doet 10 schade plus"
+	line "nog eens 10 schade voor elke"
+	line "schadeteller op Flareon."
 	done
 
 Flareon1Description: ; 5abe1 (16:6be1)
@@ -40,44 +40,47 @@ MoltresName: ; 5aced (16:6ced)
 	done
 
 WildfireName: ; 5acf6 (16:6cf6)
-	text "Wildfire"
+	text "Lopend vuurtje"
 	done
 
 WildfireDescription: ; 5ad00 (16:6d00)
-	text "You may discard any number of <FIRE>"
-	line "Energiekaarten attached to Moltres"
-	line "when you use this attack. If you do,"
-	line "discard that many cards from the top"
-	line "of your opponent's deck."
+	text "Als je deze aanval gebruikt mag je"
+	line "zoveel aan Moltres gehechte <FIRE>"
+	line "Energiekaarten weggooien als je wilt."
+	line "Als je dit doet, gooi dan net zoveel"
+	line "kaarten weg van de bovenkant van je"
+	line "tegenstander's deck."
 	done
 
 DiveBombName: ; 5ada6 (16:6da6)
-	text "Dive Bomb"
+	text "Duikbom"
 	done
 
 Moltres1Description: ; 5adb1 (16:6db1)
-	text "Known as the legendary bird of fire."
-	line "Every flap of its wings creates a"
-	line "dazzling flash of flames."
+	text "Staat bekend als de legendarische"
+	line "vuurvogel. Elke slag van zijn"
+	line "vleugels veroorzaakt een duizeling-"
+	line "wekkende flikkering van vlammen."
 	done
 
 FiregiverName: ; 5ae13 (16:6e13)
-	text "Firegiver"
+	text "Aansteker"
 	done
 
 FiregiverDescription: ; 5ae1e (16:6e1e)
-	text "When you put Moltres into play"
-	line "during your turn (not during"
-	line "set-up), put from 1 to 4 (chosen at"
-	line "random) <FIRE> Energiekaarten from your"
-	line "deck into your hand. Shuffle your"
-	line "deck afterward."
+	text "Wanneer je Moltres in het spel"
+	line "brengt tijdens je beurt (niet tijdens"
+	line "opzetten van het spel), neem dan 1 tot"
+	line "4 (op willekeurige wijze gekozen)"
+	line "<FIRE> Energiekaarten uit je deck"
+	line "in je hand. Schud hierna je deck."
 	done
 
 Moltres2Description: ; 5aed3 (16:6ed3)
-	text "A legendary bird Pokémon. As it"
-	line "flaps its flaming wings, even the"
-	line "night sky will turn red."
+	text "Een legendarische vogel-Pokémon."
+	line "Wanneer hij fladdert met zijn"
+	line "vlammende vleugels, kleurt zelfs"
+	line "de nachtlucht rood."
 	done
 
 SquirtleName: ; 5af2f (16:6f2f)
@@ -164,13 +167,13 @@ HydroPumpName: ; 5b267 (16:7267)
 	done
 
 HydroPumpDescription: ; 5b273 (16:7273)
-	text "Doet 40 schade plus nog eens 10"
-	line "schade voor elke <WATER> Energie die"
-	line "aan Blastoise gehecht is maar niet"
-	line "wordt gebruikt om de Energiekosten"
-	line "van deze aanval te betalen. Je kunt"
-	line "op deze manier niet meer dan 20"
-	line "schade toevoegen."
+	text "Deze aanval doet 40 schade plus nog"
+	line "eens 10 schade voor elke <WATER> Energie"
+	line "die aan Blastoise gehecht is maar"
+	line "niet wordt gebruikt om de Energie-"
+	line "kosten van deze aanval te betalen."
+	line "Je kunt op deze manier niet meer"
+	line "dan 20 schade toevoegen."
 	done
 
 ShellfishName: ; 5b322 (16:7322)
@@ -243,12 +246,13 @@ WaterGunName: ; 5b53c (16:753c)
 	done
 
 PoliwagsWaterGunDescription: ; 5b547 (16:7547)
-	text "Doet 10 schade plus nog eens 10"
-	line "schade voor elke aan Poliwag gehechte"
-	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze aanval te"
-	line "betalen. Je kunt op deze manier niet"
-	line "meer dan 20 schade toevoegen."
+	text "Deze aanval doet 10 schade plus nog"
+	line "eens 10 schade voor elke aan Poliwag"
+	line "gehechte <WATER> Energie die niet wordt"
+	line "gebruikt om de Energiekosten van deze"
+	line "aanval te betalen. Je kunt op deze"
+	line "manier niet meer dan 20 schade"
+	line "toevoegen."
 	done
 
 TadpoleName: ; 5b5f4 (16:75f4)
@@ -292,12 +296,13 @@ PoliwrathName: ; 5b74f (16:774f)
 	done
 
 PoliwrathsWaterGunDescription: ; 5b75a (16:775a)
-	text "Doet 30 schade plus nog eens 10"
-	line "schade voor elke aan Poliwrath gehechte"
-	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze aanval te"
-	line "betalen. Je kunt op deze manier niet"
-	line "meer dan 20 schade toevoegen."
+	text "Deze aanval doet 30 schade plus nog"
+	line "eens 10 schade voor elke aan Poliwrath"
+	line "gehechte <WATER> Energie die niet wordt"
+	line "gebruikt om de Energiekosten van deze"
+	line "aanval te betalen. Je kunt op deze"
+	line "manier niet meer dan 20 schade"
+	line "toevoegen."
 	done
 
 WhirlpoolName: ; 5b809 (16:7809)
@@ -315,27 +320,32 @@ TentacoolName: ; 5b87a (16:787a)
 	done
 
 CowardiceName: ; 5b885 (16:7885)
-	text "Cowardice"
+	text "Wegglippen"
 	done
 
 CowardiceDescription: ; 5b890 (16:7890)
-	text "At any time during your turn"
-	line "(before your attack), you may return"
-	line "Tentacool to your hand. (Discard all"
-	line "cards attached to Tentacool.) This"
-	line "power can't be used the turn you put"
-	line "Tentacool into play or if Tentacool"
-	line "is Asleep, Confused, or Paralyzed."
+	text "Op welk moment dan ook tijdens je"
+	line "beurt (vóór je aanval) mag je"
+	line "Tentacool weer in je hand nemen."
+	line "(Gooi alle aan Tentacool gehechte"
+	line "kaarten weg.) Deze kracht kan niet"
+	line "worden gebruikt tijdens de beurt"
+	line "waarin je Tentacool in het spel"
 	done
 
+CowardiceDescriptionCont:
+	text "brengt of als Tentacool In Slaap,"
+	line "Verward, of Verlamd is."
+
 JellyfishName: ; 5b987 (16:7987)
-	text "Jellyfish"
+	text "Kwal-"
 	done
 
 TentacoolDescription: ; 5b992 (16:7992)
-	text "Drifts in shallow seas. Anglers who"
-	line "hook them by accident are often"
-	line "punished by its stinging acid."
+	text "Zwerft in ondiepe zeeën. Vissers"
+	line "die ze per ongeluk aan de haak"
+	line "slaan, worden vaak gestraft"
+	line "door zijn bijtende zuur."
 	done
 
 TentacruelName: ; 5b9f6 (16:79f6)
@@ -343,13 +353,14 @@ TentacruelName: ; 5b9f6 (16:79f6)
 	done
 
 JellyfishStingName: ; 5ba02 (16:7a02)
-	text "Jellyfish Sting"
+	text "Kwallenbeet"
 	done
 
 TentacruelDescription: ; 5ba13 (16:7a13)
-	text "The tentacles are normally kept"
-	line "short. On hunts, they are extended"
-	line "to ensnare and immobilize prey."
+	text "De tentakels worden gewoonlijk kort ge-"
+	line "houden. Als hij op voedsel jaagt worden"
+	line "ze langer om de prooi te omstrengelen"
+	line "en hem het bewegen onmogelijk te maken."
 	done
 
 SeelName: ; 5ba77 (16:7a77)
@@ -395,24 +406,28 @@ ShellderName: ; 5bb6e (16:7b6e)
 	done
 
 HideInShellName: ; 5bb78 (16:7b78)
-	text "Hide in Shell"
+	text "In zijn schulp kruipen"
 	done
 
 HideInShellDescription: ; 5bb87 (16:7b87)
-	text "Gooi een munt op. Als het kop is, prevent all"
-	line "damage done to Shellder during your"
-	line "opponent's next turn. (Any other"
-	line "effects of attacks still happen.)"
+	text "Gooi een munt op."
+	line "Als het kop is, voorkomt deze aanval"
+	line "alle schade die aan Shellder wordt"
+	line "gedaan tijdens je tegenstander's"
+	line "volgende beurt. (Alle andere"
+	line "gevolgen van aanvallen blijven"
+	line "gewoon geldig.)"
 	done
 
 BivalveName: ; 5bc12 (16:7c12)
-	text "Bivalve"
+	text "Tweekleppige"
 	done
 
 ShellderDescription: ; 5bc1b (16:7c1b)
-	text "Its hard shell repels any kind of"
-	line "attack. It is vulnerable only when"
-	line "its shell is open."
+	text "Zijn harde schaal vormt een afwering"
+	line "tegen elk soort aanval. Hij is"
+	line "alleen kwetsbaar als zijn schaal"
+	line "open is."
 	done
 
 CloysterName: ; 5bc74 (16:7c74)
@@ -424,10 +439,10 @@ ClampName: ; 5bc7e (16:7c7e)
 	done
 
 ClampDescription: ; 5bc85 (16:7c85)
-	text "Gooi een munt op. Als het kop"
-	line "is, is de Verdedigende Pokémon"
-	line "nu Verlamd. Als het munt is,"
-	line "doet deze aanval niets (zelfs"
+	text "Gooi een munt op."
+	line "Als het kop is, is de Verdedigende"
+	line "Pokémon nu Verlamd; als het munt"
+	line "is, doet deze aanval niets (zelfs"
 	line "geen schade)."
 	done
 
@@ -448,8 +463,8 @@ KrabbyName: ; 5bd63 (16:7d63)
 
 KrabbysCallForFamilyDescription: ; 5bd6b (16:7d6b)
 	text "Zoek in je deck naar een Basis-"
-	line "Pokémon met de naam Krabby"
-	line "en plaats deze op je Bank. Schud"
+	line "Pokémon met Krabby in zijn naam"
+	line "en plaats hem op je Bank. Schud"
 	line "hierna je deck. (Je kunt deze"
 	line "aanval niet gebruiken als je"
 	line "Bank vol is.)"
@@ -475,8 +490,8 @@ FlailName: ; 5be7c (16:7e7c)
 	done
 
 KinglersFlailDescription: ; 5be83 (16:7e83)
-	text "Doet 10 schade maal het aantal"
-	line "schadetellers op Kingler."
+	text "Deze aanval doet 10 schade maal"
+	line "het aantal schadetellers op Kingler."
 	done
 
 CrabhammerName: ; 5bec3 (16:7ec3)
@@ -499,20 +514,22 @@ HorseaName: ; 5bf43 (16:7f43)
 	done
 
 OpponentAttackMayDoNothingDescription: ; 5bf4b (16:7f4b)
-	text "If the Defending Pokémon tries to"
-	line "attack during your opponent's next"
-	line "turn, your opponent flips a coin."
-	line "If tails, that attack does nothing."
+	text "Als de Verdedigende Pokémon probeert"
+	line "aan te vallen tijdens je tegen-"
+	line "stander's volgende beurt, gooit"
+	line "je tegenstander een munt op. Als het"
+	line "munt is, doet die aanval niets."
 	done
 
 DragonName: ; 5bfd7 (16:7fd7)
-	text "Dragon"
+	text "Draak-"
 	done
 
 HorseaDescription: ; 5c000 (17:4000)
-	text "Known to shoot down flying bugs with"
-	line "precision blasts of ink from the"
-	line "surface of the water."
+	text "Staat erom bekend dat hij met uiterst"
+	line "nauwkeurige stralen inkt vliegende"
+	line "insecten vanaf de oppervlakte"
+	line "van het water neerschiet."
 	done
 
 SeadraName: ; 5c05d (17:405d)
@@ -520,25 +537,29 @@ SeadraName: ; 5c05d (17:405d)
 	done
 
 SeadrasWaterGunDescription: ; 5c065 (17:4065)
-	text "Doet 20 schade plus nog eens 10"
-	line "schade voor elke aan Seadra gehechte"
-	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze aanval te"
-	line "betalen. Je kunt op deze manier niet"
-	line "meer dan 20 schade toevoegen."
+	text "Deze aanval doet 20 schade plus nog"
+	line "eens 10 schade voor elke aan Seadra"
+	line "gehechte <WATER> Energie die niet wordt"
+	line "gebruikt om de Energiekosten van deze"
+	line "aanval te betalen. Je kunt op deze"
+	line "manier niet meer dan 20 schade"
+	line "toevoegen."
 	done
 
 SeadrasAgilityDescription: ; 5c111 (17:4111)
-	text "Gooi een munt op. Als het kop is, during your"
-	line "opponent's next turn, prevent all "
-	line "effects of attacks, including"
-	line "damage, done to Seadra."
+	text "Gooi een munt op."
+	line "Als het kop is, voorkomt deze"
+	line "aanval alle gevolgen van aanvallen,"
+	line "inclusief schade, die aan Seadra"
+	line "worden toegebracht tijdens je"
+	line "tegenstander's volgende beurt."
 	done
 
 SeadraDescription: ; 5c18e (17:418e)
-	text "Capable of swimming backward by"
-	line "rapidly flapping its wing-like"
-	line "pectoral fins and stout tail."
+	text "Kan achteruit zwemmen door zijn op"
+	line "vleugels lijkende borstvinnen en"
+	line "stevige staart snel heen en weer"
+	line "weer te zwiepen."
 	done
 
 GoldeenName: ; 5c1ec (17:41ec)
@@ -634,18 +655,19 @@ TackleName: ; 5c456 (17:4456)
 	done
 
 MagikarpsFlailDescription: ; 5c45e (17:445e)
-	text "Does 10 damage times the number of"
-	line "damage counters on Magikarp."
+	text "Deze aanval doet 10 schade maal"
+	line "het aantal schadetellers op Magikarp."
 	done
 
 FishName: ; 5c49f (17:449f)
-	text "Fish"
+	text "Vis-"
 	done
 
 MagikarpDescription: ; 5c4a5 (17:44a5)
-	text "In the distant past, it was stronger"
-	line "than its horribly weak descendants"
-	line "that exist today."
+	text "In het verre verleden was hij sterker"
+	line "dan zijn verschrikkelijk zwakke"
+	line "afstammelingen die vandaag de dag"
+	line "in leven zijn."
 	done
 
 GyaradosName: ; 5c500 (17:4500)
@@ -653,21 +675,22 @@ GyaradosName: ; 5c500 (17:4500)
 	done
 
 DragonRageName: ; 5c50a (17:450a)
-	text "Dragon Rage"
+	text "Drakenfurie"
 	done
 
 BubblebeamName: ; 5c517 (17:4517)
-	text "Bubblebeam"
+	text "Bubbelstraal"
 	done
 
 AtrociousName: ; 5c523 (17:4523)
-	text "Atrocious"
+	text "Afgrijselijke"
 	done
 
 GyaradosDescription: ; 5c52e (17:452e)
-	text "Rarely seen in the wild. Huge and"
-	line "vicious, it is capable of destroying"
-	line "entire cities in a rage."
+	text "Wordt zelden in het wild gezien."
+	line "Omdat hij zo enorm en kwaadaardig"
+	line "is, kan hij tijdens een woede-"
+	line "aanval hele steden vernietigen."
 	done
 
 LaprasName: ; 5c58f (17:458f)
@@ -675,12 +698,13 @@ LaprasName: ; 5c58f (17:458f)
 	done
 
 LaprasWaterGunDescription: ; 5c597 (17:4597)
-	text "Doet 10 schade plus nog eens 10"
-	line "schade voor elke aan Lapras gehechte"
-	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze aanval te"
-	line "betalen. Je kunt op deze manier niet"
-	line "meer dan 20 schade toevoegen."
+	text "Deze aanval doet 10 schade plus nog"
+	line "eens 10 schade voor elke aan Lapras"
+	line "gehechte <WATER> Energie die niet wordt"
+	line "gebruikt om de Energiekosten van deze"
+	line "aanval te betalen. Je kunt op deze"
+	line "manier niet meer dan 20 schade"
+	line "toevoegen."
 	done
 
 TransportName: ; 5c643 (17:4643)
@@ -690,7 +714,7 @@ TransportName: ; 5c643 (17:4643)
 LaprasDescription: ; 5c64e (17:464e)
 	text "Een Pokémon die door overbejaging"
 	line "bijna uitgeroeid is. Hij kan mensen"
-	line "het water overzetten"
+	line "het water overzetten."
 	done
 
 VaporeonName: ; 5c6aa (17:46aa)
@@ -718,13 +742,13 @@ Vaporeon1Description: ; 5c717 (17:4717)
 	done
 
 VaporeonsWaterGunDescription: ; 5c77b (17:477b)
-	text "Doet 30 schade plus nog eens 10"
-	line "schade voor elke aan Vaporeon"
-	line "gehechte <WATER> Energie die niet"
-	line "wordt gebruikt om de Energiekosten"
-	line "van deze aanval te betalen. Je"
-	line "kunt op deze manier niet meer"
-	line "dan 20 schade toevoegen."
+	text "Deze aanval doet 30 schade plus nog"
+	line "eens 10 schade voor elke aan Vaporeon"
+	line "gehechte <WATER> Energie die niet wordt"
+	line "gebruikt om de Energiekosten van deze"
+	line "aanval te betalen. Je kunt op deze"
+	line "manier niet meer dan 20 schade"
+	line "toevoegen."
 	done
 
 Vaporeon2Description: ; 5c829 (17:4829)
@@ -739,37 +763,40 @@ OmanyteName: ; 5c88b (17:488b)
 	done
 
 MysteriousFossilName: ; 5c894 (17:4894)
-	text "Mysterious Fossil"
+	text "Mysterieus Fossiel"
 	done
 
 ClairvoyanceName: ; 5c8a7 (17:48a7)
-	text "Clairvoyance"
+	text "Toekomst voorspellen"
 	done
 
 ClairvoyanceDescription: ; 5c8b5 (17:48b5)
-	text "Your opponent plays with his or her"
-	line "hand face up. This power stops"
-	line "working while Omanyte is Asleep,"
-	line "Confused, or Paralyzed."
+	text "Je tegenstander speelt met de"
+	line "afbeeldingen van de kaarten in"
+	line "zijn of haar hand zichtbaar. Deze"
+	line "kracht stopt met werken als Omanyte"
+	line "In Slaap, Verward, of Verlamd is."
 	done
 
 OmanytesWaterGunDescription: ; 5c932 (17:4932)
-	text "Doet 10 schade plus nog eens 10"
-	line "schade voor elke aan Omanyte gehechte"
-	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze aanval te"
-	line "betalen. Je kunt op deze manier niet"
-	line "meer dan 20 schade toevoegen."
+	text "Deze aanval doet 10 schade plus nog"
+	line "eens 10 schade voor elke aan Omanyte"
+	line "gehechte <WATER> Energie die niet wordt"
+	line "gebruikt om de Energiekosten van deze"
+	line "aanval te betalen. Je kunt op deze"
+	line "manier niet meer dan 20 schade"
+	line "toevoegen."
 	done
 
 SpiralName: ; 5c9df (17:49df)
-	text "Spiral"
+	text "Spiraal-"
 	done
 
 OmanyteDescription: ; 5c9e7 (17:49e7)
-	text "Although long extinct, in rare"
-	line "cases, it can be genetically"
-	line "resurrected from fossils."
+	text "Hoewel hij al lang is uitgestorven,"
+	line "kan hij in zeldzame gevallen"
+	line "genetisch opnieuw tot leven worden"
+	line "gewekt uit fossielen."
 	done
 
 OmastarName: ; 5ca3e (17:4a3e)
@@ -777,18 +804,20 @@ OmastarName: ; 5ca3e (17:4a3e)
 	done
 
 OmastarsWaterGunDescription: ; 5ca47 (17:4a47)
-	text "Doet 20 schade plus nog eens 10"
-	line "schade voor elke aan Omastar gehechte"
-	line "<WATER> Energie die niet wordt gebruikt"
-	line "om de Energiekosten van deze aanval te"
-	line "betalen. Je kunt op deze manier niet"
-	line "meer dan 20 schade toevoegen."
+	text "Deze aanval doet 20 schade plus nog"
+	line "eens 10 schade voor elke aan Omastar"
+	line "gehechte <WATER> Energie die niet wordt"
+	line "gebruikt om de Energiekosten van deze"
+	line "aanval te betalen. Je kunt op deze"
+	line "manier niet meer dan 20 schade"
+	line "toevoegen."
 	done
 
 OmastarDescription: ; 5caf4 (17:4af4)
-	text "A prehistoric Pokémon that died out"
-	line "when its heavy shell made it"
-	line "impossible for it to catch prey."
+	text "Een prehistorische Pokémon die is"
+	line "uitgestorven toen zijn zware schaal"
+	line "het hem onmogelijk maakte om prooi"
+	line "te vangen."
 	done
 
 ArticunoName: ; 5cb57 (17:4b57)
@@ -796,62 +825,71 @@ ArticunoName: ; 5cb57 (17:4b57)
 	done
 
 FreezeDryName: ; 5cb61 (17:4b61)
-	text "Freeze Dry"
+	text "Vriesdrogen"
 	done
 
 BlizzardName: ; 5cb6d (17:4b6d)
-	text "Blizzard"
+	text "Sneeuwstorm"
 	done
 
 BlizzardDescription: ; 5cb77 (17:4b77)
-	text "Gooi een munt op. Als het kop is, this attack"
-	line "does 10 damage to each of your"
-	line "opponent's Benched Pokémon."
-	line "If tails, this attack does 10 damage"
-	line "to each of your own Benched Pokémon."
-	line "(Don't apply Weakness and Resistance"
-	line "for Benched Pokémon.)"
+	text "Gooi een munt op."
+	line "Als het kop is, doet deze aanval"
+	line "10 schade aan elk van je"
+	line "tegenstander's Pokémon op de Bank;"
+	line "als het munt is, doet deze aanval"
+	line "10 schade aan elk van je Pokémon"
+	done
+	
+BlizzardDescriptionCont:
+	text "op de Bank. (Pas geen Zwakte en"
+	line "Weerstand toe voor Pokémon op"
+	line "de Bank.)"
 	done
 
 FreezeName: ; 5cc5b (17:4c5b)
-	text "Freeze"
+	text "Bevriezing-"
 	done
 
 Articuno1Description: ; 5cc63 (17:4c63)
-	text "A legendary bird Pokémon that is"
-	line "said to appear to doomed people who"
-	line "are lost in icy mountains."
+	text "Een legendarische vogel-Pokémon"
+	line "waarvan wordt beweerd dat hij"
+	line "verschijnt aan gedoemde mensen die"
+	line "in ijzige bergen zijn verdwaald."
 	done
 
 QuickfreezeName: ; 5ccc4 (17:4cc4)
-	text "Quickfreeze"
+	text "Snelvriezen"
 	done
 
 QuickfreezeDescription: ; 5ccd1 (17:4cd1)
-	text "When you put Articuno into play"
-	line "during your turn (not during"
-	line "set-up), Gooi een munt op. Als het kop is, the"
-	line "Defending Pokémon is now Paralyzed."
+	text "Wanneer je Articuno in het spel"
+	line "brengt tijdens je beurt (niet tijdens"
+	line "opzetten van het spel), gooi je een"
+	line "munt op. Als het kop is, is de"
+	line "Verdedigende Pokémon nu Verlamd."
 	done
 
 IceBreathName: ; 5cd57 (17:4d57)
-	text "Ice Breath"
+	text "IJsadem"
 	done
 
 IceBreathDescription: ; 5cd63 (17:4d63)
-	text "Does 40 damage to 1 of your"
-	line "opponent's Pokémon chosen at random."
-	line "Don't apply Weakness and Resistance"
-	line "for this attack. (Any other effects"
-	line "that would happen after applying"
-	line "Weakness and Resistance still"
-	line "happen.)"
+	text "Deze aanval doet 40 schade aan 1 van"
+	line "je tegenstander's Pokémon, op"
+	line "willekeurige wijze gekozen. Pas geen"
+	line "Zwakte en Weerstand toe voor deze"
+	line "aanval. (Alle andere gevolgen"
+	line "die na het toepassen van Zwakte"
+	line "en Weerstand zouden gebeuren"
+	line "blijven gewoon geldig.)"
 	done
 
 Articuno2Description: ; 5ce35 (17:4e35)
-	text "A legendary bird Pokémon. It freezes"
-	line "water that is contained in winter"
-	line "air and makes it snow."
+	text "Een legendarische vogel-Pokémon."
+	line "Hij bevriest water dat in de"
+	line "winterlucht zit en laat het"
+	line "sneeuwen."
 	done
 
 PikachuName: ; 5ce94 (17:4e94)
@@ -867,9 +905,9 @@ ThunderJoltName: ; 5cea3 (17:4ea3)
 	done
 
 ThunderJoltDescription: ; 5ceb1 (17:4eb1)
-	text "Gooi een munt op. Als het munt"
-	line "is, doet Pikachu 10 schade"
-	line "aan zichzelf."
+	text "Gooi een munt op."
+	line "Als het munt is, doet Pikachu"
+	line "10 schade aan zichzelf."
 	done
 
 MouseName: ; 5ceeb (17:4eeb)
@@ -889,17 +927,17 @@ SparkName: ; 5cf47 (17:4f47)
 
 SparkDescription: ; 5cf4e (17:4f4e)
 	text "Als je tegenstander Pokémon op de"
-	line "Bank heeft, kies er daar dan 1 van"
-	line "en deze aanval doet er 10 schade"
-	line "aan. (Pas geen Zwakte en Weerstand"
-	line "toe op de Pokémon op de Bank.)"
+	line "Bank heeft, kies er dan 1 van"
+	line "en deze aanval doet 10 schade"
+	line "aan die Pokémon. (Pas geen Zwakte"
+	line "en Weerstand toe voor Pokémon"
+	line "op de Bank.)"
 	done
 
 Pikachu2Description: ; 5cfeb (17:4feb)
 	text "Als meerdere van deze Pokémon"
-	line "samenkomen, kan hun"
-	line "elektriciteit zich opstapelen"
-	line "en bliksemstormen veroorzaken."
+	line "samenkomen, kan hun energie"
+	line "bliksemstormen veroorzaken."
 	done
 
 GrowlName: ; 5d04a (17:504a)
@@ -909,13 +947,13 @@ GrowlName: ; 5d04a (17:504a)
 GrowlDescription: ; 5d051 (17:5051)
 	text "Als de Verdedigende Pokémon Pikachu"
 	line "aanvalt tijdens je tegenstander's"
-	line "volgende beurt, wordt alle schade"
-	line "die door de aanval wordt gedaan"
+	line "volgende beurt, dan wordt alle"
+	line "schade die de aanval doet"
 	line "verminderd met 10 (na het toepassen"
 	line "van Zwakte en Weerstand)."
 	done
 
-GrowlDescriptionCont: ; Translated text didn't fit so I made this
+GrowlDescriptionCont:
 	text "(Het op de Bank plaatsen van een van"
 	line "beide Pokémon beëindigt dit effect.)"
 	done
@@ -925,10 +963,10 @@ ThundershockName: ; 5d12f (17:512f)
 	done
 
 Pikachu3Description: ; 5d13d (17:513d)
-	text "Als meerdere van deze Pokémon"
-	line "samenkomen, kan hun"
-	line "elektriciteit zich opstapelen"
-	line "en bliksemstormen veroorzaken."
+	text "Hij heeft kleine zakjes in allebei"
+	line "zijn wangen. Als hij wordt bedreigd,"
+	line "schiet hij elektrische ladingen"
+	line "vanuit de zakjes."
 	done
 
 FlyingPikachuName: ; 5d19e (17:519e)
@@ -940,11 +978,12 @@ FlyName: ; 5d1ae (17:51ae)
 	done
 
 FlyDescription: ; 5d1b3 (17:51b3)
-	text "Gooi een munt op. Als het kop is,"
-	line "voorkom dan tijdens je tegenstander's"
-	line "volgende beurt alle gevolgen van"
-	line "aanvallen, inclusief schade,"
-	line "toegebracht aan Vliegende Pikachu;"
+	text "Gooi een munt op."
+	line "Als het kop is, voorkomt deze aanval"
+	line "alle gevolgen van aanvallen,"
+	line "inclusief schade, die aan Vliegende"
+	line "Pikachu worden toegebracht tijdens je"
+	line "tegenstander's volgende beurt;"
 	done
 
 FlyDescriptionCont: ; Translated text didn't fit so I made this
@@ -968,8 +1007,9 @@ SurfName: ; 5d2cc (17:52cc)
 
 SurfingPikachuDescription: ; 5d2d2 (17:52d2)
 	text "Tijdens een zomer werd er een"
-	line "groep Pikachu gespot die de golven"
-	line "bereden bij het lokale strand."
+	line "groep Pikachu gespot die op de"
+	line "golven aan het surfen waren"
+	line "bij het lokale strand."
 	done
 
 RaichuName: ; 5d321 (17:5321)
@@ -977,12 +1017,12 @@ RaichuName: ; 5d321 (17:5321)
 	done
 
 RaichusAgilityDescription: ; 5d329 (17:5329)
-	text "Gooi een munt op. Als het kop is,"
-	line "voorkom dan tijdens je"
-	line "tegenstander's volgende beurt alle"
-	line "gevolgen van aanvallen, inclusief"
-	line "schade, die aan Raichu worden"
-	line "toegebracht."
+	text "Gooi een munt op."
+	line "Als het kop is, voorkomt deze"
+	line "aanval alle gevolgen van aanvallen,"
+	line "inclusief schade, die aan Raichu"
+	line "worden toegebracht tijdens je"
+	line "tegenstander's volgende beurt."
 	done
 
 ThunderName: ; 5d3a5 (17:53a5)
@@ -990,8 +1030,9 @@ ThunderName: ; 5d3a5 (17:53a5)
 	done
 
 RaichusThunderDescription: ; 5d3ae (17:53ae)
-	text "Gooi een munt op. Als het munt is,"
-	line "doet Raichu 30 schade aan zichzelf."
+	text "Gooi een munt op."
+	line "Als het munt is, doet Raichu"
+	line "30 schade aan zichzelf."
 	done
 
 Raichu1Description: ; 5d3e7 (17:53e7)
@@ -1007,12 +1048,16 @@ GigashockName: ; 5d43c (17:543c)
 
 GigashockDescription: ; 5d447 (17:5447)
 	text "Kies 3 van je tegenstander's Pokémon"
-	line "op de Bank en deze aanval doet aan"
-	line "elk van hen 10 schade. (Pas geen"
-	line "Zwakte en Weerstand toe op de Poké-"
-	line "mon op de Bank.) Als je tegenstander"
-	line "minder dan 3 Pokémon op de Bank heeft,"
-	line "doe dan aan elk van deze de schade."
+	line "op de Bank en deze aanval doet 10"
+	line "schade aan elk van die Pokémon."
+	line "(Pas geen Zwakte en Weerstand toe"
+	line "voor Pokémon op de Bank.)"
+	done
+	
+GigashockDescriptionCont:
+	text "Als je tegenstander minder dan 3"
+	line "Pokémon op de Bank heeft, doe dan"
+	line "aan elk van die Pokémon de schade."
 	done
 
 Raichu2Description: ; 5d531 (17:5531)
@@ -1031,11 +1076,12 @@ ThunderWaveName: ; 5d591 (17:5591)
 	done
 
 MagnemitesSelfdestructDescription: ; 5d59f (17:559f)
-	text "Doet 10 schade aan elke Pokémon op"
-	line "de Bank van elke speler. (Pas geen"
-	line "Zwakte en Weerstand toe op de"
-	line "Pokémon op de Bank.) Magnemite"
-	line "doet 40 schade aan zichzelf."
+	text "Deze aanval doet 10 schade aan"
+	line "elke Pokémon op de Bank van elke"
+	line "speler. (Pas geen Zwakte en"
+	line "Weerstand toe voor Pokémon op"
+	line "de Bank.) Magnemite doet"
+	line "40 schade aan zichzelf."
 	done
 
 MagnetName: ; 5d636 (17:5636)
@@ -1073,16 +1119,17 @@ MagnetonName: ; 5d76e (17:576e)
 	done
 
 Magneton1sSelfdestructDescription: ; 5d778 (17:5778)
-	text "Doet 20 schade aan elke Pokémon op"
-	line "de Bank van elke speler. (Pas geen"
-	line "Zwakte en Weerstand toe op de"
-	line "Pokémon op de Bank.) Magneton"
-	line "doet 80 schade aan zichzelf."
+	text "Deze aanval doet 20 schade aan"
+	line "elke Pokémon op de Bank van elke"
+	line "speler. (Pas geen Zwakte en"
+	line "Weerstand toe voor Pokémon op"
+	line "de Bank.) Magneton doet"
+	line "80 schade aan zichzelf."
 	done
 
 Magneton1Description: ; 5d80e (17:580e)
 	text "Wordt gevormd door verschillende"
-	line "met elkaar verbonden Magnemites."
+	line "met elkaar verbonden Magnemite."
 	line "Verschijnt vaak als de"
 	line "zonnevlekken opvlammen."
 	done
@@ -1096,20 +1143,20 @@ SonicboomDescription: ; 5d876 (17:5876)
 	line "voor deze aanval. (Alle andere"
 	line "gevolgen die na het toepassen van"
 	line "Zwakte en Weerstand zouden"
-	line "gebeuren blijven gewoon geldig.))"
+	line "gebeuren blijven gewoon geldig.)"
 	done
 
 Magneton2sSelfdestructDescription: ; 5d907 (17:5907)
-	text "Doet 20 schade aan elke Pokémon op"
-	line "de Bank van elke speler. (Pas geen"
-	line "Zwakte en Weerstand toe op de"
-	line "Pokémon op de Bank.) Magneton"
+	text "Deze aanval doet 20 schade aan elke"
+	line "Pokémon op de Bank van elke speler."
+	line "(Pas geen Zwakte en Weerstand toe"
+	line "voor Pokémon op de Bank.) Magneton"
 	line "doet 100 schade aan zichzelf."
 	done
 
 Magneton2Description: ; 5d99e (17:599e)
 	text "Wordt gevormd door verschillende"
-	line "met elkaar verbonden Magnemites."
+	line "met elkaar verbonden Magnemite."
 	line "Verschijnt vaak als de"
 	line "zonnevlekken opvlammen."
 	done
@@ -1119,13 +1166,14 @@ VoltorbName: ; 5d9fc (17:59fc)
 	done
 
 BallName: ; 5da05 (17:5a05)
-	text "Ball"
+	text "Bal-"
 	done
 
 VoltorbDescription: ; 5da0b (17:5a0b)
-	text "Usually found in power plants."
-	line "Easily mistaken for a Poke Ball, it"
-	line "has zapped many people."
+	text "Vaak te vinden in energiecentrales."
+	line "Doordat hij makkelijk wordt verward"
+	line "met een PokéBal, heeft hij al heel"
+	line "wat mensen stroomschokken gegeven."
 	done
 
 ElectrodeName: ; 5da67 (17:5a67)
@@ -1133,39 +1181,41 @@ ElectrodeName: ; 5da67 (17:5a67)
 	done
 
 EnergySpikeName: ; 5da72 (17:5a72)
-	text "Energy Spike"
+	text "Energiepiek"
 	done
 
 EnergySpikeDescription: ; 5da80 (17:5a80)
-	text "Search your deck for a basic Energy"
-	line "card and attach it to 1 of your"
-	line "Pokémon. Shuffle your deck"
-	line "afterward."
+	text "Zoek in je deck naar een"
+	line "Basis-Energiekaart en hecht hem"
+	line "aan 1 van je Pokémon. Schud"
+	line "hierna je deck."
 	done
 
 Electrode1Description: ; 5daeb (17:5aeb)
-	text "Stores electrical energy inside its"
-	line "body. Even the slightest shock could"
-	line "trigger a huge explosion."
+	text "Hij slaat elektrische energie op in"
+	line "zijn lichaam. Zelfs de kleinste"
+	line "schok zou een explosie af kunnen"
+	line "laten gaan."
 	done
 
 ChainLightningName: ; 5db4f (17:5b4f)
-	text "Chain Lightning"
+	text "Kettingbliksem"
 	done
 
 ChainLightningDescription: ; 5db60 (17:5b60)
-	text "If the Defending Pokémon isn't"
-	line "Colorless, this attack does 10"
-	line "damage to each Benched Pokémon of"
-	line "the same type as the Defending"
-	line "Pokémon (including your own)."
+	text "Als de Verdedigende Pokémon niet"
+	line "<COLORLESS> is, doet deze aanval 10"
+	line "schade aan elke Pokémon op de"
+	line "Bank van hetzelfde type als de"
+	line "Verdedigende Pokémon (inclusief"
+	line "die van jezelf)."
 	done
 
 Electrode2Description: ; 5dbfe (17:5bfe)
-	text "It stores electrical energy under"
-	line "very high pressure. It often"
-	line "explodes with little or no"
-	line "provocation."
+	text "Hij slaat elektrische energie"
+	line "op onder erg hoge druk. Vaak"
+	line "explodeert hij bij het minste"
+	line "of geringste."
 	done
 
 ElectabuzzName: ; 5dc66 (17:5c66)
@@ -1177,12 +1227,12 @@ LightScreenName: ; 5dc72 (17:5c72)
 	done
 
 LightScreenDescription: ; 5dc80 (17:5c80)
-	text "Wanneer een aanval tijdens je"
-	line "tegenstander's volgende beurt schade"
-	line "doet aan Electabuzz (na het"
-	line "toepassen van Zwakte en Weerstand),"
-	line "doet die aanval slechts de helft"
-	line "van de schade aan Electabuzz"
+	text "Wanneer een aanval schade doet aan"
+	line "Electabuzz tijdens je tegenstander's"
+	line "volgende beurt (na het toepassen van"
+	line "van Zwakte en Weerstand), doet die"
+	line "aanval slechts de helft van de"
+	line "schade aan Electabuzz"
 	done
 
 LightScreenDescriptionCont: ; 5dd4f (17:5d4f)
@@ -1193,10 +1243,11 @@ LightScreenDescriptionCont: ; 5dd4f (17:5d4f)
 	done
 
 ElectabuzzsQuickAttackDescription: ; 5dd7d (17:5d7d)
-	text "Gooi een munt op. Als het kop is,"
-	line "doet deze aanval 10 schade plus"
-	line "nog eens 20 schade; als het munt"
-	line "is, doet deze aanval 10 schade."
+	text "Gooi een munt op."
+	line "Als het kop is, doet deze aanval"
+	line "10 schade plus nog eens 20 schade;"
+	line "als het munt is, doet deze"
+	line "aanval 10 schade."
 	done
 
 ElectricName: ; 5ddec (17:5dec)
@@ -1217,7 +1268,7 @@ ThunderpunchName: ; 5de55 (17:5e55)
 ThunderpunchDescription: ; 5de63 (17:5e63)
 	text "Gooi een munt op. Als het kop is,"
 	line "doet deze aanval 30 schade plus nog"
-	line "eens 10 schade. Als het munt is,"
+	line "eens 10 schade; als het munt is,"
 	line "doet deze aanval 30 schade en"
 	line "doet Electabuzz 10 schade aan"
 	line "zichzelf."
@@ -1235,35 +1286,37 @@ JolteonName: ; 5df54 (17:5f54)
 	done
 
 DoubleAttackX20Description: ; 5df5d (17:5f5d)
-	text "Flip 2 coins. This attack does 20"
-	line "damage times the number of heads."
-	done
-
-StunNeedleName: ; 5dfa2 (17:5fa2)
-	text "Stun Needle"
-	done
-
-LightningName: ; 5dfaf (17:5faf)
-	text "Lightning"
-	done
-
-Jolteon1Description: ; 5dfba (17:5fba)
-	text "A sensitive Pokémon that easily"
-	line "becomes sad or angry. Every time"
-	line "its mood changes, it charges power."
-	done
-
-PinMissileName: ; 5e020 (17:6020)
-	text "Pin Missile"
-	done
-
-QuadrupleAttackX20Description: ; 5e02d (17:602d)
-	text "Gooi 4 munten op. Deze aanval doet"
+	text "Gooi 2 munten op. Deze aanval doet"
 	line "20 schade maal het aantal keren kop."
 	done
 
+StunNeedleName: ; 5dfa2 (17:5fa2)
+	text "Verdoofnaald"
+	done
+
+LightningName: ; 5dfaf (17:5faf)
+	text "Bliksem-"
+	done
+
+Jolteon1Description: ; 5dfba (17:5fba)
+	text "Een gevoelige Pokémon die makkelijk"
+	line "verdrietig of boos kan worden. Elke"
+	line "keer als zijn stemming verandert,"
+	line "laadt hij energie op."
+	done
+
+PinMissileName: ; 5e020 (17:6020)
+	text "Naaldraket"
+	done
+
+QuadrupleAttackX20Description: ; 5e02d (17:602d)
+	text "Gooi 4 munten op."
+	line "Deze aanval doet 20 schade maal"
+	line "het aantal keren kop."
+	done
+
 Jolteon2Description: ; 5e072 (17:6072)
-	text "It accumulates negative ions from"
-	line "the atmosphere to blast out 10,000-"
-	line "volt lightning bolts."
+	text "Hij verzamelt negatieve ionen uit"
+	line "de atmosfeer om bliksemschichten"
+	line "van 10.000 volt af te vuren."
 	done

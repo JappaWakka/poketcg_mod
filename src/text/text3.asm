@@ -994,7 +994,7 @@ Text0314: ; 3dbc5 (f:5bc5)
 Text0315: ; 3dcb2 (f:5cb2)
 	text "Energiekaarten zijn kaarten die"
 	line "je Pokémon de kracht geven om"
-	line "Aan te Vallen."
+	line "aan te vallen."
 	line "Er zijn 7 typen Energiekaarten:"
 	line "[<GRASS> Gras] [<FIRE> Vuur]"
 	line "[<WATER> Water] [<LIGHTNING> Bliksem]"

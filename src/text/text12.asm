@@ -8,11 +8,15 @@ ThunderstormName: ; 5e0d7 (17:60d7)
 
 ThunderstormDescription: ; 5e0e5 (17:60e5)
 	text "Gooi voor elk van je tegenstander's"
-	line "Pokémon een munt op. Als het kop is,"
-	line "doet deze aanval 20 schade aan die"
-	line "Pokémon. (Pas geen Zwakte en Weer-"
-	line "stand toe op de Pokémon op de Bank.)"
-	line "Daarna doet Zapdos 10 schade aan"
+	line "Pokémon op de Bank een munt op."
+	line "Als het kop is, doet deze aanval"
+	line "20 schade aan die Pokémon."
+	line "(Pas geen Zwakte en Weerstand toe"
+	line "voor Pokémon op de Bank.)"
+	done
+	
+ThunderstormDescriptionCont:
+	text "Daarna doet Zapdos 10 schade aan"
 	line "zichzelf maal het aantal keren munt."
 	done
 
@@ -24,8 +28,9 @@ Zapdos1Description: ; 5e1d2 (17:61d2)
 	done
 
 ZapdosThunderDescription: ; 5e257 (17:6257)
-	text "Gooi een munt op. Als het munt is,"
-	line "doet Zapdos 30 schade aan zichzelf."
+	text "Gooi een munt op."
+	line "Als het munt is, doet Zapdos 30"
+	line "schade aan zichzelf."
 	done
 
 ThunderboltName: ; 5e290 (17:6290)
@@ -35,14 +40,14 @@ ThunderboltName: ; 5e290 (17:6290)
 ThunderboltDescription: ; 5e29d (17:629d)
 	text "Om deze aanval te kunnen gebruiken,"
 	line "moet je alle aan Zapdos gehechte"
-	line "<LIGHTNING> Energiekaarten weggooien."
+	line "Energiekaarten weggooien."
 	done
 
 Zapdos2Description: ; 5e2e7 (17:62e7)
-	text "Een legendarische Vogel-Pokémon waar-"
+	text "Een legendarische vogel-Pokémon waar-"
 	line "van wordt gezegd dat hij uit de wolken"
 	line "tevoorschijn komt en tegelijkertijd"
-	line "bliksemschichten rondslingert."
+	line "enorme bliksemschichten rondslingert."
 	done
 
 PealOfThunderName: ; 5e345 (17:6345)
@@ -66,10 +71,10 @@ BigThunderDescription: ; 5e40d (17:640d)
 	text "Kies op willekeurige wijze een Pokémon,"
 	line "anders dan Zapdos. Deze aanval doet 70"
 	line "schade aan die Pokémon. Pas geen Zwakte"
-	line "en Weerstand toe op deze aanval. (Alle"
-	line "andere gevolgen die na het toepassen"
-	line "van Zwakte en Weerstand zouden gebeuren"
-	line "blijven gewoon geldig.)"
+	line "en Weerstand toe voor deze aanval."
+	line "(Alle andere gevolgen die na het"
+	line "toepassen van Zwakte en Weerstand zouden"
+	line "gebeuren blijven gewoon geldig.)"
 	done
 
 Zapdos3Description: ; 5e4f8 (17:64f8)
@@ -99,14 +104,16 @@ SandslashName: ; 5e5d1 (17:65d1)
 	done
 
 TripleAttackX20Description: ; 5e5dc (17:65dc)
-	text "Flip 3 coins. This attack does 20"
-	line "damage times the number of heads."
+	text "Gooi 3 munten op."
+	line "Deze aanval doet 20 schade maal"
+	line "het aantal keren kop."
 	done
 
 SandslashDescription: ; 5e621 (17:6621)
-	text "Curls up into a spiny ball when"
-	line "threatened. It can roll while curled"
-	line "up to attack or escape."
+	text "Rolt zich op tot een stekelige bal"
+	line "als hij bedreigd wordt. Terwijl hij"
+	line "opgerold is kan hij zich voortrollen"
+	line "om aan te vallen of te ontsnappen."
 	done
 
 DiglettName: ; 5e67f (17:667f)
@@ -141,10 +148,10 @@ EarthquakeName: ; 5e70d (17:670d)
 	done
 
 EarthquakeDescription: ; 5e719 (17:6719)
-	text "Doet 10 schade aan elke Pokémon"
-	line "op je Bank. (Pas geen Zwakte"
-	line "en Weerstand toe op de Pokémon"
-	line "op de Bank.)"
+	text "Deze aanval doet 10 schade aan elk"
+	line "van de Pokémon op je Bank. (Pas"
+	line "geen Zwakte en Weerstand toe voor"
+	line "Pokémon op de Bank.)"
 	done
 
 DugtrioDescription: ; 5e789 (17:6789)
@@ -159,31 +166,32 @@ MankeyName: ; 5e7e6 (17:67e6)
 	done
 
 PeekName: ; 5e7ee (17:67ee)
-	text "Peek"
+	text "Kijkje"
 	done
 
 PeekDescription: ; 5e7f4 (17:67f4)
-	text "Once during your turn (before your"
-	line "attack), you may look at one of the"
-	line "following: the top card of either"
-	line "player's deck, a random card from"
-	line "your opponent's hand, or one of"
-	line "either player's Prizes."
+	text "Eenmaal tijdens je beurt (vóór je"
+	line "aanval) mag je naar één van de volgende"
+	line "kijken: de bovenste kaart van het deck"
+	line "van een speler, een willekeurige kaart"
+	line "in de hand van je tegenstander, of één"
+	line "van de Prijskaarten van een speler."
 	done
 
 PeekDescriptionCont: ; 5e8b8 (17:68b8)
-	text "Deze kracht kan niet worden gebruikt Mankey"
-	line "is Asleep, Confused, or Paralyzed."
+	text "Deze kracht kan niet worden gebruikt"
+	line "als Mankey In Slaap, Verward,"
+	line "of Verlamd is."
 	done
 
 PigMonkeyName: ; 5e8ff (17:68ff)
-	text "Pig Monkey"
+	text "Varkensaap-"
 	done
 
 MankeyDescription: ; 5e90b (17:690b)
-	text "Extremely quick to anger. It could"
-	line "be docile one moment, then thrashing"
-	line "away the next."
+	text "Wordt erg gauw kwaad. Hij kan op het"
+	line "ene moment heel volgzaam zijn en het"
+	line "volgende moment enorm tekeer gaan."
 	done
 
 PrimeapeName: ; 5e963 (17:6963)
@@ -191,19 +199,21 @@ PrimeapeName: ; 5e963 (17:6963)
 	done
 
 TantrumName: ; 5e96d (17:696d)
-	text "Tantrum"
+	text "Driftbui"
 	done
 
 TantrumDescription: ; 5e976 (17:6976)
-	text "Gooi een munt op. If tails, Primeape is"
-	line "now Confused (after doing damage)."
+	text "Gooi een munt op."
+	line "Als het munt is, is Primeape"
+	line "nu Verward (nadat de schade"
+	line "is gedaan)."
 	done
 
 PrimeapeDescription: ; 5e9bd (17:69bd)
-	text "Always furious and tenacious to"
-	line "boot. It will not abandon chasing"
-	line "its quarry until its quarry is"
-	line "caught."
+	text "Altijd razend en vasthoudend op"
+	line "de koop toe. Hij geeft de jacht"
+	line "op zijn prooi niet op totdat"
+	line "zijn prooi is gevangen."
 	done
 
 MachopName: ; 5ea27 (17:6a27)
@@ -234,8 +244,9 @@ KarateChopName: ; 5eaac (17:6aac)
 	done
 
 KarateChopDescription: ; 5eab9 (17:6ab9)
-	text "Doet 50 schade min 10 schade"
-	line "voor elke schadeteller op Machoke."
+	text "Deze aanval doet 50 schade min"
+	line "10 schade voor elke schadeteller"
+	line "op Machoke."
 	done
 
 SubmissionName: ; 5eafd (17:6afd)
@@ -267,7 +278,7 @@ StrikesBackDescription: ; 5eba7 (17:6ba7)
 	line "tegenstander schade doet aan"
 	line "Machamp (zelfs als Machamp wordt"
 	line "Uitgeschakeld), doet deze kracht"
-	line "10 schade aan de aanvallende"
+	line "10 schade aan de Aanvallende"
 	line "Pokémon. (Pas geen Zwakte en"
 	line "Weerstand toe.)"
 	done
@@ -299,10 +310,10 @@ StoneBarrageName: ; 5ed41 (17:6d41)
 	done
 
 StoneBarrageDescription: ; 5ed50 (17:6d50)
-	text "Gooi een munt op totdat je munt"
-	line "gooit. Deze aanval doet 10"
-	line "schade maal het aantal"
-	line "keren kop."
+	text "Gooi een munt op totdat je"
+	line "munt gooit."
+	line "Deze aanval doet 10 schade"
+	line "maal het aantal keren kop."
 	done
 
 RockName: ; 5eda8 (17:6da8)
@@ -313,7 +324,7 @@ GeodudeDescription: ; 5edae (17:6dae)
 	text "Te vinden in velden en bergen."
 	line "Omdat mensen ze vaak aanzien voor"
 	line "rotsblokken, stappen ze er vaak"
-	line "bovenop of vallen ze erover."
+	line "bovenop of struikelen ze erover."
 	done
 
 GravelerName: ; 5ee0e (17:6e0e)
@@ -321,26 +332,28 @@ GravelerName: ; 5ee0e (17:6e0e)
 	done
 
 HardenName: ; 5ee18 (17:6e18)
-	text "Harden"
+	text "Verharding"
 	done
 
 GravelersHardenDescription: ; 5ee20 (17:6e20)
-	text "During your opponent's next turn,"
-	line "whenever 30 or less damage is done"
-	line "to Graveler (after applying"
-	line "Weakness and Resistance), prevent"
-	line "that damage. (Any other effects of"
-	line "attacks still happen.)"
+	text "Telkens wanneer er 30 of minder"
+	line "schade wordt gedaan aan Graveler"
+	line "tijdens je tegenstander's volgende"
+	line "(na het toepassen van Zwakte en"
+	line "Weerstand), voorkomt deze aanval die"
+	line "schade. (Alle andere gevolgen van"
+	line "aanvallen blijven gewoon geldig.)"
 	done
 
 RockThrowName: ; 5eede (17:6ede)
-	text "Rock Throw"
+	text "Steenworp"
 	done
 
 GravelerDescription: ; 5eeea (17:6eea)
-	text "Rolls down slopes to move. It rolls"
-	line "over any obstacle without slowing"
-	line "or changing its direction."
+	text "Rolt van hellingen af om vooruit te"
+	line "komen. Hij rolt over elk obstakel"
+	line "zonder dat hij wordt vertraagd of"
+	line "of van richting verandert."
 	done
 
 GolemName: ; 5ef4c (17:6f4c)
@@ -348,25 +361,26 @@ GolemName: ; 5ef4c (17:6f4c)
 	done
 
 AvalancheName: ; 5ef53 (17:6f53)
-	text "Avalanche"
+	text "Lawine"
 	done
 
 GolemsSelfdestructDescription: ; 5ef5e (17:6f5e)
-	text "Does 20 damage to each Pokémon on"
-	line "each player's Bench. (Don't apply"
-	line "Weakness and Resistance for Benched"
-	line "Pokémon.) Golem does 100 damage to"
-	line "itself."
+	text "Deze aanval doet 20 schade aan elke"
+	line "Pokémon op de Bank van elke speler."
+	line "(Pas geen Zwakte en Weerstand toe"
+	line "voor Pokémon op de Bank.) Golem doet"
+	line "100 schade aan zichzelf."
 	done
 
 MegatonName: ; 5eff2 (17:6ff2)
-	text "Megaton"
+	text "Megaton-"
 	done
 
 GolemDescription: ; 5effb (17:6ffb)
-	text "Its boulder-like body is extremely"
-	line "hard. It can easily withstand"
-	line "dynamite blasts without damage."
+	text "Zijn lichaam lijkt op een rotsblok en"
+	line "is bijzonder hard. Hij kan makkelijk"
+	line "tegen een ontploffing van dynamiet"
+	line "zonder daarvan schade te ondervinden."
 	done
 
 OnixName: ; 5f05d (17:705d)
@@ -374,22 +388,24 @@ OnixName: ; 5f05d (17:705d)
 	done
 
 OnixsHardenDescription: ; 5f063 (17:7063)
-	text "During your opponent's next turn,"
-	line "whenever 30 or less damage is done"
-	line "to Onix (after applying Weakness and"
-	line "Resistance), prevent that damage."
-	line "(Any other effects of attacks still"
-	line "happen.)"
+	text "Telkens wanneer er 30 of minder"
+	line "schade wordt gedaan aan Onix"
+	line "tijdens je tegenstander's volgende"
+	line "(na het toepassen van Zwakte en"
+	line "Weerstand), voorkomt deze aanval die"
+	line "schade. (Alle andere gevolgen van"
+	line "aanvallen blijven gewoon geldig.)"
 	done
 
 RockSnakeName: ; 5f11d (17:711d)
-	text "Rock Snake"
+	text "Rotsslang-"
 	done
 
 OnixDescription: ; 5f129 (17:7129)
-	text "As it grows, the stone portions of"
-	line "its body harden to become similar"
-	line "to a diamond, though colored black."
+	text "Naarmate hij groeit, worden de stenen"
+	line "van zijn lijf harder tot zij op een"
+	line "diamant lijken, maar dan zwart"
+	line "van kleur."
 	done
 
 CuboneName: ; 5f193 (17:7193)
@@ -906,10 +922,6 @@ HaunterDescription: ; 6080c (18:480c)
 	line "dimensie komt."
 	done
 
-HypnosisAttackName: ; 597bc (16:57bc)
-	text "Hypnose"
-	done
-
 DreamEaterName: ; 6086a (18:486a)
 	text "Droometer"
 	done
@@ -964,6 +976,10 @@ GengarDescription: ; 60a67 (18:4a67)
 
 DrowzeeName: ; 60ac8 (18:4ac8)
 	text "Drowzee"
+	done
+
+HypnosisName:
+	text "Hypnose-"
 	done
 
 PoundName: ; 60ad1 (18:4ad1)

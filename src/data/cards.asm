@@ -1725,7 +1725,7 @@ VictreebelCard: ; 31585 (c:5585)
 
 	; move 1
 	energy GRASS, 1 ; energies
-	tx LureName ; name
+	tx VictreebelsLureName ; name
 	tx VictreebelsLureDescription ; description
 	dw NONE ; description (cont)
 	db 0 ; damage
@@ -2490,7 +2490,7 @@ Ninetales1Card: ; 31954 (c:5954)
 
 	; move 1
 	energy COLORLESS, 2 ; energies
-	tx LureName ; name
+	tx NinetalesLureName ; name
 	tx NinetalesLureDescription ; description
 	dw NONE ; description (cont)
 	db 0 ; damage
@@ -3563,7 +3563,7 @@ TentacoolCard: ; 31ea9 (c:5ea9)
 	energy 0 ; energies
 	tx CowardiceName ; name
 	tx CowardiceDescription ; description
-	dw NONE ; description (cont)
+	tx CowardiceDescriptionCont ; description (cont)
 	db 0 ; damage
 	db POKEMON_POWER ; category
 	dw TentacoolCowardiceEffectCommands ; effect commands
@@ -4648,7 +4648,7 @@ Articuno1Card: ; 323fe (c:63fe)
 	energy WATER, 4 ; energies
 	tx BlizzardName ; name
 	tx BlizzardDescription ; description
-	dw NONE ; description (cont)
+	tx BlizzardDescriptionCont ; description (cont)
 	db 50 ; damage
 	db DAMAGE_NORMAL ; category
 	dw ArticunoBlizzardEffectCommands ; effect commands
@@ -5144,7 +5144,7 @@ Raichu2Card: ; 32688 (c:6688)
 	energy LIGHTNING, 4 ; energies
 	tx GigashockName ; name
 	tx GigashockDescription ; description
-	dw NONE ; description (cont)
+	tx GigashockDescriptionCont ; description (cont)
 	db 30 ; damage
 	db DAMAGE_NORMAL ; category
 	dw RaichuGigashockEffectCommands ; effect commands
@@ -5756,7 +5756,7 @@ Zapdos1Card: ; 32994 (c:6994)
 	energy LIGHTNING, 4 ; energies
 	tx ThunderstormName ; name
 	tx ThunderstormDescription ; description
-	dw NONE ; description (cont)
+	tx ThunderstormDescriptionCont ; description (cont)
 	db 40 ; damage
 	db DAMAGE_NORMAL ; category
 	dw ZapdosThunderstormEffectCommands ; effect commands

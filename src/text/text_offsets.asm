@@ -2208,7 +2208,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer FlycatcherName                           ; 0x089b
 	textpointer WeepinbellDescription                    ; 0x089c
 	textpointer VictreebelName                           ; 0x089d
-	textpointer LureName                                 ; 0x089e
+	textpointer VictreebelsLureName                      ; 0x089e
 	textpointer VictreebelsLureDescription               ; 0x089f
 	textpointer AcidName                                 ; 0x08a0
 	textpointer VictreebelsAcidDescription               ; 0x08a1
@@ -2282,6 +2282,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer FoxName                                  ; 0x08e5
 	textpointer VulpixDescription                        ; 0x08e6
 	textpointer NinetalesName                            ; 0x08e7
+	textpointer NinetalesLureName                        ; Translated name didn't fit ninetales
 	textpointer NinetalesLureDescription                 ; 0x08e8
 	textpointer FireBlastName                            ; 0x08e9
 	textpointer FireBlastDescription                     ; 0x08ea
@@ -2387,6 +2388,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer TentacoolName                            ; 0x094e
 	textpointer CowardiceName                            ; 0x094f
 	textpointer CowardiceDescription                     ; 0x0950
+	textpointer CowardiceDescriptionCont				 ; Translated text didn't fit so I made this
 	textpointer JellyfishName                            ; 0x0951
 	textpointer TentacoolDescription                     ; 0x0952
 	textpointer TentacruelName                           ; 0x0953
@@ -2480,6 +2482,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer FreezeDryName                            ; 0x09ab
 	textpointer BlizzardName                             ; 0x09ac
 	textpointer BlizzardDescription                      ; 0x09ad
+	textpointer BlizzardDescriptionCont                  ; Translated text didn't fit so I made this
 	textpointer FreezeName                               ; 0x09ae
 	textpointer Articuno1Description                     ; 0x09af
 	textpointer QuickfreezeName                          ; 0x09b0
@@ -2516,6 +2519,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer Raichu1Description                       ; 0x09cd
 	textpointer GigashockName                            ; 0x09ce
 	textpointer GigashockDescription                     ; 0x09cf
+	textpointer GigashockDescriptionCont				 ; Translated text didn't fit so I made this
 	textpointer Raichu2Description                       ; 0x09d0
 	textpointer MagnemiteName                            ; 0x09d1
 	textpointer ThunderWaveName                          ; 0x09d2
@@ -2563,6 +2567,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer ZapdosName                               ; 0x09fc
 	textpointer ThunderstormName                         ; 0x09fd
 	textpointer ThunderstormDescription                  ; 0x09fe
+	textpointer ThunderstormDescriptionCont              ; Translated text didn't fit so I made this
 	textpointer Zapdos1Description                       ; 0x09ff
 	textpointer ZapdosThunderDescription                 ; 0x0a00
 	textpointer ThunderboltName                          ; 0x0a01
