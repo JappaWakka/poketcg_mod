@@ -1,3 +1,112 @@
+RapidashName: ; 5a846 (16:6846)
+	text "Rapidash"
+	done
+
+StompName: ; 5a850 (16:6850)
+	text "Stomp"
+	done
+
+StompDescription: ; 5a857 (16:6857)
+	text "Gooi een munt op."
+	line "Als het kop is, doet deze aanval"
+	line "20 schade plus nog eens 10"
+	line "schade; als het munt is,"
+	line "doet deze aanval 20 schade."
+	done
+
+AgilityName: ; 5a8c5 (16:68c5)
+	text "Behendigheid"
+	done
+
+RapidashsAgilityDescription: ; 5a8ce (16:68ce)
+	text "Gooi een munt op."
+	line "Als het kop is, voorkomt deze"
+	line "aanval alle gevolgen van aanvallen,"
+	line "inclusief schade, die aan Rapidash"
+	line "worden toegebracht tijdens je"
+	line "tegenstander's volgende beurt."
+	done
+
+RapidashDescription: ; 5a94c (16:694c)
+	text "Omdat hij erg competitief is zal"
+	line "deze Pokémon alles najagen wat"
+	line "snel loopt in de hoop ertegen"
+	line "te kunnen racen."
+	done
+
+MagmarName: ; 5a9ab (16:69ab)
+	text "Magmar"
+	done
+
+FirePunchName: ; 5a9b3 (16:69b3)
+	text "Vuurslag"
+	done
+
+FirePunchDescription: ; 5a9bf (16:69bf)
+	text "Om deze aanval te kunnen gebruiken,"
+	line "moet je 1 aan Magmar gehechte <FIRE>"
+	line "Energiekaart weggooien."
+	done
+
+SpitfireName: ; 5aa09 (16:6a09)
+	text "Vuurspuwende"
+	done
+
+Magmar1Description: ; 5aa13 (16:6a13)
+	text "Zijn lijft gloeit altijd met een"
+	line "oranje gloed waardoor hij zich"
+	line "uitstekend tussen de vlammen"
+	line "kan verbergen."
+	done
+
+SmokescreenName: ; 5aa6e (16:6a6e)
+	text "Rookgordijn"
+	done
+
+MagmarsSmokescreenDescription: ; 5aa7b (16:6a7b)
+	text "Als de Verdedigende Pokémon probeert"
+	line "aan te vallen tijdens je tegen-"
+	line "stander's volgende beurt, gooit"
+	line "je tegenstander een munt op. Als het"
+	line "munt is, doet die aanval niets."
+	done
+
+Magmar2Description: ; 5ab07 (16:6b07)
+	text "Te vinden bij de monden van vulkanen"
+	line "en erg moeilijk in het vizier te"
+	line "krijgen. Deze Pokémon is maar in"
+	line "weinig gevallen gevangen."
+	done
+
+EeveeName: ; 5ab86 (16:6b86)
+	text "Eevee"
+	done
+
+TailWagName: ; 62d8a (18:6d8a)
+	text "Kwispel"
+	done
+
+TailWagDescription: ; 62d94 (18:6d94)
+	text "Gooi een munt op. Als het kop is,"
+	line "kan de Verdedigende Pokémon Eevee"
+	line "niet aanvallen tijdens je"
+	line "tegenstander's volgende beurt."
+	line "(Het op de Bank plaatsen of evolueren"
+	line "van een van beide Pokémon beëindigt"
+	line "dit effect.)"
+	done
+
+EvolutionName: ; 62e2f (18:6e2f)
+	text "Evolutie-"
+	done
+
+EeveeDescription: ; 62e3a (18:6e3a)
+	text "Zijn genetische code is onregel-"
+	line "matig. Hij zou kunnen muteren als"
+	line "hij wordt blootgesteld aan"
+	line "elementaire gesteenten."
+	done
+
 FlareonName: ; 5ab7d (16:6b7d)
 	text "Flareon"
 	done
@@ -1196,127 +1305,4 @@ Electrode1Description: ; 5daeb (17:5aeb)
 	line "zijn lichaam. Zelfs de kleinste"
 	line "schok zou een explosie af kunnen"
 	line "laten gaan."
-	done
-
-ChainLightningName: ; 5db4f (17:5b4f)
-	text "Kettingbliksem"
-	done
-
-ChainLightningDescription: ; 5db60 (17:5b60)
-	text "Als de Verdedigende Pokémon niet"
-	line "<COLORLESS> is, doet deze aanval 10"
-	line "schade aan elke Pokémon op de"
-	line "Bank van hetzelfde type als de"
-	line "Verdedigende Pokémon (inclusief"
-	line "die van jezelf)."
-	done
-
-Electrode2Description: ; 5dbfe (17:5bfe)
-	text "Hij slaat elektrische energie"
-	line "op onder erg hoge druk. Vaak"
-	line "explodeert hij bij het minste"
-	line "of geringste."
-	done
-
-ElectabuzzName: ; 5dc66 (17:5c66)
-	text "Electabuzz"
-	done
-
-LightScreenName: ; 5dc72 (17:5c72)
-	text "Lichtscherm"
-	done
-
-LightScreenDescription: ; 5dc80 (17:5c80)
-	text "Wanneer een aanval schade doet aan"
-	line "Electabuzz tijdens je tegenstander's"
-	line "volgende beurt (na het toepassen van"
-	line "van Zwakte en Weerstand), doet die"
-	line "aanval slechts de helft van de"
-	line "schade aan Electabuzz"
-	done
-
-LightScreenDescriptionCont: ; 5dd4f (17:5d4f)
-	text "(naar beneden afgerond naar de"
-	line "dichtstbijzijnde 10). (Alle"
-	line "andere gevolgen van aanvallen"
-	line "blijven gewoon geldig.)"
-	done
-
-ElectabuzzsQuickAttackDescription: ; 5dd7d (17:5d7d)
-	text "Gooi een munt op."
-	line "Als het kop is, doet deze aanval"
-	line "10 schade plus nog eens 20 schade;"
-	line "als het munt is, doet deze"
-	line "aanval 10 schade."
-	done
-
-ElectricName: ; 5ddec (17:5dec)
-	text "Elektrische"
-	done
-
-Electabuzz1Description: ; 5ddf6 (17:5df6)
-	text "Een wilde Pokémon met een kort"
-	line "lontje. Hij kan kleuren"
-	line "onderscheiden en hij vindt de"
-	line "kleur rood leuk."
-	done
-
-ThunderpunchName: ; 5de55 (17:5e55)
-	text "Donderslag"
-	done
-
-ThunderpunchDescription: ; 5de63 (17:5e63)
-	text "Gooi een munt op. Als het kop is,"
-	line "doet deze aanval 30 schade plus nog"
-	line "eens 10 schade; als het munt is,"
-	line "doet deze aanval 30 schade en"
-	line "doet Electabuzz 10 schade aan"
-	line "zichzelf."
-	done
-
-Electabuzz2Description: ; 5def9 (17:5ef9)
-	text "Hoewel hij gewoonlijk te vinden is"
-	line "in de buurt van energiecentrales,"
-	line "kan hij afdwalen en enorme stroom-"
-	line "storingen veroorzaken in steden."
-	done
-
-JolteonName: ; 5df54 (17:5f54)
-	text "Jolteon"
-	done
-
-DoubleAttackX20Description: ; 5df5d (17:5f5d)
-	text "Gooi 2 munten op. Deze aanval doet"
-	line "20 schade maal het aantal keren kop."
-	done
-
-StunNeedleName: ; 5dfa2 (17:5fa2)
-	text "Verdoofnaald"
-	done
-
-LightningName: ; 5dfaf (17:5faf)
-	text "Bliksem-"
-	done
-
-Jolteon1Description: ; 5dfba (17:5fba)
-	text "Een gevoelige Pokémon die makkelijk"
-	line "verdrietig of boos kan worden. Elke"
-	line "keer als zijn stemming verandert,"
-	line "laadt hij energie op."
-	done
-
-PinMissileName: ; 5e020 (17:6020)
-	text "Naaldraket"
-	done
-
-QuadrupleAttackX20Description: ; 5e02d (17:602d)
-	text "Gooi 4 munten op."
-	line "Deze aanval doet 20 schade maal"
-	line "het aantal keren kop."
-	done
-
-Jolteon2Description: ; 5e072 (17:6072)
-	text "Hij verzamelt negatieve ionen uit"
-	line "de atmosfeer om bliksemschichten"
-	line "van 10.000 volt af te vuren."
 	done

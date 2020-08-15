@@ -1,3 +1,156 @@
+PidgeyName: ; 61442 (18:5442)
+	text "Pidgey"
+	done
+
+TinyBirdName: ; 6144a (18:544a)
+	text "Tiny Bird"
+	done
+
+PidgeyDescription: ; 61455 (18:5455)
+	text "A common sight in forests and woods."
+	line "It flaps its wings at ground level"
+	line "to kick up blinding sand."
+	done
+
+PidgeottoName: ; 614b8 (18:54b8)
+	text "Pidgeotto"
+	done
+
+MirrorMoveName: ; 614c3 (18:54c3)
+	text "Spiegelaanval"
+	done
+
+PidgeottosMirrorMoveDescription: ; 614d0 (18:54d0)
+	text "If Pidgeotto was attacked last turn,"
+	line "do the final result of that attack"
+	line "on Pidgeotto to the Defending"
+	line "Pokémon."
+	done
+
+BirdName: ; 61540 (18:5540)
+	text "Bird"
+	done
+
+PidgeottoDescription: ; 61546 (18:5546)
+	text "Very protective of its sprawling"
+	line "territory, this Pokémon will"
+	line "fiercely peck at any intruder."
+	done
+
+PidgeotName: ; 615a4 (18:55a4)
+	text "Pidgeot"
+	done
+
+SlicingWindName: ; 615ad (18:55ad)
+	text "Slicing Wind"
+	done
+
+SlicingWildDescription: ; 615bb (18:55bb)
+	text "Does 30 damage to 1 of your"
+	line "opponent's Pokémon chosen at random."
+	line "Don't apply Weakness and Resistance"
+	line "for this attack. (Any other effects"
+	line "that would happen after applying"
+	line "Weakness and Resistance still"
+	line "happen.)"
+	done
+
+GaleName: ; 6168d (18:568d)
+	text "Gale"
+	done
+
+GaleDescription: ; 61693 (18:5693)
+	text "Switch Pidgeot with 1 of your"
+	line "Benched Pokémon chosen at random."
+	line "If your opponent has any Benched"
+	line "Pokémon, switch the Defending"
+	line "Pokémon with 1 of them chosen at"
+	line "random. (Do the damage before"
+	line "switching the Pokémon.)"
+	done
+
+Pidgeot1Description: ; 6176a (18:576a)
+	text "This Pokémon flies at Mach 2 speed,"
+	line "seeking prey. Its large talons are"
+	line "feared as wicked weapons."
+	done
+
+HurricaneName: ; 617cc (18:57cc)
+	text "Hurricane"
+	done
+
+HurricaneDescription: ; 617d7 (18:57d7)
+	text "Unless this attack Knocks Out the"
+	line "Defending Pokémon, return the"
+	line "Defending Pokémon and all cards"
+	line "attached to it to your opponent's"
+	line "hand."
+	done
+
+Pidgeot2Description: ; 61860 (18:5860)
+	text "When hunting, it skims the surface"
+	line "of water at high speed to pick off"
+	line "unwary prey such as Magikarp."
+	done
+
+RattataName: ; 618c5 (18:58c5)
+	text "Rattata"
+	done
+
+RatName: ; 618ce (18:58ce)
+	text "Rat"
+	done
+
+RattataDescription: ; 618d3 (18:58d3)
+	text "Bijt alles wanneer hij aanvalt."
+	line "Hij is klein, snel en veelgezien"
+	line "op allerlei plekken."
+	done
+
+RaticateName: ; 6192f (18:592f)
+	text "Raticate"
+	done
+
+SuperFangName: ; 61939 (18:5939)
+	text "Superknauw"
+	done
+
+SuperFangDescription: ; 61945 (18:5945)
+	text "De schade die deze aanval doet aan"
+	line "de Verdedigende Pokémon is gelijk"
+	line "aan de helft van de resterende IP"
+	line "van de Verdedigende Pokémon (naar"
+	line "boven afgerond naar de"
+	line "dichtsbijzijnde 10)."
+	done
+
+RaticateDescription: ; 619be (18:59be)
+	text "Gebruikt zijn snorharen om zijn"
+	line "evenwicht te bewaren. Hij lijkt"
+	line "langzamer te bewegen"
+	line "als ze worden afgeknipt."
+	done
+
+SpearowName: ; 61a18 (18:5a18)
+	text "Spearow"
+	done
+
+PeckName: ; 61a21 (18:5a21)
+	text "Peck"
+	done
+
+SpearowsMirrorMoveDescription: ; 61a27 (18:5a27)
+	text "If Spearow was attacked last turn,"
+	line "do the final result of that attack"
+	line "on Spearow to the Defending Pokémon."
+	done
+
+SpearowDescription: ; 61a93 (18:5a93)
+	text "Eats bugs in grassy areas. It has to"
+	line "flap its short wings at high speed"
+	line "to stay airborne."
+	done
+
 FearowName: ; 61aee (18:5aee)
 	text "Fearow"
 	done

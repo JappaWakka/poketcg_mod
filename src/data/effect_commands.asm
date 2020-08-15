@@ -1,7 +1,7 @@
 EffectCommands: ; 186f7 (6:46f7)
 ; Each move has a two-byte effect pointer (move's 7th param) that points to one of these structures.
 ; Similarly, trainer cards have a two-byte pointer (7th param) to one of these structures, which determines the card's function.
-; Energiekaarten also point to one of these, but their data is just $00.
+; Energy cards also point to one of these, but their data is just $00.
 ;	db EFFECTCMDTYPE_* ($01 - $0a)
 ;	dw Function
 ;	...
@@ -42,9 +42,9 @@ EkansWrapEffectCommands:
 	db  $00
 
 ArbokTerrorStrikeEffectCommands:
-	dbw EFFECTCMDTYPE_AFTER_DAMAGE, $4726
-	dbw EFFECTCMDTYPE_REQUIRE_SELECTION, $470a
-	dbw EFFECTCMDTYPE_SWITCH_DEFENDING_PKMN, $470a
+	dbw EFFECTCMDTYPE_AFTER_DAMAGE, TerrorStrike_SwitchDefendingPokemon
+	dbw EFFECTCMDTYPE_REQUIRE_SELECTION, TerrorStrike_50PercentSelectSwitchPokemon
+	dbw EFFECTCMDTYPE_SWITCH_DEFENDING_PKMN, TerrorStrike_50PercentSelectSwitchPokemon
 	db  $00
 
 ArbokPoisonFangEffectCommands:

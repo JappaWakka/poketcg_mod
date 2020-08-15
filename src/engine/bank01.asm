@@ -12,7 +12,7 @@ GameLoop: ; 4000 (1:4000)
 	ld a, [s0a009]
 	ld [wSkipDelayAllowed], a
 	call DisableSRAM
-	ld a, 0
+	ld a, 1
 	ld [wUppercaseHalfWidthLetters], a
 	ei
 	farcall CommentedOut_1a6cc
@@ -353,7 +353,7 @@ DuelMainInterface: ; 426d (1:426d)
 	ld [wSkipDuelistIsThinkingDelay], a
 	ldtx hl, DuelistIsThinkingText
 	call DrawWideTextBox_PrintTextNoDelay
-	call Func_2bbf
+	call AIDoAction_Turn
 	ld a, $ff
 	ld [wPlayerAttackingCardIndex], a
 	ld [wPlayerAttackingMoveIndex], a
@@ -1967,7 +1967,7 @@ ChooseInitialArenaAndBenchPokemon: ; 4cd5 (1:4cd5)
 ; AI opponent's turn
 	push af
 	push hl
-	call Func_2bc3
+	call AIDoAction_StartDuel
 	pop hl
 	pop af
 	ld [hl], a
@@ -3055,7 +3055,7 @@ PracticeDuelVerify_Turn2: ; 5438 (1:5438)
 	ld a, [wTempCardID_ccc2]
 	cp SEAKING
 	jp nz, ReturnWrongAction
-	ld a, [wSelectedMoveIndex]
+	ld a, [wSelectedAttack]
 	cp 1
 	jp nz, ReturnWrongAction
 	ld e, PLAY_AREA_ARENA
@@ -3090,7 +3090,7 @@ PracticeDuelVerify_Turn4: ; 5467 (1:5467)
 	ld a, [wTempCardID_ccc2]
 	cp SEAKING
 	jr nz, ReturnWrongAction
-	ld a, [wSelectedMoveIndex]
+	ld a, [wSelectedAttack]
 	cp 1
 	jr nz, ReturnWrongAction
 	ret
@@ -3127,7 +3127,7 @@ PracticeDuelVerify_Turn7Or8: ; 54b7 (1:54b7)
 	ld a, [wTempCardID_ccc2]
 	cp STARMIE
 	jr nz, ReturnWrongAction
-	ld a, [wSelectedMoveIndex]
+	ld a, [wSelectedAttack]
 	cp 1
 	jr nz, ReturnWrongAction
 	ret
@@ -3162,12 +3162,12 @@ Unknown_54e2: ; 54e2 (1:54e2)
 
 DuelMenuData: ; 54e9 (1:54e9)
 	; x, y, text id
-	textitem 2,  14, HandText
-	textitem 7,  14, CheckText
-	textitem 14, 14, RetreatText
-	textitem 2,  16, AttackText
-	textitem 7,  16, PKMNPowerText
-	textitem 14, 16, DoneText
+	textitem 3,  14, HandText
+	textitem 9,  14, CheckText
+	textitem 15, 14, RetreatText
+	textitem 3,  16, AttackText
+	textitem 9,  16, PKMNPowerText
+	textitem 15, 16, DoneText
 	db $ff
 ; 0x5502
 
@@ -3720,7 +3720,7 @@ Func_57df: ; 57df (1:57df)
 
 Func_5805: ; 5805 (1:5805)
 	call Func_3b31
-	ld a, [wccc8]
+	ld a, [wNumberPrizeCardsToTake]
 	ld l, a
 	ld h, $00
 	call LoadTxRam3
@@ -3731,7 +3731,7 @@ Func_5805: ; 5805 (1:5805)
 
 	ldtx hl, WillDrawNPrizesText
 	call DrawWideTextBox_WaitForInput
-	ld a, [wccc8]
+	ld a, [wNumberPrizeCardsToTake]
 	call Func_310a
 	ld hl, hTemp_ffa0
 	ld d, [hl]
@@ -3757,7 +3757,7 @@ Func_5805: ; 5805 (1:5805)
 	call GetTurnDuelistVariable
 	cp DUELIST_TYPE_LINK_OPP
 	jr z, .link_opponent
-	call Func_2bd7
+	call AIDoAction_TakePrize
 	ld c, DECK_SIZE
 .asm_5858
 	call DoFrame
@@ -3775,7 +3775,7 @@ Func_5805: ; 5805 (1:5805)
 	call nz, AddCardToHand
 .asm_586f
 	ld a, [wcbfc]
-	ld hl, wccc8
+	ld hl, wNumberPrizeCardsToTake
 	cp [hl]
 	jr nc, .asm_587e
 	ld l, a
@@ -4465,7 +4465,7 @@ DisplayCardPage_PokemonOverview: ; 5b7d (1:5b7d)
 	; print the retreat cost (some amount of colorless energies) at 8,14
 	inc c
 	inc c ; 14
-	ld b, 12
+	ld b, 8
 	ld a, [wLoadedCard1RetreatCost]
 	ld e, a
 	inc e
@@ -4497,7 +4497,7 @@ DisplayCardPage_PokemonOverview: ; 5b7d (1:5b7d)
 	ld e, a
 .got_wr
 	ld a, d
-	ld b, 12
+	ld b, 8
 	call PrintCardPageWeaknessesOrResistances
 	inc c ; 16
 	ld a, e
@@ -6041,7 +6041,7 @@ DisplayOpponentUsedMoveScreen: ; 6635 (1:6635)
 	ld a, CARDPAGE_POKEMON_OVERVIEW
 	ld [wCardPageNumber], a
 	ld hl, wLoadedCard1Move1Name
-	ld a, [wSelectedMoveIndex]
+	ld a, [wSelectedAttack]
 	or a
 	jr z, .first_move
 	ld hl, wLoadedCard1Move2Name
@@ -6288,10 +6288,10 @@ DiscardSavedDuelData: ; 6785 (1:6785)
 ; 0x6793
 
 ; loads a player deck (sDeck*Cards) from SRAM to wPlayerDeck
-; s0b700 determines which sDeck*Cards source (0-3)
+; sCurrentlySelectedDeck determines which sDeck*Cards source (0-3)
 LoadPlayerDeck: ; 6793 (1:6793)
 	call EnableSRAM
-	ld a, [s0b700]
+	ld a, [sCurrentlySelectedDeck]
 	ld l, a
 	ld h, sDeck2Cards - sDeck1Cards
 	call HtimesL
@@ -6835,6 +6835,7 @@ OppAction_ExecutePokemonPowerEffect: ; 6b07 (1:6b07)
 	ret
 ; 0x6b15
 
+; execute the EFFECTCMDTYPE_AFTER_DAMAGE command of the used Pokemon Power
 OppAction_6b15: ; 6b15 (1:6b15)
 	ld a, EFFECTCMDTYPE_AFTER_DAMAGE
 	call TryExecuteEffectCommandFunction
@@ -6886,7 +6887,7 @@ OppAction_6b3e: ; 6b3e (1:6b3e)
 	call SwapTurn
 	ldh a, [hTempCardIndex_ff9f]
 	ld [wPlayerAttackingCardIndex], a
-	ld a, [wSelectedMoveIndex]
+	ld a, [wSelectedAttack]
 	ld [wPlayerAttackingMoveIndex], a
 	ld a, [wTempCardID_ccc2]
 	ld [wPlayerAttackingCardID], a
@@ -7491,7 +7492,7 @@ ReplaceKnockedOutPokemon: ; 6f23 (1:6f23)
 .opponent
 	cp DUELIST_TYPE_LINK_OPP
 	jr z, .link_opponent
-	call Func_2bcf
+	call AIDoAction_KOSwitch
 	ldh a, [hTemp_ffa0]
 	ldh [hTempPlayAreaLocation_ff9d], a
 	jr .replace_pokemon
@@ -7524,7 +7525,7 @@ Func_6fa5: ; 6fa5 (1:6fa5)
 	ret
 ; 0x6fc7
 
-; return in wccc8 the amount of Pokemon in the turn holder's
+; return in wNumberPrizeCardsToTake the amount of Pokemon in the turn holder's
 ; play area that are still there despite having 0 HP.
 ; that is, the number of Pokemon that have just been knocked out.
 ; Clefairy Doll and Mysterious Fossil don't count.
@@ -7557,7 +7558,7 @@ CountKnockedOutPokemon: ; 6fc7 (1:6fc7)
 	dec c
 	jr nz, .loop
 	ld a, b
-	ld [wccc8], a
+	ld [wNumberPrizeCardsToTake], a
 	or a
 	ret z
 	scf

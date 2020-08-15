@@ -1104,7 +1104,7 @@ Text00ea: ; 37e03 (d:7e03)
 	line "het munt is."
 	done
 
-Text00eb: ; 37e46 (d:7e46)
+IfHeadsChangeOpponentsActivePokemonText: ; 37e46 (d:7e46)
 	text "Als het kop is, wissel de tegenstander's"
 	line "Actieve Pokémon."
 	done
@@ -1124,7 +1124,7 @@ Text00ee: ; 37eb8 (d:7eb8)
 	line "Als het kop is, is de aanval succesvol!"
 	done
 
-Text00ef: ; 37eea (d:7eea)
+TrainerCardSuccessCheckText: ; 37eea (d:7eea)
 	text "Trainerkaart succes-controle!"
 	line "Als het kop is, is hij succesvol!"
 	done

@@ -236,11 +236,11 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer Text00e8                                 ; 0x00e8
 	textpointer IfHeadPlus10IfTails10ToYourselfText                                 ; 0x00e9
 	textpointer Text00ea                                 ; 0x00ea
-	textpointer Text00eb                                 ; 0x00eb
+	textpointer IfHeadsChangeOpponentsActivePokemonText  ; 0x00eb
 	textpointer Text00ec                                 ; 0x00ec
 	textpointer Text00ed                                 ; 0x00ed
 	textpointer Text00ee                                 ; 0x00ee
-	textpointer Text00ef                                 ; 0x00ef
+	textpointer TrainerCardSuccessCheckText              ; 0x00ef
 	textpointer Text00f0                                 ; 0x00f0
 	textpointer IfHeadsNoDamageNextTurnText              ; 0x00f1
 	textpointer Text00f2                                 ; 0x00f2

@@ -35,7 +35,7 @@ move_data_struct: MACRO
 \1Flag1::          ds 1
 \1Flag2::          ds 1
 \1Flag3::          ds 1
-\1Unknown1::       ds 1
+\1EffectParam::    ds 1
 \1Animation::      ds 1
 ENDM
 
@@ -64,4 +64,19 @@ sprite_anim_struct: MACRO
 \1Field0x0d::  ds 1
 \1MovementCounter::  ds 1
 \1Field0x0f::  ds 1
+ENDM
+
+loaded_npc_struct: MACRO
+\1ID::         ds 1
+\1Sprite::     ds 1
+\1CoordX::     ds 1
+\1CoordY::     ds 1
+\1Direction::  ds 1
+\1Field0x05::  ds 1
+\1Field0x06::  ds 1
+\1Field0x07::  ds 1
+\1Field0x08::  ds 1
+\1Field0x09::  ds 1
+\1Field0x0a::  ds 1
+\1Field0x0b::  ds 1
 ENDM

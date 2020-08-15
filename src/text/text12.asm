@@ -1,3 +1,126 @@
+ChainLightningName: ; 5db4f (17:5b4f)
+	text "Kettingbliksem"
+	done
+
+ChainLightningDescription: ; 5db60 (17:5b60)
+	text "Als de Verdedigende Pokémon niet"
+	line "<COLORLESS> is, doet deze aanval 10"
+	line "schade aan elke Pokémon op de"
+	line "Bank van hetzelfde type als de"
+	line "Verdedigende Pokémon (inclusief"
+	line "die van jezelf)."
+	done
+
+Electrode2Description: ; 5dbfe (17:5bfe)
+	text "Hij slaat elektrische energie"
+	line "op onder erg hoge druk. Vaak"
+	line "explodeert hij bij het minste"
+	line "of geringste."
+	done
+
+ElectabuzzName: ; 5dc66 (17:5c66)
+	text "Electabuzz"
+	done
+
+LightScreenName: ; 5dc72 (17:5c72)
+	text "Lichtscherm"
+	done
+
+LightScreenDescription: ; 5dc80 (17:5c80)
+	text "Wanneer een aanval schade doet aan"
+	line "Electabuzz tijdens je tegenstander's"
+	line "volgende beurt (na het toepassen van"
+	line "van Zwakte en Weerstand), doet die"
+	line "aanval slechts de helft van de"
+	line "schade aan Electabuzz"
+	done
+
+LightScreenDescriptionCont: ; 5dd4f (17:5d4f)
+	text "(naar beneden afgerond naar de"
+	line "dichtstbijzijnde 10). (Alle"
+	line "andere gevolgen van aanvallen"
+	line "blijven gewoon geldig.)"
+	done
+
+ElectabuzzsQuickAttackDescription: ; 5dd7d (17:5d7d)
+	text "Gooi een munt op."
+	line "Als het kop is, doet deze aanval"
+	line "10 schade plus nog eens 20 schade;"
+	line "als het munt is, doet deze"
+	line "aanval 10 schade."
+	done
+
+ElectricName: ; 5ddec (17:5dec)
+	text "Elektrische"
+	done
+
+Electabuzz1Description: ; 5ddf6 (17:5df6)
+	text "Een wilde Pokémon met een kort"
+	line "lontje. Hij kan kleuren"
+	line "onderscheiden en hij vindt de"
+	line "kleur rood leuk."
+	done
+
+ThunderpunchName: ; 5de55 (17:5e55)
+	text "Donderslag"
+	done
+
+ThunderpunchDescription: ; 5de63 (17:5e63)
+	text "Gooi een munt op. Als het kop is,"
+	line "doet deze aanval 30 schade plus nog"
+	line "eens 10 schade; als het munt is,"
+	line "doet deze aanval 30 schade en"
+	line "doet Electabuzz 10 schade aan"
+	line "zichzelf."
+	done
+
+Electabuzz2Description: ; 5def9 (17:5ef9)
+	text "Hoewel hij gewoonlijk te vinden is"
+	line "in de buurt van energiecentrales,"
+	line "kan hij afdwalen en enorme stroom-"
+	line "storingen veroorzaken in steden."
+	done
+	
+JolteonName: ; 5df54 (17:5f54)
+	text "Jolteon"
+	done
+
+DoubleAttackX20Description: ; 5df5d (17:5f5d)
+	text "Gooi 2 munten op. Deze aanval doet"
+	line "20 schade maal het aantal keren kop."
+	done
+
+StunNeedleName: ; 5dfa2 (17:5fa2)
+	text "Verdoofnaald"
+	done
+
+LightningName: ; 5dfaf (17:5faf)
+	text "Bliksem-"
+	done
+
+Jolteon1Description: ; 5dfba (17:5fba)
+	text "Een gevoelige Pokémon die makkelijk"
+	line "verdrietig of boos kan worden. Elke"
+	line "keer als zijn stemming verandert,"
+	line "laadt hij energie op."
+	done
+
+PinMissileName: ; 5e020 (17:6020)
+	text "Naaldraket"
+	done
+
+QuadrupleAttackX20Description: ; 5e02d (17:602d)
+	text "Gooi 4 munten op."
+	line "Deze aanval doet 20 schade maal"
+	line "het aantal keren kop."
+	done
+
+Jolteon2Description: ; 5e072 (17:6072)
+	text "Hij verzamelt negatieve ionen uit"
+	line "de atmosfeer om bliksemschichten"
+	line "van 10.000 volt af te vuren."
+	done
+
 ZapdosName: ; 5e0cf (17:60cf)
 	text "Zapdos"
 	done
@@ -1197,157 +1320,4 @@ DevolutionBeamDescription: ; 613ba (18:53ba)
 	line "the highest stage evolution card"
 	line "on that Pokémon to Its player's"
 	line "hand."
-	done
-
-PidgeyName: ; 61442 (18:5442)
-	text "Pidgey"
-	done
-
-TinyBirdName: ; 6144a (18:544a)
-	text "Tiny Bird"
-	done
-
-PidgeyDescription: ; 61455 (18:5455)
-	text "A common sight in forests and woods."
-	line "It flaps its wings at ground level"
-	line "to kick up blinding sand."
-	done
-
-PidgeottoName: ; 614b8 (18:54b8)
-	text "Pidgeotto"
-	done
-
-MirrorMoveName: ; 614c3 (18:54c3)
-	text "Spiegelaanval"
-	done
-
-PidgeottosMirrorMoveDescription: ; 614d0 (18:54d0)
-	text "If Pidgeotto was attacked last turn,"
-	line "do the final result of that attack"
-	line "on Pidgeotto to the Defending"
-	line "Pokémon."
-	done
-
-BirdName: ; 61540 (18:5540)
-	text "Bird"
-	done
-
-PidgeottoDescription: ; 61546 (18:5546)
-	text "Very protective of its sprawling"
-	line "territory, this Pokémon will"
-	line "fiercely peck at any intruder."
-	done
-
-PidgeotName: ; 615a4 (18:55a4)
-	text "Pidgeot"
-	done
-
-SlicingWindName: ; 615ad (18:55ad)
-	text "Slicing Wind"
-	done
-
-SlicingWildDescription: ; 615bb (18:55bb)
-	text "Does 30 damage to 1 of your"
-	line "opponent's Pokémon chosen at random."
-	line "Don't apply Weakness and Resistance"
-	line "for this attack. (Any other effects"
-	line "that would happen after applying"
-	line "Weakness and Resistance still"
-	line "happen.)"
-	done
-
-GaleName: ; 6168d (18:568d)
-	text "Gale"
-	done
-
-GaleDescription: ; 61693 (18:5693)
-	text "Switch Pidgeot with 1 of your"
-	line "Benched Pokémon chosen at random."
-	line "If your opponent has any Benched"
-	line "Pokémon, switch the Defending"
-	line "Pokémon with 1 of them chosen at"
-	line "random. (Do the damage before"
-	line "switching the Pokémon.)"
-	done
-
-Pidgeot1Description: ; 6176a (18:576a)
-	text "This Pokémon flies at Mach 2 speed,"
-	line "seeking prey. Its large talons are"
-	line "feared as wicked weapons."
-	done
-
-HurricaneName: ; 617cc (18:57cc)
-	text "Hurricane"
-	done
-
-HurricaneDescription: ; 617d7 (18:57d7)
-	text "Unless this attack Knocks Out the"
-	line "Defending Pokémon, return the"
-	line "Defending Pokémon and all cards"
-	line "attached to it to your opponent's"
-	line "hand."
-	done
-
-Pidgeot2Description: ; 61860 (18:5860)
-	text "When hunting, it skims the surface"
-	line "of water at high speed to pick off"
-	line "unwary prey such as Magikarp."
-	done
-
-RattataName: ; 618c5 (18:58c5)
-	text "Rattata"
-	done
-
-RatName: ; 618ce (18:58ce)
-	text "Rat"
-	done
-
-RattataDescription: ; 618d3 (18:58d3)
-	text "Bijt alles wanneer hij aanvalt."
-	line "Hij is klein, snel en veelgezien"
-	line "op allerlei plekken."
-	done
-
-RaticateName: ; 6192f (18:592f)
-	text "Raticate"
-	done
-
-SuperFangName: ; 61939 (18:5939)
-	text "Superknauw"
-	done
-
-SuperFangDescription: ; 61945 (18:5945)
-	text "De schade die deze aanval doet aan"
-	line "de Verdedigende Pokémon is gelijk"
-	line "aan de helft van de resterende IP"
-	line "van de Verdedigende Pokémon (naar"
-	line "boven afgerond naar de"
-	line "dichtsbijzijnde 10)."
-	done
-
-RaticateDescription: ; 619be (18:59be)
-	text "Gebruikt zijn snorharen om zijn"
-	line "evenwicht te bewaren. Hij lijkt"
-	line "langzamer te bewegen"
-	line "als ze worden afgeknipt."
-	done
-
-SpearowName: ; 61a18 (18:5a18)
-	text "Spearow"
-	done
-
-PeckName: ; 61a21 (18:5a21)
-	text "Peck"
-	done
-
-SpearowsMirrorMoveDescription: ; 61a27 (18:5a27)
-	text "If Spearow was attacked last turn,"
-	line "do the final result of that attack"
-	line "on Spearow to the Defending Pokémon."
-	done
-
-SpearowDescription: ; 61a93 (18:5a93)
-	text "Eats bugs in grassy areas. It has to"
-	line "flap its short wings at high speed"
-	line "to stay airborne."
 	done
