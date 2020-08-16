@@ -122,7 +122,7 @@ DrMasonData:
 	db NPC_DRMASON
 	db $02
 	db $00
-	db $26
+	db $0e
 	db $00
 	dw $5727 ; Pointer to Script
 	tx Text03ac
