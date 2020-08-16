@@ -2218,6 +2218,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer MinimizeName                             ; 0x08a5
 	textpointer GrimersMinimizeDescription               ; 0x08a6
 	textpointer SludgeName                               ; 0x08a7
+	textpointer SludgeAttackName                         ; Made this because I don't want SludgeName to be used as both a category and an attack name
 	textpointer GrimerDescription                        ; 0x08a8
 	textpointer MukName                                  ; 0x08a9
 	textpointer ToxicGasName                             ; 0x08aa
@@ -2489,6 +2490,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer QuickfreezeDescription                   ; 0x09b1
 	textpointer IceBreathName                            ; 0x09b2
 	textpointer IceBreathDescription                     ; 0x09b3
+	textpointer IceBreathDescriptionCont                 ; Translated text didn't fit so I made this
 	textpointer Articuno2Description                     ; 0x09b4
 	textpointer PikachuName                              ; 0x09b5
 	textpointer GnawName                                 ; 0x09b6
@@ -2577,6 +2579,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer PealOfThunderDescription                 ; 0x0a05
 	textpointer BigThunderName                           ; 0x0a06
 	textpointer BigThunderDescription                    ; 0x0a07
+	textpointer BigThunderDescriptionCont                ; Translated text didn't fit so I made this
 	textpointer Zapdos3Description                       ; 0x0a08
 	textpointer SandshrewName                            ; 0x0a09
 	textpointer SandAttackName                           ; 0x0a0a
@@ -2641,6 +2644,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer CuboneName                               ; 0x0a45
 	textpointer SnivelName                               ; 0x0a46
 	textpointer SnivelDescription                        ; 0x0a47
+	textpointer SnivelDescriptionCont                    ; Translated text didn't fit so I made this
 	textpointer CubonesRageDescription                   ; 0x0a48
 	textpointer LonelyName                               ; 0x0a49
 	textpointer CuboneDescription                        ; 0x0a4a
@@ -2702,6 +2706,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer AlakazamName                             ; 0x0a82
 	textpointer DamageSwapName                           ; 0x0a83
 	textpointer DamageSwapDescription                    ; 0x0a84
+	textpointer DamageSwapDescriptionCont                ; Translated text didn't fit so I made this
 	textpointer AlakazamDescription                      ; 0x0a85
 	textpointer SlowpokeName                             ; 0x0a86
 	textpointer SlowpokesAmnesiaDescription              ; 0x0a87
@@ -2711,6 +2716,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer SpacingOutDescription                    ; 0x0a8b
 	textpointer ScavengeName                             ; 0x0a8c
 	textpointer ScavengeDescription                      ; 0x0a8d
+	textpointer Slowpoke2Description                     ; Description was shared between both slowpokes
 	textpointer SlowbroName                              ; 0x0a8e
 	textpointer StrangeBehaviorName                      ; 0x0a8f
 	textpointer StrangeBehaviorDescription               ; 0x0a90

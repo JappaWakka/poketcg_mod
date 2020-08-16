@@ -1841,7 +1841,7 @@ MukCard: ; 31607 (c:5607)
 
 	; move 2
 	energy GRASS, 3 ; energies
-	tx SludgeName ; name
+	tx SludgeAttackName ; name
 	tx MayInflictPoisonDescription ; description
 	dw NONE ; description (cont)
 	db 30 ; damage
@@ -4699,7 +4699,7 @@ Articuno2Card: ; 3243f (c:643f)
 	energy WATER, 3 ; energies
 	tx IceBreathName ; name
 	tx IceBreathDescription ; description
-	dw NONE ; description (cont)
+	tx IceBreathDescriptionCont ; description (cont)
 	db 0 ; damage
 	db RESIDUAL ; category
 	dw ArticunoIceBreathEffectCommands ; effect commands
@@ -5872,7 +5872,7 @@ Zapdos3Card: ; 32a16 (c:6a16)
 	energy LIGHTNING, 3 ; energies
 	tx BigThunderName ; name
 	tx BigThunderDescription ; description
-	dw NONE ; description (cont)
+	tx BigThunderDescriptionCont ; description (cont)
 	db 0 ; damage
 	db RESIDUAL ; category
 	dw ZapdosBigThunderEffectCommands ; effect commands
@@ -6572,7 +6572,7 @@ CuboneCard: ; 32da4 (c:6da4)
 	energy COLORLESS, 1 ; energies
 	tx SnivelName ; name
 	tx SnivelDescription ; description
-	dw NONE ; description (cont)
+	tx SnivelDescriptionCont ; description (cont)
 	db 0 ; damage
 	db DAMAGE_NORMAL ; category
 	dw CuboneSnivelEffectCommands ; effect commands
@@ -7184,7 +7184,7 @@ AlakazamCard: ; 330b0 (c:70b0)
 	energy 0 ; energies
 	tx DamageSwapName ; name
 	tx DamageSwapDescription ; description
-	dw NONE ; description (cont)
+	tx DamageSwapDescriptionCont ; description (cont)
 	db 0 ; damage
 	db POKEMON_POWER ; category
 	dw AlakazamDamageSwapEffectCommands ; effect commands
@@ -7319,7 +7319,7 @@ Slowpoke2Card: ; 33132 (c:7132)
 	db 18 ; level
 	db 1, 2 ; length
 	dw 360; weight
-	tx Slowpoke1Description ; description
+	tx Slowpoke2Description ; description
 	db 16
 
 SlowbroCard: ; 33173 (c:7173)

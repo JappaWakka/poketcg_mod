@@ -144,10 +144,10 @@ ThunderstormDescriptionCont:
 	done
 
 Zapdos1Description: ; 5e1d2 (17:61d2)
-	text "Een legendarische dondervogel-Pokémon"
-	line "waarvan ze zeggen dat zijn woede stor-"
-	line "men veroorzaakt. Men zegt ook dat hij al"
-	line "duizenden jaren boven de wolken leeft."
+	text "Een legendarische dondervogel-"
+	line "Pokémon waarvan men zegt dat zijn"
+	line "woede stormen veroorzaakt en dat hij"
+	line "al millenia boven de wolken leeft."
 	done
 
 ZapdosThunderDescription: ; 5e257 (17:6257)
@@ -167,10 +167,10 @@ ThunderboltDescription: ; 5e29d (17:629d)
 	done
 
 Zapdos2Description: ; 5e2e7 (17:62e7)
-	text "Een legendarische vogel-Pokémon waar-"
-	line "van wordt gezegd dat hij uit de wolken"
-	line "tevoorschijn komt en tegelijkertijd"
-	line "enorme bliksemschichten rondslingert."
+	text "Een legendarische vogel-Pokémon"
+	line "waarvan men zegt dat hij uit de"
+	line "wolken tevoorschijn komt en enorme"
+	line "bliksemschichten rondslingert."
 	done
 
 PealOfThunderName: ; 5e345 (17:6345)
@@ -182,8 +182,9 @@ PealOfThunderDescription: ; 5e356 (17:6356)
 	line "tijdens je beurt (niet tijdens het"
 	line "opzetten van het spel), doe je 30"
 	line "schade aan een Pokémon, anders dan"
-	line "Zapdos, op willekeurige wijze gekozen."
-	line "(Pas geen Zwakte en Weerstand toe.)"
+	line "Zapdos, op willekeurige wijze"
+	line "gekozen. (Pas geen Zwakte en"
+	line "Weerstand toe.)"
 	done
 
 BigThunderName: ; 5e400 (17:6400)
@@ -191,18 +192,21 @@ BigThunderName: ; 5e400 (17:6400)
 	done
 
 BigThunderDescription: ; 5e40d (17:640d)
-	text "Kies op willekeurige wijze een Pokémon,"
-	line "anders dan Zapdos. Deze aanval doet 70"
-	line "schade aan die Pokémon. Pas geen Zwakte"
-	line "en Weerstand toe voor deze aanval."
-	line "(Alle andere gevolgen die na het"
+	text "Kies op willekeurige wijze een"
+	line "Pokémon, anders dan Zapdos. Deze"
+	line "aanval doet 70 schade aan die"
+	line "Pokémon. Pas geen Zwakte en"
+	line "Weerstand toe voor deze aanval."
+	
+BigThunderDescriptionCont:
+	text "(Alle andere gevolgen die na het"
 	line "toepassen van Zwakte en Weerstand zouden"
 	line "gebeuren blijven gewoon geldig.)"
 	done
 
 Zapdos3Description: ; 5e4f8 (17:64f8)
 	text "Van deze legendarische vogel-Pokémon"
-	line "wordt beweerd dat hij verschijnt wanneer"
+	line "wordt beweerd dat hij verschijnt als"
 	line "de lucht donker wordt en bliksem-"
 	line "schichten naar beneden schieten."
 	done
@@ -272,7 +276,7 @@ EarthquakeName: ; 5e70d (17:670d)
 
 EarthquakeDescription: ; 5e719 (17:6719)
 	text "Deze aanval doet 10 schade aan elk"
-	line "van de Pokémon op je Bank. (Pas"
+	line "van je Pokémon op de Bank. (Pas"
 	line "geen Zwakte en Weerstand toe voor"
 	line "Pokémon op de Bank.)"
 	done
@@ -294,11 +298,12 @@ PeekName: ; 5e7ee (17:67ee)
 
 PeekDescription: ; 5e7f4 (17:67f4)
 	text "Eenmaal tijdens je beurt (vóór je"
-	line "aanval) mag je naar één van de volgende"
-	line "kijken: de bovenste kaart van het deck"
-	line "van een speler, een willekeurige kaart"
-	line "in de hand van je tegenstander, of één"
-	line "van de Prijskaarten van een speler."
+	line "aanval) mag je naar één van de"
+	line "volgende kijken: de bovenste kaart"
+	line "van het deck van een speler, een"
+	line "willekeurige kaart in de hand van"
+	line "je tegenstander, of één van de"
+	line "Prijskaarten van een speler."
 	done
 
 PeekDescriptionCont: ; 5e8b8 (17:68b8)
@@ -440,7 +445,7 @@ StoneBarrageDescription: ; 5ed50 (17:6d50)
 	done
 
 RockName: ; 5eda8 (17:6da8)
-	text "Rots"
+	text "Rots-"
 	done
 
 GeodudeDescription: ; 5edae (17:6dae)
@@ -500,10 +505,10 @@ MegatonName: ; 5eff2 (17:6ff2)
 	done
 
 GolemDescription: ; 5effb (17:6ffb)
-	text "Zijn lichaam lijkt op een rotsblok en"
-	line "is bijzonder hard. Hij kan makkelijk"
+	text "Zijn lichaam lijkt op een rotsblok"
+	line "en is erg hard. Hij kan makkelijk"
 	line "tegen een ontploffing van dynamiet"
-	line "zonder daarvan schade te ondervinden."
+	line "zonder daar schade van te krijgen."
 	done
 
 OnixName: ; 5f05d (17:705d)
@@ -525,10 +530,10 @@ RockSnakeName: ; 5f11d (17:711d)
 	done
 
 OnixDescription: ; 5f129 (17:7129)
-	text "Naarmate hij groeit, worden de stenen"
-	line "van zijn lijf harder tot zij op een"
-	line "diamant lijken, maar dan zwart"
-	line "van kleur."
+	text "Naarmate hij groeit, worden de"
+	line "stenen van zijn lijf harder tot"
+	line "zij op een diamant lijken, maar"
+	line "dan zwart van kleur."
 	done
 
 CuboneName: ; 5f193 (17:7193)
@@ -536,32 +541,39 @@ CuboneName: ; 5f193 (17:7193)
 	done
 
 SnivelName: ; 5f19b (17:719b)
-	text "Snivel"
+	text "Snotteren"
 	done
 
 SnivelDescription: ; 5f1a3 (17:71a3)
-	text "If the Defending Pokémon attacks"
-	line "Cubone during your opponent's next"
-	line "turn, any damage done by the attack"
-	line "is reduced by 20 (after applying"
-	line "Weakness and Resistance). (Benching"
-	line "or evolving either Pokémon ends this"
-	line "effect.)"
+	text "Als de Verdedigende Pokémon Cubone"
+	line "aanvalt tijdens je tegenstander's"
+	line "volgende beurt, dan wordt alle"
+	line "schade die de aanval doet verminderd"
+	line "met 20 (na het toepassen van Zwakte"
+	line "en Weerstand)."
+	done
+
+SnivelDescriptionCont:
+	text "(Het op de Bank plaatsen van"
+	line "een van beide Pokémon beëindigt"
+	line "dit effect.)"
 	done
 
 CubonesRageDescription: ; 5f27f (17:727f)
-	text "Does 10 damage plus 10 more damage"
-	line "for each damage counter on Cubone."
+	text "Deze aanval doet 10 schade plus"
+	line "nog eens 10 schade voor elke"
+	line "schadeteller op Cubone."
 	done
 
 LonelyName: ; 5f2c6 (17:72c6)
-	text "Lonely"
+	text "Eenzame"
 	done
 
 CuboneDescription: ; 5f2ce (17:72ce)
-	text "Because it never removes its skull"
-	line "helmet, no one has ever seen this"
-	line "Pokémon's real face."
+	text "Omdat hij zijn schedelhelm nog"
+	line "nooit heeft afgezet, heeft"
+	line "niemand ooit het echte gezicht"
+	line "van deze Pokémon gezien"
 	done
 
 MarowakName: ; 5f329 (17:7329)
@@ -577,11 +589,11 @@ CallforFriendName: ; 5f33e (17:733e)
 	done
 
 CallforFriendDescription: ; 5f34f (17:734f)
-	text "Zoek in je deck naar een <FIGHTING> Basis-"
-	line "Pokémonkaart en plaats hem op je"
-	line "Bank. Schud hierna je deck. (Je kunt"
-	line "deze aanval niet gebruiken als je"
-	line "Bank vol is.)"
+	text "Zoek in je deck naar een <FIGHTING>"
+	line "Basis-Pokémonkaart en plaats hem"
+	line "op je Bank. Schud hierna je deck."
+	line "(Je kunt deze aanval niet gebruiken"
+	line "als je Bank vol is.)"
 	done
 
 BonekeeperName: ; 5f3e9 (17:73e9)
@@ -615,9 +627,9 @@ WailDescription: ; 5f4cb (17:74cb)
 	line "met willekeurig geselecteerde Basis-"
 	line "Pokémon uit zijn of haar Deck. Als een"
 	line "speler minder Basis-Pokémon dan dat in"
-	line "zijn of haar Deck heeft, kiest hij of zij"
-	line "ze allemaal. Elke speler schudt hierna"
-	line "zijn of haar Deck."
+	line "zijn of haar Deck heeft, kiest hij of"
+	line "zij ze allemaal. Elke speler schudt"
+	line "hierna zijn of haar Deck."
 	done
 
 Marowak2Description: ; 5f5b6 (17:75b6)
@@ -632,29 +644,31 @@ HitmonleeName: ; 5f61a (17:761a)
 	done
 
 StretchKickName: ; 5f625 (17:7625)
-	text "Stretch Kick"
+	text "Rekschop"
 	done
 
 StretchKickDescription: ; 5f633 (17:7633)
-	text "If your opponent has any Benched"
-	line "Pokémon, choose 1 of them and this"
-	line "attack does 20 damage to it."
-	line "(Don't apply Weakness and"
-	line "Resistance for Benched Pokémon.)"
+	text "Als je tegenstander Pokémon op de"
+	line "Bank heeft, kies er dan 1 van en"
+	line "deze aanval doet 20 schade aan"
+	line "die Pokémon. (Pas geen Zwakte"
+	line "en Weerstand toe voor Pokémon"
+	line "op de Bank.)"
 	done
 
 HighJumpKickName: ; 5f6d0 (17:76d0)
-	text "High Jump Kick"
+	text "Hoge sprongschop"
 	done
 
 KickingName: ; 5f6e0 (17:76e0)
-	text "Kicking"
+	text "Schoppende"
 	done
 
 HitmonleeDescription: ; 5f6e9 (17:76e9)
-	text "When in a hurry, its legs lengthen"
-	line "progressively. It runs smoothly with"
-	line "extra long, loping strides."
+	text "Als hij haast heeft, worden zijn"
+	line "benen steeds langer. Hij loopt"
+	line "soepel met extra lange,"
+	line "vloeiende schreden."
 	done
 
 HitmonchanName: ; 5f74e (17:774e)
@@ -691,8 +705,8 @@ LeerName: ; 5f7e6 (17:77e6)
 LeerDescription: ; 5f7ec (17:77ec)
 	text "Gooi een munt op. Als het kop is,"
 	line "kan de Verdedigende Pokémon Rhyhorn"
-	line "niet aanvallen tijdens je tegenstander's"
-	line "volgende beurt."
+	line "niet aanvallen tijdens je"
+	line "tegenstander's volgende beurt."
 	line "(Het op de Bank plaatsen van een van"
 	line "beide Pokémon beëindigt dit effect.)"
 	done
@@ -716,23 +730,23 @@ RamName: ; 5f8fa (17:78fa)
 	done
 
 RamDescription: ; 5f8ff (17:78ff)
-	text "Rhydon does 20 damage to itself."
-	line "If your opponent has any Benched"
-	line "Pokémon, he or she chooses 1 of them"
-	line "and switches it with the Defending"
-	line "Pokémon.(Do the damage before"
-	line "switching the Pokémon."
+	text "Rhydon doet 20 schade aan zichzelf."
+	line "Als je tegenstander Pokémon op de"
+	line "Bank heeft, kiest hij of zij er 1 van"
+	line "en verwisselt deze met de Verdedigende"
+	line "Pokémon. (Doe de schade vóór het"
+	line "verwisselen van de Pokémon."
 	done
 
 RamDescriptionCont: ; 5f9bf (17:79bf)
-	text "Switch the Pokémon even if Rhydon"
-	line "is Knocked Out.)"
+	text "Verwissel de Pokémon zelfs als"
+	line "Rhydon Uitgeschakeld is.)"
 	done
 
 RhydonDescription: ; 5f9f3 (17:79f3)
-	text "Protected by an armor-like hide, it"
-	line "is capable of living in molten lava"
-	line "of 3600 degrees."
+	text "Beschermd door zijn pantserachtige"
+	line "huid, is hij in staat te leven in"
+	line "in gesmolten lava van 2000 graden."
 	done
 
 KabutoName: ; 5fa4d (17:7a4d)
@@ -740,29 +754,31 @@ KabutoName: ; 5fa4d (17:7a4d)
 	done
 
 KabutoArmorName: ; 5fa55 (17:7a55)
-	text "Kabuto Armor"
+	text "Kabuto-pantser"
 	done
 
 KabutoArmorDescription: ; 5fa63 (17:7a63)
-	text "Whenever an attack (even your own)"
-	line "does damage to Kabuto (after"
-	line "applying Weakness and Resistance),"
-	line "that attack only does half the"
-	line "damage to Kabuto (rounded down to"
-	line "the nearest 10)."
+	text "Telkens wanneer een aanval (zelfs"
+	line "die van jezelf) schade doet aan"
+	line "Kabuto (na het toepassen van Zwakte"
+	line "en Weerstand), doet die aanval"
+	line "slechts de helft van de schade aan"
+	line "Kabuto (naar beneden afgerond naar"
+	line "de dichtstbijzijnde 10)."
 	done
 
 KabutoArmorDescriptionCont: ; 5fb19 (17:7b19)
-	text "(Any other effects of attacks still"
-	line "happen.) This power stops working"
-	line "while Kabuto is Asleep, Confused,"
-	line "or Paralyzed."
+	text "(Alle andere effecten van aanvallen"
+	line "blijven gewoon geldig.) Deze kracht"
+	line "stopt met werken als Kabuto In"
+	line "Slaap, Verward, of Verlamd is."
 	done
 
 KabutoDescription: ; 5fb90 (17:7b90)
-	text "A Pokémon that was resurrected from"
-	line "a fossil found in what was once the"
-	line "ocean floor eons ago."
+	text "Een Pokémon die opnieuw tot leven is"
+	line "uit een fossiel dat is gevonden in"
+	line "wat eens, een eeuwigheid geleden, de"
+	line "bodem van de oceaan was."
 	done
 	
 KabutopsName: ; 5fbef (17:7bef)
@@ -770,32 +786,34 @@ KabutopsName: ; 5fbef (17:7bef)
 	done
 
 SharpSickleName: ; 5fbf9 (17:7bf9)
-	text "Sharp Sickle"
+	text "Scherpe sikkel"
 	done
 
 AbsorbName: ; 5fc07 (17:7c07)
-	text "Absorb"
+	text "Absorberen"
 	done
 
 AbsorbDescription: ; 5fc0f (17:7c0f)
-	text "Remove a number of damage counters"
-	line "from Kabutops equal to half the"
-	line "damage done to the Defending"
-	line "Pokémon (after applying Weakness"
-	line "and Resistance)"
-	line "(rounded up to the nearest 10)."
+	text "Verwijder een aantal schadetellers"
+	line "van Kabutops gelijk aan de helft"
+	line "van de schade die gedaan is aan de"
+	line "Verdedigende Pokémon (na het"
+	line "toepassen van Zwakte en Weerstand)"
+	line "(naar boven afgerond naar de"
+	line "dichtsbijzijnde 10)."
 	done
 
 AbsorbDescriptionCont: ; 5fcc1 (17:7cc1)
-	text "If Kabutops has fewer damage"
-	line "counters than that, remove all of"
-	line "them."
+	text "Als Kabutops minder schadetellers"
+	line "heeft dan dat, verwijder ze dan"
+	line "allemaal."
 	done
 
 KabutopsDescription: ; 5fd07 (17:7d07)
-	text "Its sleek shape is perfect for"
-	line "swimming. It slashes prey with its"
-	line "claws and drains the body fluids."
+	text "Zijn slanke vorm is perfect om te"
+	line "zwemmen. Hij hakt met zijn klauwen"
+	line "in op zijn prooi en zuigt er de"
+	line "lichaamssappen uit."
 	done
 
 AerodactylName: ; 5fd6c (17:7d6c)
@@ -807,20 +825,21 @@ PrehistoricPowerName: ; 5fd78 (17:7d78)
 	done
 
 PrehistoricPowerDescription: ; 5fd8b (17:7d8b)
-	text "No more Evolution cards can be"
-	line "played. This power stops working"
-	line "while Aerodactyl is Asleep,"
-	line "Confused, or Paralyzed."
+	text "Er kunnen geen Evolutiekaarten"
+	line "meer worden gespeeld. Deze kracht"
+	line "stopt met werken als Aerodactyl"
+	line "In Slaap, Verward, of Verlamd is."
 	done
 
 FossilName: ; 5fe00 (17:7e00)
-	text "Fossil"
+	text "Fossiel-"
 	done
 
 AerodactylDescription: ; 5fe08 (17:7e08)
-	text "A ferocious prehistoric Pokémon that"
-	line "goes for the enemy's throat with its"
-	line "serrated saw-like fangs."
+	text "Een woeste, prehistorische Pokémon"
+	line "die de vijand bij de keel grijpt"
+	line "met zijn gekartelde, zaagachtige"
+	line "slagtanden."
 	done
 
 AbraName: ; 5fe6c (17:7e6c)
@@ -851,7 +870,7 @@ KadabrasRecoverDescription: ; 5fedc (17:7edc)
 	done
 
 SuperPsiName: ; 5ff50 (17:7f50)
-	text "Superpsyche"
+	text "Superverwarring"
 	done
 
 KadabraDescription: ; 5ff5b (17:7f5b)
@@ -866,23 +885,29 @@ AlakazamName: ; 5ffb8 (17:7fb8)
 	done
 
 DamageSwapName: ; 5ffc2 (17:7fc2)
-	text "Damage Swap"
+	text "Schadeverwisseling"
 	done
 
 DamageSwapDescription: ; 60000 (18:4000)
-	text "As often as you like during your"
-	line "turn (before your attack), you may"
-	line "move 1 damage counter from 1 of your"
-	line "Pokémon to another as long as you"
-	line "don't Knock Out that Pokémon."
-	line "Deze kracht kan niet worden gebruikt Alakazam"
-	line "is Asleep, Confused, or Paralyzed."
+	text "Je mag zo vaak als je wilt tijdens"
+	line "je beurt (vóór je aanval) 1"
+	line "schadeteller van een van je Pokémon"
+	line "naar een van je andere verplaatsen,"
+	line "zolang je die Pokémon maar niet"
+	line "Uitschakelt."
 	done
 
+DamageSwapDescriptionCont:
+	text "Deze kracht kan niet worden"
+	line "gebruikt als Alakazam In Slaap,"
+	line "Verward, of Verlamd is."
+	done
+	
 AlakazamDescription: ; 600f2 (18:40f2)
-	text "Its brain can outperform a"
-	line "supercomputer. Its intelligence"
-	line "quotient is said to be 5000."
+	text "Tegen zijn brein legt een"
+	line "supercomputer het af. Er"
+	line "wordt beweerd dat zijn"
+	line "intelligentiequotiënt 5000 is."
 	done
 
 SlowpokeName: ; 6014b (18:414b)
@@ -890,50 +915,59 @@ SlowpokeName: ; 6014b (18:414b)
 	done
 
 SlowpokesAmnesiaDescription: ; 60155 (18:4155)
-	text "Choose 1 of the Defending Pokémon's"
-	line "attacks. That Pokémon can't use"
-	line "that attack during your opponent's"
-	line "next turn."
+	text "Kies 1 van de aanvallen van de"
+	line "Verdedigende Pokémon. Gedurende je"
+	line "tegenstander's volgende beurt kan"
+	line "die Pokémon die aanval"
+	line "niet gebruiken."
 	done
 
 DopeyName: ; 601c8 (18:41c8)
-	text "Dopey"
+	text "Duffe"
 	done
 
 Slowpoke1Description: ; 601cf (18:41cf)
-	text "Incredibly slow and dopey. It takes"
-	line "5 seconds for it to feel pain when"
-	line "under attack."
+	text "Hij is altijd afwezig verzonken in"
+	line "gedachten, maar niemand weet waar"
+	line "hij over nadenkt. Hij is goed in"
+	line "vissen met zijn staart."
 	done
 
 SpacingOutName: ; 60225 (18:4225)
-	text "Spacing Out"
+	text "Suffen"
 	done
 
 SpacingOutDescription: ; 60232 (18:4232)
-	text "Gooi een munt op. Als het kop is, remove a"
-	line "damage counter from Slowpoke. This"
-	line "attack can't be used if Slowpoke"
-	line "has no damage counters on it."
+	text "Gooi een munt op. Als het kop is,"
+	line "verwijder dan een schadeteller van"
+	line "Slowpoke. Deze aanval kan niet"
+	line "worden gebruikt als er geen"
+	line "schadetellers op Slowpoke liggen."
 	done
 
 ScavengeName: ; 602b5 (18:42b5)
-	text "Scavenge"
+	text "Vuilnis doorzoeken"
 	done
 
 ScavengeDescription: ; 602bf (18:42bf)
-	text "Discard 1 <PSYCHIC> Energiekaart attached"
-	line "to Slowpoke in order to use this"
-	line "attack. Put a Trainer card from your"
-	line "Weggooistapel into your hand."
+	text "Gooi 1 aan Slowpoke gehechte <PSYCHIC>"
+	line "Energiekaart weg om deze aanval"
+	line "te kunnen gebruiken. Neem een"
+	line "Trainerkaart uit je weggooistapel"
+	line "in je hand."
 	done
+
+Slowpoke2Description:
+	text "Ontzettend traag en duf. Het duurt"
+	line "5 seconden voor hij pijn voelt"
+	line "als hij wordt aangevallen."
 
 SlowbroName: ; 60345 (18:4345)
 	text "Slowbro"
 	done
 
 StrangeBehaviorName: ; 6034e (18:434e)
-	text "Strange Behavior"
+	text "Vreemd gedrag"
 	done
 
 StrangeBehaviorDescription: ; 60360 (18:4360)
@@ -1254,70 +1288,4 @@ Mewtwo2Description: ; 610d0 (18:50d0)
 	text "Years of genetic experiments"
 	line "resulted in the creation of this"
 	line "never-before-seen violent Pokémon."
-	done
-
-MewName: ; 61132 (18:5132)
-	text "Mew"
-	done
-
-NeutralizingShieldName: ; 61137 (18:5137)
-	text "Neutraliserend Schild"
-	done
-
-NeutralizingShieldDescription: ; 6114c (18:514c)
-	text "Prevent all effects of attacks,"
-	line "including damage, done to Mew by"
-	line "evolved Pokémon (excluding your"
-	line "own). This power stops working while"
-	line "Mew In Slaap, Verward, of"
-	line "Verlamd is."
-	done
-
-NewSpeciesName: ; 611fa (18:51fa)
-	text "New Species"
-	done
-
-Mew1Description: ; 61207 (18:5207)
-	text "So rare that it is still said to be"
-	line "a mirage by many experts. Only a few"
-	line "people have seen it worldwide."
-	done
-
-MysteryAttackName: ; 61270 (18:5270)
-	text "Mystery Attack"
-	done
-
-MysteryAttackDescription: ; 61280 (18:5280)
-	text "Does a random amount of damage to"
-	line "the Defending Pokémon and may cause"
-	line "a random effect to the Defending"
-	line "Pokémon."
-	done
-
-Mew2Description: ; 612f1 (18:52f1)
-	text "When viewed through a microscope, "
-	line "this Pokémon's short, fine, delicate"
-	line "hair can be seen."
-	done
-
-PsywaveName: ; 6134c (18:534c)
-	text "Psywave"
-	done
-
-PsywaveDescription: ; 61355 (18:5355)
-	text "Does 10 damage times the number of"
-	line "Energiekaarten attached to the"
-	line "Defending Pokémon."
-	done
-
-DevolutionBeamName: ; 613a9 (18:53a9)
-	text "Devolution Beam"
-	done
-
-DevolutionBeamDescription: ; 613ba (18:53ba)
-	text "Choose an evolved Pokémon (Your"
-	line "own or your opponent's). Return"
-	line "the highest stage evolution card"
-	line "on that Pokémon to Its player's"
-	line "hand."
 	done

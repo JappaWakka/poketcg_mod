@@ -119,10 +119,11 @@ SolarPowerName: ; 576f8 (15:76f8)
 
 SolarPowerDescription: ; 57705 (15:7705)
 	text "Eenmaal tijdens je beurt (vóór je"
-	line "aanval) mag je deze kracht gebruiken."
-	line "Je Actieve Pokémon en de Verdedigende"
-	line "Pokémon zijn niet langer In Slaap,"
-	line "Verward, Verlamd, of Vergiftigd."
+	line "aanval) mag je deze kracht"
+	line "gebruiken. Je Actieve Pokémon en"
+	line "de Verdedigende Pokémon zijn niet"
+	line "langer In Slaap, Verward,"
+	line "Verlamd, of Vergiftigd."
 	done
 
 SolarPowerDescriptionCont: ; 577b0 (15:77b0)
@@ -136,11 +137,12 @@ MegaDrainName: ; 577f9 (15:77f9)
 	done
 
 VenusaursMegaDrainDescription: ; 57805 (15:7805)
-	text "Verwijder een aantal schadetellers van"
-	line "Venusaur gelijk aan de helft van de"
-	line "schade die gedaan is aan de Verdedigende"
-	line "Pokémon (na het toepassen van Zwakte en"
-	line "Weerstand) (naar boven afgerond naar de"
+	text "Verwijder een aantal schadetellers"
+	line "van Venusaur gelijk aan de helft"
+	line "van de schade die gedaan is aan"
+	line "de Verdedigende Pokémon (na het"
+	line "toepassen van Zwakte en Weerstand)"
+	line "(naar boven afgerond naar de"
 	line "dichtsbijzijnde 10)."
 	done
 
@@ -151,9 +153,10 @@ VenusaursMegaDrainDescriptionCont: ; 578b7 (15:78b7)
 	done
 
 Venusaur1Description: ; 578fd (15:78fd)
-	text "De bloem op zijn rug vangt zonlicht op."
-	line "Het zonlicht wordt dan geabsorbeerd"
-	line "en gebruikt voor energie."
+	text "De bloem op zijn rug vangt zonlicht"
+	line "op. Het zonlicht wordt dan"
+	line "geabsorbeerd en gebruikt"
+	line "voor energie."
 	done
 
 EnergyTransName: ; 57960 (15:7960)
@@ -161,8 +164,8 @@ EnergyTransName: ; 57960 (15:7960)
 	done
 
 EnergyTransDescription: ; 5796e (15:796e)
-	text "Je mag zo vaak als je wilt tijdens je"
-	line "beurt (vóór je aanval) 1 <GRASS>"
+	text "Je mag zo vaak als je wilt tijdens"
+	line "je beurt (vóór je aanval) 1 <GRASS>"
 	line "Energiekaart pakken die gehecht"
 	line "is aan 1 van je Pokémon en hem"
 	line "aan een andere Pokémon hechten."
@@ -260,11 +263,12 @@ WhirlwindDescription: ; 57c99 (15:7c99)
 	done
 
 ButterfreesMegaDrainDescription: ; 57d3a (15:7d3a)
-	text "Verwijder een aantal schadetellers van"
-	line "Butterfree gelijk aan de helft van de"
-	line "schade die gedaan is aan de Verdedigende"
-	line "Pokémon (na het toepassen van Zwakte en"
-	line "Weerstand) (naar boven afgerond naar de"
+	text "Verwijder een aantal schadetellers"
+	line "van Butterfree gelijk aan de helft"
+	line "van de schade die gedaan is aan"
+	line "de Verdedigende Pokémon (na het"
+	line "toepassen van Zwakte en Weerstand)"
+	line "(naar boven afgerond naar de"
 	line "dichtsbijzijnde 10)."
 	done
 
@@ -753,9 +757,9 @@ SlashName: ; 58f87 (16:4f87)
 
 ParasectDescription: ; 58f8e (16:4f8e)
 	text "Een gastheer-parasiet-paar waarin"
-	line "de parasitaire paddestoel de gastheer"
-	line "heeft overgenomen. Geeft de voorkeur"
-	line "aan vochtige plaatsen."
+	line "de parasitaire paddestoel de"
+	line "gastheer heeft overgenomen. Geeft"
+	line "de voorkeur aan vochtige plaatsen."
 	done
 
 VenonatName: ; 58ff5 (16:4ff5)
@@ -794,7 +798,7 @@ ShiftDescription: ; 59146 (16:5146)
 	text "Eenmaal tijdens je beurt (vóór je"
 	line "aanval) mag je het type van Venomoth"
 	line "veranderen naar het type van een"
-	line " andere Pokémon in het spel die"
+	line "andere Pokémon in het spel die niet"
 	line "<COLORLESS> is. Deze kracht kan niet worden"
 	line "gebruikt als Venomoth In Slaap,"
 	line "Verward, of Verlamd is."
@@ -826,12 +830,12 @@ BellsproutName: ; 592e5 (16:52e5)
 	done
 
 BellsproutsCallForFamilyDescription: ; 592f1 (16:52f1)
-	text "Zoek in je deck naar een Basis-"
-	line "Pokémon met Bellsprout in zijn"
-	line "naam en plaats deze op je Bank."
-	line "Schud hierna je deck. (Je kunt "
-	line "deze aanval niet gebruiken als je"
-	line "Bank vol is.)"
+	text "Zoek in je deck naar een"
+	line "Basis-Pokémon met Bellsprout"
+	line "in zijn naam en plaats deze op"
+	line "je Bank. Schud hierna je deck."
+	line "(Je kunt deze aanval niet gebruiken"
+	line "als je Bank vol is.)"
 	done
 
 BellsproutDescription: ; 59394 (16:5394)
@@ -938,6 +942,10 @@ ToxicGasDescription: ; 596d7 (16:56d7)
 	line "Verward, of Verlamd is."
 	done
 
+SludgeAttackName:
+	text "Blubber"
+	done
+
 MukDescription: ; 59750 (16:5750)
 	text "Bedekt met een dikke laag vieze,"
 	line "walgelijke blubber. Hij is zo"
@@ -954,9 +962,10 @@ HypnosisAttackName: ; 597bc (16:57bc)
 	done
 
 ExeggcutesLeechSeedDescription: ; 597c6 (16:57c6)
-	text "Tenzij alle schade van deze aanval"
-	line "wordt voorkomen, mag je 1 schade-"
-	line "teller van Exeggcute verwijderen."
+	text "Tenzij alle schade van deze"
+	line "aanval wordt voorkomen,"
+	line "mag je 1 schadeteller van"
+	line "Exeggcute verwijderen."
 	done
 
 EggName: ; 59828 (16:5828)
@@ -1002,8 +1011,8 @@ CoconutName: ; 5995c (16:595c)
 ExeggutorDescription: ; 59965 (16:5965)
 	text "Volgens de legende zal bij"
 	line "zeldzame gelegenheden een van"
-	line "een van zijn hoofden afvallen"
-	line "en verder gaan als Exeggcute."
+	line "zijn hoofden afvallen en"
+	line "verder gaan als Exeggcute."
 	done
 
 KoffingName: ; 599cc (16:59cc)
@@ -1100,8 +1109,8 @@ SwordsDanceName: ; 59cb4 (16:5cb4)
 
 SwordsDanceDescription: ; 59cc2 (16:5cc2)
 	text "Tijdens je volgende beurt is de"
-	line "basisschade van Scyther's Hak-"
-	line "aanval 60 in plaats van 30."
+	line "basisschade van Scyther's"
+	line "Hak-aanval 60 in plaats van 30."
 	done
 
 MantisName: ; 59d0b (16:5d0b)
@@ -1284,11 +1293,11 @@ MixUpDescription: ; 5a2f4 (16:62f4)
 	line "heen. Daarna neemt je tegenstander"
 	line "een gelijk aantal op willekeurige"
 	line "wijze gekozen Basis-Pokémon en/of"
-	line "Evolutiekaarten uit zijn of haar"
 	done
 
 MixUpDescriptionCont: ; 5a3df (16:63df)
-	text "deck in zijn of haar hand. Je"
+	text "Evolutiekaarten uit zijn of haar"
+	line "deck in zijn of haar hand. Je"
 	line "tegenstander schudt hierna zijn"
 	line "of haar deck."
 	done

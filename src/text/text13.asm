@@ -1,3 +1,69 @@
+MewName: ; 61132 (18:5132)
+	text "Mew"
+	done
+
+NeutralizingShieldName: ; 61137 (18:5137)
+	text "Neutraliserend Schild"
+	done
+
+NeutralizingShieldDescription: ; 6114c (18:514c)
+	text "Prevent all effects of attacks,"
+	line "including damage, done to Mew by"
+	line "evolved Pokémon (excluding your"
+	line "own). This power stops working while"
+	line "Mew In Slaap, Verward, of"
+	line "Verlamd is."
+	done
+
+NewSpeciesName: ; 611fa (18:51fa)
+	text "New Species"
+	done
+
+Mew1Description: ; 61207 (18:5207)
+	text "So rare that it is still said to be"
+	line "a mirage by many experts. Only a few"
+	line "people have seen it worldwide."
+	done
+
+MysteryAttackName: ; 61270 (18:5270)
+	text "Mystery Attack"
+	done
+
+MysteryAttackDescription: ; 61280 (18:5280)
+	text "Does a random amount of damage to"
+	line "the Defending Pokémon and may cause"
+	line "a random effect to the Defending"
+	line "Pokémon."
+	done
+
+Mew2Description: ; 612f1 (18:52f1)
+	text "When viewed through a microscope, "
+	line "this Pokémon's short, fine, delicate"
+	line "hair can be seen."
+	done
+
+PsywaveName: ; 6134c (18:534c)
+	text "Psywave"
+	done
+
+PsywaveDescription: ; 61355 (18:5355)
+	text "Does 10 damage times the number of"
+	line "Energiekaarten attached to the"
+	line "Defending Pokémon."
+	done
+
+DevolutionBeamName: ; 613a9 (18:53a9)
+	text "Devolution Beam"
+	done
+
+DevolutionBeamDescription: ; 613ba (18:53ba)
+	text "Choose an evolved Pokémon (Your"
+	line "own or your opponent's). Return"
+	line "the highest stage evolution card"
+	line "on that Pokémon to Its player's"
+	line "hand."
+	done
+
 PidgeyName: ; 61442 (18:5442)
 	text "Pidgey"
 	done
