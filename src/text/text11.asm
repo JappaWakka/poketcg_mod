@@ -1003,7 +1003,8 @@ IceBreathDescriptionCont:
 	line "die na het toepassen van Zwakte"
 	line "en Weerstand zouden gebeuren"
 	line "blijven gewoon geldig.)"
-
+	done
+	
 Articuno2Description: ; 5ce35 (17:4e35)
 	text "Een legendarische vogel-Pokémon."
 	line "Hij bevriest water dat in de"

@@ -2658,6 +2658,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer BoneAttackDescription                    ; 0x0a52
 	textpointer WailName                                 ; 0x0a53
 	textpointer WailDescription                          ; 0x0a54
+	textpointer WailDescriptionCont                      ; Translated text didn't fit so I made this
 	textpointer Marowak2Description                      ; 0x0a55
 	textpointer HitmonleeName                            ; 0x0a56
 	textpointer StretchKickName                          ; 0x0a57

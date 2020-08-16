@@ -6688,7 +6688,7 @@ Marowak2Card: ; 32e26 (c:6e26)
 	energy FIGHTING, 3 ; energies
 	tx WailName ; name
 	tx WailDescription ; description
-	dw NONE ; description (cont)
+	tx WailDescriptionCont ; description (cont)
 	db 0 ; damage
 	db RESIDUAL ; category
 	dw MarowakWailEffectCommands ; effect commands

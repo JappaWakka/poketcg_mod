@@ -197,11 +197,13 @@ BigThunderDescription: ; 5e40d (17:640d)
 	line "aanval doet 70 schade aan die"
 	line "Pokémon. Pas geen Zwakte en"
 	line "Weerstand toe voor deze aanval."
+	done
 	
 BigThunderDescriptionCont:
 	text "(Alle andere gevolgen die na het"
-	line "toepassen van Zwakte en Weerstand zouden"
-	line "gebeuren blijven gewoon geldig.)"
+	line "toepassen van Zwakte en Weerstand"
+	line "zouden gebeuren blijven"
+	line "gewoon geldig.)"
 	done
 
 Zapdos3Description: ; 5e4f8 (17:64f8)
@@ -423,10 +425,10 @@ SeismicTossName: ; 5ecc1 (17:6cc1)
 	done
 
 MachampDescription: ; 5eccf (17:6ccf)
-	text "Met behulp van zijn geweldige spieren,"
-	line "geeft hij krachtige stompen die zijn"
-	line "slachtoffers helemaal over de"
-	line "horizon kunnen doen verdwijnen."
+	text "Met behulp van zijn geweldige"
+	line "spieren, geeft hij krachtige stompen"
+	line "die zijn slachtoffers helemaal over"
+	line "de horizon kunnen doen verdwijnen."
 	done
 
 GeodudeName: ; 5ed38 (17:6d38)
@@ -589,9 +591,9 @@ CallforFriendName: ; 5f33e (17:733e)
 	done
 
 CallforFriendDescription: ; 5f34f (17:734f)
-	text "Zoek in je deck naar een <FIGHTING>"
-	line "Basis-Pokémonkaart en plaats hem"
-	line "op je Bank. Schud hierna je deck."
+	text "Zoek in je deck naar een"
+	line "<FIGHTING> Basis-Pokémonkaart en plaats"
+	line "hem op je Bank. Schud hierna je deck."
 	line "(Je kunt deze aanval niet gebruiken"
 	line "als je Bank vol is.)"
 	done
@@ -602,8 +604,8 @@ BonekeeperName: ; 5f3e9 (17:73e9)
 
 Marowak1Description: ; 5f3f5 (17:73f5)
 	text "Het bot dat hij vasthoudt is zijn"
-	line "belangrijkste wapen. Hij gooit het bot"
-	line "met grote vaardigheid als een boemerang"
+	line "hoofdwapen. Hij gooit het bot met"
+	line "grote vaardigheid als een boemerang"
 	line "om zijn doelen uit te schakelen."
 	done
 
@@ -627,16 +629,19 @@ WailDescription: ; 5f4cb (17:74cb)
 	line "met willekeurig geselecteerde Basis-"
 	line "Pokémon uit zijn of haar Deck. Als een"
 	line "speler minder Basis-Pokémon dan dat in"
-	line "zijn of haar Deck heeft, kiest hij of"
-	line "zij ze allemaal. Elke speler schudt"
-	line "hierna zijn of haar Deck."
+	line "zijn of haar Deck heeft,"
+	done
+WailDescriptionCont:
+	text "kiest hij of zij ze allemaal."
+	line "Elke speler schudt hierna zijn"
+	line "of haar Deck."
 	done
 
 Marowak2Description: ; 5f5b6 (17:75b6)
 	text "Hij is klein en zwak, maar deze"
-	line "Pokémon weet goed om te gaan met zijn"
-	line "bottenknuppel. Hij is door de jaren"
-	line "heen steeds gemener geworden."
+	line "Pokémon weet goed om te gaan met"
+	line "zijn bottenknuppel. Hij is door de"
+	line "jaren heen steeds gemener geworden."
 	done
 
 HitmonleeName: ; 5f61a (17:761a)
@@ -717,8 +722,9 @@ SpikeName: ; 5f889 (17:7889)
 
 RhyhornDescription: ; 5f890 (17:7890)
 	text "Zijn massieve botten zijn 1000 keer"
-	line "harder dan menselijke botten. Hij kan"
-	line "makkelijk een trailer de lucht in slaan."
+	line "harder dan menselijke botten."
+	line "Hij kan makkelijk een trailer"
+	line "de lucht in slaan."
 	done
 
 RhydonName: ; 5f8f2 (17:78f2)
@@ -732,10 +738,11 @@ RamName: ; 5f8fa (17:78fa)
 RamDescription: ; 5f8ff (17:78ff)
 	text "Rhydon doet 20 schade aan zichzelf."
 	line "Als je tegenstander Pokémon op de"
-	line "Bank heeft, kiest hij of zij er 1 van"
-	line "en verwisselt deze met de Verdedigende"
-	line "Pokémon. (Doe de schade vóór het"
-	line "verwisselen van de Pokémon."
+	line "Bank heeft, kiest hij of zij er"
+	line "1 van en verwisselt deze met de"
+	line "Verdedigende Pokémon. (Doe de"
+	line "schade vóór het verwisselen van"
+	line "de Pokémon."
 	done
 
 RamDescriptionCont: ; 5f9bf (17:79bf)
