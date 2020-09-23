@@ -1003,7 +1003,7 @@ Text0508: ; 47346 (11:7346)
 	line " Defeat the Masters of the 8 Clubs"
 	line " and attain the 8 Medals."
 	line " Once attained, defeat the Grand"
-	line " Master here at Pokémon Dome..."
+	line " Master here at Pokémon-Stadion..."
 	line " Then you shall inherit"
 	line " the Legendary Pokémon Cards.”"
 	done

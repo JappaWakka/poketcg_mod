@@ -560,7 +560,7 @@ YesText: ; 36e5e (d:6e5e)
 	done
 
 CardsText: ; 36e63 (d:6e63)
-	text "Over"
+	text " Over"
 	done
 
 TookAllThePrizesText: ; 36e6a (d:6e6a)
@@ -776,7 +776,7 @@ Text00a3: ; 372bd (d:72bd)
 	done
 
 NoCardsInHandText: ; 37348 (d:7348)
-	text "Geen kaarten in hand."
+	text "Geen kaarten in de hand."
 	done
 
 TheDiscardPileHasNoCardsText: ; 3735b (d:735b)
@@ -898,7 +898,7 @@ Text00be: ; 37715 (d:7715)
 	done
 
 EnergyCardsRequiredToRetreatText: ; 37758 (d:7758)
-	text "Er zijn <RAMNUM> Energiekaarten"
+	text "<RAMNUM> Energiekaart(en)"
 	line "nodig om Terug te Trekken."
 	done
 
@@ -1050,28 +1050,28 @@ SmokescreenCheckText: ; 37bdf (d:7bdf)
 	done
 
 ParalysisCheckText: ; 37c15 (d:7c15)
-	text "Verlammings-controle! Als het kop is,"
-	line "is de Verdedigende Pokémon Verlamd."
+	text "Verlammings-controle! Als het kop"
+	line "is, is de tegenstander Verlamd."
 	done
 
 SleepCheckText: ; 37c48 (d:7c48)
-	text "Slaap-controle! Als het kop is,"
-	line "is de Verdedigende Pokémon In Slaap."
+	text "Slaap-controle! Als het kop"
+	line "is, is de tegenstander In Slaap."
 	done
 
 PoisonCheckText: ; 37c79 (d:7c79)
-	text "Vergif-controle! Als het kop is, is"
-	line "de Verdedigende Pokémon Vergiftigd."
+	text "Vergif-controle! Als het kop is,"
+	line "is de tegenstander Vergiftigd."
 	done
 
 ConfusionCheckText: ; 37ca8 (d:7ca8)
-	text "Verwarring-controle! Als het kop is,"
-	line "is de Verdedigende Pokémon Verward."
+	text "Verwarring-controle! Als het kop"
+	line "is, is de tegenstander Verward."
 	done
 
 VenomPowderCheckText: ; 37cdf (d:7cdf)
-	text "Gifpoeder-controle! Als het kop is, is de"
-	line "Verdedigende Pokémon Vergiftigd & Verward."
+	text "Gifpoeder-controle! Als het kop is, is"
+	line "de tegenstander Vergiftigd & Verward."
 	done
 
 Text00e5: ; 37d1f (d:7d1f)
@@ -1091,18 +1091,18 @@ Text00e7: ; 37d70 (d:7d70)
 
 Text00e8: ; 37d92 (d:7d92)
 	text "Gooi munten op totdat het munt is."
-	line "Doe 10 schade maal het aantal keren kop!"
+	line "Doe 10 schade maal het"
+	line "aantal keren kop!"
 	done
 
 IfHeadPlus10IfTails10ToYourselfText: ; 37dc9 (d:7dc9)
-	text "Als het kop is, doe nog eens 10 schade!"
-	line "Als het munt is, doe 10 schade aan jezelf!"
+	text "Als het kop is, plus 10 schade!"
+	line "Als het munt is, 10 schade aan jezelf!"
 	done
 
 Text00ea: ; 37e03 (d:7e03)
-	text "Doe 10 schade aan de tegenstander's Bank"
-	line "als het kop is, doe 10 schade aan die van"
-	line "jou als het munt is."
+	text "10 schade aan je tegenstander's Bank bij"
+	line "kop, schade aan die van jou bij munt."
 	done
 
 IfHeadsChangeOpponentsActivePokemonText: ; 37e46 (d:7e46)

@@ -1182,47 +1182,47 @@ Text0323: ; 3e660 (f:6660)
 	done
 
 Text0324: ; 3e676 (f:6676)
-	text "  Ishihara's Huis  "
+	text "    Ishihara's Huis   "
 	done
 
 Text0325: ; 3e68c (f:668c)
-	text "   Vecht-Club    "
+	text "      Vecht-Club      "
 	done
 
 Text0326: ; 3e6a2 (f:66a2)
-	text "     Steen-Club      "
+	text "      Steen-Club      "
 	done
 
 Text0327: ; 3e6b8 (f:66b8)
-	text "     Water-Club     "
+	text "      Water-Club      "
 	done
 
 Text0328: ; 3e6ce (f:66ce)
-	text "   Bliksem-Club   "
+	text "     Bliksem-Club     "
 	done
 
 Text0329: ; 3e6e4 (f:66e4)
-	text "     Gras-Club     "
+	text "      Gras-Club       "
 	done
 
 Text032a: ; 3e6fa (f:66fa)
-	text "    Psychische Club    "
+	text "   Psychische Club    "
 	done
 
 Text032b: ; 3e710 (f:6710)
-	text "    Wetenschaps-Club    "
+	text "   Wetenschaps-Club   "
 	done
 
 Text032c: ; 3e726 (f:6726)
-	text "     Vuur-Club      "
+	text "      Vuur-Club       "
 	done
 
 Text032d: ; 3e73c (f:673c)
-	text "   Toernooihal   "
+	text "     Toernooihal      "
 	done
 
 Text032e: ; 3e752 (f:6752)
-	text "   Pokémon Stadion   "
+	text "   Pokémon-Stadion    "
 	done
 
 Text032f: ; 3e768 (f:6768)
@@ -1274,7 +1274,7 @@ Text033a: ; 3e7e6 (f:67e6)
 	done
 
 Text033b: ; 3e7f6 (f:67f6)
-	text "Pokémon Stadion"
+	text "Pokémon-Stadion"
 	done
 
 Text033c: ; 3e804 (f:6804)
@@ -1366,8 +1366,8 @@ Text034c: ; 3e9b2 (f:69b2)
 	text "Duel           [<RAMTEXT>]"
 	line "SELECTEER      [<RAMTEXT>]"
 	line "Ontvang veel kaarten"
-	line "To Pokémon Dome 1"
-	line "To Pokémon Dome 2"
+	line "Naar Pokémon-Stadion 1"
+	line "Naar Pokémon-Stadion 2"
 	done
 
 Text034d: ; 3ea10 (f:6a10)

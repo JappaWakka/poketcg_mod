@@ -10098,7 +10098,7 @@ DefenderCard: ; 33f39 (c:7f39)
 	db DEFENDER
 	dw DefenderEffectCommands ; effect commands
 	tx DefenderDescription ; description
-	tx DefenderDescriptionCont ; description (cont)
+	dw NONE ; description (cont)
 
 ItemFinderCard: ; 33f47 (c:7f47)
 	db TYPE_TRAINER ; type

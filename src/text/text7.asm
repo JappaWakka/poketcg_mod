@@ -42,12 +42,12 @@ Text05cd: ; 4b6a8 (12:76a8)
 	done
 
 Text05ce: ; 4b6ee (12:76ee)
-	text "Oké, een Duel voor 2 Prijskaarten"
+	text "Oké, een duel voor 2 Prijskaarten"
 	line "met het Oefen-Deck!"
 	done
 
 Text05cf: ; 4b71b (12:771b)
-	text "Wil je dueleren met Sam?"
+	text "Wil je Sam uitdagen tot een duel?"
 	done
 
 Text05d0: ; 4b738 (12:7738)
@@ -406,10 +406,11 @@ Text05f6: ; 4cf67 (13:4f67)
 	done
 
 Text05f7: ; 4d01e (13:501e)
-	text "Isn't the Auto Deck Machine great?"
-	line "As long as you have the necessary"
-	line "cards, this machine will"
-	line "automatically build a deck for you!"
+	text "Is de Automatische Deck Machine"
+	line "niet geweldig?"
+	line "Zolang je benodigde kaarten hebt,"
+	line "zal deze Machine automatisch een"
+	line "deck voor je bouwen!"
 	done
 
 Text05f8: ; 4d0a1 (13:50a1)
@@ -456,52 +457,55 @@ Text05fb: ; 4d361 (13:5361)
 	done
 
 Text05fc: ; 4d423 (13:5423)
-	text "<RAMNAME>, thanks to you, all"
-	line "the Auto Deck Machines have"
-	line "been activated!"
+	text "<RAMNAME>, dankzij jou zijn"
+	line "alle Automatische Deck Machines"
+	line "geactiveerd!"
 	done
 
 Text05fd: ; 4d466 (13:5466)
-	text "Ho-ho! Won't you Duel me to"
-	line "test your Deck?"
-	line "If you win, I'll give you"
-	line "a Booster Pack - but it only "
-	line "contains Energiekaarten."
+	text "Ha-ha! Wil je met mij dueleren"
+	line "om je deck uit te testen?"
+	line "Als je wint, geef ik je een"
+	line "Uitbreidingspakje - maar hij"
+	line "bevat alleen Energiekaarten."
 	done
 
 Text05fe: ; 4d4e2 (13:54e2)
-	text "Would you like to Duel Aaron?"
+	text "Wil je Aaron uitdagen tot een duel?"
 	done
 
 Text05ff: ; 4d501 (13:5501)
-	text "It's important to know how your"
-	line "Deck performs."
+	text "Het is belangrijk om te weten hoe"
+	line "goed je deck presteert."
 	done
 
 Text0600: ; 4d531 (13:5531)
-	text "Ho-ho! Please choose the Deck"
-	line "you wish to Duel against."
+	text "Ha-ha! Kies het deck maar"
+	line "waartegen je wilt dueleren."
 	done
 
 Text0601: ; 4d56a (13:556a)
-	text "Is it <RAMTEXT>?"
+	text "Kies je het <RAMTEXT>?"
 	done
 
 Text0602: ; 4d574 (13:5574)
-	text "Ho-ho! OK, let's start a "
-	line "4-prize match!"
+	text "Ha-ha! Oké, laten we een duel"
+	line "beginnen voor 4 Prijskaarten!"
 	done
 
 Text0603: ; 4d59e (13:559e)
-	text "Ho-ho! You win!"
-	line "Here you go, as promised!"
+	text "Ha-ha! Jij wint!"
+	line "Alsjeblieft, zoals beloofd!"
 	done
 
 Text0604: ; 4d5c9 (13:55c9)
-	text "Ho-ho! How about it? Did you "
-	line "get a feel for your Deck?"
-	line "Ho-ho! Come again. I'll be glad "
-	line "to Duel you any time."
+	text "Ha-ha! Wat vond je ervan?"
+	line "Ben je erachter gekomen"
+	line "hoe goed je deck presteert?"
+	line ""
+	line "Ha-ha! Kom later nog eens terug."
+	line "Ik sta altijd klaar om"
+	line "met je te dueleren."
 	done
 
 Text0605: ; 4d639 (13:5639)

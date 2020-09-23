@@ -31,8 +31,8 @@ PoisonedIfHeadsConfusedIfTailsText: ; 380ed (e:40ed)
 	done
 
 Text00fb: ; 38124 (e:4124)
-	text "Als het kop is, ondervind je geen schade"
-	line "of gevolgen van de tegenstander's aanval!"
+	text "Als het kop is, geen schade of"
+	line "gevolgen van de tegenstander's aanval!"
 	done
 
 Text00fc: ; 3816a (e:416a)
@@ -51,7 +51,7 @@ UnableToRetreatDueToAcidText: ; 381ad (e:41ad)
 
 UnableToUseTrainerDueToHeadacheText: ; 381dc (e:41dc)
 	text "Kan geen Trainerkaart gebruiken"
-	line "door de gevolgen van Hoofdpijn."
+	line "door het effect van Hoofdpijn."
 	done
 
 UnableToAttackDueToTailWagText: ; 3821a (e:421a)
@@ -71,7 +71,7 @@ UnableToAttackDueToBoneAttackText: ; 3827a (e:427a)
 
 UnableToUseAttackDueToAmnesiaText: ; 382af (e:42af)
 	text "Kan deze aanval niet gebruiken"
-	line "door de gevolgen van Geheugenverlies."
+	line "door het effect van Geheugenverlies."
 	done
 
 KnockedOutDueToDestinyBondText: ; 382e9 (e:42e9)
@@ -81,7 +81,7 @@ KnockedOutDueToDestinyBondText: ; 382e9 (e:42e9)
 
 ReceivesDamageDueToStrikesBackText: ; 38320 (e:4320)
 	text "<RAMTEXT> ontvangt <RAMNUM> schade"
-	line "door de gevolgen van Neem wraak."
+	line "door het effect van Neem wraak."
 	done
 
 UnableToEvolveDueToPrehistoricPowerText: ; 38359 (e:4359)
@@ -90,18 +90,18 @@ UnableToEvolveDueToPrehistoricPowerText: ; 38359 (e:4359)
 	done
 
 NoDamageOrEffectDueToFlyText: ; 38394 (e:4394)
-	text "Geen schade of gevolgen van de volgende"
-	line "aanval door de gevolgen van Vliegen."
+	text "Geen schade of gevolgen van de"
+	line "aanval door het effect van Vliegen."
 	done
 
 NoDamageOrEffectDueToBarrierText: ; 383d3 (e:43d3)
-	text "Geen schade of gevolgen van de volgende"
-	line "aanval door de gevolgen van Barrière."
+	text "Geen schade of gevolgen van de"
+	line "aanval door het effect van Barrière."
 	done
 
 NoDamageOrEffectDueToAgilityText: ; 38416 (e:4416)
 	text "Geen schade of gevolgen van de volgende"
-	line "aanval door de gevolgen van Behendigheid."
+	line "aanval door het effect van Behendigheid."
 	done
 
 UnableToUseAttackDueToNShieldText: ; 38459 (e:4459)
@@ -111,13 +111,13 @@ UnableToUseAttackDueToNShieldText: ; 38459 (e:4459)
 
 NoDamageOrEffectDueToNShieldText: ; 38494 (e:4494)
 	text "Geen schade of gevolgen van de volgende"
-	line "aanval door de gevolgen van"
+	line "aanval door het effect van"
 	line "Neutraliserend Schild."
 	done
 
 NoDamageOrEffectDueToTransparencyText: ; 384d8 (e:44d8)
 	text "Geen schade of gevolgen van de volgende"
-	line "aanval door de gevolgen van Transparantie."
+	line "aanval door het effect van Transparantie."
 	done
 
 Text010d: ; 3851f (e:451f)
@@ -126,8 +126,9 @@ Text010d: ; 3851f (e:451f)
 	done
 
 SelectPkmnOnBenchToSwitchWithActiveText: ; 38533 (e:4533)
-	text "Kies een Pokémon op de Bank om"
-	line "te verwisselen met de Actieve Pokémon."
+	text "Kies een Pokémon op de Bank om te"
+	line "verwisselen met de Actieve Pokémon."
+	line ""
 	done
 
 SelectPokemonToPlaceInTheArenaText: ; 38575 (e:4575)
@@ -568,28 +569,28 @@ Text015b: ; 3970f (e:570f)
 	done
 
 Text015c: ; 39733 (e:5733)
-	text "Choose a Basic Pokémon"
-	line "to Evolve."
+	text "Kies een Basis-Pokémon"
+	line "om te Evolueren."
 	done
 
 Text015d: ; 39756 (e:5756)
-	text "Choose a Pokémon to"
-	line "Scoop Up."
+	text "Kies een Pokémon om"
+	line "binnen te halen."
 	done
 
 Text015e: ; 39775 (e:5775)
-	text "Choose a card from your"
-	line "hand to Switch."
+	text "Kies een kaart uit je hand"
+	line "om te verwisselen."
 	done
 
 Text015f: ; 3979e (e:579e)
-	text "Choose a card to"
-	line "Switch."
+	text "Kies een kaart om te"
+	line "verwisselen."
 	done
 
 Text0160: ; 397b8 (e:57b8)
-	text "Choose a Basic or Evolution"
-	line "Pokémon card from the deck."
+	text "Kies een Basis- of Evolutie-"
+	line "Pokémonkaart uit het deck."
 	done
 
 Text0161: ; 397f1 (e:57f1)

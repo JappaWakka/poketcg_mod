@@ -231,17 +231,14 @@ DefenderName: ; 64274 (19:4274)
 	done
 
 DefenderDescription: ; 6427e (19:427e)
-	text "Hecht Verdediger aan 1 van je"
-	line "Pokémon. Gooi Verdediger aan het"
-	line "einde van je tegenstander's"
-	line "volgende beurt weg. De schade die"
-	done
-	
-DefenderDescriptionCont:
-	text "door aanvallen aan deze Pokémon"
-	line "wordt gedaan wordt verminderd"
-	line "met 20 (nadat Zwakte en"
+	text "Hecht Verdediger aan 1 van je Pokémon."
+	line "Gooi hem aan het einde van je"
+	line "tegenstander's volgende beurt weg."
+	line "De schade die door aanvallen aan"
+	text "deze Pokémon wordt gedaan wordt"
+	line "verminderd met 20 (nadat Zwakte en"
 	line "Weerstand zijn toegepast)."
+	done
 
 ItemFinderName: ; 64342 (19:4342)
 	text "Detector"

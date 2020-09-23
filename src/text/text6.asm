@@ -470,7 +470,7 @@ Text0553: ; 48bcc (12:4bcc)
 Text0554: ; 48bed (12:4bed)
 	text "Yes! The Legendary Pokémon Cards"
 	line "will be inherited here at"
-	line "Pokémon Dome! Of course, I, "
+	line "Pokémon-Stadion! Of course, I, "
 	line "Ronald, will inherit the cards!"
 	line "Hey, did you collect the Medals?"
 	done
@@ -599,7 +599,7 @@ Text0568: ; 4928f (12:528f)
 	done
 
 Text0569: ; 492b9 (12:52b9)
-	text "Welcome to Pokémon Dome!"
+	text "Welcome to Pokémon-Stadion!"
 	done
 
 Text056a: ; 492d3 (12:52d3)
@@ -1141,7 +1141,7 @@ Text05bf: ; 4ae4d (12:6e4d)
 	line "Did you see the Legendary Auto"
 	line "Deck Machine?"
 	line "It is rumored that it's in the "
-	line "Hall of Honor at Pokémon Dome."
+	line "Hall of Honor at Pokémon-Stadion."
 	line "It supposedly holds the secret "
 	line "to a very powerful deck!"
 	done
@@ -1165,16 +1165,19 @@ Text05c2: ; 4afd0 (12:6fd0)
 	done
 
 Text05c3: ; 4afe5 (12:6fe5)
-	text "Are you also hoping to inherit"
-	line "the Legendary Pokémon Cards?"
-	line "If you want the Legendary Cards,"
-	line "you must defeat the Grand Masters."
-	line "To Duel the Grand Masters, you"
-	line "must first get the Master Medals."
-	line "The 8 Masters of the Card Clubs"
-	line "each have a Master Medal. Go to"
-	line "Pokémon Dome if you want to learn"
-	line "more about the Legendary Cards."
+	text "Hoop jij ook de Legendarische"
+	line "Pokémonkaarten over te mogen"
+	line "nemen? Als je de Legendarische"
+	line "kaarten wilt hebben, dan moet je"
+	line "eerst de Grootmeesters verslaan."
+	line "Om de Grootmeesters uit te mogen"
+	line "dagen moet je eerst alle"
+	line "MeesterMedailles winnen."
+	line "De 8 Meesters van de Kaart Clubs"
+	line "hebben elk een MeesterMedaille."
+	line "Ga naar het Pokémon-Stadion als"
+	line "je meer wilt leren over de"
+	line "Legendarische kaarten."
 	done
 
 Text05c4: ; 4b129 (12:7129)
@@ -1185,14 +1188,17 @@ Text05c4: ; 4b129 (12:7129)
 	done
 
 Text05c5: ; 4b17c (12:717c)
-	text "When you defeat a Club Member,"
-	line "you'll receive a Booster Pack."
-	line "Each Booster Pack has 10 cards."
-	line "The cards differ depending on"
-	line "the Booster Pack you receive. "
-	line "The type of Booster Pack differs"
-	line "depending on who you duel, "
-	line "so choose your opponents well."
+	text "Als je een Club Lid verslaat,"
+	line "ontvang je een Uitbreidingspakje."
+	line "Elk Uitbreidingspakje bevat"
+	line "10 kaarten."
+	line "Welke kaarten je krijgt hangt af"
+	line "van welk Uitbreidingspakje je wint."
+	line "Wat voor soort Uitbreidingspakje je"
+	line "krijgt hangt ook af van welke"
+	line "tegenstander je verslaat, dus maak"
+	line "slimme beslissingen bij het kiezen"
+	line "van je tegenstanders."
 	done
 
 Text05c6: ; 4b274 (12:7274)
@@ -1206,12 +1212,12 @@ Text05c6: ; 4b274 (12:7274)
 	done
 
 Text05c7: ; 4b323 (12:7323)
-	text "I'm sure you already know, but there"
-	line "are 8 Clubs: the Fighting, Water,"
-	line "Lightning, Grass, Psychic, Fire,"
-	line "Rock and Science Clubs!"
-	line "The different Clubs use cards that"
-	line "are specific to that Club."
+	text "Je weet het vast al, maar er zijn"
+	line "8 Clubs: de Vecht-, Water-,"
+	line "Bliksem-, Gras-, Psychische, Vuur-,"
+	line "Rots- en Wetenschap-Clubs!"
+	line "De verschillende Clubs gebruiken"
+	line "kaarten die bij hun Club passen."
 	done
 
 Text05c8: ; 4b3e2 (12:73e2)

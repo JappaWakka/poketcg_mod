@@ -2993,7 +2993,6 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer PlusPowerDescription                     ; 0x0b94
 	textpointer DefenderName                             ; 0x0b95
 	textpointer DefenderDescription                      ; 0x0b96
-	textpointer DefenderDescriptionCont					 ; Translated text didn't fit so I made this
 	textpointer ItemFinderName                           ; 0x0b97
 	textpointer ItemFinderDescription                    ; 0x0b98
 	textpointer GustOfWindName                           ; 0x0b99
