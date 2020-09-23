@@ -231,11 +231,11 @@ DefenderName: ; 64274 (19:4274)
 	done
 
 DefenderDescription: ; 6427e (19:427e)
-	text "Hecht Verdediger aan 1 van je Pokémon."
-	line "Gooi hem aan het einde van je"
+	text "Hecht Verdediger aan 1 van je Poké-"
+	line "mon. Gooi hem aan het einde van je"
 	line "tegenstander's volgende beurt weg."
 	line "De schade die door aanvallen aan"
-	text "deze Pokémon wordt gedaan wordt"
+	line "deze Pokémon wordt gedaan wordt"
 	line "verminderd met 20 (nadat Zwakte en"
 	line "Weerstand zijn toegepast)."
 	done
