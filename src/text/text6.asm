@@ -1,3 +1,56 @@
+Text050a: ; 47442 (11:7442)
+	text "Greetings! Welcome to the "
+	line "Challenge Hall! The Challenge Cup "
+	line "will begin soon. If you win the "
+	line "Challenge Cup, you will receive "
+	line "a Promotional Card! Please join "
+	line "us for this competition."
+	done
+
+Text050b: ; 474fd (11:74fd)
+	text "Greetings! Welcome to the "
+	line "Challenge Hall! This is where the"
+	line "the Challenge Cup is held. The "
+	line "Challenge Cup may start at any"
+	line "time, so please visit the "
+	line "Challenge Hall often."
+	done
+
+Text050c: ; 475ab (11:75ab)
+	text "Greetings! Welcome to the "
+	line "Challenge Hall! Defeat 3 "
+	line "opponents here, and you shall be "
+	line "presented with a wonderful gift!"
+	line "Please join in the competition!"
+	done
+
+Text050d: ; 47644 (11:7644)
+	text "Most unfortunate, <RAMNAME>."
+	line "Once you enter, you won't be able"
+	line "to re-enter for some time. "
+	line "Please try again another day."
+	done
+
+Text050e: ; 476b6 (11:76b6)
+	text "Congratulations, <RAMNAME>!"
+	line "You received a card!"
+	line "Please join us for the next "
+	line "Challenge Cup, too."
+	done
+
+Text050f: ; 47711 (11:7711)
+	text "I won't lose to any"
+	line "whipper-snapper!"
+	line "I'm going to win this "
+	line "Challenge Cup!"
+	done
+
+Text0510: ; 4775d (11:775d)
+	text "I work at the Challenge Cup"
+	line "as the HOST."
+	line "I can't wait to get up on stage!"
+	done
+
 Text0511: ; 477a8 (11:77a8)
 	text "The time has come to see if all"
 	line "my training has paid off!"
@@ -480,7 +533,7 @@ Text055d: ; 48f87 (12:4f87)
 	done
 
 Text055e: ; 48fcb (12:4fcb)
-	text "Please build a powerful Deck"
+	text "Please build a powerful deck"
 	line "around my card!"
 	done
 
@@ -679,7 +732,7 @@ Text057e: ; 49980 (12:5980)
 	done
 
 Text057f: ; 4999c (12:599c)
-	text "Is your Deck ready, "
+	text "Is your deck ready, "
 	text "<RAMNAME>?"
 	done
 
@@ -819,7 +872,7 @@ Text0597: ; 49f7e (12:5f7e)
 	done
 
 Text0598: ; 49fb5 (12:5fb5)
-	text "Is your Deck ready, "
+	text "Is your deck ready, "
 	text "<RAMNAME>?"
 	done
 
@@ -924,7 +977,7 @@ Text05a8: ; 4a452 (12:6452)
 	done
 
 Text05a9: ; 4a49a (12:649a)
-	text "Is your Deck ready, "
+	text "Is your deck ready, "
 	text "<RAMNAME>?"
 	done
 
@@ -1002,7 +1055,7 @@ Text05b5: ; 4a80b (12:680b)
 	done
 
 Text05b6: ; 4a841 (12:6841)
-	text "Would you like to build a Deck?"
+	text "Would you like to build a deck?"
 	done
 
 Text05b7: ; 4a862 (12:6862)
@@ -1070,15 +1123,16 @@ Text05bd: ; 4ad20 (12:6d20)
 	done
 
 Text05be: ; 4ad53 (12:6d53)
-	text "The 8 Club Masters each own a"
-	line "Master Medal."
-	line "The secret of each Club's deck is"
-	line "encrypted in its Master Medal."
-	line "Once you get a Master Medal, go"
-	line "to the computer room in back."
-	line "You can place the Medals in the"
-	line "Auto Deck Machines to create"
-	line "different Decks!"
+	text "De 8 Club Meesters hebben elk hun"
+	line "eigen MeesterMedaille."
+	line "Het geheim van het deck van elke"
+	line "Club is in hun Medaille"
+	line "gegraveerd. Als je een"
+	line "MeesterMedaille hebt gewonnen, ga"
+	line "dan naar de computerkamer achterin."
+	line "Daar kan je Medailles in de"
+	line "Automatische Deck Machines stoppen"
+	line "om verschillende decks te maken!"
 	done
 
 Text05bf: ; 4ae4d (12:6e4d)
@@ -1165,48 +1219,4 @@ Text05c8: ; 4b3e2 (12:73e2)
 	line "Masters!"
 	line "And you even defeated the"
 	line "4 Grand Masters! Amazing!"
-	done
-
-Text05c9: ; 4b43e (12:743e)
-	text "To save your game, press START"
-	line "and choose Diary from the Menu."
-	line "You can do all sorts of stuff with"
-	line "that PC over there."
-	line "You can read e-mail from "
-	line "Dr. Mason on that PC, too!"
-	done
-
-Text05ca: ; 4b4ea (12:74ea)
-	text "This is the Challenge Machine"
-	line "created by Dr. Mason!"
-	line "The Challenge Machine is a "
-	line "Pokémon Card Dueling Machine. "
-	line "The rules of the game are simple: "
-	line "choose 1 deck with which you must"
-	line "Duel 5 computer opponents!"
-	line "If you can defeat the 5 "
-	line "opponents, you win! You can also "
-	line "play to extend your winning "
-	line "streak! Build a deck and "
-	line "give it a try, <RAMNAME>!"
-	done
-
-Text05cb: ; 4b63e (12:763e)
-	text "OK, let's start using the practice"
-	line "Deck. Listen and follow Dr. Mason's"
-	line "instructions."
-	done
-
-Text05cc: ; 4b694 (12:7694)
-	text "Practice with Sam?"
-	done
-
-Text05cd: ; 4b6a8 (12:76a8)
-	text "You should practice again if there"
-	line "is anything you don't understand."
-	done
-
-Text05ce: ; 4b6ee (12:76ee)
-	text "OK, a 2-Prize Duel using"
-	line "the practice deck!"
 	done

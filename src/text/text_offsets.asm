@@ -2721,6 +2721,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer SlowbroName                              ; 0x0a8e
 	textpointer StrangeBehaviorName                      ; 0x0a8f
 	textpointer StrangeBehaviorDescription               ; 0x0a90
+	textpointer StrangeBehaviorDescriptionCont			 ; Translated text didn't fit so I made this
 	textpointer HermitcrabName                           ; 0x0a91
 	textpointer SlowbroDescription                       ; 0x0a92
 	textpointer GastlyName                               ; 0x0a93
@@ -2744,6 +2745,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer GengarName                               ; 0x0aa5
 	textpointer CurseName                                ; 0x0aa6
 	textpointer CurseDescription                         ; 0x0aa7
+	textpointer CurseDescriptionCont					 ; Translated text didn't fit so I made this
 	textpointer DarkMindName                             ; 0x0aa8
 	textpointer DarkMindDescription                      ; 0x0aa9
 	textpointer ShadowName                               ; 0x0aaa
@@ -2790,6 +2792,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer PsywaveDescription                       ; 0x0ad3
 	textpointer DevolutionBeamName                       ; 0x0ad4
 	textpointer DevolutionBeamDescription                ; 0x0ad5
+	textpointer DevolutionBeamDescriptionCont			 ; Translated text didn't fit so I made this
 	textpointer PidgeyName                               ; 0x0ad6
 	textpointer TinyBirdName                             ; 0x0ad7
 	textpointer PidgeyDescription                        ; 0x0ad8
@@ -2800,9 +2803,11 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer PidgeottoDescription                     ; 0x0add
 	textpointer PidgeotName                              ; 0x0ade
 	textpointer SlicingWindName                          ; 0x0adf
-	textpointer SlicingWildDescription                   ; 0x0ae0
+	textpointer SlicingWindDescription                   ; 0x0ae0
+	textpointer SlicingWindDescriptionCont				 ; Translated text didn't fit so I made this
 	textpointer GaleName                                 ; 0x0ae1
 	textpointer GaleDescription                          ; 0x0ae2
+	textpointer GaleDescriptionCont						 ; Translated text didn't fit so I made this
 	textpointer Pidgeot1Description                      ; 0x0ae3
 	textpointer HurricaneName                            ; 0x0ae4
 	textpointer HurricaneDescription                     ; 0x0ae5
@@ -2827,10 +2832,12 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer SingName                                 ; 0x0af8
 	textpointer MetronomeName                            ; 0x0af9
 	textpointer ClefairysMetronomeDescription            ; 0x0afa
+	textpointer ClefairysMetronomeDescriptionCont		 ; Translated text didn't fit so I made this
 	textpointer FairyName                                ; 0x0afb
 	textpointer ClefairyDescription                      ; 0x0afc
 	textpointer ClefableName                             ; 0x0afd
 	textpointer ClefablesMetronomeDescription            ; 0x0afe
+	textpointer ClefablesMetronomeDescriptionCont		 ; Translated text didn't fit so I made this
 	textpointer ClefablesMinimizeDescription             ; 0x0aff
 	textpointer ClefableDescription                      ; 0x0b00
 	textpointer JigglypuffName                           ; 0x0b01
@@ -2854,6 +2861,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer MeowthName                               ; 0x0b13
 	textpointer CatPunchName                             ; 0x0b14
 	textpointer CatPunchDescription                      ; 0x0b15
+	textpointer CatPunchDescriptionCont					 ; Translated text didn't fit so I made this
 	textpointer ScratchCatName                           ; 0x0b16
 	textpointer Meowth1Description                       ; 0x0b17
 	textpointer PayDayName                               ; 0x0b18
@@ -2862,6 +2870,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer PersianName                              ; 0x0b1b
 	textpointer PounceName                               ; 0x0b1c
 	textpointer PounceDescription                        ; 0x0b1d
+	textpointer PounceDescriptionCont					 ; Translated text didn't fit so I made this
 	textpointer ClassyCatName                            ; 0x0b1e
 	textpointer PersianDescription                       ; 0x0b1f
 	textpointer FarfetchdName                            ; 0x0b20
@@ -2948,6 +2957,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer LassDescription                          ; 0x0b71
 	textpointer ImakuniName                              ; 0x0b72
 	textpointer ImakuniDescription                       ; 0x0b73
+	textpointer ImakuniDescriptionCont					 ; Wanted to add a translation of the official card flavor text on a separate page
 	textpointer PokemonTraderName                        ; 0x0b74
 	textpointer PokemonTraderDescription                 ; 0x0b75
 	textpointer PokemonBreederName                       ; 0x0b76
@@ -2983,6 +2993,7 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer PlusPowerDescription                     ; 0x0b94
 	textpointer DefenderName                             ; 0x0b95
 	textpointer DefenderDescription                      ; 0x0b96
+	textpointer DefenderDescriptionCont					 ; Translated text didn't fit so I made this
 	textpointer ItemFinderName                           ; 0x0b97
 	textpointer ItemFinderDescription                    ; 0x0b98
 	textpointer GustOfWindName                           ; 0x0b99

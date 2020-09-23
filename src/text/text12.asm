@@ -1,3 +1,267 @@
+Pikachu2Description: ; 5cfeb (17:4feb)
+	text "Als meerdere van deze Pokémon"
+	line "samenkomen, kan hun energie"
+	line "bliksemstormen veroorzaken."
+	done
+
+GrowlName: ; 5d04a (17:504a)
+	text "Grommen"
+	done
+
+GrowlDescription: ; 5d051 (17:5051)
+	text "Als de Verdedigende Pokémon Pikachu"
+	line "aanvalt tijdens je tegenstander's"
+	line "volgende beurt, dan wordt alle"
+	line "schade die de aanval doet"
+	line "verminderd met 10 (na het toepassen"
+	line "van Zwakte en Weerstand)."
+	done
+
+GrowlDescriptionCont:
+	text "(Het op de Bank plaatsen van een van"
+	line "beide Pokémon beëindigt dit effect.)"
+	done
+
+ThundershockName: ; 5d12f (17:512f)
+	text "Donderschok"
+	done
+
+Pikachu3Description: ; 5d13d (17:513d)
+	text "Hij heeft kleine zakjes in allebei"
+	line "zijn wangen. Als hij wordt bedreigd,"
+	line "schiet hij elektrische ladingen"
+	line "vanuit de zakjes."
+	done
+
+FlyingPikachuName: ; 5d19e (17:519e)
+	text "Vliegende Pikachu"
+	done
+
+FlyName: ; 5d1ae (17:51ae)
+	text "Vliegen"
+	done
+
+FlyDescription: ; 5d1b3 (17:51b3)
+	text "Gooi een munt op."
+	line "Als het kop is, voorkomt deze aanval"
+	line "alle gevolgen van aanvallen,"
+	line "inclusief schade, die aan Vliegende"
+	line "Pikachu worden toegebracht tijdens"
+	line "je tegenstander's volgende beurt;"
+	done
+
+FlyDescriptionCont: ; Translated text didn't fit so I made this
+	text "als het munt is, doet deze aanval"
+	line "niets (zelfs geen schade)."
+	done
+
+FlyingPikachuDescription: ; 5d26f (17:526f)
+	text "Door te leren hoe hij moest vliegen,"
+	line "overkwam Pikachu zijn zwakte tegen"
+	line "Vecht Pokémon."
+	done
+
+SurfingPikachuName: ; 5d2bb (17:52bb)
+	text "Surfende Pikachu"
+	done
+
+SurfName: ; 5d2cc (17:52cc)
+	text "Surfen"
+	done
+
+SurfingPikachuDescription: ; 5d2d2 (17:52d2)
+	text "Tijdens een zomer werd er een"
+	line "groep Pikachu gespot die op de"
+	line "golven aan het surfen waren"
+	line "bij het lokale strand."
+	done
+
+RaichuName: ; 5d321 (17:5321)
+	text "Raichu"
+	done
+
+RaichusAgilityDescription: ; 5d329 (17:5329)
+	text "Gooi een munt op."
+	line "Als het kop is, voorkomt deze"
+	line "aanval alle gevolgen van aanvallen,"
+	line "inclusief schade, die aan Raichu"
+	line "worden toegebracht tijdens je"
+	line "tegenstander's volgende beurt."
+	done
+
+ThunderName: ; 5d3a5 (17:53a5)
+	text "Donder"
+	done
+
+RaichusThunderDescription: ; 5d3ae (17:53ae)
+	text "Gooi een munt op."
+	line "Als het munt is, doet Raichu"
+	line "30 schade aan zichzelf."
+	done
+
+Raichu1Description: ; 5d3e7 (17:53e7)
+	text "Zijn lange staart fungeert als een"
+	line "aarde om zichzelf te beschermen"
+	line "tegen zijn eigen"
+	line "hoogspanningsenergie."
+	done
+
+GigashockName: ; 5d43c (17:543c)
+	text "Gigaschok"
+	done
+
+GigashockDescription: ; 5d447 (17:5447)
+	text "Kies 3 van je tegenstander's Pokémon"
+	line "op de Bank en deze aanval doet 10"
+	line "schade aan elk van die Pokémon."
+	line "(Pas geen Zwakte en Weerstand toe"
+	line "voor Pokémon op de Bank.)"
+	done
+	
+GigashockDescriptionCont:
+	text "Als je tegenstander minder dan 3"
+	line "Pokémon op de Bank heeft, doe dan"
+	line "aan elk van die Pokémon de schade."
+	done
+
+Raichu2Description: ; 5d531 (17:5531)
+	text "Zijn lange staart fungeert als een"
+	line "aarde om zichzelf te beschermen"
+	line "tegen zijn eigen"
+	line "hoogspanningsenergie."
+	done
+
+MagnemiteName: ; 5d586 (17:5586)
+	text "Magnemite"
+	done
+
+ThunderWaveName: ; 5d591 (17:5591)
+	text "Dondergolf"
+	done
+
+MagnemitesSelfdestructDescription: ; 5d59f (17:559f)
+	text "Deze aanval doet 10 schade aan"
+	line "elke Pokémon op de Bank van elke"
+	line "speler. (Pas geen Zwakte en"
+	line "Weerstand toe voor Pokémon op"
+	line "de Bank.) Magnemite doet"
+	line "40 schade aan zichzelf."
+	done
+
+MagnetName: ; 5d636 (17:5636)
+	text "Magneet-"
+	done
+
+Magnemite1Description: ; 5d63e (17:563e)
+	text "Gebruikt anti-zwaartekracht om"
+	line "in de lucht te blijven. Verschijnt"
+	line "zonder waarschuwing en gebruikt"
+	line "aanvallen zoals Dondergolf."
+	done
+
+MagneticStormName: ; 5d6a0 (17:56a0)
+	text "Magnetische Storm"
+	done
+
+MagneticStormDescription: ; 5d6b0 (17:56b0)
+	text "Verwijder alle Energiekaarten die"
+	line "gehecht zijn aan al je Pokémon, en"
+	line "hecht de Energiekaarten daarna weer"
+	line "aan je Pokémon, op willekeurige"
+	line "wijze verdeeld."
+	done
+
+Magnemite2Description: ; 5d70f (17:570f)
+	text "Hij is geboren met het vermogen om"
+	line "de zwaartekracht tegen te gaan. Hij"
+	line "zweeft in de lucht op krachtige"
+	line "electromanetische golven."
+	done
+
+MagnetonName: ; 5d76e (17:576e)
+	text "Magneton"
+	done
+
+Magneton1sSelfdestructDescription: ; 5d778 (17:5778)
+	text "Deze aanval doet 20 schade aan"
+	line "elke Pokémon op de Bank van elke"
+	line "speler. (Pas geen Zwakte en"
+	line "Weerstand toe voor Pokémon op"
+	line "de Bank.) Magneton doet"
+	line "80 schade aan zichzelf."
+	done
+
+Magneton1Description: ; 5d80e (17:580e)
+	text "Wordt gevormd door verschillende"
+	line "met elkaar verbonden Magnemite."
+	line "Verschijnt vaak als de"
+	line "zonnevlekken opvlammen."
+	done
+
+SonicboomName: ; 5d86b (17:586b)
+	text "Supersone knal"
+	done
+
+SonicboomDescription: ; 5d876 (17:5876)
+	text "Pas geen Zwakte of Weerstand toe"
+	line "voor deze aanval. (Alle andere"
+	line "gevolgen die na het toepassen van"
+	line "Zwakte en Weerstand zouden"
+	line "gebeuren blijven gewoon geldig.)"
+	done
+
+Magneton2sSelfdestructDescription: ; 5d907 (17:5907)
+	text "Deze aanval doet 20 schade aan elke"
+	line "Pokémon op de Bank van elke speler."
+	line "(Pas geen Zwakte en Weerstand toe"
+	line "voor Pokémon op de Bank.) Magneton"
+	line "doet 100 schade aan zichzelf."
+	done
+
+Magneton2Description: ; 5d99e (17:599e)
+	text "Wordt gevormd door verschillende"
+	line "met elkaar verbonden Magnemite."
+	line "Verschijnt vaak als de"
+	line "zonnevlekken opvlammen."
+	done
+
+VoltorbName: ; 5d9fc (17:59fc)
+	text "Voltorb"
+	done
+
+BallName: ; 5da05 (17:5a05)
+	text "Bal-"
+	done
+
+VoltorbDescription: ; 5da0b (17:5a0b)
+	text "Vaak te vinden in energiecentrales."
+	line "Doordat hij makkelijk wordt verward"
+	line "met een PokéBal, heeft hij al heel"
+	line "wat mensen stroomschokken gegeven."
+	done
+
+ElectrodeName: ; 5da67 (17:5a67)
+	text "Electrode"
+	done
+
+EnergySpikeName: ; 5da72 (17:5a72)
+	text "Energiepiek"
+	done
+
+EnergySpikeDescription: ; 5da80 (17:5a80)
+	text "Zoek in je deck naar een"
+	line "Basis-Energiekaart en hecht hem"
+	line "aan 1 van je Pokémon. Schud"
+	line "hierna je deck."
+	done
+
+Electrode1Description: ; 5daeb (17:5aeb)
+	text "Hij slaat elektrische energie op in"
+	line "zijn lichaam. Zelfs de kleinste"
+	line "schok zou een explosie af kunnen"
+	line "laten gaan."
+	done
+
 ChainLightningName: ; 5db4f (17:5b4f)
 	text "Kettingbliksem"
 	done
@@ -591,11 +855,11 @@ CallforFriendName: ; 5f33e (17:733e)
 	done
 
 CallforFriendDescription: ; 5f34f (17:734f)
-	text "Zoek in je deck naar een"
-	line "<FIGHTING> Basis-Pokémonkaart en plaats"
-	line "hem op je Bank. Schud hierna je deck."
-	line "(Je kunt deze aanval niet gebruiken"
-	line "als je Bank vol is.)"
+	text "Zoek in je deck naar een <FIGHTING>"
+	line "Basis-Pokémonkaart en plaats"
+	line "hem op je Bank. Schud hierna je"
+	line "deck. (Je kunt deze aanval niet"
+	line "gebruiken als je Bank vol is.)"
 	done
 
 BonekeeperName: ; 5f3e9 (17:73e9)
@@ -627,14 +891,15 @@ WailName: ; 5f4c5 (17:74c5)
 WailDescription: ; 5f4cb (17:74cb)
 	text "Elke speler vult zijn of haar Bank"
 	line "met willekeurig geselecteerde Basis-"
-	line "Pokémon uit zijn of haar Deck. Als een"
-	line "speler minder Basis-Pokémon dan dat in"
-	line "zijn of haar Deck heeft,"
+	line "Pokémon uit zijn of haar deck. "
+	line "Als een speler minder Basis-Pokémon"
+	line "dan dat in zijn of haar deck heeft,"
 	done
+	
 WailDescriptionCont:
 	text "kiest hij of zij ze allemaal."
 	line "Elke speler schudt hierna zijn"
-	line "of haar Deck."
+	line "of haar deck."
 	done
 
 Marowak2Description: ; 5f5b6 (17:75b6)
@@ -915,384 +1180,4 @@ AlakazamDescription: ; 600f2 (18:40f2)
 	line "supercomputer het af. Er"
 	line "wordt beweerd dat zijn"
 	line "intelligentiequotiënt 5000 is."
-	done
-
-SlowpokeName: ; 6014b (18:414b)
-	text "Slowpoke"
-	done
-
-SlowpokesAmnesiaDescription: ; 60155 (18:4155)
-	text "Kies 1 van de aanvallen van de"
-	line "Verdedigende Pokémon. Gedurende je"
-	line "tegenstander's volgende beurt kan"
-	line "die Pokémon die aanval"
-	line "niet gebruiken."
-	done
-
-DopeyName: ; 601c8 (18:41c8)
-	text "Duffe"
-	done
-
-Slowpoke1Description: ; 601cf (18:41cf)
-	text "Hij is altijd afwezig verzonken in"
-	line "gedachten, maar niemand weet waar"
-	line "hij over nadenkt. Hij is goed in"
-	line "vissen met zijn staart."
-	done
-
-SpacingOutName: ; 60225 (18:4225)
-	text "Suffen"
-	done
-
-SpacingOutDescription: ; 60232 (18:4232)
-	text "Gooi een munt op. Als het kop is,"
-	line "verwijder dan een schadeteller van"
-	line "Slowpoke. Deze aanval kan niet"
-	line "worden gebruikt als er geen"
-	line "schadetellers op Slowpoke liggen."
-	done
-
-ScavengeName: ; 602b5 (18:42b5)
-	text "Vuilnis doorzoeken"
-	done
-
-ScavengeDescription: ; 602bf (18:42bf)
-	text "Gooi 1 aan Slowpoke gehechte <PSYCHIC>"
-	line "Energiekaart weg om deze aanval"
-	line "te kunnen gebruiken. Neem een"
-	line "Trainerkaart uit je weggooistapel"
-	line "in je hand."
-	done
-
-Slowpoke2Description:
-	text "Ontzettend traag en duf. Het duurt"
-	line "5 seconden voor hij pijn voelt"
-	line "als hij wordt aangevallen."
-
-SlowbroName: ; 60345 (18:4345)
-	text "Slowbro"
-	done
-
-StrangeBehaviorName: ; 6034e (18:434e)
-	text "Vreemd gedrag"
-	done
-
-StrangeBehaviorDescription: ; 60360 (18:4360)
-	text "As often as you like during your"
-	line "turn (before your attack), you may"
-	line "move 1 damage counter from 1 of your"
-	line "Pokémon to Slowbro as long as you"
-	line "don't Knock Out Slowbro. This power"
-	line "can't be used if Slowbro is Asleep,"
-	line "Confused, or Paralyzed."
-	done
-
-HermitcrabName: ; 6044c (18:444c)
-	text "Hermitcrab"
-	done
-
-SlowbroDescription: ; 60458 (18:4458)
-	text "The Shellder that is latched onto"
-	line "Slowpoke's tail is said to feed on"
-	line "the host's left-over scraps."
-	done
-
-GastlyName: ; 604bb (18:44bb)
-	text "Gastly"
-	done
-
-SleepingGasName: ; 604c3 (18:44c3)
-	text "Slaapgas"
-	done
-
-MayInflictSleepDescription: ; 604d1 (18:44d1)
-	text "Gooi een munt op. Als het kop is,"
-	line "is de Verdedigende Pokémon nu"
-	line "In Slaap."
-	done
-
-DestinyBondName: ; 6050e (18:450e)
-	text "Lotverbintenis"
-	done
-
-DestinyBondDescription: ; 6051c (18:451c)
-	text "Om deze aanval te kunnen gebruiken,"
-	line "moet je 1 aan Gastly gehechte <PSYCHIC>"
-	line "Energiekaart weggooien. Als een"
-	line "Pokémon Gastly Uitschakelt tijdens"
-	line "je tegenstander's volgende beurt,"
-	line "Schakel dan die Pokémon Uit."
-	done
-
-GasName: ; 605bf (18:45bf)
-	text "Gas-"
-	done
-
-Gastly1Description: ; 605c4 (18:45c4)
-	text "Deze gasachtige Pokémon die bijna"
-	line "onzichtbaar is, omhult zijn"
-	line "doelwit en brengt het ongemerkt"
-	line "in slaap."
-	done
-
-LickName: ; 60623 (18:4623)
-	text "Lik"
-	done
-
-EnergyConversionName: ; 60629 (18:4629)
-	text "Energie-omzetting"
-	done
-
-EnergyConversionDescription: ; 6063c (18:463c)
-	text "Neem ten hoogste 2 Energiekaarten"
-	line "uit je Weggooistapel in je hand."
-	line "Gastly doet 10 schade aan zichzelf."
-	done
-
-Gastly2Description: ; 6069e (18:469e)
-	text "Een mysterieuze Pokémon. Sommigen"
-	line "zeggen dat hij een levensvorm is uit"
-	line "een andere dimensie, terwijl anderen"
-	line "menen dat hij uit smog gevormd is."
-	done
-
-HaunterName: ; 60714 (18:4714)
-	text "Haunter"
-	done
-
-TransparencyName: ; 6071d (18:471d)
-	text "Transparantie"
-	done
-
-TransparencyDescription: ; 6072b (18:472b)
-	text "Gooi telkens als een aanval iets"
-	line "Haunter doet een munt op. Als het"
-	line "kop is, voorkom dan alle gevolgen"
-	line "van die aanval, inclusief schade,"
-	line "toegebracht aan Haunter. Deze"
-	line "Kracht stopt met werken als"
-	line "Haunter In Slaap, Verward, of"
-	line "Verlamd is."
-	done
-
-NightmareName: ; 60801 (18:4801)
-	text "Nachtmerrie"
-	done
-
-HaunterDescription: ; 6080c (18:480c)
-	text "Omdat hij in staat is door zware"
-	line "muren heen te glippen, wordt"
-	line "beweerd dat hij uit een andere"
-	line "dimensie komt."
-	done
-
-DreamEaterName: ; 6086a (18:486a)
-	text "Droometer"
-	done
-
-DreamEaterDescription: ; 60877 (18:4877)
-	text "Deze aanval kun je alleen"
-	line "gebruiken als de Verdedigende"
-	line "Pokémon In Slaap is."
-	done
-
-GengarName: ; 608ba (18:48ba)
-	text "Gengar"
-	done
-
-CurseName: ; 608c2 (18:48c2)
-	text "Vervloeken"
-	done
-
-CurseDescription: ; 608c9 (18:48c9)
-	text "Eenmaal tijdens je beurt (voor je"
-	line "aanval), mag je 1 schadeteller"
-	line "van 1 van je tegenstander's Pokémon"
-	line "naar een andere verplaatsen (zelfs"
-	line "als het de andere Pokémon zou"
-	line "Uitschakelen). Deze kracht kan niet"
-	line "worden gebruikt als Gengar"
-	line "In Slaap, Verward, of Verlamd is."
-	done
-
-DarkMindName: ; 609b7 (18:49b7)
-	text "Duistere geest"
-	done
-
-DarkMindDescription: ; 609c2 (18:49c2)
-	text "ls je tegenstander Pokémon op de"
-	line "Bank heeft, kies er dan 1 van en"
-	line "deze aanval doet hem 10 schade."
-	line "(Pas geen Zwakte en Weerstand"
-	line "toe op de Pokémon op de Bank.)"
-	done
-
-ShadowName: ; 60a5f (18:4a5f)
-	text "Schaduw-"
-	done
-
-GengarDescription: ; 60a67 (18:4a67)
-	text "Onder een volle maan houdt deze"
-	line "Pokémon ervan om de schaduwen van"
-	line "mensen na te doen en om hun angst"
-	line "te lachen."
-	done
-
-DrowzeeName: ; 60ac8 (18:4ac8)
-	text "Drowzee"
-	done
-
-HypnosisName:
-	text "Hypnose-"
-	done
-
-PoundName: ; 60ad1 (18:4ad1)
-	text "Stamp"
-	done
-
-DrowzeeDescription: ; 60ad8 (18:4ad8)
-	text "Brengt zijn vijanden in slaap en eet"
-	line "vervolgens hun dromen op. Wordt soms"
-	line "wel eens ziek omdat hij slechte"
-	line "dromen eet."
-	done
-
-HypnoName: ; 60b37 (18:4b37)
-	text "Hypno"
-	done
-
-ProphecyName: ; 60b3e (18:4b3e)
-	text "Voorspelling"
-	done
-
-ProphecyDescription: ; 60b48 (18:4b48)
-	text "Bekijk tot 3 kaarten van de bovenkant"
-	line "van het deck van elke speler en leg"
-	line "ze in de volgorde die je wilt."
-	done
-
-HypnoDescription: ; 60ba4 (18:4ba4)
-	text "Als hij de ogen kruist met een vijand,"
-	line "gebruikt hij een mengsel van psychische"
-	line "tactieken zoals Hypnose en Verwarring."
-	done
-
-MrMimeName: ; 60c06 (18:4c06)
-	text "Mr. Mime"
-	done
-
-InvisibleWallName: ; 60c10 (18:4c10)
-	text "Invisible Wall"
-	done
-
-InvisibleWallDescription: ; 60c20 (18:4c20)
-	text "Whenever an attack (including your"
-	line "own) does 30 or more damage to Mr."
-	line "Mime (after applying Weakness and"
-	line "Resistance), prevent that damage."
-	line "(Any other effects of attacks still"
-	line "happen.)"
-	done
-
-InvisibleWallDescriptionCont: ; 60cd8 (18:4cd8)
-	text "Deze kracht kan niet worden gebruikt Mr. Mime"
-	line "is Asleep, Confused, or Paralyzed."
-	done
-
-MeditateName: ; 60d21 (18:4d21)
-	text "Mediteren"
-	done
-
-MrMimesMeditateDescription: ; 60d2b (18:4d2b)
-	text "Doet 10 schade plus nog eens 10"
-	line "schade voor elke schadeteller"
-	line "op de Verdedigende Pokémon."
-	done
-
-BarrierName: ; 60d81 (18:4d81)
-	text "Barrière"
-	done
-
-MrMimeDescription: ; 60d8a (18:4d8a)
-	text "If interrupted while miming, it will"
-	line "slap around the enemy with its broad"
-	line "hands."
-	done
-
-JynxName: ; 60ddc (18:4ddc)
-	text "Jynx"
-	done
-
-DoubleAttackX10Description: ; 60de2 (18:4de2)
-	text "Gooi 2 munten op. Deze aanval doet"
-	line "10 schade maal het aantal keren kop."
-	done
-
-JynxsMeditateDescription: ; 60e27 (18:4e27)
-	text "Doet 20 schade plus nog eens 10"
-	line "schade voor elke schadeteller"
-	line "op de Verdedigende Pokémon."
-	done
-
-HumanShapeName: ; 60e7d (18:4e7d)
-	text "Menselijk gevormde"
-	done
-
-JynxDescription: ; 60e8a (18:4e8a)
-	text "Enkel door te mediteren, lanceert"
-	line "de Pokémon een krachtige psychische"
-	line "energieaanval."
-	done
-
-MewtwoName: ; 60ed8 (18:4ed8)
-	text "Mewtwo"
-	done
-
-PsychicName: ; 60ee0 (18:4ee0)
-	text "Psychic"
-	done
-
-PsychicDescription: ; 60ee9 (18:4ee9)
-	text "Does 10 damage plus 10 more damage"
-	line "for each Energiekaart attached to the"
-	line "Defending Pokémon."
-	done
-
-BarrierDescription: ; 60f45 (18:4f45)
-	text "Discard 1 <PSYCHIC> Energiekaart attached to"
-	line "Mewtwo in order to use this attack."
-	line "During your opponent's next turn,"
-	line "prevent all effects of attacks,"
-	line "including damage, done to Mewtwo."
-	done
-
-GeneticName: ; 60ff3 (18:4ff3)
-	text "Genetic"
-	done
-
-Mewtwo1Description: ; 60ffc (18:4ffc)
-	text "A scientist created this Pokémon"
-	line "after years of horrific"
-	line "gene-splicing and DNA engineering"
-	line "experiments."
-	done
-
-EnergyAbsorptionName: ; 61065 (18:5065)
-	text "Energy Absorption"
-	done
-
-EnergyAbsorptionDescription: ; 61078 (18:5078)
-	text "Choose up to 2 Energiekaarten from"
-	line "your Weggooistapel and attach them"
-	line "to Mewtwo."
-	done
-
-PsyburnName: ; 610c7 (18:50c7)
-	text "Psyburn"
-	done
-
-Mewtwo2Description: ; 610d0 (18:50d0)
-	text "Years of genetic experiments"
-	line "resulted in the creation of this"
-	line "never-before-seen violent Pokémon."
 	done

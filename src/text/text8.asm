@@ -1,3 +1,70 @@
+Text065b: ; 4f148 (13:7148)
+	text "I don't like people who think"
+	line "too highly of themselves."
+	line "That's why I don't like the "
+	line "members of the Psychic Club."
+	line "I wish I could knock them off their"
+	line "high horses!"
+	line "Would you try to defeat Murray,"
+	line "the Psychic Club Master?"
+	line "If you defeat Murray, I'll give you"
+	line "something really valuable!"
+	done
+
+Text065c: ; 4f264 (13:7264)
+	text "Grant the old man's wish?"
+	done
+
+Text065d: ; 4f27f (13:727f)
+	text "I understand..."
+	line "Murray is very skilled."
+	line "Defeating Murray is no "
+	line "easy task."
+	done
+
+Text065e: ; 4f2cb (13:72cb)
+	text "Good!"
+	line "I'll be waiting here for you!"
+	done
+
+Text065f: ; 4f2f0 (13:72f0)
+	text "I see you still can't defeat "
+	line "Murray. He's very skilled, but "
+	line "don't give up! I'm pulling for "
+	line "you! If you defeat Murray, I'll "
+	line "give you something very valuable."
+	done
+
+Text0660: ; 4f392 (13:7392)
+	text "I'm not very fond of people who"
+	line "think too highly of themselves."
+	line "That's why I don't like the "
+	line "members of the Psychic Club."
+	line "Hey!?! Is that the Psychic Medal?"
+	line "Did you defeat Murray!?!"
+	line "I feel so much better!"
+	line "Here, let me give you this"
+	line "Mewtwo card!"
+	done
+
+Text0661: ; 4f487 (13:7487)
+	text "What? Is that the Psychic Medal?"
+	line "Did you defeat Murray!?!"
+	line "I feel so much better!"
+	line "Here, let me give you this"
+	line "Mewtwo card."
+	done
+
+Text0662: ; 4f501 (13:7501)
+	text "Thank you for defeating Murray!"
+	done
+
+Text0663: ; 4f522 (13:7522)
+	text "I feel so much better since you"
+	line "defeated Murray!"
+	line "Thank you for defeating Murray!"
+	done
+
 Text0664: ; 4f574 (13:7574)
 	text "Hi, <RAMNAME>."
 	line "So you've finally come this far?"
@@ -158,7 +225,7 @@ Text067d: ; 4fd8e (13:7d8e)
 	line "the Medals. How do I know this?"
 	line "Because I'm Psychic!"
 	line "OK, let me test my new card"
-	line "strategy... against your deck!"
+	line "strategy... against your Deck!"
 	line "Are you ready?"
 	done
 
@@ -357,7 +424,7 @@ Text069b: ; 507d8 (14:47d8)
 	done
 
 Text069c: ; 5086c (14:486c)
-	text "When you build a lot of decks,"
+	text "When you build a lot of Decks,"
 	line "you start to run out of Energy "
 	line "cards. Please give me your Energy "
 	line "cards! Give me all the Energiekaarten "
@@ -460,7 +527,7 @@ Text06aa: ; 50d24 (14:4d24)
 	done
 
 Text06ab: ; 50d3f (14:4d3f)
-	text "I guess my deck was hotter than"
+	text "I guess my Deck was hotter than"
 	line "yours this time!"
 	line "Let's heat it up again!!!"
 	done
@@ -700,14 +767,14 @@ Text06d3: ; 5182d (14:582d)
 	done
 
 Text06d4: ; 51862 (14:5862)
-	text "You sent the configuration for"
+	text "You sent the Configuration for"
 	line "the <RAMTEXT> Deck!"
 	line "Thank you."
 	line "Please come again."
 	done
 
 Text06d5: ; 518ac (14:58ac)
-	text "You received the configuration for"
+	text "You received the Configuration for"
 	line "the <RAMTEXT> Deck!"
 	line "Thank you."
 	line "Please come again."
@@ -716,7 +783,7 @@ Text06d5: ; 518ac (14:58ac)
 Text06d6: ; 518fa (14:58fa)
 	text "Welcome to the Gift Center!"
 	line "Here you can give or receive cards"
-	line "or deck configurations via the"
+	line "or Deck Configurations via the"
 	line "Infrared Link."
 	line "Unfortunately, our service is"
 	line "only available for the"
@@ -932,7 +999,7 @@ Text06f8: ; 52343 (14:6343)
 	text "Then let's trade!"
 	line "Pikachu for a Clefairy!"
 	line "Oops!"
-	line "Your Clefairy is in your deck!"
+	line "Your Clefairy is in your Deck!"
 	line "I can't take that!"
 	line "Please trade me another time!"
 	done
@@ -1195,52 +1262,4 @@ Text0722: ; 52fa8 (14:6fa8)
 	line "quite fun!"
 	line "Please allow me"
 	line "to Duel you again!"
-	done
-
-Text0723: ; 52fef (14:6fef)
-	text "I am Nikki, the Grass Club "
-	line "Master. What? You were looking "
-	line "for me? Oh my..."
-	line "I'm very sorry to keep you waiting."
-	line "I was doing a little research here."
-	line "I assume you would like to Duel?"
-	line "I only Duel at the Club."
-	line "I'm sorry, but could you meet me"
-	line "at the Grass Club?"
-	line "I will head back to the Grass Club"
-	line "and wait for you there."
-	done
-
-Text0724: ; 5312e (14:712e)
-	text "Thank you very much, Ishihara."
-	line "Your books were very helpful!"
-	line "You are indeed the Number 1"
-	line "Pokémon Trading Card Collector."
-	done
-
-Text0725: ; 531a8 (14:71a8)
-	text "Oh, no!"
-	line "You give me too much credit..."
-	line "If you need to research anything,"
-	line "please come see me again!"
-	done
-
-Text0726: ; 5320c (14:720c)
-	text "Thank you very much, Ishihara."
-	line "If you will excuse me..."
-	done
-
-Text0727: ; 53245 (14:7245)
-	text "Hello, nice to meet you."
-	line "I'm Ishihara."
-	line "I'm a Pokémon Card Collector."
-	line "I love collecting cards."
-	line "I see you also love"
-	line "Pokémon Cards."
-	line "Please come see me again."
-	line "We must trade some sometime."
-	line "OH!"
-	line "If you're playing with the cards,"
-	line "Please read some of the books here."
-	line "I believe they will be helpful."
 	done

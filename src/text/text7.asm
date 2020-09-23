@@ -1,34 +1,83 @@
+Text05c9: ; 4b43e (12:743e)
+	text "Om je vooruitgang op te slaan, druk"
+	line "je op START en kies je ”Dagboek” in"
+	line "het menu dat dan verschijnt."
+	line ""
+	line "Je kan allerlei dingen doen met die"
+	line "PC daar, zoals kijken welke kaarten"
+	line "je al hebt verzameld uit de"
+	line "verschillende kaartensets!"
+	line "Je kan zelfs de e-mails van"
+	line "Dr. Mason op die PC bekijken!"
+	done
+
+Text05ca: ; 4b4ea (12:74ea)
+	text "This is the Challenge Machine"
+	line "created by Dr. Mason!"
+	line "The Challenge Machine is a "
+	line "Pokémon Card Dueling Machine. "
+	line "The rules of the game are simple: "
+	line "choose 1 deck with which you must"
+	line "Duel 5 computer opponents!"
+	line "If you can defeat the 5 "
+	line "opponents, you win! You can also "
+	line "play to extend your winning "
+	line "streak! Build a deck and "
+	line "give it a try, <RAMNAME>!"
+	done
+
+Text05cb: ; 4b63e (12:763e)
+	text "Oké, laten we beginnen met het"
+	line "Oefen-Deck. Luister naar Dr. Mason"
+	line "en volg zijn instructies op."
+	done
+
+Text05cc: ; 4b694 (12:7694)
+	text "Wil je oefenen met Sam?"
+	done
+
+Text05cd: ; 4b6a8 (12:76a8)
+	text "Wees niet bang om opnieuw te"
+	line "oefenen als je iets niet snapt."
+	done
+
+Text05ce: ; 4b6ee (12:76ee)
+	text "Oké, een Duel voor 2 Prijskaarten"
+	line "met het Oefen-Deck!"
+	done
+
 Text05cf: ; 4b71b (12:771b)
-	text "Would you like to Duel Sam?"
+	text "Wil je dueleren met Sam?"
 	done
 
 Text05d0: ; 4b738 (12:7738)
-	text "Come see me any time."
-	line "The basics are very important!"
+	text "Je kan me altijd om hulp vragen."
+	line "De basis begrijpen is erg belangrijk!"
 	done
 
 Text05d1: ; 4b76e (12:776e)
-	text "You're getting the hang of it!"
+	text "Juist! Je begint het te begrijpen!"
 	done
 
 Text05d2: ; 4b78e (12:778e)
-	text "Keep this up, and you should be able"
-	line "to win some duels!"
+	text "Hou dit vol, dan zal je binnenkort"
+	line "vast meer duellen winnen!"
 	done
 
 Text05d3: ; 4b7c7 (12:77c7)
-	text "You need to practice more."
-	line "If you think things through,"
-	line "you should be able to win."
-	line "Why don't you practice "
-	line "a little more?"
+	text "Je moet nog wat meer oefenen."
+	line "Als je goed blijft nadenken,"
+	line "dan zou je moeten kunnen winnen."
+	line "Wil je misschien nog wat meer"
+	line "oefenen?"
 	done
 
 Text05d4: ; 4b842 (12:7842)
-	text "So, have you learned how to "
-	line "play the game?"
-	line "I hope you enjoy playing the"
-	line "Pokémon Trading Card Game!"
+	text "Dus, heb je geleerd hoe je het"
+	line "spel moet spelen?"
+	line "Ik hoop dat je veel plezier"
+	line "gaat beleven aan het"
+	line "Pokémon Ruilkaartspel!"
 	done
 
 Text05d5: ; 4b8a7 (12:78a7)
@@ -53,10 +102,10 @@ Text05d6: ; 4b8c8 (12:78c8)
 	done
 
 Text05d7: ; 4ba32 (12:7a32)
-	text "Pokémon doen schade aan"
+	text "Pokémon doen schade aan de"
 	line "Verdedigende Pokémon door aan"
-	line "te vallen. Pokémon hebben daarvoor"
-	line "Energie-kaarten nodig."
+	line "te vallen. Pokémon hebben daar"
+	line "Energie-kaarten voor nodig."
 	line "Bijvoorbeeld, de Energie die nodig"
 	line "is voor Seaking's Waterval is <WATER><COLORLESS>."
 	line "<WATER><COLORLESS> staat voor"
@@ -67,16 +116,16 @@ Text05d7: ; 4ba32 (12:7a32)
 	done
 
 Text05d8: ; 4bb56 (12:7b56)
-	text "Om je Actieve Pokémon te wisselen"
+	text "Om je Actieve Pokémon te verwisselen"
 	line "met een Pokémon op de Bank, kies"
-	line "het commando Trek Terug."
+	line "je het commando ”Trek Terug”."
 	line "Als de Actieve Pokémon in gevaar"
 	line "is, verplaats hem dan naar de Bank."
 	line "Er is wel Energie nodig om Terug"
 	line "te Trekken. Hoeveel Energiekaarten"
 	line "daarvoor nodig zijn verschilt,"
 	line "afhankelijk van welke Pokémon"
-	line "zich Terug wilt Trekken."
+	line "zich Terug wil Trekken."
 	done
 
 Text05d9: ; 4bc58 (12:7c58)
@@ -104,24 +153,24 @@ Text05da: ; 4be3e (12:7e3e)
 	line "worden gebruikt zodra een Pokémon"
 	line "in het spel komt, terwijl andere"
 	line "gebruikt moeten worden door het"
-	line "PKMN-Kracht commando te kiezen."
+	line "PKMN-Kracht-commando te kiezen."
 	line "Er zijn heel veel verschillende"
 	line "Pokémon-Krachten dus lees goed wat"
 	line "er op de kaarten staat."
 	done
 
 Text05db: ; 4c000 (13:4000)
-	text "Je beurt eindigt na je aanval."
+	text "Je beurt is voorbij na je aanval."
 	line "Als je niet genoeg Energie hebt om"
 	line "aan te vallen, of als je Actieve"
 	line "Pokémon niets kan doen door"
 	line "Verlamming of Slaap, kan je"
 	line "je beurt beëindigen door het"
-	line "commando Klaar te kiezen."
-	line "Hierdoor stopt je beurt en is het"
-	line "je tegenstander's beurt"
+	line "commando ”Klaar” te kiezen."
+	line "Hierdoor is je beurt voorbij en"
+	line "is het je tegenstander's beurt"
 	line "om te spelen."
-	line "Kies alleen het commando Klaar als"
+	line "Kies alleen het commando ”Klaar” als"
 	line "je echt niets meer kunt doen."
 	done
 
@@ -159,11 +208,11 @@ Text05de: ; 4c3cd (13:43cd)
 	text "First, learning how to use your "
 	line "deck is very important. Duel "
 	line "against many people to check your "
-	line "Deck's performance. The Auto Deck "
+	line "deck's performance. The Auto Deck "
 	line "Machines are handy when you want "
 	line "to rebuild your deck. If you "
 	line "have the required cards, it "
-	line "will automatically build a Deck "
+	line "will automatically build a deck "
 	line "for you. Collect new cards to "
 	line "build new decks!"
 	done
@@ -177,7 +226,7 @@ Text05df: ; 4c501 (13:4501)
 	done
 
 Text05e0: ; 4c5a1 (13:45a1)
-	text "So, did you build your own Deck?"
+	text "So, did you build your own deck?"
 	line "The strength or weakness of your"
 	line "deck depends only on how you play!"
 	line "In other words, it all depends on"
@@ -189,7 +238,7 @@ Text05e1: ; 4c66a (13:466a)
 	text "Congratulations, <RAMNAME>!"
 	line "I hear you have inherited the"
 	line "Legendary Pokémon Cards!"
-	line "The strength of a Deck does"
+	line "The strength of a deck does"
 	line "not depend on any single card,"
 	line "But on how skillfully you are able"
 	line "to use that card."
@@ -203,7 +252,7 @@ Text05e2: ; 4c786 (13:4786)
 	text "That's right! Did you try the "
 	line "Challenge Machine I built?"
 	line "See how far you can get with "
-	line "1 Deck! Computer opponent data "
+	line "1 deck! Computer opponent data "
 	line "is based on opponents you have "
 	line "already played against. I hope "
 	line "you enjoy the product of my "
@@ -221,7 +270,7 @@ Text05e3: ; 4c86f (13:486f)
 	line "Nou, dueleren is veel leuker"
 	line "dan alleen kaarten verzamelen!"
 	line "Probeer eerst eens te spelen"
-	line "met een oefen-Deck."
+	line "met een Oefen-Deck."
 	line "Hier, neem dit deck van mij maar."
 	line "En nu een tegenstander..."
 	line "Hey, Sam!"
@@ -279,7 +328,7 @@ Text05eb: ; 4cbfe (13:4bfe)
 	line "het Pokémon Ruilkaartspel speelt:"
 	line "Het is een spel waarin je zoveel"
 	line "van je tegenstander's Pokémon"
-	line "probeert Uit te schakelen als er"
+	line "probeert Uit te Schakelen als er"
 	line "Prijskaarten zijn. Dat is"
 	line "de kern van het spel..."
 	line ""
@@ -302,14 +351,14 @@ Text05ee: ; 4cd0e (13:4d0e)
 
 Text05ef: ; 4cd66 (13:4d66)
 	text "Als je iets niet begrijpt, praat"
-	line "met Sam. Het is misschien handig"
-	line "om ook opnieuw te oefenen. Deze"
+	line "dan met Sam. Het is ook misschien"
+	line "handig om opnieuw te oefenen. Deze"
 	line "keer was gewoon om kennis te maken"
 	line "met het spel, dus je moest alles"
 	line "doen wat ik zei, maar er zijn"
 	line "ook andere speelstijlen,"
 	line "dus probeer ze uit door"
-	line "Normaal Duel te selecteren."
+	line "”Normaal Duel” te selecteren."
 	done
 
 Text05f0: ; 4ce5a (13:4e5a)
@@ -325,7 +374,7 @@ Text05f1: ; 4ce96 (13:4e96)
 Text05f2: ; 4ceb9 (13:4eb9)
 	text "Hmm... laat me wat van mijn kaarten"
 	line "aan die van jou toevoegen!"
-	line "Oké, <RAMNAME>, wat voor Deck"
+	line "Oké, <RAMNAME>, wat voor deck"
 	line "zou je willen?"
 	done
 
@@ -347,20 +396,20 @@ Text05f5: ; 4cf40 (13:4f40)
 	done
 
 Text05f6: ; 4cf67 (13:4f67)
-	text "Ga erop uit en Dueleer met veel"
+	text "Ga erop uit en dueleer met veel"
 	line "verschillende mensen. Waarom ga je"
 	line "niet naar een van de Kaartclubs?"
 	line "Er zitten altijd heel veel"
 	line "mensen te spelen in die clubs."
 	line "Verzamel nieuwe kaarten en"
-	line "probeer een nieuw Deck te bouwen!"
+	line "probeer een nieuw deck te bouwen!"
 	done
 
 Text05f7: ; 4d01e (13:501e)
 	text "Isn't the Auto Deck Machine great?"
 	line "As long as you have the necessary"
 	line "cards, this machine will"
-	line "automatically build a Deck for you!"
+	line "automatically build a deck for you!"
 	done
 
 Text05f8: ; 4d0a1 (13:50a1)
@@ -368,7 +417,7 @@ Text05f8: ; 4d0a1 (13:50a1)
 	line "the Legendary Pokémon Cards!"
 	line "But that's not all there is"
 	line "to this game!"
-	line "Were you able to build all the Decks"
+	line "Were you able to build all the decks"
 	line "here in this Auto Deck Machine?"
 	line "There are as many duels as there"
 	line "are decks to Duel with! Keep "
@@ -378,19 +427,19 @@ Text05f8: ; 4d0a1 (13:50a1)
 Text05f9: ; 4d1af (13:51af)
 	text "This machine is the Deck"
 	line "Save Machine. You can save the"
-	line "configurations of your modified"
+	line "Configurations of your modified"
 	line "decks in this machine. Once you"
 	line "save a deck, this machine can"
 	line "rebuild it for you any time,"
 	line "as long as you have the necessary"
 	line "cards. When you build a great"
-	line "deck, you should save it here."
+	line "Deck, you should save it here."
 	done
 
 Text05fa: ; 4d2c2 (13:52c2)
 	text "Congratulations on inheriting"
 	line "the Legendary Pokémon Cards!!!"
-	line "Please save your deck in this"
+	line "Please save your Deck in this"
 	line "Deck Save Machine - "
 	line "the Deck with the Legendary "
 	line "Pokémon Cards!!!"
@@ -403,7 +452,7 @@ Text05fb: ; 4d361 (13:5361)
 	line "Club Masters! Place the Medals "
 	line "here after you win them."
 	line "Then you'll be able to build"
-	line "new decks!!!"
+	line "new Decks!!!"
 	done
 
 Text05fc: ; 4d423 (13:5423)
@@ -414,7 +463,7 @@ Text05fc: ; 4d423 (13:5423)
 
 Text05fd: ; 4d466 (13:5466)
 	text "Ho-ho! Won't you Duel me to"
-	line "test your deck?"
+	line "test your Deck?"
 	line "If you win, I'll give you"
 	line "a Booster Pack - but it only "
 	line "contains Energiekaarten."
@@ -430,7 +479,7 @@ Text05ff: ; 4d501 (13:5501)
 	done
 
 Text0600: ; 4d531 (13:5531)
-	text "Ho-ho! Please choose the deck"
+	text "Ho-ho! Please choose the Deck"
 	line "you wish to Duel against."
 	done
 
@@ -497,7 +546,7 @@ Text060d: ; 4d74b (13:574b)
 Text060e: ; 4d767 (13:5767)
 	text "Greetings!"
 	line "Welcome to the Lightning Club!"
-	line "At this club, we use decks made up"
+	line "At this club, we use Decks made up"
 	line "mostly of Lightning Pokémon."
 	line "Would you like to get charged up"
 	line "with us?"
@@ -991,71 +1040,4 @@ Text065a: ; 4f0f7 (13:70f7)
 	text "I told you my Ghost Deck was "
 	line "strong! Please Duel me again "
 	line "sometime, OK?  Bye!"
-	done
-
-Text065b: ; 4f148 (13:7148)
-	text "I don't like people who think"
-	line "too highly of themselves."
-	line "That's why I don't like the "
-	line "members of the Psychic Club."
-	line "I wish I could knock them off their"
-	line "high horses!"
-	line "Would you try to defeat Murray,"
-	line "the Psychic Club Master?"
-	line "If you defeat Murray, I'll give you"
-	line "something really valuable!"
-	done
-
-Text065c: ; 4f264 (13:7264)
-	text "Grant the old man's wish?"
-	done
-
-Text065d: ; 4f27f (13:727f)
-	text "I understand..."
-	line "Murray is very skilled."
-	line "Defeating Murray is no "
-	line "easy task."
-	done
-
-Text065e: ; 4f2cb (13:72cb)
-	text "Good!"
-	line "I'll be waiting here for you!"
-	done
-
-Text065f: ; 4f2f0 (13:72f0)
-	text "I see you still can't defeat "
-	line "Murray. He's very skilled, but "
-	line "don't give up! I'm pulling for "
-	line "you! If you defeat Murray, I'll "
-	line "give you something very valuable."
-	done
-
-Text0660: ; 4f392 (13:7392)
-	text "I'm not very fond of people who"
-	line "think too highly of themselves."
-	line "That's why I don't like the "
-	line "members of the Psychic Club."
-	line "Hey!?! Is that the Psychic Medal?"
-	line "Did you defeat Murray!?!"
-	line "I feel so much better!"
-	line "Here, let me give you this"
-	line "Mewtwo card!"
-	done
-
-Text0661: ; 4f487 (13:7487)
-	text "What? Is that the Psychic Medal?"
-	line "Did you defeat Murray!?!"
-	line "I feel so much better!"
-	line "Here, let me give you this"
-	line "Mewtwo card."
-	done
-
-Text0662: ; 4f501 (13:7501)
-	text "Thank you for defeating Murray!"
-	done
-
-Text0663: ; 4f522 (13:7522)
-	text "I feel so much better since you"
-	line "defeated Murray!"
-	line "Thank you for defeating Murray!"
 	done

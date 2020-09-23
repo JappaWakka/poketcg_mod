@@ -71,7 +71,7 @@ UnableToAttackDueToBoneAttackText: ; 3827a (e:427a)
 
 UnableToUseAttackDueToAmnesiaText: ; 382af (e:42af)
 	text "Kan deze aanval niet gebruiken"
-	line "door de gevolgen van Amnesie."
+	line "door de gevolgen van Geheugenverlies."
 	done
 
 KnockedOutDueToDestinyBondText: ; 382e9 (e:42e9)
@@ -127,7 +127,7 @@ Text010d: ; 3851f (e:451f)
 
 SelectPkmnOnBenchToSwitchWithActiveText: ; 38533 (e:4533)
 	text "Kies een Pokémon op de Bank om"
-	line "te wisselen met de Actieve Pokémon."
+	line "te verwisselen met de Actieve Pokémon."
 	done
 
 SelectPokemonToPlaceInTheArenaText: ; 38575 (e:4575)
@@ -174,16 +174,16 @@ Text0116: ; 386d3 (e:46d3)
 	done
 
 Text0117: ; 386f2 (e:46f2)
-	text "Pak 1 kaart van het Deck."
+	text "Pak 1 kaart van het deck."
 	done
 
 DrawCardsFromTheDeckText: ; 3870e (e:470e)
-	text "Pak <RAMNUM> kaart(en) van het Deck."
+	text "Pak <RAMNUM> kaart(en) van het deck."
 	done
 
 CannotDrawCardBecauseNoCardsInDeckText: ; 3872d (e:472d)
 	text "Cannot draw a card because"
-	line "there are no cards in the Deck."
+	line "there are no cards in the deck."
 	done
 
 Text011a: ; 38769 (e:4769)
@@ -198,7 +198,7 @@ Text011b: ; 3879b (e:479b)
 
 Text011c: ; 387d3 (e:47d3)
 	text "Choose 1 Basic Energiekaart"
-	line "from the Deck."
+	line "from the deck."
 	done
 
 Text011d: ; 387fe (e:47fe)
@@ -217,7 +217,7 @@ Text011f: ; 38856 (e:4856)
 	done
 
 Text0120: ; 3887f (e:487f)
-	text "Discard from opponent's Deck as many"
+	text "Discard from opponent's deck as many"
 	line "Fire Energiekaarten as were discarded."
 	done
 
@@ -228,7 +228,7 @@ Text0121: ; 388ca (e:48ca)
 
 Text0122: ; 388ee (e:48ee)
 	text "Choose a Krabby"
-	line "from the Deck."
+	line "from the deck."
 	done
 
 Text0123: ; 3890e (e:490e)
@@ -243,12 +243,12 @@ Text0124: ; 38955 (e:4955)
 
 Text0125: ; 3899f (e:499f)
 	text "Choose a Basic Fighting Pokémon"
-	line "from the Deck."
+	line "from the deck."
 	done
 
 Text0126: ; 389cf (e:49cf)
 	text "Choose an Oddish"
-	line "from the Deck."
+	line "from the deck."
 	done
 
 Text0127: ; 389f0 (e:49f0)
@@ -266,7 +266,7 @@ Text0129: ; 38a14 (e:4a14)
 
 Text012a: ; 38a31 (e:4a31)
 	text "Choose a Nidoran♀ or a"
-	line "Nidoran♂ from the Deck."
+	line "Nidoran♂ from the deck."
 	done
 
 Text012b: ; 38a61 (e:4a61)
@@ -295,7 +295,7 @@ Text012d: ; 38aa4 (e:4aa4)
 
 Text012e: ; 38b8f (e:4b8f)
 	text "Choose a Bellsprout"
-	line "from the Deck."
+	line "from the deck."
 	done
 
 Text012f: ; 38bb3 (e:4bb3)
@@ -323,12 +323,12 @@ Text0131: ; 38bfe (e:4bfe)
 
 Text0132: ; 38cda (e:4cda)
 	text "Choose 2 Energiekaarten from the"
-	line "Weggooistapelto attach to a Pokémon."
+	line "weggooistapel to attach to a Pokémon."
 	done
 
 Text0133: ; 38d1e (e:4d1e)
 	text "Choose 2 Energiekaarten from the"
-	line "Weggooistapel for your hand."
+	line "weggooistapel for your hand."
 	done
 
 Text0134: ; 38d5a (e:4d5a)
@@ -339,8 +339,8 @@ Text0134: ; 38d5a (e:4d5a)
 Text0135: ; 38d72 (e:4d72)
 	text "Procedure for Prophecy:"
 	line ""
-	line "1. Choose either your Deck"
-	line "   or your opponent's Deck"
+	line "1. Choose either your deck"
+	line "   or your opponent's deck"
 	line ""
 	line "2. Choose the cards you wish to"
 	line "   place on top and press the"
@@ -412,15 +412,15 @@ Text013a: ; 391dc (e:51dc)
 
 Text013b: ; 39215 (e:5215)
 	text "There is no <RAMTEXT>"
-	line "in the Deck."
+	line "in the deck."
 	done
 
 Text013c: ; 39231 (e:5231)
-	text "Would you like to check the Deck?"
+	text "Would you like to check the deck?"
 	done
 
 Text013d: ; 39254 (e:5254)
-	text "Please select the Deck:"
+	text "Please select the deck:"
 	line "            Yours   Opponent's"
 	done
 
@@ -469,7 +469,7 @@ Text0147: ; 3935d (e:535d)
 
 Text0148: ; 39392 (e:5392)
 	text "<RAMTEXT> is gekozen"
-	line "voor de gevolgen van Amnesie."
+	line "voor de gevolgen van Geheugenverlies."
 	done
 
 Text0149: ; 393bb (e:53bb)
@@ -499,7 +499,7 @@ Text014d: ; 3944b (e:544b)
 
 Text014e: ; 39470 (e:5470)
 	text "The Pokémon cards in <RAMNAME>'s"
-	line "Hand and Deck were shuffled"
+	line "hand and deck were shuffled"
 	done
 
 Text014f: ; 394a6 (e:54a6)
@@ -524,7 +524,7 @@ Text0152: ; 39550 (e:5550)
 
 Text0153: ; 3958f (e:558f)
 	text "Choose 2 Basic Energiekaarten"
-	line "from the Weggooistapel."
+	line "from the weggooistapel."
 	done
 
 Text0154: ; 395c3 (e:55c3)
@@ -533,13 +533,13 @@ Text0154: ; 395c3 (e:55c3)
 	done
 
 Text0155: ; 39607 (e:5607)
-	text "Choose 2 cards from the Hand"
+	text "Choose 2 cards from the hand"
 	line "to Discard."
 	done
 
 Text0156: ; 39631 (e:5631)
-	text "Choose 2 cards from the Hand"
-	line "to return to the Deck."
+	text "Choose 2 cards from the hand"
+	line "to return to the deck."
 	done
 
 Text0157: ; 39666 (e:5666)
@@ -559,7 +559,7 @@ Text0159: ; 396b4 (e:56b4)
 
 Text015a: ; 396e6 (e:56e6)
 	text "Choose a Pokémon to"
-	line "return to the Deck."
+	line "return to the deck."
 	done
 
 Text015b: ; 3970f (e:570f)
@@ -579,7 +579,7 @@ Text015d: ; 39756 (e:5756)
 
 Text015e: ; 39775 (e:5775)
 	text "Choose a card from your"
-	line "Hand to Switch."
+	line "hand to Switch."
 	done
 
 Text015f: ; 3979e (e:579e)
@@ -589,7 +589,7 @@ Text015f: ; 3979e (e:579e)
 
 Text0160: ; 397b8 (e:57b8)
 	text "Choose a Basic or Evolution"
-	line "Pokémon card from the Deck."
+	line "Pokémon card from the deck."
 	done
 
 Text0161: ; 397f1 (e:57f1)
@@ -599,7 +599,7 @@ Text0161: ; 397f1 (e:57f1)
 
 Text0162: ; 39809 (e:5809)
 	text "Rearrange the 5 cards at"
-	line "the top of the Deck."
+	line "the top of the deck."
 	done
 
 Text0163: ; 39838 (e:5838)
@@ -632,7 +632,7 @@ Text0168: ; 398e8 (e:58e8)
 
 Text0169: ; 3992b (e:592b)
 	text "Choose up to 4"
-	line "from the Weggooistapel."
+	line "from the weggooistapel."
 	done
 
 Text016a: ; 39952 (e:5952)
@@ -642,7 +642,7 @@ Text016a: ; 39952 (e:5952)
 
 Text016b: ; 39987 (e:5987)
 	text "<RAMTEXT> and all attached"
-	line "cards were returned to the Deck."
+	line "cards were returned to the deck."
 	done
 
 Text016c: ; 399bc (e:59bc)
@@ -657,7 +657,7 @@ Text016d: ; 399e8 (e:59e8)
 
 Text016e: ; 39a14 (e:5a14)
 	text "<RAMTEXT> was returned"
-	line "to the Deck."
+	line "to the deck."
 	done
 
 Text016f: ; 39a31 (e:5a31)
@@ -685,7 +685,7 @@ Text0173: ; 39a9c (e:5a9c)
 
 Text0174: ; 39ab9 (e:5ab9)
 	text "Discarded <RAMNUM> cards"
-	line "from <RAMNAME>'s Deck."
+	line "from <RAMNAME>'s deck."
 	done
 
 Text0175: ; 39adb (e:5adb)
@@ -704,7 +704,7 @@ Text0177: ; 39b03 (e:5b03)
 
 Text0178: ; 39b19 (e:5b19)
 	text "<RAMNAME> has"
-	line "no cards in Hand!"
+	line "no cards in hand!"
 	done
 
 Text0179: ; 39b32 (e:5b32)
@@ -784,18 +784,19 @@ Text0188: ; 39cea (e:5cea)
 	done
 
 Text0189: ; 39d1b (e:5d1b)
-	text "Begin a <RAMNUM>-Prize Duel"
-	line "with <RAMNAME>."
+	text "Start een duel voor <RAMNUM>"
+	line "Prijskaarten tegen <RAMNAME>."
 	done
 
 Text018a: ; 39d39 (e:5d39)
-	text "Are you both ready"
-	line "to Kaart-Flits! ?"
+	text "Zijn jullie allebei klaar"
+	line "om een Kaart-Flits! uit te"
+	line "voeren?"
 	done
 
 Text018b: ; 39d5c (e:5d5c)
-	text "The Pop! wasn't successful."
-	line "Please try again."
+	text "De Flits! was onsuccesvol."
+	line "Probeer het later opnieuw."
 	done
 
 Text018c: ; 39d8b (e:5d8b)
@@ -809,59 +810,59 @@ Text018d: ; 39dcc (e:5dcc)
 	done
 
 Text018e: ; 39e02 (e:5e02)
-	text "Received <RAMTEXT>"
-	line "through Kaart-Flits!"
+	text "<RAMTEXT> ontvangen"
+	line "door een Kaart-Flits!"
 	done
 
 ReceivedCardText: ; 39e20 (e:5e20)
-	text "<RAMNAME> received"
-	line "a <RAMTEXT>!"
+	text "<RAMNAME> ontving"
+	line "een <RAMTEXT>!"
 	done
 
 ReceivedPromotionalCardText: ; 39e31 (e:5e31)
-	text "<RAMNAME> received a Promotional"
-	line "card <RAMTEXT>!"
+	text "<RAMNAME> ontving de Promokaart"
+	line "<RAMTEXT>!"
 	done
 
 ReceivedLegendaryCardText: ; 39e53 (e:5e53)
-	text "<RAMNAME> received the Legendary"
-	line "card <RAMTEXT>!"
+	text "<RAMNAME> ontving de Legendarische"
+	line "kaart <RAMTEXT>!"
 	done
 
 ReceivedPromotionalFlyingPikachuText: ; 39e75 (e:5e75)
-	text "<RAMNAME> received a Promotinal"
-	line "card Flyin' Pikachu!"
+	text "<RAMNAME> ontving de Promokaart"
+	line "Vliegende Pikachu!"
 	done
 
 ReceivedPromotionalSurfingPikachuText: ; 39ea3 (e:5ea3)
-	text "<RAMNAME> received a Promotional"
-	line "card Surfin' Pikachu!"
+	text "<RAMNAME> ontving de Promokaart"
+	line "Surfende Pikachu!"
 	done
 
 Text0194: ; 39ed3 (e:5ed3)
-	text "Received a Flareon!!!"
-	line "Looked at the card list!"
+	text "Ontving een Flareon!"
+	line "Heeft op de kaartlijst gekeken!"
 	done
 
 Text0195: ; 39f03 (e:5f03)
-	text "Now printing."
-	line "Please wait..."
+	text "Nu aan het printen."
+	line "Even geduld alstublieft..."
 	done
 
 Text0196: ; 39f21 (e:5f21)
-	text "Booster Pakje"
+	text "Uitbreidingspakje"
 	done
 
 Text0197: ; 39f2f (e:5f2f)
-	text "Would you like to try again?"
+	text "Wil je het opnieuw proberen?"
 	done
 
 Text0198: ; 39f4d (e:5f4d)
-	text "Sent to <RAMNAME>."
+	text "Verstuurd naar <RAMNAME>."
 	done
 
 Text0199: ; 39f59 (e:5f59)
-	text "Received from <RAMNAME>."
+	text "Ontvangen van <RAMNAME>."
 	done
 
 Text019a: ; 39f6b (e:5f6b)
@@ -880,7 +881,7 @@ Text019c: ; 39fe5 (e:5fe5)
 	done
 
 Text019d: ; 3a02a (e:602a)
-	text "Receiving Deck configuration..."
+	text "Receiving Deck Configuration..."
 	line "Position the Game Boys and press A."
 	done
 
@@ -893,12 +894,12 @@ Text019f: ; 3a091 (e:6091)
 	done
 
 Text01a0: ; 3a0b2 (e:60b2)
-	text "Deck configuration transfer"
+	text "Deck Configuration transfer"
 	line "wasn't successful"
 	done
 
 Text01a1: ; 3a0e1 (e:60e1)
-	text "Deck configuration transfer"
+	text "Deck Configuration transfer"
 	line "wasn't successful."
 	done
 
@@ -912,7 +913,6 @@ DrMasonText: ; 3a122 (e:6122)
 
 DrawSevenCardsPracticeDuelText: ; 3a12d (e:612d)
 	text "Pak 7 kaarten,"
-	line ""
 	line "en sta klaar voor de strijd!"
 	line "Kies je Actieve Pokémon."
 	line "Je kunt alleen Basis-Pokémon"
@@ -930,10 +930,9 @@ ChooseGoldeenPracticeDuelText: ; 3a204 (e:6204)
 
 PutPokemonOnBenchPracticeDuelText: ; 3a230 (e:6230)
 	text "Vervolgens plaats je je"
-	line "Pokémon op de Bank."
-	line "Je kan Pokémon op de Bank"
-	line "wisselen met je Actieve"
-	line "Pokémon."
+	line "Pokémon op de Bank. Je kan"
+	line "Pokémon op de Bank verwisselen"
+	line "met je Actieve Pokémon."
 	line "Nogmaals, je kunt alleen Basis-"
 	line "Pokémon op de Bank plaatsen."
 	line "Kies Staryu uit je hand en"
@@ -947,8 +946,9 @@ ChooseStaryuPracticeDuelText: ; 3a2f6 (e:62f6)
 
 PressBToFinishPracticeDuelText: ; 3a321 (e:6321)
 	text "Als je geen Pokémon meer hebt om"
-	line "op je Bank te plaatsen, druk je"
-	line "op de B-knop om klaar te zijn."
+	line "op de Bank te plaatsen, druk je"
+	line "op de B-knop om aan te geven dat"
+	line "je klaar bent."
 	done
 
 Turn1Instr1PracticeDuelText: ; 3a36f (e:636f)
@@ -962,7 +962,7 @@ Turn1Instr2PracticeDuelText: ; 3a3ad (e:63ad)
 	done
 
 Turn1Instr3PracticeDuelText: ; 3a3f0 (e:63f0)
-	text "3. Kies Val Aan in het Menu"
+	text "3. Kies ”Val Aan” in het Menu"
 	line "   en dan Hoornaanval."
 	done
 
@@ -973,7 +973,7 @@ Turn2Instr1PracticeDuelText: ; 3a42b (e:642b)
 
 Turn2Instr2PracticeDuelText: ; 3a45d (e:645d)
 	text "2. Hecht een Psychische Energiekaart"
-	line "   aan de geëvolueerde Seaking."
+	line "   aan de Geëvolueerde Seaking."
 	done
 
 Turn2Instr3PracticeDuelText: ; 3a499 (e:6499)
@@ -997,7 +997,7 @@ Turn3Instr3PracticeDuelText: ; 3a559 (e:6559)
 	done
 
 Turn4Instr1PracticeDuelText: ; 3a55a (e:655a)
-	text "1. Neem Drowzee uit je Hand"
+	text "1. Neem Drowzee uit je hand"
 	line "   en plaats hem op je Bank."
 	done
 
@@ -1013,7 +1013,7 @@ Turn4Instr3PracticeDuelText: ; 3a5d2 (e:65d2)
 
 Turn5Instr1PracticeDuelText: ; 3a611 (e:6611)
 	text "1. Kies een Water Energiekaart uit"
-	line "   je Hand en hecht hem aan"
+	line "   je hand en hecht hem aan"
 	line "   Staryu."
 	done
 
@@ -1044,7 +1044,7 @@ Turn7Instr1PracticeDuelText: ; 3a740 (e:6740)
 	done
 
 Turn7Instr2PracticeDuelText: ; 3a771 (e:6771)
-	text "2. Selecteer de geëvolueerde Starmie"
+	text "2. Selecteer de Geëvolueerde Starmie"
 	line "   en val je tegenstander aan met"
 	line "   Sterbevriezing."
 	done
@@ -1086,16 +1086,15 @@ Turn1DrMason2PracticeDuelText: ; 3a97b (e:697b)
 	text "Vervolgens kies je je Actieve"
 	line "Pokémon, Goldeen, en druk je op"
 	line "de A-knop. Dan is de Water"
-	line "Energiekaart gehecht"
-	line "aan Goldeen."
+	line "Energiekaart gehecht aan Goldeen."
 	done
 
 Turn1DrMason3PracticeDuelText: ; 3a9f7 (e:69f7)
 	text "Tot slot val je je tegenstander"
-	line "aan door het commando Val Aan"
+	line "aan door het commando ”Val Aan”"
 	line "te selecteren."
 	line ""
-	line "Kies Val Aan in het Menu, en"
+	line "Kies ”Val Aan” in het Menu, en"
 	line "selecteer Hoornaanval."
 	done
 
@@ -1103,19 +1102,19 @@ Turn2DrMason1PracticeDuelText: ; 3aa6b (e:6a6b)
 	text "Je Goldeen wordt straks"
 	line "Uitgeschakeld, dus laten we"
 	line "hem Evolueren!"
-	line "Kies Seaking uit je Hand en hecht"
+	line "Kies Seaking uit je hand en hecht"
 	line "hem aan Goldeen om hem te Evolueren."
 	line "Zijn IP neemt dan toe"
-	line "van 40 naar 70."
+	line "van 40 naar 70." 
 	done
 
 Turn2DrMason2PracticeDuelText: ; 3ab08 (e:6b08)
 	text "Je Seaking heeft niet genoeg Energie"
-	line "om Waterval te gebruiken."
+	line "om Waterval te kunnen gebruiken."
 	line "Je moet een Psychische Energiekaart"
 	line "aan Seaking hechten."
-	line "<COLORLESS> betekent welke Energiekaart."
-	line "dan ook."
+	line "<COLORLESS> (Kleurloos) betekent welke"
+	line "Energiekaart dan ook."
 	line "Nu kun je Waterval gebruiken."
 	line "Bewaar de Water Energiekaart"
 	line "voor andere Pokémon."
@@ -1138,8 +1137,8 @@ Turn3DrMason1PracticeDuelText: ; 3ac15 (e:6c15)
 	done
 
 Turn3DrMason2PracticeDuelText: ; 3acd7 (e:6cd7)
-	text "Vervolgens kies je het commando"
-	line "Val Aan."
+	text "Vervolgens kies je het"
+	line "commando ”Val Aan”."
 	line "Machop heeft nog maar 10 IP over."
 	line "Seaking's Hoornaanval is genoeg"
 	line "om Machop Uit te Schakelen."
@@ -1147,8 +1146,8 @@ Turn3DrMason2PracticeDuelText: ; 3acd7 (e:6cd7)
 	done
 
 Turn3DrMason3PracticeDuelText: ; 3ad6d (e:6d6d)
-	text "Nu is Machop's IP 0 en is hij"
-	line "Uitgeschakeld."
+	text "Nu zijn Machop's IP gelijk aan 0"
+	line "en is hij Uitgeschakeld."
 	line "Als je de Verdedigende Pokémon"
 	line "Uitschakelt, mag je een"
 	line "Prijskaart pakken."
@@ -1157,8 +1156,8 @@ Turn3DrMason3PracticeDuelText: ; 3ad6d (e:6d6d)
 Turn4DrMason1PracticeDuelText: ; 3addd (e:6ddd)
 	text "Wanneer al je Pokémon zijn"
 	line "Uitgeschakeld en er geen Pokémon"
-	line "meer op je Bank zijn verlies je"
-	line "het spel."
+	line "meer op de Bank zitten verlies"
+	line "je het spel."
 	line "Plaats Drowzee, de Basis-Pokémon"
 	line "die je net hebt gepakt, op je Bank."
 	done
@@ -1170,18 +1169,17 @@ Turn4DrMason2PracticeDuelText: ; 3ae7d (e:6e7d)
 	done
 
 Turn4DrMason3PracticeDuelText: ; 3aebf (e:6ebf)
-	text "Kies je Actieve Seaking en"
-	line "val je tegenstander aan met"
-	line "Waterval."
+	text "Kies je Actieve Seaking en val je"
+	line "tegenstander aan met Waterval."
 	done
 
 Turn5DrMason1PracticeDuelText: ; 3af04 (e:6f04)
-	text "Staryu evolueert in Starmie!"
-	line ""
+	text "Staryu Evolueert in Starmie!"
+	line "Gelukkig zit er een Starmie"
+	line "in dit deck!"
 	line "Laten we Staryu klaar maken om"
 	line "Starmie's aanval te gebruiken"
-	line "als hij in Starmie evolueert."
-	line ""
+	line "als hij in Starmie Evolueert."
 	line "Kies de Water Energiekaart uit"
 	line "je Hand en hecht hem aan Staryu."
 	done
@@ -1199,7 +1197,7 @@ Turn6DrMason1PracticeDuelText: ; 3afe6 (e:6fe6)
 
 Turn6DrMason2PracticeDuelText: ; 3b02e (e:702e)
 	text "Laten we hem dan klaar maken om"
-	line "hem te evolueren naar Starmie."
+	line "te Evolueren naar Starmie."
 	line "Hecht ook een Water Energiekaart"
 	line "aan Staryu."
 	done
@@ -1213,8 +1211,8 @@ Turn6DrMason3PracticeDuelText: ; 3b088 (e:7088)
 Turn7DrMason1PracticeDuelText: ; 3b0c3 (e:70c3)
 	text "Je hebt eindelijk een Starmie"
 	line "kaart gepakt!"
-	line "Kies Starmie uit je Hand en"
-	line "gebruik hem om Staryu te evolueren."
+	line "Kies Starmie uit je hand en"
+	line "gebruik hem om Staryu te Evolueren."
 	done
 
 Turn7DrMason2PracticeDuelText: ; 3b12a (e:712a)
@@ -1241,18 +1239,18 @@ Turn8DrMason2PracticeDuelText: ; 3b1f4 (e:71f4)
 
 SamTurn4DrMason1PracticeDuelText: ; 3b242 (e:7242)
 	text "Kies een Pokémon op de bank om je"
-	line "uitgeschakelde Pokémon te vervangen."
+	line "Uitgeschakelde Pokémon te vervangen."
 	line "Je hebt Drowzee en Staryu"
 	line "op je Bank."
-	line "Kies Staryu als de Actieve Pokémon"
+	line "Kies Staryu als je Actieve Pokémon"
 	line "voor dit oefenduel."
 	done
 
 SamTurn4DrMason2PracticeDuelText: ; 3b2ec (e:72ec)
-	text "Druk hier op SELECT om de"
-	line "gegevens van de Pokémon te bekijken."
-	line "Het is belangrijk om je kaarten te"
-	line "kennen en hoe je Pokémon"
+	text "Druk hier op SELECT om de gegevens"
+	line "van de Pokémon te bekijken. Het is"
+	line "belangrijk om je kaarten te kennen"
+	line "en te weten hoe je Pokémon"
 	line "eraan toe is."
 	done
 
@@ -1296,7 +1294,7 @@ SamsPracticeDeckName: ; 3b43d (e:743d)
 	done
 
 CharmanderAndFriendsDeckName: ; 3b44d (e:744d)
-	text "Charmander & Vrienden"
+	text "Charmander & Vrienden-deck"
 	done
 
 CharmanderExtraDeckName: ; 3b463 (e:7463)
@@ -1304,7 +1302,7 @@ CharmanderExtraDeckName: ; 3b463 (e:7463)
 	done
 
 SquirtleAndFriendsDeckName: ; 3b475 (e:7475)
-	text "Squirtle & Vrienden"
+	text "Squirtle & Vrienden-deck"
 	done
 
 SquirtleExtraDeckName: ; 3b489 (e:7489)
@@ -1312,7 +1310,7 @@ SquirtleExtraDeckName: ; 3b489 (e:7489)
 	done
 
 BulbasaurAndFriendsDeckName: ; 3b499 (e:7499)
-	text "Bulbasaur & Vrienden"
+	text "Bulbasaur & Vrienden-deck"
 	done
 
 BulbasaurExtraDeckName: ; 3b4ae (e:74ae)
@@ -1344,7 +1342,7 @@ StrangePsyshockDeckName: ; 3b511 (e:7511)
 	done
 
 WondersofScienceDeckName: ; 3b523 (e:7523)
-	text "Wonderen van Wetenschap"
+	text "Wonderen van de Wetenschap"
 	done
 
 FireChargeDeckName: ; 3b537 (e:7537)
@@ -1516,11 +1514,11 @@ InchesText: ; 3b7b9 (e:77b9)
 	done
 
 YourDiscardPileText: ; 3b7bc (e:77bc)
-	text "Jouw Weggooistapel"
+	text "Jouw weggooistapel"
 	done
 
 OpponentsDiscardPileText: ; 3b7cf (e:77cf)
-	text "Tegenstander's Weggooistapel"
+	text "Tegenstander's weggooistapel"
 	done
 
 Text0219: ; 3b7e8 (e:77e8)
@@ -1584,13 +1582,16 @@ Text0221: ; 3b8f2 (e:78f2)
 	line ""
 	textfw3 "J", " ", "K", " ", "L", " ", "M", " ", "N", " ", "O", " ", "P", " ", "Q", " ", "R"
 	line ""
-	textfw3 "S", " ", "T", " ", "U", " ", "V", " ", "W", " ", "X", " ", "Y", " ", "Z", " ", "!"
+	textfw3 "S", " ", "T", " ", "U", " ", "V", " ", "W", " ", "X", " ", "Y", " ", "Z", " "
+	textfw0 "!"
 	line ""
-	textfw3 "a", " ", "b", " ", "c", " ", "d", " ", "e", " ", "f", " ", "g", " ", "h", " ", "i"
+	textfw0 "?", " "
+	textfw3 "&", " "
+	textfw0 "+", " ", "-", " ", "·", " ", "0", " ", "1", " ", "2", " ", "3"
 	line ""
-	textfw3 "j", " ", "k", " ", "l", " ", "m", " ", "n", " ", "o", " ", "p", " ", "q", " ", "r"
+	textfw0 "4", " ", "5", " ", "6", " ", "7", " ", "8", " ", "9", " ", "<No>", " ", "<Lv>", " ", " "
 	line ""
-	textfw3 "s", " ", "t", " ", "u", " ", "v", " ", "w", " ", "x", " ", "y", " ", "z", " ", "-"
+	textfw0 " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "
 	done
 
 NamingScreenKeyboardText: ; 3b97b (e:797b)
@@ -1598,23 +1599,26 @@ NamingScreenKeyboardText: ; 3b97b (e:797b)
 	line ""
 	textfw3 "J", " ", "K", " ", "L", " ", "M", " ", "N", " ", "O", " ", "P", " ", "Q", " ", "R"
 	line ""
-	textfw3 "S", " ", "T", " ", "U", " ", "V", " ", "W", " ", "X", " ", "Y", " ", "Z", " ", " "
+	textfw3 "S", " ", "T", " ", "U", " ", "V", " ", "W", " ", "X", " ", "Y", " ", "Z", " "
+	textfw0 "!"
 	line ""
-	textfw3 "a", " ", "b", " ", "c", " ", "d", " ", "e", " ", "f", " ", "g", " ", "h", " ", "i"
+	textfw0 "?", " "
+	textfw3 "&", " "
+	textfw0 "+", " ", "-", " "
+	textfw3 "'"
+	textfw0 " ", "0", " ", "1", " ", "2", " ", "3"
 	line ""
-	textfw3 "j", " ", "k", " ", "l", " ", "m", " ", "n", " ", "o", " ", "p", " ", "q", " ", "r"
+	textfw0 "4", " ", "5", " ", "6", " ", "7", " ", "8", " ", "9", " ", " ", " ", " ", " ", " "
 	line ""
-	textfw3 "s", " ", "t", " ", "u", " ", "v", " ", "w", " ", "x", " ", "y", " ", "z", " ", "!"
-	line ""
-	textfw3 "-", " ", "+", " ", "'", " ", "”", " ", "?"
+	textfw0 " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "
 	done
 	
 NewDeckText: ; 3ba03 (e:7a03)
-	text "Nieuw Deck"
+	text "Nieuw deck"
 	done
 
 PleaseSelectDeckText: ; 3ba0d (e:7a0d)
-	text "Kies een Deck."
+	text "Kies een deck."
 	done
 
 Text0225: ; 3ba22 (e:7a22)
@@ -1626,7 +1630,7 @@ Text0226: ; 3ba2f (e:7a2f)
 	done
 
 Text0227: ; 3ba3c (e:7a3c)
-	text "Kies Deck"
+	text "Kies deck"
 	done
 
 Text0228: ; 3ba49 (e:7a49)
@@ -1639,7 +1643,7 @@ Text0229: ; 3ba51 (e:7a51)
 
 ChosenAsDuelingDeckText: ; 3ba55 (e:7a55)
 	text "<RAMTEXT> is gekozen"
-	line "als het dueleer-Deck!"
+	line "als het dueleer-deck!"
 	done
 
 Text022b: ; 3ba78 (e:7a78)
@@ -1659,7 +1663,7 @@ Text022e: ; 3ba81 (e:7a81)
 	done
 
 ThereIsNoDeckHereText: ; 3ba84 (e:7a84)
-	text "Er is hier geen Deck!"
+	text "Er is hier geen deck!"
 	done
 
 Text0230: ; 3ba9c (e:7a9c)
@@ -1683,57 +1687,20 @@ Text0234: ; 3babe (e:7abe)
 	done
 
 Text0235: ; 3bac4 (e:7ac4)
-	text "Er is maar 1 Deck, dus dit"
-	line "Deck kan niet ontmanteld worden."
+	text "Er is maar 1 deck, dus dit"
+	line "deck kan niet ontmanteld worden."
 	done
 
 Text0236: ; 3bafe (e:7afe)
 	text "Er zitten geen Basis-Pokémon"
-	line "in dit Deck!"
+	line "in dit deck!"
 	done
 
 Text0237: ; 3bb28 (e:7b28)
-	text "Je moet een Basi-Pokémon"
-	line "in je Deck stoppen!"
+	text "Je moet een Basis-Pokémon"
+	line "in je deck stoppen!"
 	done
 
 Text0238: ; 3bb57 (e:7b57)
-	text "Dit is geen Deck met 60 kaarten!"
-	done
-
-Text0239: ; 3bb73 (e:7b73)
-	text "Er moeten 60 kaarten in je"
-	line "Deck zitten!"
-	done
-
-Text023a: ; 3bb94 (e:7b94)
-	text "Terug gaan naar het origineel?"
-	done
-
-Text023b: ; 3bbb7 (e:7bb7)
-	text "Dit Deck opslaan?"
-	done
-
-Text023c: ; 3bbc8 (e:7bc8)
-	text "Stoppen met het Deck aanpassen?"
-	done
-
-Text023d: ; 3bbe2 (e:7be2)
-	text "Dit Deck ontmantelen?"
-	done
-
-Text023e: ; 3bbf8 (e:7bf8)
-	text "Geen kaarten gekozen."
-	done
-
-YourPokemonText: ; 3bc0a (e:7c0a)
-	text "Jouw Pokémon"
-	done
-
-YourDiscardPileText2: ; 3bc18 (e:7c18)
-	text "Jouw Weggooistapel"
-	done
-
-YourHandText: ; 3bc2b (e:7c2b)
-	text "Jouw Hand"
+	text "Dit is geen deck met 60 kaarten!"
 	done

@@ -927,11 +927,11 @@ GlossaryData1:
 	glossary_entry 7, Text02fa, Text030c
 	glossary_entry 5, Text02fb, Text030d
 	glossary_entry 7, Text02fc, Text030e
-	glossary_entry 6, Text02fd, Text030f
-	glossary_entry 6, Text02fe, Text0310
+	glossary_entry 7, Text02fd, Text030f
+	glossary_entry 7, Text02fe, Text0310
 	glossary_entry 4, Text02ff, Text0311
-	glossary_entry 5, Text0300, Text0312
-	glossary_entry 7, Text0301, Text0313
+	glossary_entry 4, Text0300, Text0312
+	glossary_entry 5, Text0301, Text0313
 	glossary_entry 5, Text0302, Text0314
 
 GlossaryData2:

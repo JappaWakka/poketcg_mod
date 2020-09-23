@@ -1,3 +1,41 @@
+Text0473: ; 436a2 (10:76a2)
+	text "I can't believe Steve the Grand"
+	line "Master could lose!"
+	line "Who could have defeated Steve?"
+	done
+
+Text0474: ; 436f5 (10:76f5)
+	text "The best player among the Grand"
+	line "Masters is Rod, since he's the"
+	line "leader of the Grand Masters."
+	done
+
+Text0475: ; 43752 (10:7752)
+	text "I can't believe Rod, the leader of"
+	line "the Grand Masters, was defeated!?!"
+	line "Could this mean the Legendary"
+	line "Pokémon Cards have been passed on?"
+	done
+
+Text0476: ; 437da (10:77da)
+	text "If I were just a few years younger,"
+	line "I'd be dueling with you kids, too."
+	done
+
+Text0477: ; 43822 (10:7822)
+	text "I am Mitch, Master of the"
+	line "Fighting Club!"
+	line "I have to warn you that you will"
+	line "be unable to defeat me!"
+	line "If you wish to Duel with me,"
+	line "you must defeat my pupils first!"
+	line "My pupils are training at "
+	line "other Clubs!"
+	line "Go see if you can defeat all"
+	line "3 of my pupils!"
+	done
+	
+
 Text0478: ; 43918 (10:7918)
 	text "If you wish to Duel me, you "
 	line "must defeat my pupils first!"
@@ -221,16 +259,16 @@ Text049e: ; 4437a (11:437a)
 	done
 
 Text049f: ; 443d6 (11:43d6)
-	text "Wat is een Deck?"
+	text "Wat is een deck?"
 	done
 
 Text04a0: ; 443e7 (11:43e7)
-	text "Een Deck is de stapel Pokémonkaarten"
+	text "Een deck is de stapel Pokémonkaarten"
 	line "die gebruikt wordt bij duellen."
 	line "Een deck bestaat uit 60 kaarten."
-	line "Er mogen maar 4 kaarten met dezelfde"
-	line "naam in een Deck. Maak je eigen Deck"
-	line "om het spel te spelen."
+	line "Er mogen maar 4 kaarten met "
+	line "dezelfde naam in een deck. Maak je"
+	line "eigen deck om het spel te spelen."
 	line "Dit zijn de basisregels van het"
 	line "Pokémon Ruilkaartspel."
 	done
@@ -258,11 +296,12 @@ Text04a3: ; 44630 (11:4630)
 
 Text04a4: ; 4464d (11:464d)
 	text "Hecht Energiekaarten aan je Pokémon"
-	line "om ze de kracht te geven die ze nodig"
-	line "hebben om aan te vallen. Kies een"
-	line "Energiekaart uit je Hand en hecht"
-	line "hem aan een Pokémon. je mag maar"
-	line "1 Energiekaart per beurt hechten."
+	line "om ze de kracht te geven die ze "
+	line "nodig hebben om aan te vallen."
+	line "Kies een Energiekaart uit je hand"
+	line "en hecht hem aan een Pokémon."
+	line "Je mag maar 1 Energiekaart aan een"
+	line "Pokémon hechten per beurt."
 	done
 
 Text04a5: ; 44710 (11:4710)
@@ -273,9 +312,9 @@ Text04a6: ; 4472e (11:472e)
 	text "Trainerkaarten zijn eenmalig"
 	line "te gebruiken kaarten die"
 	line "meteen in werking gaan en dan"
-	line "weg worden gegooid. Je kan zo veel"
-	line "Trainerkaarten spelen als je wilt"
-	line "tijdens je beurt."
+	line "weg worden gegooid. Je kunt zo"
+	line "veel Trainerkaarten spelen als"
+	line "je wilt tijdens je beurt."
 	done
 
 Text04a7: ; 447c2 (11:47c2)
@@ -287,7 +326,8 @@ Text04a8: ; 447e2 (11:47e2)
 	line "verliest, is de Pokémon"
 	line "Uitgeschakeld. Leg de Pokémon"
 	line "en alle eraan gehechte Energie-"
-	line "kaarten op de Weggooistapel."
+	line "kaarten op de weggooistapel."
+	line ""
 	line "Elke keer als je 1 van je"
 	line "tegenstander's Pokémon Uitschakelt,"
 	line "mag je 1 van je Prijskaarten pakken"
@@ -303,7 +343,7 @@ Text04a9: ; 4490f (11:490f)
 Text04aa: ; 4492f (11:492f)
 	text "Je kan ook winnen als er geen"
 	line "kaarten meer zitten in je"
-	line "tegenstander's Deck aan het"
+	line "tegenstander's deck aan het"
 	line "begin van je tegenstander's"
 	line "beurt. Pas op dat je niet"
 	line "zonder kaarten komt te zitten!"
@@ -316,11 +356,11 @@ Text04ab: ; 449b0 (11:49b0)
 Text04ac: ; 449d0 (11:49d0)
 	text "Je kan ook winnen als je"
 	line "tegenstander geen Pokémon meer"
-	line "over heeft op de Bank nadat"
-	line "je zijn of haar Actieve Pokémon"
-	line "hebt Uitgeschakeld. Zorg ervoor"
-	line "dat je genoeg Pokémon op je"
-	line "Bank hebt."
+	line "over heeft op de Bank nadat je"
+	line "zijn of haar Actieve Pokémon"
+	line "hebt Uitgeschakeld."
+	line "Zorg ervoor dat je genoeg"
+	line "Pokémon op je Bank hebt"
 	done
 
 Text04ad: ; 44a75 (11:4a75)
@@ -783,11 +823,11 @@ Text04ee: ; 467ec (11:67ec)
 	text "While pressing the B Button,"
 	line "use the + Control Pad to view"
 	line "your own or your opponent's "
-	line "Play Area or Weggooistapel!"
+	line "Play Area or weggooistapel!"
 	line "B + Down = Your Play Area"
-	line "B + Left = Your Weggooistapel"
+	line "B + Left = Your weggooistapel"
 	line "B + Up = Opponent's Play Area"
-	line "B + Right = Opponent's Weggooistapel"
+	line "B + Right = Opponent's weggooistapel"
 	line "Remember these handy functions!"
 	done
 
@@ -813,9 +853,9 @@ Text04f2: ; 469d1 (11:69d1)
 	text "Many Fire Pokémon attacks require"
 	line "that an Energiekaart be removed."
 	line "Be sure to include many Energy"
-	line "cards in decks with Fire Pokémon."
+	line "cards in Decks with Fire Pokémon."
 	line "It might be wise to also include"
-	line "Energy Retrieval in your deck."
+	line "Energy Retrieval in your Deck."
 	done
 
 Text04f3: ; 46a95 (11:6a95)
@@ -841,7 +881,7 @@ Text04f6: ; 46b70 (11:6b70)
 	line "to use. They can attack with "
 	line "any type of Energiekaart, so"
 	line "you can include them in any type"
-	line "of deck. There are many Colorless "
+	line "of Deck. There are many Colorless "
 	line "Pokémon, so check them all out!"
 	done
 
@@ -948,7 +988,7 @@ Text0506: ; 47265 (11:7265)
 	text "There are a total of 8 Master Medals"
 	line "owned by the Club Masters. It is "
 	line "said that the secret of their Club's"
-	line "deck is encrypted in the Master "
+	line "Deck is encrypted in the Master "
 	line "Medals. Some say the medals were "
 	line "a gift from the Grand Masters."
 	done
@@ -970,57 +1010,4 @@ Text0508: ; 47346 (11:7346)
 
 Text0509: ; 47430 (11:7430)
 	text "Mysterious Voice"
-	done
-
-Text050a: ; 47442 (11:7442)
-	text "Greetings! Welcome to the "
-	line "Challenge Hall! The Challenge Cup "
-	line "will begin soon. If you win the "
-	line "Challenge Cup, you will receive "
-	line "a Promotional Card! Please join "
-	line "us for this competition."
-	done
-
-Text050b: ; 474fd (11:74fd)
-	text "Greetings! Welcome to the "
-	line "Challenge Hall! This is where the"
-	line "the Challenge Cup is held. The "
-	line "Challenge Cup may start at any"
-	line "time, so please visit the "
-	line "Challenge Hall often."
-	done
-
-Text050c: ; 475ab (11:75ab)
-	text "Greetings! Welcome to the "
-	line "Challenge Hall! Defeat 3 "
-	line "opponents here, and you shall be "
-	line "presented with a wonderful gift!"
-	line "Please join in the competition!"
-	done
-
-Text050d: ; 47644 (11:7644)
-	text "Most unfortunate, <RAMNAME>."
-	line "Once you enter, you won't be able"
-	line "to re-enter for some time. "
-	line "Please try again another day."
-	done
-
-Text050e: ; 476b6 (11:76b6)
-	text "Congratulations, <RAMNAME>!"
-	line "You received a card!"
-	line "Please join us for the next "
-	line "Challenge Cup, too."
-	done
-
-Text050f: ; 47711 (11:7711)
-	text "I won't lose to any"
-	line "whipper-snapper!"
-	line "I'm going to win this "
-	line "Challenge Cup!"
-	done
-
-Text0510: ; 4775d (11:775d)
-	text "I work at the Challenge Cup"
-	line "as the HOST."
-	line "I can't wait to get up on stage!"
 	done

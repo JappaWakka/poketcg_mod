@@ -7337,7 +7337,7 @@ SlowbroCard: ; 33173 (c:7173)
 	energy 0 ; energies
 	tx StrangeBehaviorName ; name
 	tx StrangeBehaviorDescription ; description
-	dw NONE ; description (cont)
+	tx StrangeBehaviorDescriptionCont ; description (cont)
 	db 0 ; damage
 	db POKEMON_POWER ; category
 	dw SlowbroStrangeBehaviorEffectCommands ; effect commands
@@ -7592,7 +7592,7 @@ GengarCard: ; 332b8 (c:72b8)
 	energy 0 ; energies
 	tx CurseName ; name
 	tx CurseDescription ; description
-	dw NONE ; description (cont)
+	tx CurseDescriptionCont ; description (cont)
 	db 0 ; damage
 	db POKEMON_POWER ; category
 	dw GengarCurseEffectCommands ; effect commands
@@ -8116,7 +8116,7 @@ Mew3Card: ; 33542 (c:7542)
 	energy PSYCHIC, 2 ; energies
 	tx DevolutionBeamName ; name
 	tx DevolutionBeamDescription ; description
-	dw NONE ; description (cont)
+	tx DevolutionBeamDescriptionCont ; description (cont)
 	db 0 ; damage
 	db RESIDUAL ; category
 	dw MewDevolutionBeamEffectCommands ; effect commands
@@ -8254,8 +8254,8 @@ Pidgeot1Card: ; 33605 (c:7605)
 	; move 1
 	energy COLORLESS, 3 ; energies
 	tx SlicingWindName ; name
-	tx SlicingWildDescription ; description
-	dw NONE ; description (cont)
+	tx SlicingWindDescription ; description
+	tx SlicingWindDescriptionCont ; description (cont)
 	db 0 ; damage
 	db RESIDUAL ; category
 	dw PidgeotSlicingWindEffectCommands ; effect commands
@@ -8269,7 +8269,7 @@ Pidgeot1Card: ; 33605 (c:7605)
 	energy COLORLESS, 4 ; energies
 	tx GaleName ; name
 	tx GaleDescription ; description
-	dw NONE ; description (cont)
+	tx GaleDescriptionCont ; description (cont)
 	db 20 ; damage
 	db DAMAGE_NORMAL ; category
 	dw PidgeotGaleEffectCommands ; effect commands
@@ -8575,7 +8575,7 @@ ClefairyCard: ; 3378b (c:778b)
 	energy COLORLESS, 3 ; energies
 	tx MetronomeName ; name
 	tx ClefairysMetronomeDescription ; description
-	dw NONE ; description (cont)
+	tx ClefairysMetronomeDescriptionCont ; description (cont)
 	db 0 ; damage
 	db RESIDUAL ; category
 	dw ClefairyMetronomeEffectCommands ; effect commands
@@ -8612,7 +8612,7 @@ ClefableCard: ; 337cc (c:77cc)
 	energy COLORLESS, 1 ; energies
 	tx MetronomeName ; name
 	tx ClefablesMetronomeDescription ; description
-	dw NONE ; description (cont)
+	tx ClefablesMetronomeDescriptionCont ; description (cont)
 	db 0 ; damage
 	db RESIDUAL ; category
 	dw ClefableMetronomeEffectCommands ; effect commands
@@ -8867,7 +8867,7 @@ Meowth1Card: ; 33911 (c:7911)
 	energy COLORLESS, 2 ; energies
 	tx CatPunchName ; name
 	tx CatPunchDescription ; description
-	dw NONE ; description (cont)
+	tx CatPunchDescriptionCont ; description (cont)
 	db 0 ; damage
 	db RESIDUAL ; category
 	dw MeowthCatPunchEffectCommands ; effect commands
@@ -8983,7 +8983,7 @@ PersianCard: ; 33993 (c:7993)
 	energy COLORLESS, 3 ; energies
 	tx PounceName ; name
 	tx PounceDescription ; description
-	dw NONE ; description (cont)
+	tx PounceDescriptionCont ; description (cont)
 	db 30 ; damage
 	db DAMAGE_NORMAL ; category
 	dw PersianPounceEffectCommands ; effect commands
@@ -9911,7 +9911,7 @@ ImakuniCard: ; 33e4b (c:7e4b)
 	db IMAKUNI_CARD
 	dw ImakuniEffectCommands ; effect commands
 	tx ImakuniDescription ; description
-	dw NONE ; description (cont)
+	tx ImakuniDescriptionCont ; description (cont)
 
 PokemonTraderCard: ; 33e59 (c:7e59)
 	db TYPE_TRAINER ; type
@@ -10098,7 +10098,7 @@ DefenderCard: ; 33f39 (c:7f39)
 	db DEFENDER
 	dw DefenderEffectCommands ; effect commands
 	tx DefenderDescription ; description
-	dw NONE ; description (cont)
+	tx DefenderDescriptionCont ; description (cont)
 
 ItemFinderCard: ; 33f47 (c:7f47)
 	db TYPE_TRAINER ; type

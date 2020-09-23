@@ -1,72 +1,253 @@
+Text03d8: ; 3f7c3 (f:77c3)
+	text "Man"
+	done
+
+Text03d9: ; 3f7c8 (f:77c8)
+	text "Vrouw"
+	done
+
+Text03da: ; 3f7cf (f:77cf)
+	text "Knaap"
+	done
+
+Text03db: ; 3f7d5 (f:77d5)
+	text "Moppie"
+	done
+
+Text03dc: ; 3f7da (f:77da)
+	text "Meisje"
+	done
+
+Text03dd: ; 3f7e0 (f:77e0)
+	text "Papa"
+	done
+
+Text03de: ; 3f7e7 (f:77e7)
+	text "Jongen"
+	done
+
+Text03df: ; 3f7ec (f:77ec)
+	text "Gastheer"
+	done
+
+Text03e0: ; 3f7f2 (f:77f2)
+	text "Brildrager"
+	done
+
+Text03e1: ; 3f7f9 (f:77f9)
+	text "Macho"
+	done
+
+Text03e2: ; 3f800 (f:7800)
+	text "Kapdrager"
+	done
+
+Text03e3: ; 3f806 (f:7806)
+	text "Kampioen"
+	done
+
+Text03e4: ; 3f80d (f:780d)
+	text "Maniak"
+	done
+
+Text03e5: ; 3f814 (f:7814)
+	text "Oma"
+	done
+
+Text03e6: ; 3f81c (f:781c)
+	text "Gids"
+	done
+
+Text03e7: ; 3f823 (f:7823)
+	text "Aaron"
+	done
+
+Text03e8: ; 3f82a (f:782a)
+	text "<Lv>60 Mewtwo "
+	done
+
+Text03e9: ; 3f838 (f:7838)
+	text "<Lv>8 Mew "
+	done
+
+Text03ea: ; 3f842 (f:7842)
+	text "<Lv>34 Arcanine"
+	done
+
+Text03eb: ; 3f851 (f:7851)
+	text "<Lv>16 Pikachu"
+	done
+
+Text03ec: ; 3f85f (f:785f)
+	text "<Lv>13 Surfende Pikachu"
+	done
+
+Text03ed: ; 3f875 (f:7875)
+	text "<Lv>20 Electabuzz"
+	done
+
+Text03ee: ; 3f886 (f:7886)
+	text "<Lv>9 Slowpoke"
+	done
+
+Text03ef: ; 3f894 (f:7894)
+	text "<Lv>12 Jigglypuff"
+	done
+
+Text03f0: ; 3f8a5 (f:78a5)
+	text "<Lv>68 Zapdos"
+	done
+
+Text03f1: ; 3f8b2 (f:78b2)
+	text "<Lv>37 Moltres"
+	done
+
+Text03f2: ; 3f8c0 (f:78c0)
+	text "<Lv>37 Articuno"
+	done
+
+Text03f3: ; 3f8cf (f:78cf)
+	text "<Lv>41 Dragonite"
+	done
+
+Text03f4: ; 3f8df (f:78df)
+	text "Super Energie Ophalen"
+	done
+
+Text03f5: ; 3f8f7 (f:78f7)
+	text "<Lv>12 Vliegende Pikachu"
+	done
+
+Text03f6: ; 3f90c (f:790c)
+	text "Bliksem & Vuur Deck"
+	done
+
+Text03f7: ; 3f923 (f:7923)
+	text "Water & Vecht Deck"
+	done
+
+Text03f8: ; 3f93a (f:793a)
+	text "Gras & Psychisch Deck"
+	done
+
+Text03f9: ; 3f950 (f:7950)
+	text "Selecteer het deck waar"
+	line "je tegen wilt dueleren."
+	done
+
+Text03fa: ; 3f982 (f:7982)
+	text "Charmander & Vrienden-Deck"
+	done
+
+Text03fb: ; 3f99d (f:799d)
+	text "Squirtle & Vrienden-Deck"
+	done
+
+Text03fc: ; 3f9b6 (f:79b6)
+	text "Bulbasaur & Vrienden-Deck"
+	done
+
+Text03fd: ; 3f9d0 (f:79d0)
+	text "Kies het deck dat je wilt."
+	done
+
+Text03fe: ; 3f9f2 (f:79f2)
+	text "Hoi, <RAMNAME>."
+	line "Waar kan ik je mee van dienst zijn?"
+	done
+
+Text03ff: ; 3fa0e (f:7a0e)
+	text "Normaal duel"
+	line "Oefenduel"
+	line "Regels"
+	line "Niets"
+	done
+
+Text0400: ; 3fa32 (f:7a32)
+	text "Energie"
+	line "Aanvallen"
+	line "Terug Trekken"
+	line "Pokémon Evolueren"
+	line "Pokémon-Krachten"
+	line "Je beurt doorgeven"
+	line "Winnen en Verliezen"
+	line "Alles is duidelijk"
+	done
+	
 Text0401: ; 3faaa (f:7aaa)
-	text "<RAMNAME>,"
-	line "It's me, Doctor Mason."
-	line "Are you getting the hang of"
-	line "the Pokémon Trading Card Game?"
-	line "I have some information for you"
-	line "about Booster Packs. "
-	line "If you want to collect the same"
-	line "cards, Duel the same person many"
-	line "times to get a particular Booster"
-	line "Pack! By doing so, you will be able "
-	line "to collect the same cards, making it"
-	line "easier for you to build your Deck."
-	line "Another method for collecting "
-	line "cards is to use Kaart-Flits!"
-	line "When you and a friend use Kaart-Flits!,"
-	line "you will each receive a new card!"
-	line "Once you POP! with a certain"
-	line "friend, you won't be able to POP!"
-	line "with that friend again, so find "
-	line "many friends who own the Pokémon "
-	line "Trading Card Game for Game Boy,"
-	line "and Kaart-Flits! with them to"
-	line "get new cards!"
-	line "Oh, here's something for you..."
+	text "Beste <RAMNAME>,"
+	line "Ik ben het, Dokter Mason!"
+	line "Krijg je het Pokémon Ruilkaartspel"
+	line "al een beetje onder de knie?"
+	line "Ik heb wat informatie voor je"
+	line "over Uitbreidingspakjes."
+	line "Als je graag dezelfde kaarten wilt"
+	line "verzamelen, dueleer dan zo vaak"
+	line "mogelijk met dezelfde persoon"
+	line "om een bepaald Uitbreidingspakje te"
+	line "krijgen! Door dit te doen, is de"
+	line "kans groter dat je dezelfde kaarten"
+	line "krijgt, waardoor het makkelijker"
+	line "wordt om je deck te bouwen."
+	line "Een andere manier om kaarten te"
+	line "verzamelen is door een"
+	line "Kaart-Flits! te doen met een vriend."
+	line "Als jij en je vriend een"
+	line "Kaart-Flits! doen, krijgen jullie"
+	line "allebei een nieuwe kaart! Wanneer"
+	line "je een Kaart- Flits! doet met een"
+	line "bepaalde vriend, kan je niet nog"
+	line "een keer een Kaart-Flits! doen met"
+	line "die vriend, dus vind veel vrienden"
+	line "die het Pokémon Ruilkaartspel"
+	line "op de Game Boy spelen, en doe"
+	line "een Kaart-Flits! met ze om"
+	line "nieuwe kaarten te krijgen!"
+	line "Oh! Ik heb nog iets voor je..."
 	done
 
 Text0402: ; 3fd72 (f:7d72)
-	text "I'll be sending you useful"
-	line "information by e-mail."
-	line "I'll also attach a Booster Pack"
-	line "for you, so check your mail"
-	line "often."
-	line "Mason Laboratory"
-	line "      Doctor Mason  ;)"
+	text "Ik zal je nuttige informatie"
+	line "sturen via een e-mail. Ik voeg"
+	line "er ook een Uitbreidingspakje aan"
+	line "toe, dus lees je mail regelmatig."
+	line "Mason Onderzoekslab"
+	line "      Dokter Mason  ;)"
 	done
 
 Text0403: ; 3fe10 (f:7e10)
-	text "<RAMNAME>,"
-	line "It's me, Doctor Mason."
-	line "I have some information for you"
-	line "about Mitch's deck - he's "
-	line "the Master of the Fighting Club."
-	line "His First-Strike Deck is built"
-	line "for a quick attack, but it's"
-	line "weak against Psychic Pokémon!"
-	line "I suggest you Duel him using"
-	line "the Deck from the Psychic Medal"
-	line "Deck Machine."
-	line "Here's a Booster Pack for you..."
+	text "Beste <RAMNAME>,"
+	line "Ik ben het, Dokter Mason!"
+	line "Ik heb wat informatie voor je"
+	line "over Mitch's deck - hij is de"
+	line "Meester van de Vecht-Club"
+	line "Zijn Eerste Klap Deck is gebouwd"
+	line "om snel aan te vallen, maar het"
+	line "is Zwak tegen Psychische Pokémon!"
+	line "Ik raad je aan om hem te dueleren"
+	line "met een deck uit de Psychische"
+	line "Medaille Deckmachine."
+	line "Hier heb ik een Uitbreidingspakje"
+	line "voor je..."
 	done
 
 Text0404: ; 3ff4d (f:7f4d)
-	text "<RAMNAME>, I know you can do it!"
-	line "Go win the Fighting Medal!"
-	line "Mason Laboratory"
-	line "      Doctor Mason ;)"
+	text "<RAMNAME>, ik weet dat je het"
+	line "kunt! Ga die Vecht-Medaille winnen!"
+	line "Mason Onderzoekslab"
+	line "      Dokter Mason ;)"
 	done
 
 Text0405: ; 40000 (10:4000)
-	text "<RAMNAME>,"
-	line "It's me, Doctor Mason."
-	line "I have some information about"
-	line "Gene's deck - he's the Master "
-	line "of the Rock Club."
-	line "His Rock Crusher Deck is extremely"
+	text "Beste <RAMNAME>,"
+	line "Ik ben het, Dokter Mason!"
+	line "Ik heb wat informatie over"
+	line "Gene's deck - hij is de Meester "
+	line "van de Rots-Club."
+	line "His Rock Crusher deck is extremely"
 	line "strong against Lightning Pokémon,"
 	line "but it's weak against Grass Pokémon!"
-	line "I suggest you study the Deck from"
+	line "I suggest you study the deck from"
 	line "the Grass Medal Deck Machine."
 	line "Oh! Before I forget..."
 	line "Here's a Booster Pack for you!"
@@ -75,14 +256,14 @@ Text0405: ; 40000 (10:4000)
 Text0406: ; 4014a (10:414a)
 	text "<RAMNAME>! Go defeat Gene,"
 	line "the Master of the Rock Club!"
-	line "Mason Laboratory"
-	line "      Doctor Mason  ;)"
+	line "Mason Onderzoekslab"
+	line "      Dokter Mason  ;)"
 	done
 
 Text0407: ; 401a3 (10:41a3)
-	text "<RAMNAME>,"
-	line "It's me, Doctor Mason."
-	line "I have some information for you"
+	text "Beste <RAMNAME>,"
+	line "Ik ben het, Dokter Mason!"
+	line "Ik heb wat informatie for you"
 	line "about Amy's deck - she's the "
 	line "Master of the Water Club."
 	line "Her deck uses Rain Dance -"
@@ -102,18 +283,18 @@ Text0407: ; 401a3 (10:41a3)
 Text0408: ; 4033e (10:433e)
 	text "<RAMNAME>!"
 	line "Keep at it, and don't give up!"
-	line "Mason Laboratory"
-	line "      Doctor Mason  ;)"
+	line "Mason Onderzoekslab"
+	line "      Dokter Mason  ;)"
 	done
 
 Text0409: ; 40389 (10:4389)
 	text "How's it going, <RAMNAME>?"
-	line "It's me, Doctor Mason."
+	line "It's me, Dokter Mason."
 	line "I have some information for you"
 	line "about Isaac's deck - he's"
 	line "the Master of the Lightning Club."
-	line "His deck is a Selfdestruct "
-	line "deck! He uses Selfdestruct for "
+	line "His deck is a Selfdestruct"
+	line "deck! He uses Selfdestruct for"
 	line "maximum damage!"
 	line "Watch the number of Energiekaarten"
 	line "on his Pokémon and look out for"
@@ -131,12 +312,12 @@ Text0409: ; 40389 (10:4389)
 Text040a: ; 40598 (10:4598)
 	text "Did you find the Pokémon you were"
 	line "looking for in the Booster Pack?"
-	line "Mason Laboratory"
-	line "      Doctor Mason  ;)"
+	line "Mason Onderzoekslab"
+	line "      Dokter Mason  ;)"
 	done
 
 Text040b: ; 40604 (10:4604)
-	text "It's me, Doctor Mason."
+	text "It's me, Dokter Mason."
 	line "Have you won many Master Medals?"
 	line "I have some information for you "
 	line "about Nikki's deck - she's "
@@ -146,7 +327,7 @@ Text040b: ; 40604 (10:4604)
 	line "Use your Fire Pokémon to knock out"
 	line "Exeggute and Exeggutor at an"
 	line "early stage!"
-	line "I suggest you study the Deck from"
+	line "I suggest you study the deck from"
 	line "the Fire Medal Deck Machine."
 	line "I'll give you a Booster Pack"
 	line "that should contain a lot of "
@@ -156,7 +337,7 @@ Text040b: ; 40604 (10:4604)
 Text040c: ; 407b0 (10:47b0)
 	text "Did it have a lot of Fire Pokémon"
 	line "(the weakness of Grass Pokémon)?"
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason  ;)"
 	done
 
@@ -165,7 +346,7 @@ Text040d: ; 40819 (10:4819)
 	line "inheriting the Legendary Pokémon "
 	line "Cards? Murray of the Psychic Club -"
 	line "I have some information on his deck!"
-	line "It seems to be a deck that uses"
+	line "It seems to be a Deck that uses"
 	line "Alakazam's Damage Swap!"
 	line "It will be difficult to defeat"
 	line "his deck of Psychic Pokémon."
@@ -182,7 +363,7 @@ Text040e: ; 409c6 (10:49c6)
 	text "Fight to the end, "
 	text "<RAMNAME>,"
 	line "and don't give up!"
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason  ;)"
 	done
 
@@ -190,16 +371,16 @@ Text040f: ; 40a15 (10:4a15)
 	text "It's me, Dr. Mason."
 	line "How are you doing, <RAMNAME>?"
 	line "I have some information for you"
-	line "about Rick's deck - he's "
+	line "about Rick's Deck - he's "
 	line "the Master of the Science Club."
-	line "His deck uses Muk's Toxic Gas to"
+	line "His Deck uses Muk's Toxic Gas to"
 	line "prevent your Pokémon from using "
-	line "Pokémon Power! Avoid using a deck "
+	line "Pokémon Power! Avoid using a Deck "
 	line "that relies on Pokémon Power to "
-	line "attack. His deck's weakness is "
+	line "attack. His Deck's weakness is "
 	line "Psychic Pokémon! Collect Psychic "
 	line "Pokémon to Duel his deck!"
-	line "I suggest you study the deck from"
+	line "I suggest you study the Deck from"
 	line "the Psychic Medal Deck Machine."
 	line "Hopefully, it will be of some"
 	line "assistance..."
@@ -209,7 +390,7 @@ Text0410: ; 40bea (10:4bea)
 	text "Win all 8 Master Medals, "
 	line ""
 	text "<RAMNAME>!"
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason  ;)"
 	done
 
@@ -217,15 +398,15 @@ Text0411: ; 40c2e (10:4c2e)
 	text "It's me, Dr. Mason."
 	line "Have you collected many cards?"
 	line "I have some information about"
-	line "Ken's deck - he's the "
+	line "Ken's Deck - he's the "
 	line "Master of the Fire Club."
-	line "His deck consists of Fire Pokémon"
+	line "His Deck consists of Fire Pokémon"
 	line "and Colorless Pokémon!"
 	line "Pit a Water Pokémon against"
 	line "the Fire Pokémon and"
 	line "a Fighting Pokémon against"
 	line "the Colorless Pokémon."
-	line "Study the decks from the Water and"
+	line "Study the Decks from the Water and"
 	line "Fighting Medal Deck Machines!"
 	line "Here's a gift for you!"
 	line "It's a MYSTERY"
@@ -237,7 +418,7 @@ Text0412: ; 40dc1 (10:4dc1)
 	line "you just received."
 	line "You should be able to come up"
 	line "with a winning strategy!"
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason  ;)"
 	done
 
@@ -246,14 +427,14 @@ Text0413: ; 40e4c (10:4e4c)
 	line "It looks like you've won"
 	line "quite a few medals."
 	line "Want to try building your own "
-	line "deck? Start by changing some of"
-	line "the cards in your present deck."
+	line "Deck? Start by changing some of"
+	line "the cards in your present Deck."
 	line "Keep changing a few cards at a "
 	line "time, and eventually you'll have"
-	line "your own unique deck!"
+	line "your own unique Deck!"
 	line "It's not that difficult."
 	line "Give it a try!"
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason ;)"
 	line "p.s."
 	line "Here's a deal -  this time,"
@@ -261,24 +442,24 @@ Text0413: ; 40e4c (10:4e4c)
 	done
 
 Text0414: ; 40fca (10:4fca)
-	text "Did you try building your own deck?"
+	text "Did you try building your own Deck?"
 	line "This time, I'll give you tips on"
 	line "the types and number of cards you"
-	line "should include in your deck."
+	line "should include in your Deck."
 	line "If you have 3 of a Basic Pokémon"
 	line "card, you'll want 2 of its Stage"
 	line "1 and 1 of its Stage 2 Pokémon."
 	line "If you follow this rule, your"
-	line "deck will be well balanced."
+	line "Deck will be well balanced."
 	line "You should have about 14 Basic"
 	line "Pokémon and anywhere between 20"
-	line "and 26 Energy Cards in your deck."
+	line "and 26 Energy Cards in your Deck."
 	line "The type of Energy Cards will "
 	line "depend on the type of Pokémon you "
-	line "have in your deck."
-	line "You might want to look at the decks"
+	line "have in your Deck."
+	line "You might want to look at the Decks"
 	line "in the Deck Machine for hints."
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason  ;)"
 	line "p.s."
 	line "This time, I'm sending 2 Booster "
@@ -299,7 +480,7 @@ Text0415: ; 4123d (10:523d)
 	line "Other than that, just watch how"
 	line "your opponent plays, and choose"
 	line "your strategy accordingly."
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason ;)"
 	line "p.s."
 	line "You're almost there."
@@ -319,13 +500,13 @@ Text0416: ; 413f1 (10:53f1)
 	line "Be sure to look after, not only"
 	line "your Active Pokémon, but also"
 	line "the Pokémon on your Bench."
-	line "His deck should be made up mostly"
+	line "His Deck should be made up mostly"
 	line "of Lightning Pokémon, so Duel him"
 	line "using your Fighting Pokémon."
 	line "Defeat the Grand Masters,"
 	line ""
 	text "<RAMNAME>!!!"
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason  ;)"
 	line "p.s."
 	line "3 more to go!"
@@ -341,12 +522,12 @@ Text0417: ; 415cf (10:55cf)
 	line "paralyze your Pokémon."
 	line "Also, be wary of his other"
 	line "Articuno's Freeze Dry."
-	line "His deck should be mostly"
+	line "His Deck should be mostly"
 	line "Water Pokémon, so it will be"
 	line "weak against Lightning Pokémon!"
 	line "Go get 'em, <RAMNAME>!"
 	line "You're almost there!"
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason  ;)"
 	done
 
@@ -358,7 +539,7 @@ Text0418: ; 4174c (10:574c)
 	line "Rod uses the Legendary Dragonite."
 	line "The longer the Duel takes, the "
 	line "greater the advantages for his "
-	line "deck. His workhorse will be his"
+	line "Deck. His workhorse will be his"
 	line "Evolution Pokémon, so defeat them"
 	line "while they are still in their Basic"
 	line "stage! Follow the simple strategy "
@@ -367,7 +548,7 @@ Text0418: ; 4174c (10:574c)
 	line "the Legendary Pokémon Cards!"
 	line "Go, <RAMNAME>!"
 	line "Be a part of the legend!"
-	line "Mason Laboratory"
+	line "Mason Onderzoekslab"
 	line "      Dr. Mason  ;)"
 	line "p.s."
 	line "This is my final gift"
@@ -375,12 +556,12 @@ Text0418: ; 4174c (10:574c)
 	done
 
 Text0419: ; 41965 (10:5965)
-	text "You have already received the"
-	line "attached Booster Pack."
+	text "Je hebt het bijgevoegde"
+	line "Uitbreidingspakje al ontvangen."
 	done
 
 Text041a: ; 4199b (10:599b)
-	text "”Pokémon Trading Cards 101”"
+	text "”Pokémon Ruilkaartspel 101”"
 	done
 
 Text041b: ; 419b8 (10:59b8)
@@ -434,9 +615,9 @@ Text0422: ; 41c57 (10:5c57)
 	text "OK! Let's trade your Lapras"
 	line "for my Arcanine..."
 	line "Oh! I see your Lapras"
-	line "is included in your deck."
+	line "is included in your Deck."
 	line "I'd feel guilty taking a card"
-	line "from your deck."
+	line "from your Deck."
 	line "Maybe next time."
 	line ""
 	done
@@ -955,41 +1136,3 @@ Text0472: ; 4364c (10:764c)
 	line "Grand Master is the best."
 	line "I think Steve is the best player."
 	done
-
-Text0473: ; 436a2 (10:76a2)
-	text "I can't believe Steve the Grand"
-	line "Master could lose!"
-	line "Who could have defeated Steve?"
-	done
-
-Text0474: ; 436f5 (10:76f5)
-	text "The best player among the Grand"
-	line "Masters is Rod, since he's the"
-	line "leader of the Grand Masters."
-	done
-
-Text0475: ; 43752 (10:7752)
-	text "I can't believe Rod, the leader of"
-	line "the Grand Masters, was defeated!?!"
-	line "Could this mean the Legendary"
-	line "Pokémon Cards have been passed on?"
-	done
-
-Text0476: ; 437da (10:77da)
-	text "If I were just a few years younger,"
-	line "I'd be dueling with you kids, too."
-	done
-
-Text0477: ; 43822 (10:7822)
-	text "I am Mitch, Master of the"
-	line "Fighting Club!"
-	line "I have to warn you that you will"
-	line "be unable to defeat me!"
-	line "If you wish to Duel with me,"
-	line "you must defeat my pupils first!"
-	line "My pupils are training at "
-	line "other Clubs!"
-	line "Go see if you can defeat all"
-	line "3 of my pupils!"
-	done
-	
