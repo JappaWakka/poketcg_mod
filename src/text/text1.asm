@@ -192,7 +192,7 @@ YesOrNoText: ; 36595 (d:6595)
 	done
 
 DiscardName: ; 365a1 (d:65a1)
-	text "Weggooi"
+	text "Gooi weg"
 	done
 
 IncompleteText: ; 365aa (d:65aa)
@@ -212,7 +212,7 @@ Text0034: ; 365c7 (d:65c7)
 	done
 
 PokemonsAttackText: ; 365d8 (d:65d8)
-	text "<RAMTEXT> deed"
+	text "<RAMTEXT> doet"
 	line ""
 	text "<RAMTEXT>!"
 	done
@@ -252,7 +252,7 @@ NoSelectableAttackText: ; 366af (d:66af)
 	done
 
 UnableToRetreatText: ; 366c5 (d:66c5)
-	text "Kan niet Terugtrekken."
+	text "Kan zich niet Terugtrekken."
 	done
 
 MayOnlyAttachOneEnergyCardText: ; 366d9 (d:66d9)
@@ -265,7 +265,7 @@ UsePkMnPowerQuestionText: ; 36706 (d:6706)
 	done
 
 PkMnPowerSelectNotRequiredText: ; 3671f (d:671f)
-	text "Je hoeft de Pokémon-Kracht niet"
+	text "Je hoeft deze Pokémon-Kracht niet"
 	line "te selecteren om hem te gebruiken."
 	done
 
@@ -347,7 +347,7 @@ ChooseEnergyCardToDiscardText: ; 36891 (d:6891)
 
 ChooseNextActivePokemonText: ; 368be (d:68be)
 	text "De Actieve Pokémon is Uitgeschakeld."
-	line "Kies de volgende Pokémon."
+	line "Kies je volgende Actieve Pokémon."
 	done
 
 PressSTARTWhenReadyText: ; 36903 (d:6903)
@@ -365,7 +365,7 @@ YouPlaySecondText: ; 36935 (d:6935)
 
 TransmissionErrorText: ; 36947 (d:6947)
 	text "Overdrachtsfout."
-	line "Start opnieuw vanaf het begin."
+	line "Probeer het opnieuw."
 	done
 
 ChooseTheCardYouWishToExamineText: ; 3697c (d:697c)
@@ -1131,15 +1131,13 @@ TrainerCardSuccessCheckText: ; 37eea (d:7eea)
 	done
 
 Text00f0: ; 37f24 (d:7f24)
-	text "Kaart-controle!"
-	line "Als het kop is, 8 kaarten! Als het munt"
-	line "is, 1 kaart!"
+	text "Kaart-controle! Als het kop is, 8"
+	line "kaarten! Als het munt is, 1 kaart!"
 	done
 
 IfHeadsNoDamageNextTurnText: ; 37f56 (d:7f56)
-	text "Als het kop is, ontvang je geen"
-	line "schade tijdens je tegenstander's"
-	line "volgende beurt!"
+	text "Als het kop is, geen schade tijdens"
+	line "tegenstander's volgende beurt!"
 	done
 
 Text00f2: ; 37f9a (d:7f9a)

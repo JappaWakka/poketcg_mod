@@ -1,13 +1,11 @@
 AcidCheckText: ; 38000 (e:4000)
-	text "Zuur-controle! Als het kop is,"
-	line "kan er niet Teruggetrokken worden"
-	line "tijdens de volgende beurt."
+	text "Zuur-controle! Als het kop is, kan"
+	line "niet Terugtrekken tijdens volgende beurt."
 	done
 
 TransparencyCheckText: ; 3803b (e:403b)
 	text "Transparantie-controle! Als het kop is,"
-	line "ondervind je geen gevolgen van de"
-	line "tegenstander's aanval!"
+	line "geen gevolgen van de tegenstander's aanval!"
 	done
 
 ConfusionCheckDamageText: ; 3807c (e:407c)
@@ -56,17 +54,17 @@ UnableToUseTrainerDueToHeadacheText: ; 381dc (e:41dc)
 
 UnableToAttackDueToTailWagText: ; 3821a (e:421a)
 	text "Kan niet aanvallen door"
-	line "de gevolgen van Kwispel."
+	line "het effect van Kwispel."
 	done
 
 UnableToAttackDueToLeerText: ; 3824c (e:424c)
 	text "Kan niet aanvallen door"
-	line "de gevolgen van Lonk."
+	line "het effect van Lonk."
 	done
 
 UnableToAttackDueToBoneAttackText: ; 3827a (e:427a)
 	text "Kan niet aanvallen door"
-	line "de gevolgen van Bottenaanval."
+	line "het effect van Bottenaanval."
 	done
 
 UnableToUseAttackDueToAmnesiaText: ; 382af (e:42af)
@@ -76,7 +74,7 @@ UnableToUseAttackDueToAmnesiaText: ; 382af (e:42af)
 
 KnockedOutDueToDestinyBondText: ; 382e9 (e:42e9)
 	text "<RAMTEXT> is Uitgeschakeld door"
-	line "de gevolgen van Lotverbintenis."
+	line "het effect van Lotverbintenis."
 	done
 
 ReceivesDamageDueToStrikesBackText: ; 38320 (e:4320)
@@ -100,19 +98,18 @@ NoDamageOrEffectDueToBarrierText: ; 383d3 (e:43d3)
 	done
 
 NoDamageOrEffectDueToAgilityText: ; 38416 (e:4416)
-	text "Geen schade of gevolgen van de volgende"
-	line "aanval door het effect van Behendigheid."
+	text "Geen schade of gevolgen van de aanval"
+	line "door het effect van Behendigheid."
 	done
 
 UnableToUseAttackDueToNShieldText: ; 38459 (e:4459)
 	text "Kan deze aanval niet gebruiken door"
-	line "de gevolgen van Neutraliserend Schild."
+	line "het effect van Neutraliserend Schild."
 	done
 
 NoDamageOrEffectDueToNShieldText: ; 38494 (e:4494)
-	text "Geen schade of gevolgen van de volgende"
-	line "aanval door het effect van"
-	line "Neutraliserend Schild."
+	text "Geen schade of gevolgen van de aanval"
+	line "door het effect van Neutraliserend Schild."
 	done
 
 NoDamageOrEffectDueToTransparencyText: ; 384d8 (e:44d8)
@@ -152,26 +149,26 @@ Text0112: ; 3860a (e:460a)
 	done
 
 Text0113: ; 38647 (e:4647)
-	text "Choose the Pokémon whose color you"
-	line "wish to change with Color change."
+	text "Kies een Pokémon naar wiens type je"
+	line "wilt veranderen met de kracht Verander."
 	done
 
 Text0114: ; 3868d (e:468d)
-	text "Changed the Weakness of"
+	text "De Zwakte is veranderd van"
 	line ""
-	text "<RAMTEXT> to <RAMTEXT>."
+	text "<RAMTEXT> naar <RAMTEXT>."
 	done
 
 Text0115: ; 386af (e:46af)
-	text "Changed the Resistance of"
+	text "De Weerstand is veranderd van"
 	line ""
-	text "<RAMTEXT> to <RAMTEXT>."
+	text "<RAMTEXT> naar <RAMTEXT>."
 	done
 
 Text0116: ; 386d3 (e:46d3)
-	text "Changed the color of"
+	text "Het type is veranderd van"
 	line ""
-	text "<RAMTEXT> to <RAMTEXT>."
+	text "<RAMTEXT> naar <RAMTEXT>."
 	done
 
 Text0117: ; 386f2 (e:46f2)
@@ -183,162 +180,162 @@ DrawCardsFromTheDeckText: ; 3870e (e:470e)
 	done
 
 CannotDrawCardBecauseNoCardsInDeckText: ; 3872d (e:472d)
-	text "Cannot draw a card because"
-	line "there are no cards in the deck."
+	text "Kan geen kaart pakken omdat er geen"
+	line "kaarten meer in het deck zitten."
 	done
 
 Text011a: ; 38769 (e:4769)
-	text "Choose a Pokémon on the Bench"
-	line "to give damage to."
+	text "Kies een Pokémon op de Bank om"
+	line "schade aan te doen."
 	done
 
 Text011b: ; 3879b (e:479b)
-	text "Choose up to 3 Pokémon on the"
-	line "Bench to give damage to."
+	text "Kies ten hoogste 3 Pokémon op de"
+	line "Bank om schade aan te doen."
 	done
 
 Text011c: ; 387d3 (e:47d3)
-	text "Choose 1 Basic Energiekaart"
-	line "from the deck."
+	text "Kies 1 Basis-Energiekaart"
+	line "uit je deck."
 	done
 
 Text011d: ; 387fe (e:47fe)
-	text "Choose a Pokémon to attach"
-	line "the Energiekaart to."
+	text "Kies een Pokémon om de"
+	line "Energiekaart aan te hechten."
 	done
 
 Text011e: ; 3882e (e:482e)
-	text "Choose and Discard"
-	line "1 Fire Energiekaart."
+	text "Kies 1 Vuur Energiekaart"
+	line "en gooi hem weg."
 	done
 
 Text011f: ; 38856 (e:4856)
-	text "Choose and Discard"
-	line "2 Fire Energiekaarten."
+	text "Kies 2 Vuur Energiekaarten"
+	line "en gooi ze weg."
 	done
 
 Text0120: ; 3887f (e:487f)
-	text "Discard from opponent's deck as many"
-	line "Fire Energiekaarten as were discarded."
+	text "Gooi zoveel kaarten weg van je tegenstander's"
+	line "deck als Vuur Energiekaarten zijn weggegooid."
 	done
 
 Text0121: ; 388ca (e:48ca)
-	text "Choose and Discard"
-	line "2 Energiekaarten."
+	text "Kies 2 Energiekaarten"
+	line "en gooi ze weg."
 	done
 
 Text0122: ; 388ee (e:48ee)
-	text "Choose a Krabby"
-	line "from the deck."
+	text "Kies een Krabby"
+	line "uit je deck."
 	done
 
 Text0123: ; 3890e (e:490e)
-	text "Choose and Discard an Energiekaart"
-	line "from the opponent's Active Pokémon."
+	text "Kies een Energiekaart gehecht aan de tegen-"
+	line "stander's Actieve Pokémon en gooi hem weg."
 	done
 
 Text0124: ; 38955 (e:4955)
-	text "Choose the Attack the opponent will"
-	line "not be able to use on the next turn."
+	text "Kies de aanval die de tegenstander de"
+	line "volgende beurt niet kan gebruiken."
 	done
 
 Text0125: ; 3899f (e:499f)
-	text "Choose a Basic Fighting Pokémon"
-	line "from the deck."
+	text "Kies een Basis-Vecht-Pokémon"
+	line "uit je deck."
 	done
 
 Text0126: ; 389cf (e:49cf)
-	text "Choose an Oddish"
-	line "from the deck."
+	text "Kies een Oddish"
+	line "uit je deck."
 	done
 
 Text0127: ; 389f0 (e:49f0)
-	text "Choose an Oddish"
+	text "Kies een Oddish."
 	done
 
 Text0128: ; 38a02 (e:4a02)
-	text "Choose a Krabby."
+	text "Kies een Krabby."
 	done
 
 Text0129: ; 38a14 (e:4a14)
-	text "Choose a Basic"
+	text "Kies een Basis-"
 	line "Energiekaart."
 	done
 
 Text012a: ; 38a31 (e:4a31)
-	text "Choose a Nidoran♀ or a"
-	line "Nidoran♂ from the deck."
+	text "Kies een Nidoran♀ of een"
+	line "Nidoran♂ uit je deck."
 	done
 
 Text012b: ; 38a61 (e:4a61)
-	text "Choose a Nidoran♀"
-	line "or a Nidoran♂."
+	text "Kies een Nidoran♀"
+	line "of een Nidoran♂."
 	done
 
 Text012c: ; 38a83 (e:4a83)
-	text "Choose a Basic"
-	line "Fighting Pokémon"
+	text "Kies een Basis-"
+	line "Vecht-Pokémon."
 	done
 
 Text012d: ; 38aa4 (e:4aa4)
-	text "Procedure for Energy Transfer:"
+	text "Instructies voor Energietransfer:"
 	line ""
-	line "1. Choose the Pokémon to move Grass"
-	line "   Energy from.  Press the A Button."
+	line "1. Kies de Pokémon om de Gras Energie"
+	line "   van te nemen. Druk op de A-knop."
 	line ""
-	line "2. Choose the Pokémon to move the"
-	line "   energy to and press the A Button."
+	line "2. Kies de Pokémon om de Gras Energie"
+	line "   aan te hechten. Druk op de A-knop."
 	line ""
-	line "3. Repeat steps 1 and 2."
+	line "3. Herhaal stap 1 en 2."
 	line ""
-	line "4. Press the B Button to end."
+	line "4. Ben je klaar? Druk op de B-knop."
 	done
 
 Text012e: ; 38b8f (e:4b8f)
-	text "Choose a Bellsprout"
-	line "from the deck."
+	text "Kies een Bellsprout"
+	line "uit je deck."
 	done
 
 Text012f: ; 38bb3 (e:4bb3)
-	text "Choose a Bellsprout."
+	text "Kies een Bellsprout."
 	done
 
 Text0130: ; 38bc9 (e:4bc9)
-	text "Choose a Pokémon to remove"
-	line "the Damage counter from."
+	text "Kies een Pokémon om de"
+	line "schadeteller van te verwijderen."
 	done
 
 Text0131: ; 38bfe (e:4bfe)
-	text "Procedure for Curse:"
+	text "Instructies voor Vervloeken:"
 	line ""
-	line "1. Choose a Pokémon to move the"
-	line "   Damage counter from and press"
-	line "   the A Button."
+	line "1. Kies de Pokémon om de schade-"
+	line "   teller van te nemen. Druk op"
+	line "   de A-knop."
 	line ""
-	line "2. Choose a Pokémon to move the"
-	line "   Damage counter to and press"
-	line "   the A Button."
+	line "2. Kies de Pokémon om de schade-"
+	line "   teller op te leggen. Druk op"
+	line "   de A-knop."
 	line ""
-	line "3. Press the B Button to cancel."
+	line "3. Annuleren? Druk op de B-knop."
 	done
 
 Text0132: ; 38cda (e:4cda)
-	text "Choose 2 Energiekaarten from the"
-	line "weggooistapel to attach to a Pokémon."
+	text "Kies 2 Energiekaarten uit je weggooi-"
+	line "stapel om aan een Pokémon te hechten."
 	done
 
 Text0133: ; 38d1e (e:4d1e)
-	text "Choose 2 Energiekaarten from the"
-	line "weggooistapel for your hand."
+	text "Kies 2 Energiekaarten uit je weggooi-"
+	line "stapel om in je hand te nemen."
 	done
 
 Text0134: ; 38d5a (e:4d5a)
-	text "Choose an Energy"
-	line "card."
+	text "Kies een Energie"
+	line "kaart."
 	done
 
 Text0135: ; 38d72 (e:4d72)
-	text "Procedure for Prophecy:"
+	text "Instructies voor Prophecy:"
 	line ""
 	line "1. Choose either your deck"
 	line "   or your opponent's deck"
@@ -470,7 +467,7 @@ Text0147: ; 3935d (e:535d)
 
 Text0148: ; 39392 (e:5392)
 	text "<RAMTEXT> is gekozen"
-	line "voor de gevolgen van Geheugenverlies."
+	line "voor het effect van Geheugenverlies."
 	done
 
 Text0149: ; 393bb (e:53bb)
@@ -1106,7 +1103,7 @@ Turn2DrMason1PracticeDuelText: ; 3aa6b (e:6a6b)
 	line "Kies Seaking uit je hand en hecht"
 	line "hem aan Goldeen om hem te Evolueren."
 	line "Zijn IP neemt dan toe"
-	line "van 40 naar 70." 
+	line "van 40 naar 70."
 	done
 
 Turn2DrMason2PracticeDuelText: ; 3ab08 (e:6b08)
@@ -1613,7 +1610,7 @@ NamingScreenKeyboardText: ; 3b97b (e:797b)
 	line ""
 	textfw0 " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "
 	done
-	
+
 NewDeckText: ; 3ba03 (e:7a03)
 	text "Nieuw deck"
 	done
