@@ -1,3 +1,43 @@
+Text05c5: ; 4b17c (12:717c)
+	text "Als je een Club Lid verslaat,"
+	line "ontvang je een Uitbreidingspakje."
+	line "Elk Uitbreidingspakje bevat"
+	line "10 kaarten."
+	line "Welke kaarten je krijgt hangt af"
+	line "van welk Uitbreidingspakje je wint."
+	line "Wat voor soort Uitbreidingspakje je"
+	line "krijgt hangt ook af van welke"
+	line "tegenstander je verslaat, dus maak"
+	line "slimme beslissingen bij het kiezen"
+	line "van je tegenstanders."
+	done
+
+Text05c6: ; 4b274 (12:7274)
+	text "Congratulations on inheriting "
+	line "the Legendary Pokémon Cards,"
+	line ""
+	text "<RAMNAME>! Now you should try"
+	line "dueling different people using the"
+	line "cards you inherited. I'm sure "
+	line "you'll have a good time!"
+	done
+
+Text05c7: ; 4b323 (12:7323)
+	text "Je weet het vast al, maar er zijn"
+	line "8 Clubs: de Vecht-, Water-,"
+	line "Bliksem-, Gras-, Psychische, Vuur-,"
+	line "Rots- en Wetenschap-Clubs!"
+	line "De verschillende Clubs gebruiken"
+	line "kaarten die bij hun Club passen."
+	done
+
+Text05c8: ; 4b3e2 (12:73e2)
+	text "Amazing! You beat the 8 Club "
+	line "Masters!"
+	line "And you even defeated the"
+	line "4 Grand Masters! Amazing!"
+	done
+
 Text05c9: ; 4b43e (12:743e)
 	text "Om je vooruitgang op te slaan, druk"
 	line "je op START en kies je ”Dagboek” in"
@@ -981,67 +1021,4 @@ Text0650: ; 4ed40 (13:6d40)
 	line "another rare card!"
 	line "Come on!!! Let's Duel!"
 	line "We'll play with 6 Prizes!"
-	done
-
-Text0651: ; 4ede7 (13:6de7)
-	text "Shoot! I let you win!"
-	line "But a loss is a loss, so I'll "
-	line "give you this card."
-	done
-
-Text0652: ; 4ee31 (13:6e31)
-	text "Don't get so cocky just because"
-	line "you won."
-	line "The Legendary Pokémon Cards"
-	line "belong to Me!!!"
-	done
-
-Text0653: ; 4ee87 (13:6e87)
-	text "Huh?!? You're not even half as good"
-	line "as I am!"
-	line "There's no way you'll be able to"
-	line "inherit the Legendary Pokémon Cards!"
-	line "Why don't you just give up!?!"
-	line "See ya!"
-	line "Ha ha ha ha ha ha!"
-	done
-
-Text0654: ; 4ef34 (13:6f34)
-	text "Hi, I'm Robert!"
-	line "I'm a member of the Psychic Club."
-	line "My Ghost Deck is really strong!"
-	line "It doesn't have any weaknesses, "
-	line "and it's difficult for opponents'"
-	line "attacks to cause damage!"
-	line "Would you like to Duel me?"
-	done
-
-Text0655: ; 4effe (13:6ffe)
-	text "Would you like to Duel Robert?"
-	done
-
-Text0656: ; 4f01e (13:701e)
-	text "Oh, man! You're boring!"
-	line "Won't anyone Duel me?"
-	done
-
-Text0657: ; 4f04d (13:704d)
-	text "A single match with 4 prizes!"
-	line "Come on, my precious ghosts!"
-	line "Let's make his Pokémon disappear!"
-	done
-
-Text0658: ; 4f0ab (13:70ab)
-	text "How could my Ghost Deck lose!?!"
-	done
-
-Text0659: ; 4f0cc (13:70cc)
-	text "I won't lose next time!"
-	line "Let's Duel again!"
-	done
-
-Text065a: ; 4f0f7 (13:70f7)
-	text "I told you my Ghost Deck was "
-	line "strong! Please Duel me again "
-	line "sometime, OK?  Bye!"
 	done

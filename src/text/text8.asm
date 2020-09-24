@@ -1,3 +1,67 @@
+Text0651: ; 4ede7 (13:6de7)
+	text "Shoot! I let you win!"
+	line "But a loss is a loss, so I'll "
+	line "give you this card."
+	done
+
+Text0652: ; 4ee31 (13:6e31)
+	text "Don't get so cocky just because"
+	line "you won."
+	line "The Legendary Pokémon Cards"
+	line "belong to Me!!!"
+	done
+
+Text0653: ; 4ee87 (13:6e87)
+	text "Huh?!? You're not even half as good"
+	line "as I am!"
+	line "There's no way you'll be able to"
+	line "inherit the Legendary Pokémon Cards!"
+	line "Why don't you just give up!?!"
+	line "See ya!"
+	line "Ha ha ha ha ha ha!"
+	done
+
+Text0654: ; 4ef34 (13:6f34)
+	text "Hi, I'm Robert!"
+	line "I'm a member of the Psychic Club."
+	line "My Ghost Deck is really strong!"
+	line "It doesn't have any weaknesses, "
+	line "and it's difficult for opponents'"
+	line "attacks to cause damage!"
+	line "Would you like to Duel me?"
+	done
+
+Text0655: ; 4effe (13:6ffe)
+	text "Would you like to Duel Robert?"
+	done
+
+Text0656: ; 4f01e (13:701e)
+	text "Oh, man! You're boring!"
+	line "Won't anyone Duel me?"
+	done
+
+Text0657: ; 4f04d (13:704d)
+	text "A single match with 4 prizes!"
+	line "Come on, my precious ghosts!"
+	line "Let's make his Pokémon disappear!"
+	done
+
+Text0658: ; 4f0ab (13:70ab)
+	text "How could my Ghost Deck lose!?!"
+	done
+
+Text0659: ; 4f0cc (13:70cc)
+	text "I won't lose next time!"
+	line "Let's Duel again!"
+	done
+
+Text065a: ; 4f0f7 (13:70f7)
+	text "I told you my Ghost Deck was "
+	line "strong! Please Duel me again "
+	line "sometime, OK?  Bye!"
+	done
+
+
 Text065b: ; 4f148 (13:7148)
 	text "I don't like people who think"
 	line "too highly of themselves."
@@ -1194,72 +1258,4 @@ Text0717: ; 52c6a (14:6c6a)
 	line "was just luck?"
 	line "I will be glad to Duel you"
 	line "any time you like."
-	done
-
-Text0718: ; 52cc3 (14:6cc3)
-	text "I'm Nikki, the Master of the"
-	line "Grass Club."
-	line "I'm sorry I kept you waiting."
-	line "Shall we duel?"
-	done
-
-Text0719: ; 52d1a (14:6d1a)
-	text "Hello, <RAMNAME>."
-	line "Did you come for a Duel?"
-	done
-
-Text071a: ; 52d3e (14:6d3e)
-	text "Would you like to Duel Nikki?"
-	done
-
-Text071b: ; 52d5d (14:6d5d)
-	text "Oh...You do not wish to duel?"
-	line "I'll be here at the Club for "
-	line "a while, so please come by "
-	line "any time you like."
-	done
-
-Text071c: ; 52dc9 (14:6dc9)
-	text "Then why don't you stop and "
-	line "gaze at our flowers for a while."
-	line "Looking at beautiful flowers"
-	line "makes you feel so serene."
-	done
-
-Text071d: ; 52e3f (14:6e3f)
-	text "Shall we play with 6 Prizes?"
-	line "Please go easy on me."
-	done
-
-Text071e: ; 52e73 (14:6e73)
-	text "We'll play with 6 Prizes, as usual."
-	line "Please go easy on me."
-	done
-
-Text071f: ; 52eae (14:6eae)
-	text "Oh, no! I lost!"
-	line "Well, you truly are skilled."
-	line "Maybe one day you will inherit"
-	line "the Legendary Pokémon Cards."
-	line "Please allow me to give you"
-	line "this Grass Medal."
-	done
-
-Text0720: ; 52f46 (14:6f46)
-	text "Oh, no!"
-	line "How could I lose?"
-	line "Please allow me to give you"
-	line "this Booster Pack."
-	done
-
-Text0721: ; 52f90 (14:6f90)
-	text "Please"
-	line "take this, too."
-	done
-
-Text0722: ; 52fa8 (14:6fa8)
-	text "My Duel with you was..."
-	line "quite fun!"
-	line "Please allow me"
-	line "to Duel you again!"
 	done

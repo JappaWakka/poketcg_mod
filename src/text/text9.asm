@@ -1,3 +1,71 @@
+Text0718: ; 52cc3 (14:6cc3)
+	text "I'm Nikki, the Master of the"
+	line "Grass Club."
+	line "I'm sorry I kept you waiting."
+	line "Shall we duel?"
+	done
+
+Text0719: ; 52d1a (14:6d1a)
+	text "Hello, <RAMNAME>."
+	line "Did you come for a Duel?"
+	done
+
+Text071a: ; 52d3e (14:6d3e)
+	text "Would you like to Duel Nikki?"
+	done
+
+Text071b: ; 52d5d (14:6d5d)
+	text "Oh...You do not wish to duel?"
+	line "I'll be here at the Club for "
+	line "a while, so please come by "
+	line "any time you like."
+	done
+
+Text071c: ; 52dc9 (14:6dc9)
+	text "Then why don't you stop and "
+	line "gaze at our flowers for a while."
+	line "Looking at beautiful flowers"
+	line "makes you feel so serene."
+	done
+
+Text071d: ; 52e3f (14:6e3f)
+	text "Shall we play with 6 Prizes?"
+	line "Please go easy on me."
+	done
+
+Text071e: ; 52e73 (14:6e73)
+	text "We'll play with 6 Prizes, as usual."
+	line "Please go easy on me."
+	done
+
+Text071f: ; 52eae (14:6eae)
+	text "Oh, no! I lost!"
+	line "Well, you truly are skilled."
+	line "Maybe one day you will inherit"
+	line "the Legendary Pokémon Cards."
+	line "Please allow me to give you"
+	line "this Grass Medal."
+	done
+
+Text0720: ; 52f46 (14:6f46)
+	text "Oh, no!"
+	line "How could I lose?"
+	line "Please allow me to give you"
+	line "this Booster Pack."
+	done
+
+Text0721: ; 52f90 (14:6f90)
+	text "Please"
+	line "take this, too."
+	done
+
+Text0722: ; 52fa8 (14:6fa8)
+	text "My Duel with you was..."
+	line "quite fun!"
+	line "Please allow me"
+	line "to Duel you again!"
+	done
+
 Text0723: ; 52fef (14:6fef)
 	text "I am Nikki, the Grass Club "
 	line "Master. What? You were looking "

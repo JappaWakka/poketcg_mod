@@ -1,3 +1,179 @@
+Text03ac: ; 3f66f (f:766f)
+	text "Dr. Mason"
+	done
+
+Text03ad: ; 3f67a (f:767a)
+	text "Ronald"
+	done
+
+Text03ae: ; 3f682 (f:7682)
+	text "Ishihara"
+	done
+
+Text03af: ; 3f68c (f:768c)
+	text "Imakuni?"
+	done
+
+Text03b0: ; 3f696 (f:7696)
+	text "Bediende"
+	done
+
+Text03b1: ; 3f69d (f:769d)
+	text "Sam"
+	done
+
+Text03b2: ; 3f6a2 (f:76a2)
+	text "Techneut"
+	done
+
+Text03b3: ; 3f6a8 (f:76a8)
+	text "Bediende"
+	done
+
+Text03b4: ; 3f6af (f:76af)
+	text "Chris"
+	done
+
+Text03b5: ; 3f6b6 (f:76b6)
+	text "Michael"
+	done
+
+Text03b6: ; 3f6bf (f:76bf)
+	text "Jessica"
+	done
+
+Text03b7: ; 3f6c8 (f:76c8)
+	text "Mitch"
+	done
+
+Text03b8: ; 3f6cf (f:76cf)
+	text "Matthew"
+	done
+
+Text03b9: ; 3f6d8 (f:76d8)
+	text "Ryan"
+	done
+
+Text03ba: ; 3f6de (f:76de)
+	text "Andrew"
+	done
+
+Text03bb: ; 3f6e6 (f:76e6)
+	text "Gene"
+	done
+
+Text03bc: ; 3f6ec (f:76ec)
+	text "Sara"
+	done
+
+Text03bd: ; 3f6f2 (f:76f2)
+	text "Amanda"
+	done
+
+Text03be: ; 3f6fa (f:76fa)
+	text "Joshua"
+	done
+
+Text03bf: ; 3f702 (f:7702)
+	text "Amy"
+	done
+
+Text03c0: ; 3f707 (f:7707)
+	text "Jennifer"
+	done
+
+Text03c1: ; 3f711 (f:7711)
+	text "Nicholas"
+	done
+
+Text03c2: ; 3f71b (f:771b)
+	text "Brandon"
+	done
+
+Text03c3: ; 3f724 (f:7724)
+	text "Isaac"
+	done
+
+Text03c4: ; 3f72b (f:772b)
+	text "Brittany"
+	done
+
+Text03c5: ; 3f735 (f:7735)
+	text "Kristin"
+	done
+
+Text03c6: ; 3f73e (f:773e)
+	text "Heather"
+	done
+
+Text03c7: ; 3f747 (f:7747)
+	text "Nikki"
+	done
+
+Text03c8: ; 3f74e (f:774e)
+	text "Robert"
+	done
+
+Text03c9: ; 3f756 (f:7756)
+	text "Daniel"
+	done
+
+Text03ca: ; 3f75e (f:775e)
+	text "Stephanie"
+	done
+
+Text03cb: ; 3f769 (f:7769)
+	text "Murray"
+	done
+
+Text03cc: ; 3f771 (f:7771)
+	text "Joseph"
+	done
+
+Text03cd: ; 3f779 (f:7779)
+	text "David"
+	done
+
+Text03ce: ; 3f780 (f:7780)
+	text "Erik"
+	done
+
+Text03cf: ; 3f786 (f:7786)
+	text "Rick"
+	done
+
+Text03d0: ; 3f78c (f:778c)
+	text "John"
+	done
+
+Text03d1: ; 3f792 (f:7792)
+	text "Adam"
+	done
+
+Text03d2: ; 3f798 (f:7798)
+	text "Jonathan"
+	done
+
+Text03d3: ; 3f7a2 (f:77a2)
+	text "Ken"
+	done
+
+Text03d4: ; 3f7a7 (f:77a7)
+	text "Courtney"
+	done
+
+Text03d5: ; 3f7b1 (f:77b1)
+	text "Steve"
+	done
+
+Text03d6: ; 3f7b8 (f:77b8)
+	text "Jack"
+	done
+
+Text03d7: ; 3f7be (f:77be)
+	text "Rod"
+	done
+
 Text03d8: ; 3f7c3 (f:77c3)
 	text "Man"
 	done
@@ -173,7 +349,7 @@ Text0400: ; 3fa32 (f:7a32)
 	line "Winnen en Verliezen"
 	line "Alles is duidelijk"
 	done
-	
+
 Text0401: ; 3faaa (f:7aaa)
 	text "Beste <RAMNAME>,"
 	line "Ik ben het, Dokter Mason!"
@@ -1099,40 +1275,4 @@ Text046c: ; 43427 (10:7427)
 Text046d: ; 43483 (10:7483)
 	text "You won 3 times against me!"
 	line "Does that make you happy? Does it?"
-	done
-
-Text046e: ; 434c3 (10:74c3)
-	text "I can't believe I lost 6 times!"
-	line "...Seriously!"
-	done
-
-Text046f: ; 434f2 (10:74f2)
-	text "I don't really want to give you "
-	line "this, but here. Take care of it."
-	done
-
-Text0470: ; 43535 (10:7535)
-	text "In both Cards and Dance,"
-	line "soul and rhythm are the secret."
-	line "Hey, that sounds pretty cool!"
-	line "Maybe I'll become a poet!"
-	done
-
-Text0471: ; 435a7 (10:75a7)
-	text "Hmm...I win."
-	line "You weren't too bad, but since "
-	line "I won...Let's see you shake it!"
-	line "Come on, shake it!!!"
-	line ""
-	half2full
-	textfw3 "♪"
-	text "La di da la di da"
-	line "  La di da la di da..."
-	line "... You dance weird!"
-	done
-
-Text0472: ; 4364c (10:764c)
-	text "I was just saying which "
-	line "Grand Master is the best."
-	line "I think Steve is the best player."
 	done

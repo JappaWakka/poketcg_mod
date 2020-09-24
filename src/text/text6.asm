@@ -1,3 +1,31 @@
+Text0506: ; 47265 (11:7265)
+	text "There are a total of 8 Master Medals"
+	line "owned by the Club Masters. It is "
+	line "said that the secret of their Club's"
+	line "Deck is encrypted in the Master "
+	line "Medals. Some say the medals were "
+	line "a gift from the Grand Masters."
+	done
+
+Text0507: ; 47334 (11:7334)
+	text "Plate of Legends"
+	done
+
+Text0508: ; 47346 (11:7346)
+	text "”Those in search of the Legendary"
+	line " Pokémon Cards..."
+	line " Defeat the Masters of the 8 Clubs"
+	line " and attain the 8 Medals."
+	line " Once attained, defeat the Grand"
+	line " Master here at Pokémon-Stadion..."
+	line " Then you shall inherit"
+	line " the Legendary Pokémon Cards.”"
+	done
+
+Text0509: ; 47430 (11:7430)
+	text "Mysterious Voice"
+	done
+
 Text050a: ; 47442 (11:7442)
 	text "Greetings! Welcome to the "
 	line "Challenge Hall! The Challenge Cup "
@@ -78,7 +106,7 @@ Text0514: ; 47913 (11:7913)
 	line "Me? I'm waiting for the Challenge"
 	line "Cup to begin."
 	done
-	
+
 Text0515: ; 47984 (11:7984)
 	text "Hi, <RAMNAME>."
 	line "Are you competing, too?"
@@ -1185,44 +1213,4 @@ Text05c4: ; 4b129 (12:7129)
 	line "Legendary Pokémon Cards!"
 	line "Amazing!"
 	line "Congratulations, <RAMNAME>!!!"
-	done
-
-Text05c5: ; 4b17c (12:717c)
-	text "Als je een Club Lid verslaat,"
-	line "ontvang je een Uitbreidingspakje."
-	line "Elk Uitbreidingspakje bevat"
-	line "10 kaarten."
-	line "Welke kaarten je krijgt hangt af"
-	line "van welk Uitbreidingspakje je wint."
-	line "Wat voor soort Uitbreidingspakje je"
-	line "krijgt hangt ook af van welke"
-	line "tegenstander je verslaat, dus maak"
-	line "slimme beslissingen bij het kiezen"
-	line "van je tegenstanders."
-	done
-
-Text05c6: ; 4b274 (12:7274)
-	text "Congratulations on inheriting "
-	line "the Legendary Pokémon Cards,"
-	line ""
-	text "<RAMNAME>! Now you should try"
-	line "dueling different people using the"
-	line "cards you inherited. I'm sure "
-	line "you'll have a good time!"
-	done
-
-Text05c7: ; 4b323 (12:7323)
-	text "Je weet het vast al, maar er zijn"
-	line "8 Clubs: de Vecht-, Water-,"
-	line "Bliksem-, Gras-, Psychische, Vuur-,"
-	line "Rots- en Wetenschap-Clubs!"
-	line "De verschillende Clubs gebruiken"
-	line "kaarten die bij hun Club passen."
-	done
-
-Text05c8: ; 4b3e2 (12:73e2)
-	text "Amazing! You beat the 8 Club "
-	line "Masters!"
-	line "And you even defeated the"
-	line "4 Grand Masters! Amazing!"
 	done

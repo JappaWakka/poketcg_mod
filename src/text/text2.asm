@@ -660,8 +660,8 @@ Text016d: ; 399e8 (e:59e8)
 	done
 
 Text016e: ; 39a14 (e:5a14)
-	text "<RAMTEXT> was returned"
-	line "to the deck."
+	text "<RAMTEXT> is door het"
+	line "deck heen geschud."
 	done
 
 Text016f: ; 39a31 (e:5a31)
@@ -1643,68 +1643,4 @@ Text0228: ; 3ba49 (e:7a49)
 
 Text0229: ; 3ba51 (e:7a51)
 	text "als"
-	done
-
-ChosenAsDuelingDeckText: ; 3ba55 (e:7a55)
-	text "<RAMTEXT> is gekozen"
-	line "als het dueleer-deck!"
-	done
-
-Text022b: ; 3ba78 (e:7a78)
-	textfw0 "1", "·"
-	done
-
-Text022c: ; 3ba7b (e:7a7b)
-	textfw0 "2", "·"
-	done
-
-Text022d: ; 3ba7e (e:7a7e)
-	textfw0 "3", "·"
-	done
-
-Text022e: ; 3ba81 (e:7a81)
-	textfw0 "4", "·"
-	done
-
-ThereIsNoDeckHereText: ; 3ba84 (e:7a84)
-	text "Er is hier geen deck!"
-	done
-
-Text0230: ; 3ba9c (e:7a9c)
-	text "Bevestigen"
-	done
-
-Text0231: ; 3baa5 (e:7aa5)
-	text "Ontmantelen"
-	done
-
-Text0232: ; 3bab0 (e:7ab0)
-	text "Aanpassen"
-	done
-
-Text0233: ; 3bab8 (e:7ab8)
-	text "Opslaan"
-	done
-
-Text0234: ; 3babe (e:7abe)
-	text "Naam"
-	done
-
-Text0235: ; 3bac4 (e:7ac4)
-	text "Er is maar 1 deck, dus dit"
-	line "deck kan niet ontmanteld worden."
-	done
-
-Text0236: ; 3bafe (e:7afe)
-	text "Er zitten geen Basis-Pokémon"
-	line "in dit deck!"
-	done
-
-Text0237: ; 3bb28 (e:7b28)
-	text "Je moet een Basis-Pokémon"
-	line "in je deck stoppen!"
-	done
-
-Text0238: ; 3bb57 (e:7b57)
-	text "Dit is geen deck met 60 kaarten!"
 	done

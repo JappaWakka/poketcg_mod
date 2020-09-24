@@ -1,3 +1,40 @@
+Text046e: ; 434c3 (10:74c3)
+	text "I can't believe I lost 6 times!"
+	line "...Seriously!"
+	done
+
+Text046f: ; 434f2 (10:74f2)
+	text "I don't really want to give you "
+	line "this, but here. Take care of it."
+	done
+
+Text0470: ; 43535 (10:7535)
+	text "In both Cards and Dance,"
+	line "soul and rhythm are the secret."
+	line "Hey, that sounds pretty cool!"
+	line "Maybe I'll become a poet!"
+	done
+
+Text0471: ; 435a7 (10:75a7)
+	text "Hmm...I win."
+	line "You weren't too bad, but since "
+	line "I won...Let's see you shake it!"
+	line "Come on, shake it!!!"
+	line ""
+	half2full
+	textfw3 "♪"
+	text "La di da la di da"
+	line "  La di da la di da..."
+	line "... You dance weird!"
+	done
+
+Text0472: ; 4364c (10:764c)
+	text "I was just saying which "
+	line "Grand Master is the best."
+	line "I think Steve is the best player."
+	done
+
+
 Text0473: ; 436a2 (10:76a2)
 	text "I can't believe Steve the Grand"
 	line "Master could lose!"
@@ -34,7 +71,7 @@ Text0477: ; 43822 (10:7822)
 	line "Go see if you can defeat all"
 	line "3 of my pupils!"
 	done
-	
+
 
 Text0478: ; 43918 (10:7918)
 	text "If you wish to Duel me, you "
@@ -982,32 +1019,4 @@ Text0504: ; 471bd (11:71bd)
 
 Text0505: ; 47256 (11:7256)
 	text "Master Medals"
-	done
-
-Text0506: ; 47265 (11:7265)
-	text "There are a total of 8 Master Medals"
-	line "owned by the Club Masters. It is "
-	line "said that the secret of their Club's"
-	line "Deck is encrypted in the Master "
-	line "Medals. Some say the medals were "
-	line "a gift from the Grand Masters."
-	done
-
-Text0507: ; 47334 (11:7334)
-	text "Plate of Legends"
-	done
-
-Text0508: ; 47346 (11:7346)
-	text "”Those in search of the Legendary"
-	line " Pokémon Cards..."
-	line " Defeat the Masters of the 8 Clubs"
-	line " and attain the 8 Medals."
-	line " Once attained, defeat the Grand"
-	line " Master here at Pokémon-Stadion..."
-	line " Then you shall inherit"
-	line " the Legendary Pokémon Cards.”"
-	done
-
-Text0509: ; 47430 (11:7430)
-	text "Mysterious Voice"
 	done
