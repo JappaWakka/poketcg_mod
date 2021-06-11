@@ -1,5 +1,5 @@
 AcidCheckText: ; 38000 (e:4000)
-	text "Zuur-controle! Als het kop is, kan"
+	text "Zuur-controle! Als het kop is, kan hij/zij"
 	line "niet Terugtrekken tijdens volgende beurt."
 	done
 
@@ -451,7 +451,7 @@ Text0142: ; 392f0 (e:52f0)
 	done
 
 Text0143: ; 392f8 (e:52f8)
-	text "Vecht-Pokémon"
+	text "Vecht Pokémon"
 	done
 
 Text0144: ; 3930a (e:530a)
@@ -460,7 +460,7 @@ Text0144: ; 3930a (e:530a)
 
 Text0145: ; 39318 (e:5318)
 	text "Kijkje is gebruikt om de"
-	line "<RAMTEXT> in je hand te bekijken."
+	line "<RAMTEXT> in de hand te bekijken."
 	done
 
 Text0146: ; 39346 (e:5346)
@@ -469,7 +469,7 @@ Text0146: ; 39346 (e:5346)
 
 Text0147: ; 3935d (e:535d)
 	text "<RAMTEXT> en alle eraan gehechte"
-	line "kaarten zijn terug in je hand gestopt."
+	line "kaarten zijn terug in de hand gestopt."
 	done
 
 Text0148: ; 39392 (e:5392)
@@ -651,12 +651,12 @@ Text016b: ; 39987 (e:5987)
 
 Text016c: ; 399bc (e:59bc)
 	text "<RAMTEXT> is uit de Arena"
-	line "terug in je hand genomen."
+	line "terug in de hand genomen."
 	done
 
 Text016d: ; 399e8 (e:59e8)
 	text "<RAMTEXT> is van de Bank"
-	line "terug in je hand genomen."
+	line "terug in de hand genomen."
 	done
 
 Text016e: ; 39a14 (e:5a14)
@@ -665,50 +665,50 @@ Text016e: ; 39a14 (e:5a14)
 	done
 
 Text016f: ; 39a31 (e:5a31)
-	text "<RAMTEXT> was placed"
-	line "in the hand."
+	text "<RAMTEXT> is in de"
+	line "hand genomen."
 	done
 
 TheCardYouReceivedText: ; 39a4c (e:5a4c)
-	text "The card you received"
+	text "De ontvangen kaart"
 	done
 
 YouReceivedTheseCardsText: ; 39a63 (e:5a63)
-	text "You received these cards:"
+	text "Je ontving deze kaarten:"
 	done
 
 Text0172: ; 39a7e (e:5a7e)
-	text "Choose the card"
-	line "to put back."
+	text "Kies de kaart om"
+	line "terug te stoppen."
 	done
 
 Text0173: ; 39a9c (e:5a9c)
-	text "Choose the card"
-	line "to Discard."
+	text "Kies een kaart om"
+	line "weg te gooien."
 	done
 
 Text0174: ; 39ab9 (e:5ab9)
-	text "Discarded <RAMNUM> cards"
-	line "from <RAMNAME>'s deck."
+	text "<RAMNUM> kaarten weggegooid"
+	line "van <RAMNAME>'s deck."
 	done
 
 Text0175: ; 39adb (e:5adb)
-	text "Discarded <RAMTEXT>"
-	line "from the hand."
+	text "Gooide <RAMTEXT> weg"
+	line "uit de hand."
 	done
 
 Text0176: ; 39af7 (e:5af7)
-	text "None came!"
+	text "Er kwam niets!"
 	done
 
 Text0177: ; 39b03 (e:5b03)
 	text "<RAMTEXT>"
-	line "came to the Bench!"
+	line "kwam naar de Bank!"
 	done
 
 Text0178: ; 39b19 (e:5b19)
-	text "<RAMNAME> has"
-	line "no cards in hand!"
+	text "<RAMNAME> heeft geen"
+	line "kaarten in de hand!"
 	done
 
 Text0179: ; 39b32 (e:5b32)
@@ -717,50 +717,45 @@ Text0179: ; 39b32 (e:5b32)
 	done
 
 Text017a: ; 39b46 (e:5b46)
-	text "<RAMTEXT> devolved"
-	line "to <RAMTEXT>!"
+	text "<RAMTEXT> Devolueerde"
+	line "in <RAMTEXT>!"
 	done
 
 Text017b: ; 39b58 (e:5b58)
-	text "There was no Vuur Energie."
+	text "Er was geen Vuur Energie."
 	done
 
 Text017c: ; 39b73 (e:5b73)
-	text "You can select <RAMNUM> more cards. Quit?"
+	text "Je kan nog <RAMNUM> kaarten kiezen. Stoppen?"
 	done
 
 Text017d: ; 39b97 (e:5b97)
-	text "There was no effect!"
+	text "Het had geen effect!"
 	done
 
 ThereWasNoEffectFromToxicText: ; 39bad (e:5bad)
-	text "There was no effect"
-	line "from Toxic"
+	text "Vergiftigen had geen effect"
 	done
 
 ThereWasNoEffectFromPoisonText: ; 39bcd (e:5bcd)
-	text "There was no effect"
-	line "from Poison."
+	text "Vergiftiging had geen effect."
 	done
 
 ThereWasNoEffectFromSleepText: ; 39bef (e:5bef)
-	text "There was no effect"
-	line "from Sleep."
+	text "Slaap had geen effect."
 	done
 
 ThereWasNoEffectFromParalysisText: ; 39c10 (e:5c10)
-	text "There was no effect"
-	line "from Paralysis."
+	text "Verlamming had geen effect."
 	done
 
 ThereWasNoEffectFromConfusionText: ; 39c35 (e:5c35)
-	text "There was no effect"
-	line "from Confusion."
+	text "Verwarring had geen effect."
 	done
 
 ThereWasNoEffectFromPoisonConfusionText: ; 39c5a (e:5c5a)
-	text "There was no effet"
-	line "from Poison, Confusion."
+	text "Vergif en Verwarring hadden"
+	line "geen effect."
 	done
 
 Text0184: ; 39c86 (e:5c86)
